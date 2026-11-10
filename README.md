@@ -1,2 +1,2 @@
-# Web-P-blica-Nova
-alojar exclusivamente las versiones web autorizadas de los proyectos Nova.
+# Web-Publica-Nova
+Alojar exclusivamente las versiones web autorizadas de los proyectos Nova.
