@@ -17,7 +17,7 @@ Portal público de distribución del ecosistema NOVA.
 
 ## Publicación
 
-GitHub Pages ya recibió una ejecución de despliegue correcta mediante el workflow `Deploy Web Publica Nova` (run 42980220840; build y deploy SUCCESS). URL prevista: https://cumba35.github.io/Web-Publica-Nova/. La respuesta HTTP de cada ruta debe revisarse desde un navegador; la verificación externa automática aún no se ha podido completar.
+GitHub Pages ya recibió una ejecución de despliegue correcta mediante el workflow `Deploy Web Publica Nova` (run 42980537466; build y deploy SUCCESS). URL prevista: https://cumba35.github.io/Web-Publica-Nova/. La respuesta HTTP de cada ruta debe revisarse desde un navegador; la verificación externa automática aún no se ha podido completar.
 
 ## Alcance y seguridad
 
