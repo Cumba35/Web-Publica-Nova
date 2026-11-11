@@ -17,7 +17,7 @@ Portal público de distribución del ecosistema NOVA.
 
 ## Publicación
 
-En GitHub, abre **Settings → Pages** y selecciona **GitHub Actions** como fuente de Build and deployment. Después, cada push a `main` ejecutará el workflow de publicación. La configuración de Pages debe realizarse en el repositorio; el workflow no puede activarla por sí solo.
+GitHub Pages ya recibió una ejecución de despliegue correcta mediante el workflow `Deploy Web Publica Nova` (run 42980220840; build y deploy SUCCESS). URL prevista: https://cumba35.github.io/Web-Publica-Nova/. La respuesta HTTP de cada ruta debe revisarse desde un navegador; la verificación externa automática aún no se ha podido completar.
 
 ## Alcance y seguridad
 
