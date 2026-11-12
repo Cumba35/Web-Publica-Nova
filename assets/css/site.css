@@ -24,3 +24,5 @@ body[data-site="ia"]{--accent:#a78bfa;--cyan:#67e8f9}
 .grid .card:nth-child(7){--accent:#60a5fa;--cyan:#93c5fd}
 .grid .card:nth-child(8){--accent:#2dd4bf;--cyan:#67e8f9}
 .grid .card:nth-child(9){--accent:#a78bfa;--cyan:#67e8f9}
+
+.project-icon{width:54px;height:54px;object-fit:contain;border:1px solid var(--line);border-radius:15px;background:#08111f;padding:3px}
