@@ -38,3 +38,6 @@ Se inició una segunda pasada de contenido y experiencia móvil para las nueve r
 ## Verificación de despliegue — 2026-11-12
 
 GitHub Pages completó build y deploy correctamente para el commit `fa5a34bc3a56eaf3673a45399aee7de0dceea1b7` ([run 43311911723](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43311911723)). El workflow propio `Deploy Web Publica Nova` seguía pendiente en la última consulta ([run 43311911494](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43311911494)). La disponibilidad HTTP y la revisión visual de las diez rutas todavía no están verificadas; no se declara el portal completamente validado hasta completar esas pruebas.
+
+
+La versión más reciente de contenido quedó en el commit `b06cb24f59ec31db4b7620d22cbeaba7e4a937b0`. En la última consulta, el despliegue Pages de ese commit estaba en cola ([run 43312132822]) y el workflow propio estaba pendiente ([run 43312133286]); el éxito anterior del commit `fa5a34b` no se considera validación del commit más reciente. La verificación HTTP/visual sigue pendiente.
