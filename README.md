@@ -33,3 +33,8 @@ Actualizar cada página después de auditar el frontend de su repositorio fuente
 ## Preparación de micrositios — 2026-11-12
 
 Se inició una segunda pasada de contenido y experiencia móvil para las nueve rutas seleccionadas. Se mejoró la navegación horizontal en pantallas pequeñas y se actualizaron las fichas de Nova Apps, Nova E-commerce, Nova Bank, Nova Novels, Nova Chat, Multimedia Nova y NOVA IA con información contrastada en sus repositorios fuente y notas de Nova Nexus. Nova Workspace permanece fuera de la selección pública. Nova Novels sigue enlazando a WordPress mientras se revisan derechos; Noticias Nova permanece sin feed hasta contar con contenido editorial verificado. Las páginas siguen siendo informativas y no sustituyen los frontends autenticados. La ejecución del workflow y la verificación HTTP de las rutas deben comprobarse después de estos cambios.
+
+
+## Verificación de despliegue — 2026-11-12
+
+GitHub Pages completó build y deploy correctamente para el commit `fa5a34bc3a56eaf3673a45399aee7de0dceea1b7` ([run 43311911723](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43311911723)). El workflow propio `Deploy Web Publica Nova` seguía pendiente en la última consulta ([run 43311911494](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43311911494)). La disponibilidad HTTP y la revisión visual de las diez rutas todavía no están verificadas; no se declara el portal completamente validado hasta completar esas pruebas.
