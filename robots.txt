@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://cumba35.github.io/Web-Publica-Nova/sitemap.xml
