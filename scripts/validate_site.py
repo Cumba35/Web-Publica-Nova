@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import re
 import sys
+from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_PREFIX = "/Web-Publica-Nova"
@@ -102,6 +103,8 @@ for page in pages:
     if not any(raw == BASE_PREFIX + "/#donaciones" for raw, _, _ in parser.refs):
         errors.append(f"{rel}: missing global donation navigation link")
     for raw, tag, attr in parser.refs:
+        if raw.startswith("https://cumba35.github.io/Nova-APPS/"):
+            errors.append(f"{rel}: link points to Nova Apps GitHub Pages, which is not currently published: {raw}")
         target, fragment = local_target(page, raw)
         if target is None:
             if fragment and raw.startswith("#") and fragment not in parser.ids:
@@ -121,6 +124,30 @@ for page in pages:
                     errors.append(f"{rel}: missing anchor #{fragment} in {target.relative_to(ROOT)}")
             except Exception as exc:
                 errors.append(f"{rel}: could not inspect anchor target {raw}: {exc}")
+
+# The public sitemap must list every published HTML route, and robots.txt must expose it.
+sitemap_file = ROOT / "sitemap.xml"
+robots_file = ROOT / "robots.txt"
+if not sitemap_file.is_file():
+    errors.append("Missing sitemap.xml.")
+else:
+    try:
+        sitemap_root = ET.parse(sitemap_file).getroot()
+        namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        listed = {node.text.strip() for node in sitemap_root.findall("sm:url/sm:loc", namespace) if node.text}
+        expected = set()
+        for page in pages:
+            rel = page.relative_to(ROOT)
+            route = "" if rel.as_posix() == "index.html" else rel.parent.as_posix() + "/"
+            expected.add("https://cumba35.github.io/Web-Publica-Nova/" + route)
+        for missing in sorted(expected - listed):
+            errors.append(f"sitemap.xml: missing public route {missing}")
+    except (ET.ParseError, OSError) as exc:
+        errors.append(f"Invalid sitemap.xml: {exc}")
+if not robots_file.is_file():
+    errors.append("Missing robots.txt.")
+elif "Sitemap: https://cumba35.github.io/Web-Publica-Nova/sitemap.xml" not in robots_file.read_text(encoding="utf-8"):
+    errors.append("robots.txt must advertise the public sitemap.")
 
 if errors:
     print("NOVA public site validation FAILED")
