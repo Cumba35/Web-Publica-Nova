@@ -26,3 +26,9 @@ body[data-site="ia"]{--accent:#8b6cff;--cyan:#29d7f2}
 .grid .card:nth-child(9){--accent:#8b6cff;--cyan:#29d7f2}
 
 .project-icon{width:54px;height:54px;object-fit:contain;border:1px solid var(--line);border-radius:15px;background:#08111f;padding:3px}
+
+/* Acceso global a donaciones: visible y consistente en todos los micrositios. */
+.donate-link{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;padding:7px 13px;border:1px solid color-mix(in srgb,var(--cyan) 60%,transparent);border-radius:999px;background:linear-gradient(110deg,color-mix(in srgb,var(--accent) 35%,#101d30),#14243a);color:var(--text);font-weight:800;box-shadow:0 0 18px color-mix(in srgb,var(--cyan) 12%,transparent)}
+.donate-link:hover{border-color:var(--cyan);text-decoration:none;filter:brightness(1.12)}
+.donation-panel{margin:0 0 28px;scroll-margin-top:24px}
+.donation-panel h2{margin-bottom:8px}
