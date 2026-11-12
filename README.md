@@ -28,3 +28,8 @@ Los estados se describen con honestidad: Nova Chat aún no tiene cliente/backend
 ## Actualización
 
 Actualizar cada página después de auditar el frontend de su repositorio fuente. Mantener rutas relativas compatibles con el prefijo `/Web-Publica-Nova/`. Verificar enlaces, recursos, accesibilidad y estado del despliegue antes de marcar una página como operativa.
+
+
+## Preparación de micrositios — 2026-11-12
+
+Se inició una segunda pasada de contenido y experiencia móvil para las nueve rutas seleccionadas. Se mejoró la navegación horizontal en pantallas pequeñas y se actualizaron las fichas de Nova Apps, Nova E-commerce, Nova Bank, Nova Novels, Nova Chat, Multimedia Nova y NOVA IA con información contrastada en sus repositorios fuente y notas de Nova Nexus. Nova Workspace permanece fuera de la selección pública. Nova Novels sigue enlazando a WordPress mientras se revisan derechos; Noticias Nova permanece sin feed hasta contar con contenido editorial verificado. Las páginas siguen siendo informativas y no sustituyen los frontends autenticados. La ejecución del workflow y la verificación HTTP de las rutas deben comprobarse después de estos cambios.
