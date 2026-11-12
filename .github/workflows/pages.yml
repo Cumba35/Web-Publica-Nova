@@ -45,3 +45,26 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify all public routes over HTTPS
+        shell: bash
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          set -euo pipefail
+          routes=("" "nova-apps/" "nova-ecommerce/" "nova-bank/" "nova-novels/" "nova-nexus/" "noticias-nova/" "nova-chat/" "multimedia-nova/" "nova-ia/")
+          for route in "${routes[@]}"; do
+            url="${PAGES_URL}${route}"
+            success=0
+            for attempt in {1..10}; do
+              if curl --fail --silent --show-error --location --max-time 20 "$url" -o /tmp/nova-page.html && grep -qi "<title>" /tmp/nova-page.html; then
+                success=1
+                break
+              fi
+              sleep 5
+            done
+            if [[ "$success" -ne 1 ]]; then
+              echo "Public route failed HTTP/content verification: $url"
+              exit 1
+            fi
+            echo "Verified: $url"
+          done
