@@ -30,6 +30,10 @@ Nova Workspace queda excluido del portal público.
 - `assets/nova-mark.svg`: favicon general del portal.
 - Cada micrositio conserva su propia ficha, enlaces de acceso y aviso de estado funcional.
 
+## Donaciones
+
+Todas las páginas públicas incluyen un acceso común a la sección de donaciones. La sección informa que las aportaciones serán voluntarias, sin beneficios para el donante, y que se podrá elegir anonimato ante NOVA o reconocimiento público opcional mediante nombre/seudónimo. **No hay checkout activo ni se solicitan datos de pago** hasta confirmar un proveedor legalmente compatible con la residencia del propietario en Cuba. El validador exige que las diez páginas mantengan el enlace global.
+
 ## Validación y despliegue
 
 El workflow `.github/workflows/pages.yml`:
