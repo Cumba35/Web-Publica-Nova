@@ -99,6 +99,8 @@ for page in pages:
         errors.append(f"{rel}: {parser.images_without_alt} image(s) without alt")
     if parser.blank_without_rel:
         errors.append(f"{rel}: {parser.blank_without_rel} target=_blank link(s) missing rel=noopener noreferrer")
+    if not any(raw == BASE_PREFIX + "/#donaciones" for raw, _, _ in parser.refs):
+        errors.append(f"{rel}: missing global donation navigation link")
     for raw, tag, attr in parser.refs:
         target, fragment = local_target(page, raw)
         if target is None:
