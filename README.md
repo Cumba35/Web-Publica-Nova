@@ -4,40 +4,54 @@ Portal público de distribución del ecosistema NOVA.
 
 - **Repositorio:** https://github.com/Cumba35/Web-Publica-Nova
 - **Rama:** `main`
-- **URL prevista de GitHub Pages:** https://cumba35.github.io/Web-Publica-Nova/
-- **Páginas:** nueve micrositios bajo `/<proyecto>/`.
-- **Fuentes:** los repositorios de los proyectos permanecen privados.
+- **URL pública:** https://cumba35.github.io/Web-Publica-Nova/
+- **Sitios:** portada + nueve micrositios.
+- **Repositorios fuente:** permanecen privados.
 
-## Estructura
+## Sitios publicados
 
-- `index.html`: portal principal.
-- `assets/css/site.css`: estilos compartidos, adaptables a móvil y escritorio.
-- `nova-apps/`, `nova-ecommerce/`, `nova-bank/`, `nova-novels/`, `nova-nexus/`, `noticias-nova/`, `nova-chat/`, `multimedia-nova/`, `nova-ia/`: páginas públicas de cada proyecto.
-- `.github/workflows/pages.yml`: publicación de GitHub Pages mediante Actions.
+1. [Nova Apps](https://cumba35.github.io/Web-Publica-Nova/nova-apps/)
+2. [Nova E-commerce](https://cumba35.github.io/Web-Publica-Nova/nova-ecommerce/)
+3. [Nova Bank](https://cumba35.github.io/Web-Publica-Nova/nova-bank/)
+4. [Nova Novels](https://cumba35.github.io/Web-Publica-Nova/nova-novels/)
+5. [Nova Nexus](https://cumba35.github.io/Web-Publica-Nova/nova-nexus/)
+6. [Noticias Nova](https://cumba35.github.io/Web-Publica-Nova/noticias-nova/)
+7. [Nova Chat](https://cumba35.github.io/Web-Publica-Nova/nova-chat/)
+8. [Multimedia Nova](https://cumba35.github.io/Web-Publica-Nova/multimedia-nova/)
+9. [NOVA IA](https://cumba35.github.io/Web-Publica-Nova/nova-ia/)
 
-## Publicación
+Nova Workspace queda excluido del portal público.
 
-GitHub Pages ya recibió una ejecución de despliegue correcta mediante el workflow `Deploy Web Publica Nova` (run 42980537466; build y deploy SUCCESS). URL prevista: https://cumba35.github.io/Web-Publica-Nova/. La respuesta HTTP de cada ruta debe revisarse desde un navegador; la verificación externa automática aún no se ha podido completar.
+## Estructura y diseño
 
-## Alcance y seguridad
+- `index.html`: portada con nueve tarjetas y monogramas SVG propios.
+- `assets/css/site.css`: estilos compartidos, responsive, acentos cromáticos por proyecto, foco de teclado y soporte para movimiento reducido.
+- `assets/icons/`: favicon SVG independiente para cada proyecto.
+- `assets/nova-mark.svg`: favicon general del portal.
+- Cada micrositio conserva su propia ficha, enlaces de acceso y aviso de estado funcional.
 
-Estas páginas son micrositios informativos y no sustituyen las aplicaciones autenticadas. No copiar repositorios fuente completos, archivos `.env`, claves, tokens, datos de usuarios, bases de datos, paneles administrativos ni documentación interna. No habilitar operaciones sensibles desde páginas estáticas.
+## Validación y despliegue
 
-Los estados se describen con honestidad: Nova Chat aún no tiene cliente/backend implementados; Multimedia Nova tiene API privada pero no frontend público propio; Nova IA no tiene backend FastAPI desplegado; Nova Bank mantiene los datos financieros protegidos; Nova Nexus solo publica una presentación, no su panel privado. Nova E-commerce no procesa pagos reales.
+El workflow `.github/workflows/pages.yml`:
+1. Ejecuta `python3 scripts/validate_site.py` para revisar las diez páginas, enlaces y recursos locales, anclas, metadatos básicos y controles de accesibilidad.
+2. Busca patrones de secretos en los archivos públicos.
+3. Publica el artefacto en GitHub Pages.
+4. Comprueba por HTTPS la portada y las nueve rutas, exigiendo una respuesta correcta y un documento con `<title>`.
 
-## Actualización
+**Última versión comprobada:** commit `38b07aa9a2b1fb2532c3fbcd35e896e89674eada`. El workflow [Deploy Web Publica Nova — run 43313770844](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43313770844) terminó con build, deploy y verificación HTTPS de las diez rutas correctos.
 
-Actualizar cada página después de auditar el frontend de su repositorio fuente. Mantener rutas relativas compatibles con el prefijo `/Web-Publica-Nova/`. Verificar enlaces, recursos, accesibilidad y estado del despliegue antes de marcar una página como operativa.
+## Estado funcional y límites
 
+Estas páginas son superficies públicas informativas y enlaces de acceso; no sustituyen los frontends autenticados ni crean servicios de backend por sí solas.
 
-## Preparación de micrositios — 2026-11-12
+- Nova Apps enlaza al catálogo y a los apartados públicos de proyectos y recursos de usuarios.
+- Nova E-commerce enlaza a la PWA existente. No se habilitan cobros ni pagos reales.
+- Nova Bank enlaza a su frontend autenticado; no es un banco físico ni expone saldos u operaciones.
+- Nova Novels mantiene WordPress como biblioteca pública activa. No se republican obras ni portadas hasta revisar derechos y atribución.
+- Nova Nexus presenta el proyecto sin publicar paneles ni documentación interna.
+- Noticias Nova no muestra titulares ficticios ni activa un feed hasta disponer de un flujo editorial verificado.
+- Nova Chat permanece en desarrollo; no se presenta como mensajería operativa.
+- Multimedia Nova enlaza al panel autenticado de Nova Apps; quedan pendientes pruebas reales de carga/descarga y configuración OAuth de proveedores.
+- NOVA IA es informativa; el backend administrativo no está aprobado para exposición pública hasta completar autenticación multiusuario y controles de seguridad.
 
-Se inició una segunda pasada de contenido y experiencia móvil para las nueve rutas seleccionadas. Se mejoró la navegación horizontal en pantallas pequeñas y se actualizaron las fichas de Nova Apps, Nova E-commerce, Nova Bank, Nova Novels, Nova Chat, Multimedia Nova y NOVA IA con información contrastada en sus repositorios fuente y notas de Nova Nexus. Nova Workspace permanece fuera de la selección pública. Nova Novels sigue enlazando a WordPress mientras se revisan derechos; Noticias Nova permanece sin feed hasta contar con contenido editorial verificado. Las páginas siguen siendo informativas y no sustituyen los frontends autenticados. La ejecución del workflow y la verificación HTTP de las rutas deben comprobarse después de estos cambios.
-
-
-## Verificación de despliegue — 2026-11-12
-
-GitHub Pages completó build y deploy correctamente para el commit `fa5a34bc3a56eaf3673a45399aee7de0dceea1b7` ([run 43311911723](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43311911723)). El workflow propio `Deploy Web Publica Nova` seguía pendiente en la última consulta ([run 43311911494](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43311911494)). La disponibilidad HTTP y la revisión visual de las diez rutas todavía no están verificadas; no se declara el portal completamente validado hasta completar esas pruebas.
-
-
-La versión más reciente de contenido quedó en el commit `b06cb24f59ec31db4b7620d22cbeaba7e4a937b0`. En la última consulta, el despliegue Pages de ese commit estaba en cola ([run 43312132822]) y el workflow propio estaba pendiente ([run 43312133286]); el éxito anterior del commit `fa5a34b` no se considera validación del commit más reciente. La verificación HTTP/visual sigue pendiente.
+No publicar repositorios fuente completos, archivos `.env`, claves, tokens, datos de usuarios, bases de datos, paneles administrativos ni documentación interna.
