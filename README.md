@@ -42,7 +42,7 @@ El workflow `.github/workflows/pages.yml`:
 3. Publica el artefacto en GitHub Pages.
 4. Comprueba por HTTPS la portada y las nueve rutas, exigiendo una respuesta correcta y un documento con `<title>`.
 
-**Última versión comprobada:** commit `38b07aa9a2b1fb2532c3fbcd35e896e89674eada`. El workflow [Deploy Web Publica Nova — run 43313770844](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43313770844) terminó con build, deploy y verificación HTTPS de las diez rutas correctos.
+**Última versión comprobada:** commit `7bfbdf929bd388fbf3dc1502bfa1b85d1c7bb676`. El workflow [Deploy Web Publica Nova — run 43323743895](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/43323743895) terminó con build, deploy y verificación HTTPS de las diez rutas correctos.
 
 ## Estado funcional y límites
 
