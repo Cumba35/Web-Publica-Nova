@@ -59,3 +59,12 @@ Estas páginas son superficies públicas informativas y enlaces de acceso; no su
 - NOVA IA es informativa; el backend administrativo no está aprobado para exposición pública hasta completar autenticación multiusuario y controles de seguridad.
 
 No publicar repositorios fuente completos, archivos `.env`, claves, tokens, datos de usuarios, bases de datos, paneles administrativos ni documentación interna.
+
+## Acceso público y estado de aplicaciones — 2026-11-12
+
+- Las diez fichas públicas se publican desde este repositorio mediante GitHub Pages: portada, Nova Apps, Nova E-commerce, Nova Bank, Nova Novels, Nova Nexus, Multimedia Nova, NOVA IA, Nova Chat y Noticias Nova.
+- Las fichas públicas son accesibles sin iniciar sesión y describen el alcance y el estado real de cada proyecto. No equivalen a que todas las aplicaciones interactivas estén desplegadas.
+- Se retiraron botones que apuntaban a rutas de GitHub Pages de `Nova-APPS`, porque ese repositorio es privado y GitHub Pages no está actualmente habilitado allí. No se exponen repositorios privados ni paneles financieros/administrativos.
+- Nova Apps, E-commerce, Bank y el panel web de Multimedia conservan avisos explícitos hasta que exista un despliegue público seguro y verificado. Nova Bank seguirá requiriendo acceso autenticado y permisos.
+- Se añadió `sitemap.xml` y `robots.txt`; el validador comprueba que el sitemap contenga las diez rutas y rechaza enlaces hacia el despliegue no publicado de Nova Apps.
+- Antes de publicar funciones interactivas, deben probarse autenticación, RLS, permisos por rol, configuración de dominios, formularios, API y flujos reales sin datos de producción.
