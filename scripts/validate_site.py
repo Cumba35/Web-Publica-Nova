@@ -23,6 +23,8 @@ class PageParser(HTMLParser):
         self.in_title = False
         self.images_without_alt = 0
         self.blank_without_rel = 0
+        self.scripts = []
+        self.legacy_menu_buttons = 0
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == "html":
@@ -41,6 +43,10 @@ class PageParser(HTMLParser):
             value = a.get(attr)
             if value:
                 self.refs.append((value, tag, attr))
+        if tag == "script" and a.get("src"):
+            self.scripts.append(a["src"])
+        if tag == "button" and "menu-toggle" in (a.get("class") or "").split():
+            self.legacy_menu_buttons += 1
         if tag == "img" and "alt" not in a:
             self.images_without_alt += 1
         if tag == "a" and a.get("target") == "_blank":
@@ -100,6 +106,11 @@ for page in pages:
         errors.append(f"{rel}: {parser.images_without_alt} image(s) without alt")
     if parser.blank_without_rel:
         errors.append(f"{rel}: {parser.blank_without_rel} target=_blank link(s) missing rel=noopener noreferrer")
+    shared_loaders = [src for src in parser.scripts if src.endswith("/assets/js/site-navigation.js") or src.endswith("../assets/js/site-navigation.js")]
+    if len(shared_loaders) != 1:
+        errors.append(f"{rel}: expected exactly one shared NOVA navigation/account loader; found {len(shared_loaders)}")
+    if parser.legacy_menu_buttons:
+        errors.append(f"{rel}: legacy menu-toggle button found; the user/account icon must be the single global menu control")
     if not any(raw == BASE_PREFIX + "/#donaciones" for raw, _, _ in parser.refs):
         errors.append(f"{rel}: missing global donation navigation link")
     for raw, tag, attr in parser.refs:
