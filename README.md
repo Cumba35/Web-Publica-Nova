@@ -121,3 +121,15 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - Se añadió el inventario de repositorios públicos revisados, estado de licencias, compatibilidad técnica, propuesta de red social estilo Facebook, recomendador transparente, arquitectura, privacidad y etapas de implementación: [docs/OPEN_SOURCE_RESEARCH_AND_SOCIAL_ROADMAP.md](docs/OPEN_SOURCE_RESEARCH_AND_SOCIAL_ROADMAP.md).
 - La documentación distingue referencias de código que podrían reutilizarse de proyectos cuya licencia todavía no se ha confirmado. No se copió código de terceros ni se habilitaron funciones sociales sin backend y controles de acceso.
 - Los datos personales, publicaciones, mensajes y actividad de usuarios deben permanecer en el backend protegido, nunca en este repositorio público.
+
+
+## NOVA Social — primera versión funcional
+
+- Se añadió `/nova-social/` con publicaciones de texto y enlaces HTTPS, etiquetas, privacidad de publicación, feed «Para ti», «Siguiendo» y cronológico.
+- Incluye perfiles públicos/privados, solicitudes de seguimiento, reacciones, comentarios, guardados, compartir enlaces, bloqueo y envío de reportes.
+- El recomendador inicial es heurístico y explicable: temas elegidos, cuentas seguidas, actualidad y diversidad de autores. No usa mensajes privados ni datos de otras aplicaciones.
+- La base de datos usa tablas separadas y RLS; solo usuarios autenticados pueden consultar las tablas sociales. Los reportes se pueden enviar, pero la cola de moderación administrativa aún requiere su interfaz protegida.
+- Migraciones: `20261118210042_nova_social_foundation`, `20261118210127_nova_social_fk_indexes` y `20261118210222_nova_social_profile_block_visibility`.
+- Pruebas de RLS ejecutadas en NOVA-STAGING con cuentas ficticias dentro de una transacción revertida; no se guardaron datos de prueba.
+- La primera versión no habilita imágenes/vídeos, notificaciones, mensajes privados, federación ActivityPub ni integraciones externas automáticas.
+- Documentación técnica: [Social implementation](docs/SOCIAL_FEATURES_IMPLEMENTATION.md) y [Open-source research](docs/OPEN_SOURCE_RESEARCH_AND_SOCIAL_ROADMAP.md).
