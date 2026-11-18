@@ -1,10 +1,4 @@
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2.57.0";
-
-const SUPABASE_URL = "https://suirbghmnuxixktzkrze.supabase.co";
-const SUPABASE_KEY = "sb_publishable_1ZmYJ5J-A8hGDIcUIOiY3g_dYOKdnIp";
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY, {
-  auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, flowType: "pkce" }
-});
+import { supabase } from "./supabase-client.js";
 
 const style = document.createElement("style");
 style.textContent = `
@@ -42,6 +36,11 @@ const status = host.querySelector(".nova-account-status");
 const nameInput = host.querySelector("#nova-account-name");
 const avatarInput = host.querySelector("#nova-account-avatar");
 let activeUser = null;
+function currentPageReturnUrl() {
+  const url = new URL(window.location.href);
+  ["code", "error", "error_code", "error_description", "access_token", "refresh_token", "type"].forEach(key => url.searchParams.delete(key));
+  return url.href;
+}
 
 function paint(session) {
   activeUser = session?.user || null;
@@ -72,7 +71,7 @@ host.querySelector(".nova-account-google").addEventListener("click", async () =>
   status.textContent = "Abriendo Google…";
   const { error } = await supabase.auth.signInWithOAuth({
     provider: "google",
-    options: { redirectTo: window.location.href, queryParams: { prompt: "select_account" } }
+    options: { redirectTo: currentPageReturnUrl(), queryParams: { prompt: "select_account" } }
   });
   if (error) status.textContent = error.message;
 });
@@ -89,6 +88,13 @@ host.querySelector(".nova-account-logout").addEventListener("click", async () =>
   status.textContent = error ? error.message : "Sesión cerrada.";
   if (!error) paint(null);
 });
-supabase.auth.onAuthStateChange((_event, session) => paint(session));
+supabase.auth.onAuthStateChange((_event, session) => {
+  paint(session);
+  if (session && new URLSearchParams(window.location.search).has("code")) {
+    const clean = new URL(window.location.href);
+    clean.searchParams.delete("code");
+    window.history.replaceState({}, document.title, clean.pathname + clean.search + clean.hash);
+  }
+});
 refresh().catch(error => { status.textContent = error.message; });
 document.addEventListener("click", event => { if (!host.contains(event.target)) panel.hidden = true; });
