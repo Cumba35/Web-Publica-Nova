@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "european_club_competitions",
+  "display_name": "Competiciones internacionales de clubes de Europa",
+  "category": "international_club_competition",
+  "confederation": "UEFA",
+  "competition_ids": [
+    "uefa_champions_league_nova",
+    "uefa_europa_league_nova",
+    "uefa_conference_league_nova"
+  ],
+  "scope": "mens_senior_club",
+  "offline_play": true,
+  "shared_services": [
+    "football_data_registry",
+    "football_database_service",
+    "season_match_simulator",
+    "competition_draw_ceremony"
+  ],
+  "owns": [
+    "competition_catalog",
+    "qualification_policy",
+    "season_configuration"
+  ],
+  "runtime_status": "catalog_and_module_registered_engine_calendar_and_qualification_bridge_pending",
+  "rules": {
+    "qualification_source": "verified_final_domestic_and_continental_results",
+    "duplicate_club_prevention": true,
+    "fixtures_use_global_club_ids": true,
+    "draw_presentation": "shared_nova_competition_draw_ceremony"
+  },
+  "competition_id": "uefa_champions_league_nova",
+  "catalog": "data/international_club_competitions.json",
+  "module_boundary": "independent_competition_module"
+}

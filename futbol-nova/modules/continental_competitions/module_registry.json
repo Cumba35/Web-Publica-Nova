@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "module_type": "international_club_competition",
+  "installation_policy": "Al descargar TAS, el gestor debe resolver y descargar primero las tres competiciones regionales vinculadas (Caribe, Sudamérica y Norteamérica/Centroamérica). Si alguna dependencia no está publicada o no puede validarse, se rechaza el conjunto completo antes de encolar descargas. Las competiciones regionales siguen siendo módulos independientes cuando se descargan por separado.",
+  "modules": [
+    {
+      "module_id": "caribbean_champions_league",
+      "competition_id": "caribbean_champions_league_nova",
+      "manifest": "caribbean_champions_league/module.json",
+      "dependencies": [],
+      "founding_year": 2020,
+      "founding_status": "user_confirmed"
+    },
+    {
+      "module_id": "south_america_champions_league",
+      "competition_id": "south_america_champions_league_nova",
+      "manifest": "south_america_champions_league/module.json",
+      "dependencies": [],
+      "founding_year": 2020,
+      "founding_status": "user_confirmed"
+    },
+    {
+      "module_id": "north_central_america_champions_league",
+      "competition_id": "north_central_america_champions_league_nova",
+      "manifest": "north_central_america_champions_league/module.json",
+      "dependencies": [],
+      "founding_year": 2020,
+      "founding_status": "user_confirmed"
+    },
+    {
+      "module_id": "american_super_champions_tas",
+      "competition_id": "american_super_champions_tas",
+      "manifest": "american_super_champions_tas/module.json",
+      "dependencies": [
+        "caribbean_champions_league",
+        "south_america_champions_league",
+        "north_central_america_champions_league"
+      ],
+      "dependency_versions": {
+        "caribbean_champions_league": "1.0.0",
+        "south_america_champions_league": "1.0.0",
+        "north_central_america_champions_league": "1.0.0"
+      },
+      "founding_year": 2021,
+      "founding_status": "user_confirmed"
+    },
+    {
+      "module_id": "european_club_competitions",
+      "competition_ids": [
+        "uefa_champions_league_nova",
+        "uefa_europa_league_nova",
+        "uefa_conference_league_nova"
+      ],
+      "manifest": "european_club_competitions/module.json",
+      "confederation": "UEFA",
+      "competition_id": "uefa_champions_league_nova"
+    },
+    {
+      "module_id": "african_club_competitions",
+      "competition_ids": [
+        "caf_champions_league_nova",
+        "caf_confederation_cup_nova"
+      ],
+      "manifest": "african_club_competitions/module.json",
+      "confederation": "CAF",
+      "competition_id": "caf_champions_league_nova"
+    },
+    {
+      "module_id": "asian_club_competitions",
+      "competition_ids": [
+        "afc_champions_league_elite_nova",
+        "afc_champions_league_two_nova",
+        "afc_challenge_league_nova"
+      ],
+      "manifest": "asian_club_competitions/module.json",
+      "confederation": "AFC",
+      "competition_id": "afc_champions_league_elite_nova"
+    },
+    {
+      "module_id": "oceania_club_competitions",
+      "competition_ids": [
+        "ofc_champions_league_nova"
+      ],
+      "manifest": "oceania_club_competitions/module.json",
+      "confederation": "OFC",
+      "competition_id": "ofc_champions_league_nova"
+    },
+    {
+      "module_id": "global_club_competitions",
+      "competition_ids": [
+        "fifa_intercontinental_cup_nova",
+        "fifa_club_world_cup_nova"
+      ],
+      "manifest": "global_club_competitions/module.json",
+      "confederation": "FIFA",
+      "competition_id": "fifa_intercontinental_cup_nova"
+    }
+  ],
+  "installation_status": "worldwide_modules_registered_engine_and_season_qualification_integration_pending",
+  "worldwide_scope": [
+    "AFC",
+    "CAF",
+    "CONCACAF",
+    "CONMEBOL",
+    "OFC",
+    "UEFA",
+    "FIFA"
+  ]
+}

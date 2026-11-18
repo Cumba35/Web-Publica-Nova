@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "caribbean_champions_league",
+  "display_name": "Liga de Campeones del Caribe",
+  "category": "continental_club_competition",
+  "competition_id": "caribbean_champions_league_nova",
+  "offline_play": true,
+  "configuration": "data/caribbean_champions_league.json",
+  "engine": "scripts/simulation/caribbean_champions_league_engine.gd",
+  "shared_dependencies": [
+    "football_data_registry",
+    "football_database_service",
+    "round_robin_scheduler",
+    "league_standings"
+  ],
+  "owns": [
+    "qualification_rules",
+    "competition_format",
+    "calendar",
+    "tie_breaking_policy"
+  ],
+  "isolation_policy": "Los fixtures, resultados, tablas, temporadas y ajustes de esta competición se identifican por competition_id y no modifican otras competiciones.",
+  "module_boundary": "independent_competition_module",
+  "installable_as_download": false,
+  "runtime_integration_status": "manifest_registered_shared_runtime",
+  "founding_year": 2020,
+  "founding_status": "user_confirmed"
+}
