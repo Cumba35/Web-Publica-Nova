@@ -106,7 +106,7 @@ for page in pages:
         errors.append(f"{rel}: {parser.images_without_alt} image(s) without alt")
     if parser.blank_without_rel:
         errors.append(f"{rel}: {parser.blank_without_rel} target=_blank link(s) missing rel=noopener noreferrer")
-    shared_loaders = [src for src in parser.scripts if src.endswith("/assets/js/site-navigation.js") or src.endswith("../assets/js/site-navigation.js")]
+    shared_loaders = [src for src in parser.scripts if src.lstrip("./").endswith("assets/js/site-navigation.js")]
     if len(shared_loaders) != 1:
         errors.append(f"{rel}: expected exactly one shared NOVA navigation/account loader; found {len(shared_loaders)}")
     if parser.legacy_menu_buttons:
