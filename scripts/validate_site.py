@@ -221,15 +221,15 @@ if social_js.is_file():
 
 # Confirm production migration files and the global menu entry stay in sync.
 migration_files = (
-    "20261118210209_nova_social_foundation.sql",
-    "20261118210210_nova_social_fk_indexes.sql",
-    "20261118210224_nova_social_profile_block_visibility.sql",
-    "20261118210441_nova_social_visibility_and_reports.sql",
-    "20261118210812_nova_social_follow_block_guard.sql",
-    "20261118210938_nova_social_notifications.sql",
-    "20261118211007_nova_social_notification_function_permissions.sql",
-    "20261118211008_nova_social_comment_policy_fix.sql",
-    "20261118211147_nova_social_notification_fk_indexes.sql",
+    "20261118210042_nova_social_foundation.sql",
+    "20261118210127_nova_social_fk_indexes.sql",
+    "20261118210222_nova_social_profile_block_visibility.sql",
+    "20261118210440_nova_social_visibility_and_reports.sql",
+    "20261118210810_nova_social_follow_block_guard.sql",
+    "20261118210935_nova_social_notifications.sql",
+    "20261118210944_nova_social_notification_function_permissions.sql",
+    "20261118210956_nova_social_comment_policy_fix.sql",
+    "20261118211146_nova_social_notification_fk_indexes.sql",
     "20261118211551_nova_social_follow_status_column_guard.sql",
 )
 for filename in migration_files:
