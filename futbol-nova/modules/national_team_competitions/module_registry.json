@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "module_type": "international_national_team_competition",
+  "separate_from_club_competitions": true,
+  "manifest": "data/international_national_team_competitions.json",
+  "confederations": [
+    "AFC",
+    "CAF",
+    "CONCACAF",
+    "CONMEBOL",
+    "OFC",
+    "UEFA"
+  ],
+  "global_governing_body": "FIFA",
+  "competition_count": 16,
+  "runtime_status": "catalog_registered_roster_and_match_runtime_pending",
+  "dependencies": [
+    "national_teams_manifest",
+    "national_association_directory",
+    "football_database_service",
+    "shared_competition_draw_ceremony"
+  ]
+}

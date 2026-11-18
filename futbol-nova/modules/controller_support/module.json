@@ -1,0 +1,45 @@
+{
+  "module_id": "controller_support",
+  "name": "Fútbol Nova — Módulo de mando externo",
+  "version": "1.0.0",
+  "content_type": "input_extension",
+  "platform": [
+    "android",
+    "windows",
+    "linux",
+    "macos"
+  ],
+  "status": "module_source_ready_runtime_and_device_validation_pending",
+  "activation": {
+    "required_installed_package_id": "controller_support",
+    "installed_config_file": "controller_profiles.json",
+    "fallback": "touch_controls_remain_available"
+  },
+  "features": [
+    "gamepad_hotplug_detection",
+    "left_stick_player_movement",
+    "right_stick_camera_reserved",
+    "face_buttons_pass_shoot_skill_press",
+    "dpad_menu_navigation",
+    "menu_focus_and_confirm_back",
+    "button_mapping_profiles",
+    "dead_zone_and_sensitivity_settings",
+    "touch_and_gamepad_simultaneous_support"
+  ],
+  "supported_controller_families": [
+    "Xbox-compatible",
+    "PlayStation-compatible",
+    "Bluetooth HID gamepads",
+    "USB HID gamepads"
+  ],
+  "caveats": [
+    "Android controller mapping is handled by Godot's Android input backend and can vary by device/firmware.",
+    "Not every third-party controller is guaranteed; test each device and expose remapping.",
+    "No controller hardware test has been performed for this module."
+  ],
+  "package_layout": [
+    "controller_profiles.json"
+  ],
+  "source_script": "scripts/input/controller_support_module.gd",
+  "docs": "docs/CONTROLLER_SUPPORT_MODULE.md"
+}

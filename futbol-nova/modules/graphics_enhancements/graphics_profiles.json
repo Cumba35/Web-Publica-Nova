@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "module_id": "graphics_enhancements",
+  "version": "1.0.0",
+  "default_profile": "mobile_balanced",
+  "profiles": {
+    "mobile_balanced": {
+      "description": "Perfil recomendado para teléfonos: mejora luz y sombras sin activar efectos de posprocesado pesados.",
+      "exposure": 1,
+      "ambient_energy": 0.66,
+      "sun_energy": 1.22,
+      "shadows_enabled": true,
+      "shadow_bias": 0.06,
+      "shadow_normal_bias": 1.2,
+      "sun_color": "#fff4e5"
+    },
+    "high_quality": {
+      "description": "Perfil de mayor calidad para dispositivos con margen de GPU; pendiente de pruebas por hardware.",
+      "exposure": 1.04,
+      "ambient_energy": 0.72,
+      "sun_energy": 1.28,
+      "shadows_enabled": true,
+      "shadow_bias": 0.045,
+      "shadow_normal_bias": 1,
+      "sun_color": "#fff7ed"
+    },
+    "battery_saver": {
+      "description": "Perfil de ahorro: desactiva sombras dinámicas y reduce el nivel de luz.",
+      "exposure": 0.98,
+      "ambient_energy": 0.58,
+      "sun_energy": 1.05,
+      "shadows_enabled": false,
+      "shadow_bias": 0.08,
+      "shadow_normal_bias": 1.5,
+      "sun_color": "#fff4e5"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "module_id": "graphics_enhancements",
+  "name": "Fútbol Nova — Mejoras gráficas",
+  "version": "1.0.0",
+  "content_type": "graphics_module",
+  "status": "in_development_package_and_android_visual_tests_pending",
+  "package": {
+    "content_format": "json",
+    "content_filename": "graphics_profiles.json",
+    "package_id": "graphics_enhancements",
+    "downloadable": false
+  },
+  "activation": {
+    "required_installed_package_id": "graphics_enhancements",
+    "runtime_adapter": "scripts/graphics/graphics_enhancements_module.gd",
+    "fallback": "original_lightweight_game_lighting"
+  },
+  "features": [
+    "filmic_tonemapping",
+    "balanced_ambient_lighting",
+    "directional_dynamic_shadows",
+    "mobile_balanced_profile",
+    "high_quality_profile_for_compatible_devices",
+    "battery_saver_profile"
+  ],
+  "limitations": [
+    "No high-resolution textures or expensive post-processing are included in this data package.",
+    "Performance and visual quality must be tested on real Android devices before publication."
+  ]
+}

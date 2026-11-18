@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "nova_national_team_tournaments",
+  "display_name": "Torneos internacionales de selecciones",
+  "category": "international_national_team_competition",
+  "catalog": "data/international_national_team_competitions.json",
+  "offline_after_team_package_install": true,
+  "confederations": [
+    "AFC",
+    "CAF",
+    "CONCACAF",
+    "CONMEBOL",
+    "OFC",
+    "UEFA"
+  ],
+  "owns": [
+    "national_team_tournament_catalog",
+    "qualification_rules",
+    "tournament_formats",
+    "draw_configuration"
+  ],
+  "shared_services": [
+    "national_team_registry",
+    "football_database_service",
+    "competition_draw_ceremony"
+  ],
+  "runtime_status": "catalog_and_module_created_official_squads_and_match_engine_pending",
+  "isolation_policy": "No compartir IDs de clubes con selecciones. Verificar convocatoria y elegibilidad internacional de cada jugador antes de crear plantillas."
+}

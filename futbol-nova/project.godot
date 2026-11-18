@@ -1,0 +1,29 @@
+config_version=5
+
+[application]
+config/name="Fútbol Nova"
+config/description="Juego de fútbol 3D de Nova Apps."
+config/features=PackedStringArray("4.4", "GL Compatibility")
+run/main_scene="res://scenes/main.tscn"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[autoload]
+ControlsGuide="*res://scripts/controls_guide.gd"
+ContentPackages="*res://scripts/data/content_package_manager.gd"
+ContinentalLeagues="*res://scripts/data/continental_league_module_service.gd"
+FootballDatabase="*res://scripts/data/football_database_service.gd"
+FootballData="*res://scripts/data/football_data_service.gd"
+NationalTeamCompetitions="*res://scripts/data/national_team_competition_catalog_service.gd"
+ManagerCareer="*res://scripts/manager/manager_career_service.gd"
+LegendCareer="*res://scripts/legend/legend_career_service.gd"
+CustomPlayerRoster="*res://scripts/data/custom_player_roster_service.gd"
+NovaOwnerAccess="*res://scripts/data/nova_owner_access_service.gd"
+MomentsService="*res://scripts/moments/daily_moments_service.gd"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

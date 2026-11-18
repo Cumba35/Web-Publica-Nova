@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "package_id": "controller_support",
+  "default_profile": "generic_gamepad",
+  "settings": {
+    "left_stick_deadzone": 0.18,
+    "right_stick_deadzone": 0.18,
+    "axis_sensitivity": 1,
+    "rumble_enabled": false
+  },
+  "profiles": {
+    "generic_gamepad": {
+      "display_name": "Mando estándar",
+      "actions": {
+        "move_left": {
+          "type": "axis",
+          "axis": 0,
+          "sign": -1
+        },
+        "move_right": {
+          "type": "axis",
+          "axis": 0,
+          "sign": 1
+        },
+        "move_forward": {
+          "type": "axis",
+          "axis": 1,
+          "sign": -1
+        },
+        "move_back": {
+          "type": "axis",
+          "axis": 1,
+          "sign": 1
+        },
+        "pass_ball": {
+          "type": "button",
+          "button": 0
+        },
+        "shoot_ball": {
+          "type": "button",
+          "button": 1
+        },
+        "skill_action": {
+          "type": "button",
+          "button": 2
+        },
+        "pressure_action": {
+          "type": "button",
+          "button": 3
+        },
+        "ui_accept": {
+          "type": "button",
+          "button": 0
+        },
+        "ui_cancel": {
+          "type": "button",
+          "button": 1
+        },
+        "ui_left": {
+          "type": "button",
+          "button": 13
+        },
+        "ui_right": {
+          "type": "button",
+          "button": 14
+        },
+        "ui_up": {
+          "type": "button",
+          "button": 11
+        },
+        "ui_down": {
+          "type": "button",
+          "button": 12
+        }
+      }
+    }
+  }
+}
