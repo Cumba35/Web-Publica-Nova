@@ -66,7 +66,7 @@ const supabase = createClient(
 async function iniciarSesionGoogle() {
   const { error } = await supabase.auth.signInWithOAuth({
     provider:"google",
-    options:{ redirectTo:"https://cumba35.github.io/Nova-APPS/" }
+    options:{ redirectTo:"https://cumba35.github.io/Web-Publica-Nova/multimedia-nova/" }
   });
   if (error) throw error;
 }
