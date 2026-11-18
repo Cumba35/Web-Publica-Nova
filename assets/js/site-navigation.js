@@ -1,4 +1,4 @@
-import("./account.js").catch(error => console.error("NOVA account control:", error));
+import("/Web-Publica-Nova/assets/js/account.js").catch(error => console.error("NOVA account control:", error));
 
 (() => {
   const header = document.querySelector('header');
