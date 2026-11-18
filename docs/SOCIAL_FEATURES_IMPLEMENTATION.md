@@ -62,9 +62,9 @@ No se duplicaron las tablas existentes de Nova Chat, reseñas de Nova Apps ni pe
 
 ## Migraciones aplicadas
 
-Los archivos SQL del repositorio usan las versiones del historial de producción `Nova-Nexus` (que coinciden con los nombres de archivo). `NOVA-STAGING` registró los mismos nombres de migración con estos identificadores. La correspondencia se verificó consultando ambos historiales:
+Los archivos SQL del repositorio usan las versiones del historial de `NOVA-STAGING` (que coinciden con los nombres de archivo). Producción (`Nova-Nexus`) registró los mismos nombres de migración con estos identificadores. La correspondencia se verificó consultando ambos historiales:
 
-| Migración | Producción (archivo) | NOVA-STAGING |
+| Migración | NOVA-STAGING (archivo) | Producción |
 |---|---:|---:|
 | `nova_social_foundation` | `20261118210209` | `20261118210042` |
 | `nova_social_fk_indexes` | `20261118210210` | `20261118210127` |
