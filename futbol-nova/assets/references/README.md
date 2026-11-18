@@ -36,8 +36,3 @@ La navegación horizontal funciona en ambos sentidos, es circular y conserva el 
 3. Comparar visualmente con la fuente recibida.
 4. Registrar dimensiones, tamaño y hash cuando sea posible.
 5. Mantener separado el original de las versiones optimizadas.
-
-
-## Distribución pública
-
-Las imágenes JPG de referencia se excluyen del espejo público: son material de referencia interno y/o de terceros, no recursos aprobados para redistribución. No son necesarias para iniciar la escena principal. La imagen de referencia del perfil de Máximo Padilla tampoco se redistribuye.

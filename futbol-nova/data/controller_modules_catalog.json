@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "module_id": "controller_support",
+      "name": "Mando externo",
+      "description": "Activa el uso de mandos Bluetooth y USB compatibles en Fútbol Nova. Incluye perfil genérico y detección de conexión.",
+      "version": "1.0.0",
+      "content_type": "input_extension",
+      "content_status": "testing",
+      "downloadable": false,
+      "package_id": "controller_support",
+      "content_format": "json",
+      "content_filename": "controller_profiles.json",
+      "download_url": "https://raw.githubusercontent.com/Cumba35/Nova-Workspace/main/proyectos/juegos/futbol-nova/modules/controller_support/controller_profiles.json",
+      "download_size_bytes": 1623,
+      "checksum_sha256": "9dde718582ddab0a6fc462c02538c00993fc9e47a85aff285f9591a70530856d",
+      "required_game_version": "0.1.0",
+      "runtime_adapter": "scripts/input/controller_support_module.gd",
+      "validation_status": "awaiting_godot_and_android_physical_controller_tests",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
+      "module_id": "graphics_enhancements",
+      "name": "Mejoras gráficas",
+      "description": "Mejora la iluminación del campo, el equilibrio de luz ambiental, la exposición y las sombras con un perfil móvil equilibrado. El juego base sigue funcionando sin este agregado.",
+      "version": "1.0.0",
+      "content_type": "graphics_module",
+      "content_status": "in_development",
+      "downloadable": false,
+      "package_id": "graphics_enhancements",
+      "content_format": "json",
+      "content_filename": "graphics_profiles.json",
+      "required_game_version": "0.1.0",
+      "runtime_adapter": "scripts/graphics/graphics_enhancements_module.gd",
+      "validation_status": "source_integrated_waiting_package_build_godot_and_android_visual_performance_tests",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    }
+  ]
+}

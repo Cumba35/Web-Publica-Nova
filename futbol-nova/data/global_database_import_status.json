@@ -1,0 +1,700 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-11-17",
+  "batches": [
+    {
+      "country_code": "ENG",
+      "country": "Inglaterra",
+      "season": "2026-27",
+      "clubs": 68,
+      "players": 1496,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/global_clubs.generated.json",
+        "competitions": "data/england_leagues.json",
+        "players": [
+          "data/players/england_premier_2026_27.json",
+          "data/players/england_championship_2026_27.json",
+          "data/players/england_league_one_2026_27.json"
+        ],
+        "club_membership_input": "data/imports/verified_club_membership.csv"
+      },
+      "summary": [
+        {
+          "level": 1,
+          "clubs": 20,
+          "players": 440
+        },
+        {
+          "level": 2,
+          "clubs": 24,
+          "players": 528
+        },
+        {
+          "level": 3,
+          "clubs": 24,
+          "players": 528
+        }
+      ],
+      "status": "fictional_database_created_real_player_squads_pending",
+      "godot_importer": "scripts/data/global_league_importer.gd",
+      "godot_integration": "wired_into_football_data_service",
+      "engine_validation": "pending",
+      "playable": false
+    },
+    {
+      "country_code": "ESP",
+      "country": "España",
+      "season": "2026-27",
+      "clubs": 82,
+      "players": 1804,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/spain_clubs_2026_27.json",
+        "competitions": "data/spain_leagues_2026_27.json",
+        "players": "data/players/esp_base_2026_27.json"
+      },
+      "status": "fictional_22_player_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "playable": false
+    },
+    {
+      "country_code": "USA",
+      "country": "Estados Unidos",
+      "season": "2026",
+      "clubs": 72,
+      "players": 1584,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/usa_clubs_2026.json",
+        "competitions": "data/usa_leagues_2026.json",
+        "roster_generator": "scripts/data/usa_roster_generator.gd",
+        "importer": "scripts/data/usa_league_importer.gd",
+        "players": "data/players/usa_base_2026.json"
+      },
+      "summary": [
+        {
+          "level": 1,
+          "competition": "MLS",
+          "clubs": 30,
+          "players": 660
+        },
+        {
+          "level": 2,
+          "competition": "USL Championship",
+          "clubs": 25,
+          "players": 550
+        },
+        {
+          "level": 3,
+          "competition": "USL League One",
+          "clubs": 17,
+          "players": 374
+        }
+      ],
+      "status": "official_2026_clubs_and_22_fictional_players_per_club_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "competition_model": "three_independent_competitions_no_cross_league_promotion_or_relegation",
+      "membership_sources": [
+        "https://www.mlssoccer.com/news/2026-mls-competition-guidelines",
+        "https://www.uslsoccer.com/news_article/show/1351433",
+        "https://www.uslsoccer.com/news_article/show/1351434-usl-league-one-announces-competition-format-for-2026-season"
+      ],
+      "engine_validation": "pending",
+      "playable": false
+    },
+    {
+      "country_code": "CUB",
+      "country": "Cuba",
+      "season": "Fútbol Nova base",
+      "clubs": 52,
+      "players": 1144,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "competitions": "data/cuba_leagues.json",
+        "second_division_players": "data/players/cuba_second_division.json",
+        "third_division_players": "data/cuba_players.json",
+        "players": [
+          "data/players/cuba_first_division.json",
+          "data/players/cuba_second_division.json",
+          "data/cuba_players.json"
+        ]
+      },
+      "summary": [
+        {
+          "level": 1,
+          "clubs": 20,
+          "players": 440,
+          "source": "saved fictional profiles in data/players/cuba_first_division.json; four S1 IDs restored from Tercera"
+        },
+        {
+          "level": 2,
+          "clubs": 16,
+          "players": 352,
+          "source": "saved fictional profiles in data/players/cuba_second_division.json"
+        },
+        {
+          "level": 3,
+          "clubs": 16,
+          "players": 352,
+          "source": "saved fictional profiles in data/cuba_players.json"
+        }
+      ],
+      "status": "all_three_division_fictional_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "roster_generation": "static_saved_data_no_runtime_generation_required",
+      "playable": false
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brasil",
+      "season": "2026",
+      "clubs": 60,
+      "players": 1320,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/base_league_clubs_2026.json",
+        "competitions": "data/base_league_clubs_2026.json",
+        "players": "data/players/bra_base_2026.json"
+      },
+      "status": "fictional_22_player_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "club_membership_audit": "reference_catalogued_official_season_audit_pending",
+      "playable": false
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italia",
+      "season": "2026-27",
+      "clubs": 100,
+      "players": 2200,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/base_league_clubs_2026.json",
+        "competitions": "data/base_league_clubs_2026.json",
+        "players": "data/players/ita_base_2026_27.json"
+      },
+      "status": "fictional_22_player_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "club_membership_audit": "reference_catalogued_official_season_audit_pending",
+      "playable": false
+    },
+    {
+      "country_code": "GER",
+      "country": "Alemania",
+      "season": "2026-27",
+      "clubs": 56,
+      "players": 1232,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/base_league_clubs_2026.json",
+        "competitions": "data/base_league_clubs_2026.json",
+        "players": "data/players/ger_base_2026_27.json"
+      },
+      "status": "fictional_22_player_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "club_membership_audit": "reference_catalogued_official_season_audit_pending",
+      "playable": false
+    },
+    {
+      "country_code": "FRA",
+      "country": "Francia",
+      "season": "2026-27",
+      "clubs": 54,
+      "players": 1188,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/base_league_clubs_2026.json",
+        "competitions": "data/base_league_clubs_2026.json",
+        "players": "data/players/fra_base_2026_27.json"
+      },
+      "status": "fictional_22_player_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "club_membership_audit": "reference_catalogued_official_season_audit_pending",
+      "playable": false
+    },
+    {
+      "country_code": "POR",
+      "country": "Portugal",
+      "season": "2026-27",
+      "clubs": 56,
+      "players": 1232,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/base_league_clubs_2026.json",
+        "competitions": "data/base_league_clubs_2026.json",
+        "players": "data/players/por_base_2026_27.json"
+      },
+      "status": "fictional_22_player_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "club_membership_audit": "reference_catalogued_official_season_audit_pending",
+      "playable": false
+    },
+    {
+      "country_code": "ARG",
+      "country": "Argentina",
+      "season": "2026",
+      "clubs": 125,
+      "players": 2750,
+      "divisions": 3,
+      "roster_size": 22,
+      "files": {
+        "clubs": "data/base_league_clubs_2026.json",
+        "competitions": "data/base_league_clubs_2026.json",
+        "players": "data/players/arg_base_2026.json"
+      },
+      "status": "fictional_22_player_rosters_saved_in_github_engine_validation_pending",
+      "player_profiles": "fictional_game_profiles_not_real_professional_players",
+      "engine_validation": "pending",
+      "club_membership_audit": "reference_catalogued_official_season_audit_pending",
+      "playable": false
+    }
+  ],
+  "worldwide_import_complete": false,
+  "existing_cuba_data_preserved": true,
+  "global_scope": {
+    "associations_target": 211,
+    "coverage_policy": "all FIFA member associations; active professional league pyramids and national/continental cups within available rights",
+    "schema": "data/global_schema_v1.json",
+    "roadmap": "docs/GLOBAL_DATABASE_SCOPE_AND_PIPELINE.md",
+    "overall_status": "100_league_selection_defined_global_club_player_and_national_team_imports_in_progress",
+    "completion_requires_verified_sources_and_engine_tests": true
+  },
+  "content_distribution": {
+    "architecture": "base_game_plus_optional_world_leagues_module",
+    "base_game_league_ranks": [
+      1,
+      10
+    ],
+    "downloadable_module_league_ranks": [
+      11,
+      20
+    ],
+    "region_catalog": "data/league_regions.json",
+    "package_manifest": "data/league_content_manifest.json",
+    "documentation": "docs/DOWNLOADABLE_LEAGUE_MODULES.md",
+    "selection_modes": [
+      "single_league",
+      "multiple_leagues",
+      "entire_region",
+      "all_available_leagues"
+    ],
+    "package_downloads_ready": 0,
+    "ui_and_godot_package_manager": "implemented_initial_version_pending_godot_runtime_validation",
+    "note": "Top-20 entries are catalogued as planned content; only verified, rights-cleared, validated packages may become downloadable.",
+    "recommendations": {
+      "minimum_additional_leagues": 10,
+      "ranked_range": "11-20",
+      "selection_order": "global_league_tiers.json ranking order",
+      "recommend_all_available_national_teams": true,
+      "national_teams_manifest": "data/national_teams_manifest.json",
+      "recommendation_service": "scripts/data/download_recommendation_service.gd",
+      "exposed_by": "NovaFootballDataService.get_download_recommendations()",
+      "packages_currently_ready": 0,
+      "note": "Recommendation only; packages remain unavailable until verified and rights-cleared."
+    },
+    "package_installer": "HTTPS_download_SHA256_staging_install_local_index_cancel_retry_queue_pause_and_uninstall",
+    "catalog_ui": "regional_filter_multi_select_download_all_available_national_teams_action",
+    "activation_importer": "implemented_initial_version_for_league_and_national_team_packages_pending_godot_runtime_validation",
+    "runtime_tests": "pending_github_runner",
+    "catalog_validation_test": "scripts/tests/validate_download_catalog.gd",
+    "ci_workflow": ".github/workflows/futbol-nova-tests.yml",
+    "national_teams_package_catalog": "data/national_teams_manifest.json#packages",
+    "league_importer": "scripts/data/downloaded_league_importer.gd",
+    "national_team_importer": "scripts/data/downloaded_national_teams_importer.gd",
+    "package_schemas": [
+      "data/downloaded_package_schema_v1.json",
+      "data/national_teams_package_schema_v1.json"
+    ],
+    "national_team_registry": "separate_registry_exposed_through_FootballData_API",
+    "runtime_test_note": "The latest GitHub Actions workflow was triggered for the catalogue changes, but the job returned failure with no runner and no execution steps. No Godot parser/test result is available; rerun after GitHub-hosted runners become available.",
+    "additional_league_membership_seed": "data/imports/additional_league_club_membership_2026_27.json",
+    "additional_league_membership_clubs": 166,
+    "additional_league_membership_leagues": 10,
+    "additional_league_membership_scope": "first_division_club_membership_only; squads_and_lower_divisions_pending",
+    "national_association_directory": "data/national_association_directory.json",
+    "national_associations_catalogued": 211,
+    "national_rosters_verified": 0,
+    "active_league_limit": 100,
+    "catalog_overflow_policy": "Ligas fuera del cupo permanecen en catálogo/reserva; no se instancian competiciones, divisiones, clubes ni plantillas.",
+    "limit_enforcement": "downloaded_league_importer checks the configured limit before importing each installed league package",
+    "limit_validation": "validate_download_catalog.gd asserts max_created_leagues=100 and catalogue-only overflow policy",
+    "base_game_countries": [
+      "ENG",
+      "ESP",
+      "BRA",
+      "ITA",
+      "GER",
+      "FRA",
+      "POR",
+      "ARG",
+      "CUB",
+      "USA"
+    ],
+    "base_game_selection_note": "Product selection updated 2026-11-15: Cuba and United States replace Netherlands and Colombia; Netherlands and Colombia remain optional future leagues."
+  },
+  "additional_league_membership": {
+    "season": "2026-27",
+    "leagues_catalogued": 10,
+    "clubs_catalogued": 166,
+    "primary_official_sources": [
+      "TUR",
+      "KSA",
+      "JPN",
+      "CYP"
+    ],
+    "remaining_second_source_review": [
+      "BEL",
+      "ECU",
+      "GRE",
+      "EGY",
+      "CZE",
+      "PAR"
+    ],
+    "player_rosters_imported": 0,
+    "playable_packages": 0
+  },
+  "national_team_coverage": {
+    "fifa_member_associations_directory": 211,
+    "source": "https://inside.fifa.com/associations",
+    "confederation_mapping_complete": true,
+    "national_rosters_imported": 0,
+    "published_packages": 0,
+    "confederation_counts": {
+      "AFC": 46,
+      "CAF": 54,
+      "CONCACAF": 35,
+      "CONMEBOL": 10,
+      "OFC": 11,
+      "UEFA": 55
+    },
+    "confederation_source": "data/national_association_directory.json#confederation_mapping",
+    "national_rosters_verified": 0
+  },
+  "recommendation_policy": {
+    "additional_leagues_minimum": 10,
+    "ranking_positions": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "national_teams": "recommend_all_published_verified_packages",
+    "game_base_remains_playable_without_downloads": true
+  },
+  "club_roster_research": {
+    "season": "2026-27",
+    "completed_country": "TUR",
+    "completed_competition": "Trendyol Süper Lig",
+    "official_club_roster_pdfs_located": 18,
+    "club_rosters_transcribed": 18,
+    "players_transcribed": 501,
+    "roster_dataset": "data/imports/turkey_super_lig_rosters_2026_27.json",
+    "source_inventory": "data/imports/club_roster_source_inventory_turkey_2026_27.json",
+    "rights_status": "reference_only_reuse_rights_not_cleared",
+    "playable_packages": 0,
+    "next_country": "BEL",
+    "next_competition": "Jupiler Pro League",
+    "belgium_official_squad_pages_located": 18,
+    "belgium_rosters_transcribed": 9,
+    "belgium_source_inventory": "data/imports/club_roster_source_inventory_belgium_2026_27.json",
+    "belgium_pages_opened_successfully": 17,
+    "belgium_pages_timeout": 1,
+    "belgium_players_transcribed": 276,
+    "belgium_roster_dataset": "data/imports/belgium_jupiler_pro_league_rosters_2026_27_partial.json",
+    "belgium_clubs_pending_transcription": 9,
+    "next_action": "transcribir las 9 plantillas belgas restantes y resolver los 11 registros no visibles de SK Beveren; continuar con las otras ligas",
+    "belgium_skb_unresolved_visible_roster_entries": 11,
+    "total_turkey_belgium_transcribed_players": 777
+  },
+  "national_team_data_policy": "Do not infer national team membership from club roster or nationality guesses. Build national squads only from official federation call-ups and confirm player identity across club records.",
+  "league_selection_100": {
+    "selection_file": "data/global_league_selection_100.json",
+    "target_total_leagues": 100,
+    "existing_base_leagues_counted": 10,
+    "additional_leagues_to_complete": 90,
+    "selection_source": "https://golmetro.com/rankings/leagues",
+    "selection_source_updated": "2026-11-13",
+    "selection_entries": 100,
+    "selected_existing_base_entries": 10,
+    "selected_additional_entries": 90,
+    "completed_verified_league_packages": 0,
+    "playable_packages": 0,
+    "status": "100_league_research_scope_defined_import_and_roster_completion_pending",
+    "policy": "El máximo de 100 incluye las diez ligas base existentes. Se investigan 90 ligas adicionales. Las ligas fuera del cupo quedan en catálogo de reserva y no se instancian.",
+    "caveat": "La clasificación externa solo ordena prioridades; cada temporada, club, plantilla, convocatoria y derecho de reutilización requiere verificación propia."
+  },
+  "game_ui_implementation": {
+    "home_and_training_hub": "implemented_navigation_and_cards_runtime_validation_pending",
+    "ui_script": "scripts/ui/game_hub.gd",
+    "main_integration": "scripts/main.gd",
+    "daily_challenge": "home_card_placeholder_no_live_challenge_or_reward_service_yet",
+    "training_modes": [
+      "tutorial",
+      "free_kick",
+      "penalty",
+      "free_practice"
+    ],
+    "godot_runtime_validation": "pending_godot_executable_unavailable_in_current_environment"
+  },
+  "controller_module": {
+    "status": "source_and_json_package_metadata_complete_testing_runtime_validation_pending",
+    "package_id": "controller_support",
+    "module_manifest": "modules/controller_support/module.json",
+    "profile_config": "modules/controller_support/controller_profiles.json",
+    "adapter": "scripts/input/controller_support_module.gd",
+    "main_integration": "scripts/main.gd",
+    "player_actions": "pass_shoot_skill_request_pressure_request",
+    "note": "El módulo solo activa mapeos si el paquete controller_support está instalado; los controles táctiles siguen disponibles.",
+    "catalog": "data/controller_modules_catalog.json",
+    "package_download_enabled": false,
+    "download_gate": "enable only after Godot parsing/tests and Android Bluetooth/USB controller validation",
+    "package_metadata": {
+      "version": "1.0.0",
+      "required_game_version": "0.1.0",
+      "content_format": "json",
+      "content_filename": "controller_profiles.json",
+      "download_size_bytes": 1623,
+      "package_catalog": "data/controller_modules_catalog.json",
+      "optional_catalog": "data/optional_modules_catalog.json",
+      "manifest": "data/game_modules_manifest.json",
+      "downloadable": false,
+      "validation_status": "awaiting_godot_and_android_physical_controller_tests"
+    }
+  },
+  "design_reference_expansion": {
+    "document": "docs/REFERENCE_GAME_DESIGN_EXPANSION.md",
+    "training_design_updated": "docs/TRAINING_HUB_AND_DAILY_CHALLENGES.md",
+    "reference_games": [
+      "EA SPORTS FC Mobile",
+      "eFootball Mobile",
+      "Dream League Soccer"
+    ],
+    "scope": "general design patterns only; no copied proprietary assets or code"
+  },
+  "runtime_database": {
+    "schema_version": "1.0.0",
+    "status": "implemented_pending_godot_4_4_1_ci_validation",
+    "storage": "user://football_database.json",
+    "backup": "user://football_database.json.bak",
+    "service": "scripts/data/football_database_service.gd",
+    "master_catalog_importer": "scripts/data/master_catalog_importer.gd",
+    "schema": "data/runtime_database_schema_v1.json",
+    "documentation": "docs/DATABASE_IMPLEMENTATION.md",
+    "tests": "tests/test_football_database.gd",
+    "autoload_order": [
+      "ContentPackages",
+      "FootballDatabase",
+      "FootballData"
+    ],
+    "capabilities": [
+      "atomic_json_writes",
+      "backup_recovery",
+      "schema_migration",
+      "catalog_snapshots",
+      "master_catalog",
+      "match_result_transactions",
+      "competition_state_restore",
+      "season_state_storage",
+      "career_backup_records",
+      "audit_log",
+      "100_league_research_directory",
+      "all_211_fifa_associations_mapped_to_six_confederations",
+      "normalized_country_table_linked_to_fifa_associations",
+      "source_linked_season_club_memberships",
+      "rights_restricted_reference_roster_packages",
+      "verified_england_spain_membership_csv_linking",
+      "turkey_belgium_roster_reference_ingestion_without_playability"
+    ],
+    "expected_seed_counts": {
+      "fifa_associations": 211,
+      "clubs": 891,
+      "competitions": 41,
+      "seasons": 20,
+      "playable_clubs": 725,
+      "players": 15950,
+      "league_directory_entries": 100,
+      "confederations_verified": 6,
+      "countries": 211,
+      "sources": 34,
+      "club_memberships": 891,
+      "reference_roster_packages": 2,
+      "reference_roster_players": 777,
+      "source_verified_memberships": 150,
+      "reference_roster_clubs": 27
+    },
+    "coverage_note": "Expected counts after adding all ten base leagues: 725 base clubs with 15,950 fictional player profiles, plus 166 additional reference-only clubs. Only 150 England/Spain memberships are source-verified; the other base membership catalogues remain pending audit. Godot CI must confirm runtime counts.",
+    "membership_status": {
+      "expected_total": 891,
+      "source_verified_england_spain": 150,
+      "additional_leagues_pending_second_source_review": 166,
+      "original_cuba_game_memberships": 52,
+      "other_base_game_memberships_catalogued": 523
+    },
+    "reference_rosters": {
+      "packages": 2,
+      "clubs": 27,
+      "players": 777,
+      "playable": false,
+      "rights_status": "reference_only_reuse_rights_not_cleared",
+      "datasets": [
+        "imports/turkey_super_lig_rosters_2026_27.json",
+        "imports/belgium_jupiler_pro_league_rosters_2026_27_partial.json"
+      ]
+    }
+  },
+  "usa_base_data": {
+    "clubs_catalogued": 72,
+    "roster_profiles_expected": 1584,
+    "rosters_generated_at_runtime": false,
+    "real_player_squad_affiliation_imported": false,
+    "custom_schedules_pending": true,
+    "playable": false,
+    "rosters_saved_in_github": true,
+    "roster_file": "data/players/usa_base_2026.json"
+  },
+  "base_league_coverage": {
+    "countries": [
+      "ENG",
+      "ESP",
+      "BRA",
+      "ITA",
+      "GER",
+      "FRA",
+      "POR",
+      "ARG",
+      "CUB",
+      "USA"
+    ],
+    "clubs": 725,
+    "fictional_player_profiles_total": 15950,
+    "fictional_player_profiles_saved_in_github": 15950,
+    "fictional_player_profiles_generated_at_runtime": 0,
+    "roster_size": 22,
+    "all_ten_country_rosters": "all 15,950 fictional profiles stored in GitHub data files; Godot runtime validation pending",
+    "playable": false,
+    "cuba_first_division_file": "data/players/cuba_first_division.json",
+    "membership_audit_pending": [
+      "BRA",
+      "ITA",
+      "GER",
+      "FRA",
+      "POR",
+      "ARG"
+    ],
+    "special_schedule_pending": [
+      "USA-MLS-2026",
+      "USA-USLC-2026",
+      "USA-USL1-2026",
+      "ARG-LP-2026"
+    ],
+    "cuba_division_breakdown": [
+      {
+        "level": 1,
+        "clubs": 16,
+        "players": 352
+      },
+      {
+        "level": 2,
+        "clubs": 16,
+        "players": 352
+      },
+      {
+        "level": 3,
+        "clubs": 20,
+        "players": 440
+      }
+    ],
+    "godot_headless_validation": "pending; workflow manual vigente .github/workflows/futbol-nova-android-apk.yml; no existe resultado PASS verificado."
+  },
+  "ci_validation": {
+    "workflow": ".github/workflows/futbol-nova-android-apk.yml",
+    "trigger": "workflow_dispatch",
+    "latest_run_id": null,
+    "previous_run_id": 43750250546,
+    "previous_run_conclusion": "failure_before_any_step",
+    "interpretation": "El workflow anterior terminó antes de ejecutar pasos porque GitHub no asignó runner. El workflow vigente es manual y todavía necesita una ejecución completa.",
+    "next_action": "Run the manual Fútbol Nova - pruebas y APK Android workflow; fix any Python validation, Godot parser, test, smoke-test or Android export failures.",
+    "static_python_validators": [
+      "tools/validate_club_identity_names.py",
+      "tools/validate_historical_competitions.py"
+    ],
+    "execution_status": "pending_manual_GitHub_Actions_run; Python and Godot validators are committed but no successful workflow result has been observed"
+  },
+  "club_identity_names": {
+    "last_updated": "2026-11-17",
+    "original_names_created": 519,
+    "base_clubs_renamed": 451,
+    "english_club_display_names_reviewed": 68,
+    "unique_display_names": 519,
+    "name_ledger": "data/club_identity_name_review_2026-11-17.json",
+    "validator": "tools/validate_club_identity_names.py",
+    "workflow_validation": "included_in_futbol-nova-android-apk.yml",
+    "source_reference_ids_preserved": true,
+    "stable_club_ids_preserved": true,
+    "six_country_player_ids_remain_empty": true,
+    "english_fictional_player_ids_preserved": true,
+    "approval_scope": "display-name originality only; not trademark clearance or full visual identity approval",
+    "remaining_gates": [
+      "visual crest and kit originality review",
+      "brand/trademark clearance",
+      "BRA_ITA_GER_FRA_POR_ARG season membership second-source audit",
+      "historical real-player to fictional-player mapping"
+    ]
+  },
+  "historical_archive": {
+    "last_updated": "2026-11-17",
+    "dataset": "data/competition_historical_reference.json",
+    "editions": 410,
+    "sources": 50,
+    "match_results": 571,
+    "goals_in_archived_matches": 1618,
+    "competitions_with_match_archives": 7,
+    "complete_competition_proper_editions": [
+      "uefa_champions_league_nova:2025-26",
+      "uefa_europa_league_nova:2025-26",
+      "uefa_conference_league_nova:2025-26"
+    ],
+    "partial_match_archives": [
+      "south_america_champions_league_nova:2025",
+      "caf_champions_league_nova:2025-26",
+      "caf_confederation_cup_nova:2025-26",
+      "afc_champions_league_elite_nova:2025-26"
+    ],
+    "match_validator": "tools/validate_historical_competitions.py",
+    "historical_completeness": false,
+    "player_identity_mappings": "pending; no real player is linked to a fictional player without evidence and approval",
+    "afc_champions_league_elite_2025_26": "7 final-stage matches; remaining league stage and round of 16 not imported",
+    "completion_audit": "data/historical_completion_audit_2026-11-17.json",
+    "editions_without_match_archive": 403,
+    "editions_with_final_date": 16,
+    "editions_with_runner_up": 122,
+    "editions_with_top_scorers": 14,
+    "editions_with_statistics": 3,
+    "approved_game_identity_mappings": 0,
+    "real_world_competition_ids_with_records": 14,
+    "custom_tas_has_no_real_world_history": true
+  }
+}

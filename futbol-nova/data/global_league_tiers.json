@@ -1,0 +1,515 @@
+{
+  "schema_version": "1.0.0",
+  "ranking": {
+    "name": "IFFHS Men's Strongest National League",
+    "edition": 2025,
+    "published": "2026-01-16",
+    "source": "https://www.iffhs.com/",
+    "secondary_sources": [
+      "https://financefootball.com/en/2026/01/21/top-20-best-football-leagues-in-the-world-2025/",
+      "https://sportaran.com/en/post/armyanskaya-premier-liga-60-ya-v-mire-po-versii-iffhs-po-itogam-2025-goda/"
+    ],
+    "note": "Ranking determines league tier count only; it does not prove current club membership or roster affiliation."
+  },
+  "division_policy": {
+    "ranks_1_to_10": 3,
+    "ranks_11_to_20": 2,
+    "ranks_21_onward": 1,
+    "existing_cuba_override": 3,
+    "seasonal_membership_required": true,
+    "promotion_relegation_required": true
+  },
+  "ranked_leagues": [
+    {
+      "rank": 1,
+      "country_code": "ENG",
+      "country": "Inglaterra",
+      "league": "Premier League",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/england/eng.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/england/eng.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 68,
+      "fictional_player_profiles": 1496,
+      "saved_roster_data": "data/players/england_premier_2026_27.json; data/players/england_championship_2026_27.json; data/players/england_league_one_2026_27.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 2,
+      "country_code": "ESP",
+      "country": "España",
+      "league": "LaLiga",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/spain/es.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/spain/es.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 82,
+      "fictional_player_profiles": 1804,
+      "saved_roster_data": "data/players/esp_base_2026_27.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 3,
+      "country_code": "BRA",
+      "country": "Brasil",
+      "league": "Brasileirão Série A",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "south-america/brazil/br.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "south-america/brazil/br.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 60,
+      "fictional_player_profiles": 1320,
+      "saved_roster_data": "data/players/bra_base_2026.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 4,
+      "country_code": "ITA",
+      "country": "Italia",
+      "league": "Serie A",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/italy/it.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/italy/it.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 100,
+      "fictional_player_profiles": 2200,
+      "saved_roster_data": "data/players/ita_base_2026_27.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 5,
+      "country_code": "GER",
+      "country": "Alemania",
+      "league": "Bundesliga",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/germany/de.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/germany/de.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 56,
+      "fictional_player_profiles": 1232,
+      "saved_roster_data": "data/players/ger_base_2026_27.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 6,
+      "country_code": "FRA",
+      "country": "Francia",
+      "league": "Ligue 1",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/france/fr.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/france/fr.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 54,
+      "fictional_player_profiles": 1188,
+      "saved_roster_data": "data/players/fra_base_2026_27.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 7,
+      "country_code": "POR",
+      "country": "Portugal",
+      "league": "Primeira Liga",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/portugal/pt.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/portugal/pt.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 56,
+      "fictional_player_profiles": 1232,
+      "saved_roster_data": "data/players/por_base_2026_27.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 8,
+      "country_code": "ARG",
+      "country": "Argentina",
+      "league": "Liga Profesional",
+      "division_count": 3,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "south-america/argentina/ar.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "south-america/argentina/ar.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "season_club_membership_catalogued_fictional_22_player_profiles_saved_in_github",
+      "status": "engine_validation_and_source_rights_review_pending",
+      "catalogued_clubs": 125,
+      "fictional_player_profiles": 2750,
+      "saved_roster_data": "data/players/arg_base_2026.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 9,
+      "country_code": "CUB",
+      "country": "Cuba",
+      "league": "Sistema Nacional de Ligas de Cuba — Fútbol Nova",
+      "division_count": 3,
+      "club_source": {
+        "repository": "Nova Workspace",
+        "path": "data/cuba_leagues.json",
+        "url": "https://github.com/Cumba35/Nova-Workspace/blob/main/proyectos/juegos/futbol-nova/data/cuba_leagues.json"
+      },
+      "player_discovery_source": {
+        "repository": "Nova Workspace",
+        "path": "data/cuba_players.json",
+        "url": "https://github.com/Cumba35/Nova-Workspace/blob/main/proyectos/juegos/futbol-nova/data/cuba_players.json"
+      },
+      "current_squad_membership": "52_clubs_1144_fictional_players_saved_in_github",
+      "status": "static_rosters_committed_engine_validation_pending",
+      "catalogued_clubs": 52,
+      "fictional_player_profiles": 1144,
+      "saved_roster_data": "data/players/cuba_first_division.json; data/players/cuba_second_division.json; data/cuba_players.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 10,
+      "country_code": "USA",
+      "country": "Estados Unidos",
+      "league": "Major League Soccer (MLS)",
+      "division_count": 3,
+      "club_source": {
+        "repository": "official MLS and USL competition publications",
+        "path": "data/usa_clubs_2026.json",
+        "url": "https://www.mlssoccer.com/news/2026-mls-competition-guidelines"
+      },
+      "player_discovery_source": {
+        "repository": "Fútbol Nova internal fictional generator",
+        "path": "scripts/data/usa_roster_generator.gd",
+        "url": "https://github.com/Cumba35/Nova-Workspace/blob/main/proyectos/juegos/futbol-nova/scripts/data/usa_roster_generator.gd"
+      },
+      "current_squad_membership": "72_clubs_1584_fictional_players_saved_in_github",
+      "status": "static_rosters_committed_custom_schedules_and_engine_validation_pending",
+      "competition_structure_note": "MLS is a closed franchise competition; USL Championship and USL League One are separate competition systems. Do not implement automatic promotion/relegation between them unless an explicit Fútbol Nova game rule is approved.",
+      "catalogued_clubs": 72,
+      "fictional_player_profiles": 1584,
+      "saved_roster_data": "data/players/usa_base_2026.json",
+      "roster_size": 22,
+      "playable": false
+    },
+    {
+      "rank": 11,
+      "country_code": "TUR",
+      "country": "Turquía",
+      "league": "Süper Lig",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/turkey/tr.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/turkey/tr.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 12,
+      "country_code": "BEL",
+      "country": "Bélgica",
+      "league": "Jupiler Pro League",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/belgium/be.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/belgium/be.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 13,
+      "country_code": "KSA",
+      "country": "Arabia Saudita",
+      "league": "Saudi Pro League",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "middle-east/saudi-arabia/sa.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "middle-east/saudi-arabia/sa.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 14,
+      "country_code": "ECU",
+      "country": "Ecuador",
+      "league": "LigaPro",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "south-america/ecuador/ec.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "south-america/ecuador/ec.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 15,
+      "country_code": "GRE",
+      "country": "Grecia",
+      "league": "Super League",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/greece/gr.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/greece/gr.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 16,
+      "country_code": "EGY",
+      "country": "Egipto",
+      "league": "Premier League",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "africa/egypt/eg.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "africa/egypt/eg.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 17,
+      "country_code": "CZE",
+      "country": "Chequia",
+      "league": "First League",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/czech-republic/cz.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/czech-republic/cz.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 18,
+      "country_code": "JPN",
+      "country": "Japón",
+      "league": "J1 League",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "asia/japan/jp.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "asia/japan/jp.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 19,
+      "country_code": "PAR",
+      "country": "Paraguay",
+      "league": "Primera División",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "south-america/paraguay/py.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "south-america/paraguay/py.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    },
+    {
+      "rank": 20,
+      "country_code": "CYP",
+      "country": "Chipre",
+      "league": "First Division",
+      "division_count": 2,
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/cyprus/cy.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/cyprus/cy.players.txt",
+        "url": "https://github.com/openfootball/players"
+      },
+      "current_squad_membership": "not_verified",
+      "status": "source_mapped_membership_import_pending"
+    }
+  ],
+  "worldwide_scope": {
+    "countries_outside_top20": "one top division only",
+    "club_source": "OpenFootball clubs country datasets plus federation/league verification",
+    "player_source": "OpenFootball players as discovery only; current club assignment requires independent squad evidence",
+    "women_and_reserve_teams": "separate entities and competitions; never merged into men's first teams",
+    "historical_clubs": "archive, not active league entrants"
+  },
+  "asset_policy": {
+    "club_names": "fictionalized identities based on locality and independent cultural references; no direct transliteration or nickname reuse",
+    "crests": "new original SVG",
+    "kits": "new original home away goalkeeper kits; no copied badge manufacturer sponsor or shirt pattern",
+    "players": "use verified squad source for research; game identities fictionalized if required by project identity policy",
+    "real_player_data": "do not scrape Transfermarkt or redistribute proprietary roster data without permission"
+  },
+  "import_status": {
+    "ranked_leagues_configured": 20,
+    "clubs_imported": 0,
+    "verified_current_squads": 0,
+    "players_imported": 0,
+    "rosters_generated": 0,
+    "crest_assets_generated": 0,
+    "kit_assets_generated": 0,
+    "reason": "Need season-specific competition membership and verified squad-source files before assigning club tiers or player-club relationships."
+  },
+  "reserve_leagues": [
+    {
+      "country_code": "NED",
+      "country": "Países Bajos",
+      "league": "Eredivisie",
+      "division_count": 3,
+      "status": "moved_out_of_base_top_10_retained_as_optional_future_league",
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "europe/netherlands/nl.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "europe/netherlands/nl.players.txt",
+        "url": "https://github.com/openfootball/players"
+      }
+    },
+    {
+      "country_code": "COL",
+      "country": "Colombia",
+      "league": "Primera A",
+      "division_count": 3,
+      "status": "moved_out_of_base_top_10_retained_as_optional_future_league",
+      "club_source": {
+        "repository": "openfootball/clubs",
+        "path": "south-america/colombia/co.clubs.txt",
+        "url": "https://github.com/openfootball/clubs"
+      },
+      "player_discovery_source": {
+        "repository": "openfootball/players",
+        "path": "south-america/colombia/co.players.txt",
+        "url": "https://github.com/openfootball/players"
+      }
+    }
+  ]
+}

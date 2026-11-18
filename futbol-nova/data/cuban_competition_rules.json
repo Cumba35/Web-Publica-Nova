@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "CUB",
+  "inspiration": "Reglamentos y formatos competitivos españoles adaptados a la estructura de Fútbol Nova; no implica afiliación oficial",
+  "league_common": {
+    "points": {
+      "win": 3,
+      "draw": 1,
+      "loss": 0
+    },
+    "match_duration_minutes": 90,
+    "substitutions": {
+      "max": 5,
+      "windows": 3,
+      "halftime_not_counted_as_window": true
+    },
+    "relegation_playoff": false,
+    "ranking_order_by_format": {
+      "double_round_two_teams": [
+        "points",
+        "head_to_head_goal_difference",
+        "goal_difference",
+        "goals_for",
+        "disciplinary_points_ascending",
+        "draw"
+      ],
+      "double_round_three_or_more_teams": [
+        "points",
+        "head_to_head_points",
+        "head_to_head_goal_difference",
+        "goal_difference",
+        "goals_for",
+        "disciplinary_points_ascending",
+        "draw"
+      ],
+      "single_round": [
+        "points",
+        "goal_difference",
+        "goals_for",
+        "head_to_head_points",
+        "head_to_head_goal_difference",
+        "disciplinary_points_ascending",
+        "draw"
+      ]
+    }
+  },
+  "leagues": [
+    {
+      "competition_id": "cuba_primera_division_nova",
+      "teams": 16,
+      "format": "single_group_double_round_robin",
+      "rounds": 30,
+      "relegation": {
+        "places": 3,
+        "destination": "cuba_segunda_division_nova"
+      },
+      "tiebreaker_mode": "double_round"
+    },
+    {
+      "competition_id": "cuba_segunda_division_nova",
+      "teams": 16,
+      "format": "single_group_double_round_robin",
+      "rounds": 30,
+      "promotion": {
+        "direct_places": 2,
+        "playoff_places": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "playoff": "semifinals_two_legs_and_final_two_legs",
+        "destination": "cuba_primera_division_nova"
+      },
+      "relegation": {
+        "places": 3,
+        "destination": "cuba_tercera_division_nova"
+      },
+      "tiebreaker_mode": "double_round"
+    },
+    {
+      "competition_id": "cuba_tercera_division_nova",
+      "teams": 20,
+      "format": "two_regional_groups",
+      "groups": 2,
+      "teams_per_group": 10,
+      "group_rounds": 9,
+      "group_promotion": {
+        "direct_places": 2,
+        "playoff": "regional runners-up play a two-leg tie for third promotion place",
+        "promotion_places": 3,
+        "destination": "cuba_segunda_division_nova"
+      },
+      "tiebreaker_mode": "single_round"
+    }
+  ],
+  "cup": {
+    "id": "copa_de_cuba_nova",
+    "name": "Copa de Cuba — Fútbol Nova",
+    "participants": "all eligible first-, second- and third-division clubs",
+    "format": "single_match_knockout_except_two_legged_semifinals",
+    "home_advantage": "lower_division_team_hosts; same_division_home_team_drawn",
+    "rounds": [
+      "preliminary_if_needed",
+      "round_of_64_if_needed",
+      "round_of_32",
+      "round_of_16",
+      "quarterfinals",
+      "semifinals_two_legs",
+      "final_single_match_neutral_venue"
+    ],
+    "extra_time_and_penalties": "single-leg ties: extra time then penalties; final: extra time then penalties",
+    "supercup_teams_entry": "supercopa_participants_enter_copa_at_round_of_32_if_bracket_size_allows",
+    "draw": "geographic_proximity_for_early_rounds_then_open_draw"
+  },
+  "supercup": {
+    "id": "supercopa_de_cuba_nova",
+    "name": "Supercopa de Cuba — Fútbol Nova",
+    "participants": [
+      "league_champion",
+      "league_runner_up",
+      "copa_champion",
+      "copa_runner_up"
+    ],
+    "replacement": "if duplicate, next highest league finisher not already qualified",
+    "format": "final_four",
+    "semifinals": "single_match",
+    "final": "single_match",
+    "third_place_match": false,
+    "venue": "neutral_venue",
+    "tie_resolution": "direct_penalty_shootout_without_extra_time",
+    "pairing": "draw; avoid repeating same semifinal pairing when possible"
+  },
+  "implementation_notes": [
+    "Primera tiene 16 clubes en grupo único a doble vuelta: 30 jornadas y 240 partidos.",
+    "Segunda tiene 16 clubes en grupo único a doble vuelta: 30 jornadas y 240 partidos.",
+    "Tercera tiene 20 clubes en dos grupos regionales de diez: 9 jornadas a una vuelta por grupo y 45 partidos por grupo.",
+    "Morón Deportivo, Trinidad Colonial, Baracoa FC y Manzanillo Marítimo pertenecen a Tercera División; sus 88 perfiles se trasladan con ellos y conservan sus IDs de jugador.",
+    "Los tres últimos de Primera descienden a Segunda y los tres últimos de Segunda descienden a Tercera. Tercera ofrece tres ascensos: campeones regionales y playoff entre subcampeones.",
+    "Estas son reglas ficticias de Fútbol Nova, no reglamentos oficiales de la federación cubana."
+  ]
+}

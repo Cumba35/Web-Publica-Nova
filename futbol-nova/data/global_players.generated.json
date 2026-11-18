@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ENG",
+  "season": "2026-27",
+  "roster_size": 22,
+  "division_files": [
+    "players/england_premier_2026_27.json",
+    "players/england_championship_2026_27.json",
+    "players/england_league_one_2026_27.json"
+  ],
+  "totals": {
+    "clubs": 68,
+    "players": 1496
+  },
+  "note": "Player identities are fictional placeholders, not verified real professional squads."
+}

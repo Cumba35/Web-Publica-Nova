@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-11-12",
+  "methodology": "FUTBOL_NOVA_REAL_WORLD_STRENGTH_1.0.0",
+  "note": "No mezclar escalas de selecciones, clubes y ligas. Los datos faltantes se dejan null; las estimaciones deben incluir confidence y estimated.",
+  "countries": [
+    {
+      "country_code": "CUB",
+      "fifa_mens_rank": {
+        "value": 164,
+        "official": true,
+        "as_of": "2026-07-20",
+        "source": "https://inside.fifa.com/fifa-rankings/world-ranking/CUB?gender=men",
+        "note": "La ficha oficial consultada indica 164.º y última actualización oficial 20-07-2026."
+      },
+      "opta_country_rating": null,
+      "domestic_league_rating": null,
+      "iffhs_club_points": null,
+      "confidence": "low",
+      "note": "Las divisiones 2 y 3 del catálogo son ficticias de Fútbol Nova; no existe rating real de esos clubes."
+    }
+  ],
+  "sources": [
+    {
+      "id": "fifa_men",
+      "name": "FIFA Men's World Ranking",
+      "url": "https://inside.fifa.com/fifa-rankings/world-ranking/men",
+      "scope": "national_teams",
+      "scale": "rank_and_points"
+    },
+    {
+      "id": "opta_club",
+      "name": "Opta Power Rankings",
+      "url": "https://theanalyst.com/articles/power-rankings-your-club-ranked",
+      "scope": "clubs_and_leagues",
+      "scale": "0-100"
+    },
+    {
+      "id": "opta_leagues",
+      "name": "Opta league strength",
+      "url": "https://theanalyst.com/articles/strongest-football-leagues-in-the-world-opta-power-rankings",
+      "scope": "leagues",
+      "scale": "league_average_and_top_club_averages"
+    },
+    {
+      "id": "iffhs_clubs",
+      "name": "IFFHS Club World Ranking October 2026",
+      "url": "https://isfhs.com/rankings/club-world-ranking-2026-the-top-500-2/",
+      "scope": "clubs",
+      "as_of": "2026-10-15",
+      "scale": "published_points_and_rank"
+    },
+    {
+      "id": "uefa",
+      "name": "UEFA association and club rankings",
+      "url": "https://www.uefa.com/nationalassociations/uefarankings/",
+      "scope": "uefa_clubs_and_associations",
+      "scale": "uefa_coefficients"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Canonical Fútbol Nova global football database schema. Templates only; populate only with source-backed data.",
+  "id_policy": {
+    "stable": true,
+    "seasonal_relationships": true,
+    "never_reuse_ids": true
+  },
+  "entities": {
+    "association": {
+      "required": [
+        "id",
+        "name",
+        "confederation",
+        "fifa_member"
+      ],
+      "fields": {
+        "id": "stable FIFA-MA identifier linked to the official 211-member directory",
+        "name": "official association name",
+        "confederation": "AFC|CAF|CONCACAF|CONMEBOL|OFC|UEFA",
+        "fifa_member": "boolean",
+        "source_ids": "array"
+      }
+    },
+    "country": {
+      "required": [
+        "id",
+        "name",
+        "association_id"
+      ],
+      "fields": {
+        "id": "stable association-linked country/territory ID; ISO alias is stored separately when mapped",
+        "name": "official name",
+        "association_id": "association id",
+        "fifa_code": "optional FIFA code",
+        "country_code": "optional game-facing ISO or controlled alias code, e.g. CUB or ENG"
+      }
+    },
+    "season": {
+      "required": [
+        "id",
+        "label",
+        "calendar_type"
+      ],
+      "fields": {
+        "id": "country-specific stable season id",
+        "label": "2026 or 2026-27",
+        "calendar_type": "calendar_year|cross_year",
+        "start_date": "ISO date",
+        "end_date": "ISO date"
+      }
+    },
+    "competition": {
+      "required": [
+        "id",
+        "country_id",
+        "season_id",
+        "name",
+        "level",
+        "competition_type",
+        "format"
+      ],
+      "fields": {
+        "id": "stable competition-season id",
+        "country_id": "country id",
+        "season_id": "season id",
+        "name": "official/source name and game display name",
+        "level": "integer",
+        "competition_type": "league|cup|super_cup|continental|international",
+        "format": "machine-readable format",
+        "rules": "rules object",
+        "group_ids": "array",
+        "source_ids": "array",
+        "status": "draft|verified|integrated|pending_review|membership_catalogued_rosters_pending",
+        "country_code": "optional game-facing country code alias"
+      }
+    },
+    "group": {
+      "required": [
+        "id",
+        "competition_id",
+        "name",
+        "team_ids"
+      ],
+      "fields": {
+        "id": "stable group id",
+        "competition_id": "competition id",
+        "name": "group or phase",
+        "team_ids": "club ids"
+      }
+    },
+    "club": {
+      "required": [
+        "id",
+        "country_id",
+        "name",
+        "fictional"
+      ],
+      "fields": {
+        "id": "stable FN club id",
+        "country_id": "country id",
+        "name": "game display name",
+        "city": "city",
+        "venue_id": "optional venue id",
+        "fictional": "boolean",
+        "identity_type": "original_fictional_club|licensed_real_club|reference_only_unlicensed",
+        "source_ids": "array",
+        "status": "draft|verified|approved|pending_review|membership_catalogued_rosters_pending",
+        "country_code": "optional game-facing country code alias; country_id remains the canonical association-linked ID",
+        "source_reference_id": "source dataset club ID used to cross-link verified season membership",
+        "source_provenance": "text explaining the source basis and any fictionalized club identity"
+      }
+    },
+    "club_membership": {
+      "required": [
+        "id",
+        "club_id",
+        "competition_id",
+        "season_id",
+        "division_level",
+        "active",
+        "gender",
+        "team_type",
+        "status",
+        "source_ids"
+      ],
+      "fields": {
+        "id": "unique club + competition + season registration",
+        "club_id": "canonical game club ID",
+        "country_id": "FIFA association-linked country ID",
+        "country_code": "game-facing country code alias",
+        "competition_id": "competition ID",
+        "season_id": "season ID",
+        "division_level": "competition level",
+        "group_id": "regional/group stage identifier where applicable",
+        "active": "boolean registration status",
+        "gender": "men|women",
+        "team_type": "first_team|reserve|youth",
+        "status": "source_verified_membership|original_fictional_game_membership|pending_review",
+        "source_ids": "source provenance references",
+        "source_url": "source URL for this specific membership"
+      }
+    },
+    "player": {
+      "required": [
+        "id",
+        "name",
+        "fictional",
+        "identity_type"
+      ],
+      "fields": {
+        "id": "stable player id",
+        "name": "display name",
+        "birth_date": "ISO date or null",
+        "nationality_ids": "array",
+        "height_cm": "integer or null",
+        "preferred_foot": "left|right|both|unknown",
+        "positions": "array",
+        "attributes": "bounded numeric object",
+        "overall": "integer or null",
+        "potential": "integer or null",
+        "fictional": "boolean",
+        "identity_type": "original_fictional_player|licensed_real_player",
+        "source_ids": "array",
+        "status": "draft|verified|approved"
+      }
+    },
+    "player_registration": {
+      "required": [
+        "player_id",
+        "club_id",
+        "season_id",
+        "source_ids"
+      ],
+      "fields": {
+        "player_id": "player id",
+        "club_id": "club id",
+        "season_id": "season id",
+        "shirt_number": "integer or null",
+        "valid_from": "ISO date or null",
+        "valid_to": "ISO date or null",
+        "status": "active|loan|released|pending",
+        "source_ids": "array"
+      }
+    },
+    "venue": {
+      "required": [
+        "id",
+        "name",
+        "country_id"
+      ],
+      "fields": {
+        "id": "stable venue id",
+        "name": "venue name",
+        "city": "city",
+        "country_id": "country id",
+        "capacity": "integer or null",
+        "source_ids": "array"
+      }
+    },
+    "source": {
+      "required": [
+        "id",
+        "url",
+        "publisher",
+        "retrieved_at",
+        "license_status",
+        "supports"
+      ],
+      "fields": {
+        "id": "stable source id",
+        "url": "canonical URL",
+        "publisher": "source publisher",
+        "retrieved_at": "ISO datetime",
+        "license_status": "open|permission_required|commercial|unknown|not_reusable",
+        "supports": "array of field/entity names",
+        "confidence": "high|medium|low"
+      }
+    },
+    "league_directory": {
+      "required": [
+        "source_rank",
+        "league",
+        "country",
+        "creation_status",
+        "playable"
+      ],
+      "fields": {
+        "source_rank": "research-priority rank; not an official FIFA ranking",
+        "league": "selected competition name",
+        "country": "country/territory display name",
+        "creation_status": "current import/research state",
+        "playable": "true only after full validation and approval",
+        "selection_source": "ranking source URL",
+        "source_updated": "source update date"
+      }
+    },
+    "national_team": {
+      "required": [
+        "id",
+        "association_id",
+        "team_type",
+        "player_ids",
+        "status"
+      ],
+      "fields": {
+        "id": "stable national team ID",
+        "association_id": "FIFA member association ID",
+        "team_type": "senior_men|senior_women|youth_men|youth_women",
+        "player_ids": "verified national player IDs",
+        "source_ids": "array of official roster source IDs",
+        "status": "not_built|research|verified|approved"
+      }
+    },
+    "national_player": {
+      "required": [
+        "id",
+        "name",
+        "nationality_ids",
+        "fictional",
+        "identity_type"
+      ],
+      "fields": {
+        "id": "stable player ID",
+        "name": "player display name",
+        "nationality_ids": "FIFA association IDs",
+        "fictional": "boolean",
+        "identity_type": "original_fictional_player|licensed_real_player",
+        "source_ids": "array"
+      }
+    },
+    "match_result": {
+      "required": [
+        "match_id",
+        "stage_id",
+        "home_team_id",
+        "away_team_id",
+        "home_goals",
+        "away_goals",
+        "status"
+      ],
+      "fields": {
+        "match_id": "unique immutable match identifier",
+        "stage_id": "competition stage",
+        "home_team_id": "home team ID",
+        "away_team_id": "away team ID",
+        "home_goals": "non-negative integer",
+        "away_goals": "non-negative integer",
+        "status": "finished",
+        "saved_at": "ISO datetime"
+      }
+    },
+    "competition_state": {
+      "required": [
+        "stage_id",
+        "season_id",
+        "fixtures",
+        "standings"
+      ],
+      "fields": {
+        "stage_id": "stable competition stage ID",
+        "season_id": "season ID",
+        "fixtures": "fixture and result snapshots",
+        "standings": "current table snapshot"
+      }
+    },
+    "career_record": {
+      "required": [
+        "career_id",
+        "state"
+      ],
+      "fields": {
+        "career_id": "stable local save slot",
+        "state": "career save snapshot",
+        "saved_at": "ISO datetime"
+      }
+    },
+    "audit_event": {
+      "required": [
+        "event",
+        "at",
+        "payload"
+      ],
+      "fields": {
+        "event": "database operation",
+        "at": "ISO datetime",
+        "payload": "event details"
+      }
+    },
+    "reference_roster_package": {
+      "required": [
+        "package_id",
+        "country_code",
+        "competition",
+        "season_id",
+        "rights_status",
+        "playable",
+        "club_count",
+        "player_count",
+        "source_ids",
+        "clubs"
+      ],
+      "fields": {
+        "package_id": "stable package reference ID",
+        "rights_status": "reference_only_reuse_rights_not_cleared|approved",
+        "playable": "must remain false until rights and data are approved",
+        "clubs": "club source codes and raw player-name/number records",
+        "player_count": "number of source player-name records; not canonical player profiles"
+      }
+    }
+  },
+  "validation": {
+    "no_duplicate_ids": true,
+    "all_foreign_keys_resolve": true,
+    "player_club_affiliation_requires_source": true,
+    "real_player_requires_source": true,
+    "fictional_records_must_be_flagged": true,
+    "every_competition_group_membership_must_resolve": true,
+    "season_and_country_must_match": true,
+    "all_visual_assets_require_originality_or_license_record": true,
+    "country_must_resolve_to_fifa_association": true,
+    "confederation_must_be_verified_before_national_team_build": true,
+    "reference_only_clubs_cannot_be_marked_playable": true
+  }
+}

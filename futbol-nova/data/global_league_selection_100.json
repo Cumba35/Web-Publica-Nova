@@ -1,0 +1,839 @@
+{
+  "schema_version": "1.0.0",
+  "product": "Fútbol Nova",
+  "season": "2026-27",
+  "target_total_created_leagues": 100,
+  "existing_base_leagues_counted": 10,
+  "additional_leagues_to_complete": 90,
+  "ranking_policy": {
+    "title": "Top 100 global domestic leagues — provisional selection",
+    "source_name": "Golmetro global league rankings",
+    "source_url": "https://golmetro.com/rankings/leagues",
+    "source_updated": "2026-11-13",
+    "method_note": "Use this independent strength ranking only to order research priority. It is not an official federation ranking and does not verify current competition membership, clubs, squads, player identities, or reuse rights.",
+    "inclusion_rule": "The ten base leagues are England, Spain, Brazil, Italy, Germany, France, Portugal, Argentina, Cuba and United States. Keep these within the 100; add the highest-ranked distinct competition entries for the remaining 90.",
+    "duplicate_rule": "A competition is identified by country plus competition name; reserve distinct tiers in the same country as separate leagues.",
+    "data_integrity": "A league's presence here means selected for research and eventual creation, not imported, playable, or rights-cleared.",
+    "note": "The existing Cuba database is preserved as a base league. Netherlands and Colombia remain optional future entries and no longer count as base leagues."
+  },
+  "leagues": [
+    {
+      "source_rank": 1,
+      "league": "Premier League",
+      "country": "England",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 2,
+      "league": "La Liga",
+      "country": "Spain",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 3,
+      "league": "Bundesliga",
+      "country": "Germany",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 4,
+      "league": "Serie A",
+      "country": "Italy",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 5,
+      "league": "Ligue 1",
+      "country": "France",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 6,
+      "league": "Liga MX",
+      "country": "Mexico",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 7,
+      "league": "Serie A",
+      "country": "Brazil",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 8,
+      "league": "Primeira Liga",
+      "country": "Portugal",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 9,
+      "league": "Major League Soccer",
+      "country": "United States",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_selected_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 10,
+      "league": "Premier League",
+      "country": "Russia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 11,
+      "league": "2. Bundesliga",
+      "country": "Germany",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 12,
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_optional_future_league_not_part_of_base_top_10",
+      "playable": false
+    },
+    {
+      "source_rank": 13,
+      "league": "Superliga",
+      "country": "Denmark",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 14,
+      "league": "Jupiler Pro League",
+      "country": "Belgium",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 15,
+      "league": "Super League",
+      "country": "Switzerland",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 16,
+      "league": "Championship",
+      "country": "England",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 17,
+      "league": "J1 League",
+      "country": "Japan",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 18,
+      "league": "HNL",
+      "country": "Croatia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 19,
+      "league": "Liga Profesional Argentina",
+      "country": "Argentina",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false
+    },
+    {
+      "source_rank": 20,
+      "league": "Süper Lig",
+      "country": "Turkey",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 21,
+      "league": "K League 1",
+      "country": "Korea Republic",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 22,
+      "league": "Bundesliga",
+      "country": "Austria",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 23,
+      "league": "Segunda División",
+      "country": "Spain",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 24,
+      "league": "Czech Liga",
+      "country": "Czechia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 25,
+      "league": "Eliteserien",
+      "country": "Norway",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 26,
+      "league": "Super League 1",
+      "country": "Greece",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 27,
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 28,
+      "league": "Liga de Expansión MX",
+      "country": "Mexico",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 29,
+      "league": "Pro League",
+      "country": "Saudi Arabia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 30,
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 31,
+      "league": "Primera División",
+      "country": "Costa Rica",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 32,
+      "league": "Liga Pro",
+      "country": "Ecuador",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 33,
+      "league": "NB I",
+      "country": "Hungary",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 34,
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 35,
+      "league": "Liga I",
+      "country": "Romania",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 36,
+      "league": "1. Division",
+      "country": "Cyprus",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 37,
+      "league": "Serie B",
+      "country": "Italy",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 38,
+      "league": "Ligat Ha'al",
+      "country": "Israel",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 39,
+      "league": "Premiership",
+      "country": "Scotland",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 40,
+      "league": "Premier League",
+      "country": "Egypt",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 41,
+      "league": "Persian Gulf Pro League",
+      "country": "Iran",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 42,
+      "league": "Premier League",
+      "country": "Ukraine",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 43,
+      "league": "Primera A",
+      "country": "Colombia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_optional_future_league_not_part_of_base_top_10",
+      "playable": false
+    },
+    {
+      "source_rank": 44,
+      "league": "Liga Nacional",
+      "country": "Honduras",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 45,
+      "league": "Premier Soccer League",
+      "country": "South Africa",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 46,
+      "league": "First League",
+      "country": "Bulgaria",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 47,
+      "league": "Primera División - Apertura",
+      "country": "Uruguay",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 48,
+      "league": "Liga Panameña de Fútbol",
+      "country": "Panama",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 49,
+      "league": "Ligue 1",
+      "country": "Algeria",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 50,
+      "league": "A-League",
+      "country": "Australia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 51,
+      "league": "Division Profesional - Apertura",
+      "country": "Paraguay",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 52,
+      "league": "Super Liga",
+      "country": "Serbia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 53,
+      "league": "Ligue 2",
+      "country": "France",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 54,
+      "league": "Primera División",
+      "country": "Chile",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 55,
+      "league": "Serie B",
+      "country": "Brazil",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 56,
+      "league": "1. SNL",
+      "country": "Slovenia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 57,
+      "league": "Liga Nacional",
+      "country": "Guatemala",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 58,
+      "league": "Pro League",
+      "country": "United Arab Emirates",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 59,
+      "league": "Challenger Pro League",
+      "country": "Belgium",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 60,
+      "league": "Super Liga",
+      "country": "Slovakia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 61,
+      "league": "Segunda Liga",
+      "country": "Portugal",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 62,
+      "league": "Challenge League",
+      "country": "Switzerland",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 63,
+      "league": "Eerste Divisie",
+      "country": "Netherlands",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 64,
+      "league": "Primera Nacional",
+      "country": "Argentina",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 65,
+      "league": "Ligue 1",
+      "country": "Tunisia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 66,
+      "league": "Premyer Liqa",
+      "country": "Azerbaijan",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 67,
+      "league": "First League",
+      "country": "Russia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 68,
+      "league": "Canadian Premier League",
+      "country": "Canada",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 69,
+      "league": "J2 League",
+      "country": "Japan",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 70,
+      "league": "National 1",
+      "country": "France",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 71,
+      "league": "3. Liga",
+      "country": "Germany",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 72,
+      "league": "1. Lig",
+      "country": "Turkey",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 73,
+      "league": "Superliga",
+      "country": "Kosovo",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 74,
+      "league": "Azadegan League",
+      "country": "Iran",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 75,
+      "league": "Stars League",
+      "country": "Qatar",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 76,
+      "league": "Premijer Liga",
+      "country": "Bosnia-Herzegovina",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 77,
+      "league": "NPFL",
+      "country": "Nigeria",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 78,
+      "league": "Iraqi League",
+      "country": "Iraq",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 79,
+      "league": "K League 2",
+      "country": "Korea Republic",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 80,
+      "league": "Primera Division",
+      "country": "El Salvador",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 81,
+      "league": "1. Division",
+      "country": "Norway",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 82,
+      "league": "Primera B",
+      "country": "Chile",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 83,
+      "league": "Premier Soccer League",
+      "country": "Zimbabwe",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 84,
+      "league": "Premier League",
+      "country": "Kazakhstan",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 85,
+      "league": "Primera Division",
+      "country": "Nicaragua",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 86,
+      "league": "Premier League",
+      "country": "Bahrain",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 87,
+      "league": "Second League",
+      "country": "Egypt",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 88,
+      "league": "Super League",
+      "country": "Uzbekistan",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 89,
+      "league": "Ligue 1",
+      "country": "Burkina Faso",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 90,
+      "league": "2. Liga",
+      "country": "Austria",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 91,
+      "league": "Premier League",
+      "country": "Kuwait",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 92,
+      "league": "Premier Division",
+      "country": "Grenada",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 93,
+      "league": "Superliga",
+      "country": "Albania",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 94,
+      "league": "Erovnuli Liga",
+      "country": "Georgia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 95,
+      "league": "Premier League",
+      "country": "Belarus",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 96,
+      "league": "League One",
+      "country": "England",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 97,
+      "league": "1. Division",
+      "country": "Denmark",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 98,
+      "league": "First NL",
+      "country": "Croatia",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 99,
+      "league": "Professional League",
+      "country": "Oman",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false
+    },
+    {
+      "source_rank": 0,
+      "league": "Sistema Nacional de Ligas de Cuba — Fútbol Nova",
+      "country": "Cuba",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_preserved_requires_audit",
+      "playable": false,
+      "notes": "Existing Cuba dataset; three divisions, 52 club records and 704 player records are already catalogued. Runtime roster generation and engine validation still need audit."
+    }
+  ],
+  "reserve_policy": "Competitions ranked below this 100-entry selection remain in the global discovery catalogue and must not be instantiated as created leagues unless the owner changes the 100-league cap.",
+  "product_scope": {
+    "gender_scope": "mens_football_only",
+    "include_womens_players": false,
+    "include_womens_clubs": false,
+    "include_womens_national_teams": false,
+    "exclude_womens_competitions": true,
+    "policy_note": "Fútbol Nova solo importará jugadores y plantillas masculinas. No crear modos, categorías, equipos ni selecciones femeninas."
+  },
+  "reserve_leagues": [
+    {
+      "source_rank": 100,
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "status": "moved_to_reserve_to_keep_exactly_100_selected_entries_after_Cuba_base_league_inclusion"
+    }
+  ]
+}

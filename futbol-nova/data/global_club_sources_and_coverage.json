@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "project": "Fútbol Nova",
+  "target_scope": "all discoverable active association-football clubs in national league pyramids worldwide; historical clubs as optional legacy records",
+  "status": "global_tier_policy_configured_imports_pending",
+  "sources": [
+    {
+      "name": "OpenFootball clubs",
+      "url": "https://github.com/openfootball/clubs",
+      "license": "CC0-1.0",
+      "role": "club and stadium discovery by country/continent",
+      "verified": true,
+      "limitations": "Coverage is broad but incomplete; CC0 does not waive trademark rights."
+    },
+    {
+      "name": "OpenFootball leagues",
+      "url": "https://github.com/openfootball/leagues",
+      "license": "CC0-1.0",
+      "role": "national and international competition discovery",
+      "verified": true,
+      "limitations": "Competition coverage and seasons vary by country."
+    },
+    {
+      "name": "Wikidata",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0",
+      "role": "global entity discovery and geographic cross-reference",
+      "verified": true,
+      "limitations": "Items may be historical, incomplete, duplicated or misclassified; Commons media has separate licenses."
+    },
+    {
+      "name": "Football Origins",
+      "url": "https://github.com/Tristan-Hotham/football-origins",
+      "license": "license_review_required",
+      "role": "discovery of Wikidata-derived historic club records",
+      "verified": false,
+      "limitations": "Do not import until repository license is confirmed."
+    },
+    {
+      "name": "Confederação Brasileira de Futebol / ge.globo",
+      "url": "https://ge.globo.com/pi/futebol/noticia/2025/12/29/brasileirao-veja-os-156-clubes-das-series-a-b-c-e-d-em-2026.ghtml",
+      "license": "reference_only_reuse_rights_not_cleared",
+      "role": "Brazil 2026 Série A, B and C membership",
+      "verified": true
+    },
+    {
+      "name": "National Football Teams — Italy",
+      "url": "https://www.national-football-teams.com/old/leagues/92/2026_1/Serie_D_Girone_I.html",
+      "license": "reference_only_reuse_rights_not_cleared",
+      "role": "Italy 2026/27 Serie A, B and C membership",
+      "verified": true
+    },
+    {
+      "name": "DFB / National Football Teams — Germany",
+      "url": "https://www.national-football-teams.com/old/leagues/71/2026_1/Oberliga_Niedersachsen.html",
+      "license": "reference_only_reuse_rights_not_cleared",
+      "role": "Germany 2026/27 Bundesliga, 2. Bundesliga and 3. Liga membership",
+      "verified": true
+    },
+    {
+      "name": "Foot France",
+      "url": "https://foot-france.net/clubs/",
+      "license": "reference_only_reuse_rights_not_cleared",
+      "role": "France 2026/27 Ligue 1, Ligue 2 and Ligue 3 membership",
+      "verified": true
+    },
+    {
+      "name": "National Football Teams — Portugal",
+      "url": "https://www.national-football-teams.com/old/leagues/148/2026_1/Af_Coimbra.html",
+      "license": "reference_only_reuse_rights_not_cleared",
+      "role": "Portugal 2026/27 Primeira Liga, Liga Portugal 2 and Liga 3 membership",
+      "verified": true
+    },
+    {
+      "name": "AFA / National Football Teams — Argentina",
+      "url": "https://www.national-football-teams.com/old/leagues/9/2026_2/Primera_Division.html",
+      "license": "reference_only_reuse_rights_not_cleared",
+      "role": "Argentina 2026 Liga Profesional, Primera Nacional and third-tier competitions",
+      "verified": true
+    }
+  ],
+  "source_audit": {
+    "openfootball_clubs_tree_checked": true,
+    "text_data_files_found": 173,
+    "note": "Source repositories and country-level files mapped. Club files contain historical/reserve entries and player files are nationality discovery lists, not current club rosters.",
+    "openfootball_clubs_repository_tree_checked": true,
+    "openfootball_players_repository_tree_checked": true,
+    "openfootball_leagues_repository_tree_checked": true
+  },
+  "generation": {
+    "script": "tools/build_global_database.py",
+    "normalized_input_columns": [
+      "source_club_id",
+      "country_code",
+      "city",
+      "division_level",
+      "competition_id",
+      "season",
+      "source_url",
+      "active",
+      "gender",
+      "team_type"
+    ],
+    "ignores": [
+      "source club name",
+      "nickname",
+      "official crest",
+      "official kit",
+      "source colour palette"
+    ],
+    "outputs": [
+      "global_clubs.generated.json",
+      "global_players.generated.json"
+    ],
+    "initial_review_status": "research_required",
+    "publication_status": "blocked_pending_review",
+    "player_input_columns": [
+      "source_player_id",
+      "source_club_id",
+      "nationality",
+      "position",
+      "age",
+      "estimated_overall",
+      "division_level",
+      "source_url",
+      "season"
+    ],
+    "note": "Only use verified season-specific club membership and explicit player-to-club roster evidence. Synthetic fallback players are clearly marked and must not be confused with real players."
+  },
+  "coverage": {
+    "country_records_imported": 10,
+    "ranked_leagues_configured": 20,
+    "global_club_records_imported": 725,
+    "verified_current_squads": 0,
+    "players_imported": 0,
+    "generated_squads": 725,
+    "crests_generated": 0,
+    "kits_generated": 0,
+    "cuba_existing_clubs": 52,
+    "cuba_existing_player_records": 704,
+    "cuba_first_division_rosters": "16 clubs x 22 fictional profiles saved statically in data/players/cuba_first_division.json (352); four transferred clubs and their 88 player profiles are preserved in Tercera.",
+    "godot_integration": "Static roster and club importers wired into FootballDataService; Godot runtime execution still pending.",
+    "last_verified": "2026-11-15",
+    "cuba_total_fictional_player_coverage": 1144,
+    "usa_official_2026_clubs_catalogued": 72,
+    "usa_fictional_rosters_runtime_generated": "72 clubs x 22 profiles (1,584) saved statically in data/players/usa_base_2026.json; not generated at runtime.",
+    "usa_real_player_squads_imported": 0,
+    "usa_custom_schedules": "pending; official formats are 34 MLS, 30 USL Championship, 32 USL League One matches",
+    "usa_cross_league_promotion_relegation": false,
+    "base_game_countries": 10,
+    "base_game_clubs_catalogued": 725,
+    "base_game_fictional_players_saved_in_github": 15950,
+    "base_game_fictional_players_generated_at_runtime": 0,
+    "base_game_roster_size": 22,
+    "base_game_total_roster_coverage": 15950,
+    "base_game_player_profiles": "Fictional generated profiles; not real-world professional squads.",
+    "base_game_roster_files": "data/players/*_base_*.json plus existing England and Cuba datasets",
+    "base_game_catalog_files": [
+      "data/base_league_clubs_2026.json",
+      "data/spain_clubs_2026_27.json",
+      "data/spain_leagues_2026_27.json",
+      "data/usa_clubs_2026.json",
+      "data/usa_leagues_2026.json"
+    ],
+    "cuba_division_breakdown": [
+      {
+        "level": 1,
+        "clubs": 20,
+        "players": 440
+      },
+      {
+        "level": 2,
+        "clubs": 16,
+        "players": 352
+      },
+      {
+        "level": 3,
+        "clubs": 16,
+        "players": 352
+      }
+    ],
+    "usa_fictional_rosters_saved_in_github": 1584,
+    "usa_roster_file": "data/players/usa_base_2026.json",
+    "base_game_club_count_by_country": {
+      "ENG": 68,
+      "ESP": 82,
+      "BRA": 60,
+      "ITA": 100,
+      "GER": 56,
+      "FRA": 54,
+      "POR": 56,
+      "ARG": 125,
+      "CUB": 52,
+      "USA": 72
+    },
+    "base_game_clubs_missing_from_selected_scope": 0,
+    "base_game_rosters_missing": 0,
+    "base_game_clubs_verified_in_static_catalog": 725,
+    "base_game_player_profiles_fictional": 15950,
+    "base_game_competition_membership_audit": "automated_import_validation_added_pending_Godot_CI_execution",
+    "base_game_league_runtime_validation": "pending_Godot_CI_execution",
+    "base_game_real_professional_player_squads": 0
+  },
+  "legal_notice": "CC0 dataset licensing does not clear third-party trademarks, club identities, personalities, image rights or unfair-competition claims. All fictional identities and visual assets require independent review.",
+  "ranking_policy": {
+    "source": "IFFHS Men's Strongest National League 2025",
+    "published": "2026-01-16",
+    "top_10_divisions": 3,
+    "ranks_11_to_20_divisions": 2,
+    "ranks_21_onward_divisions": 1,
+    "cuba_override_divisions": 3,
+    "config_path": "data/global_league_tiers.json"
+  },
+  "cuba_first_division_rosters": "16 clubs x 22 fictional profiles saved statically in data/players/cuba_first_division.json (352)",
+  "cuba_total_fictional_player_coverage": 1144,
+  "cuba_division_structure": "16 first division, 16 second division, 20 third division (two regional groups of 10)",
+  "base_game_cuba_division_breakdown": [
+    {
+      "level": 1,
+      "clubs": 16,
+      "players": 352
+    },
+    {
+      "level": 2,
+      "clubs": 16,
+      "players": 352
+    },
+    {
+      "level": 3,
+      "clubs": 20,
+      "players": 440
+    }
+  ]
+}

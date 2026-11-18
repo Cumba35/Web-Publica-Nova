@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "game_id": "futbol-nova",
+  "distribution_policy": "base_plus_optional_modules",
+  "base_package": {
+    "id": "futbol-nova-base",
+    "required": true,
+    "purpose": "Arranque, menú, guardados, motor de partido esencial, controles básicos, una experiencia inicial jugable y gestor de módulos.",
+    "include_only": "Código y datos indispensables para iniciar y jugar; recursos compartidos comprimidos y optimizados.",
+    "exclude": "Narración extensa, música opcional, estadios alternativos, paquetes gráficos de alta calidad, ligas adicionales y contenido cosmético no esencial.",
+    "must_work_offline": true,
+    "module_manager_required": true
+  },
+  "delivery": {
+    "preferred_format": "JSON/ZIP data packages for current optional modules; resource-only Godot PCK packages are a future option after signature, compatibility and Android security tests.",
+    "fallback_format": "ZIP de datos validado cuando PCK no sea apropiado",
+    "install_root": "user://futbol_nova/packages/",
+    "staging_root": "user://futbol_nova/packages/<module_id>/<version>.staging",
+    "integrity": "HTTPS + SHA-256 obligatorio antes de activar",
+    "activation": "Solo activar después de verificar versión, dependencias, compatibilidad y contenido; instalación atómica.",
+    "uninstall": "No borrar partidas guardadas; advertir si una carrera depende de contenido retirado.",
+    "offline": "Los módulos instalados deben funcionar sin conexión cuando su función no requiera servicios online.",
+    "updates": "Versiones independientes; descargar solo el módulo actualizado.",
+    "sizes": "No publicar tamaños hasta generar y medir el paquete real.",
+    "current_formats": [
+      "json",
+      "zip"
+    ],
+    "future_formats": [
+      "pck"
+    ]
+  },
+  "module_contract": {
+    "required_fields": [
+      "id",
+      "name",
+      "description",
+      "version",
+      "min_game_version",
+      "platforms",
+      "package_format",
+      "download_url",
+      "download_size_bytes",
+      "checksum_sha256",
+      "dependencies",
+      "content_status",
+      "downloadable"
+    ],
+    "publish_only_when": [
+      "package_exists",
+      "https_url_verified",
+      "sha256_verified",
+      "license_and_rights_reviewed",
+      "compatibility_test_passed",
+      "install_test_passed",
+      "uninstall_test_passed"
+    ],
+    "statuses": [
+      "planned",
+      "in_development",
+      "testing",
+      "published",
+      "unavailable"
+    ],
+    "catalog_placement": "Ficha de Fútbol Nova > Agregados"
+  },
+  "modules": [
+    {
+      "id": "futbol-nova-commentary",
+      "name": "Narración y comentarios",
+      "category": "Audio",
+      "role": "Voces, frases y paquetes de idioma opcionales.",
+      "priority": "optional",
+      "status": "planned",
+      "dependencies": [],
+      "downloadable": false,
+      "version": null,
+      "min_game_version": null,
+      "platforms": [],
+      "package_format": null,
+      "download_url": null,
+      "download_size_bytes": null,
+      "checksum_sha256": null,
+      "content_status": "planned",
+      "contract_state": "metadata_contract_present_package_metadata_pending",
+      "publication_blockers": [
+        "package_not_built",
+        "audio_assets_rights_and_voice_consent_review_pending",
+        "language_and_runtime_integration_tests_pending"
+      ],
+      "description": "Voces, frases y paquetes de idioma opcionales."
+    },
+    {
+      "id": "futbol-nova-audio",
+      "name": "Música y ambiente",
+      "category": "Audio",
+      "role": "Música de menú, cánticos y ambientes opcionales.",
+      "priority": "optional",
+      "status": "planned",
+      "dependencies": [],
+      "downloadable": false,
+      "version": null,
+      "min_game_version": null,
+      "platforms": [],
+      "package_format": null,
+      "download_url": null,
+      "download_size_bytes": null,
+      "checksum_sha256": null,
+      "content_status": "planned",
+      "contract_state": "metadata_contract_present_package_metadata_pending",
+      "publication_blockers": [
+        "package_not_built",
+        "music_and_recording_licenses_pending",
+        "audio_format_and_device_tests_pending"
+      ],
+      "description": "Música de menú, cánticos y ambientes opcionales."
+    },
+    {
+      "id": "futbol-nova-stadiums",
+      "name": "Estadios adicionales",
+      "category": "Contenido",
+      "role": "Estadios y elementos visuales de recintos no incluidos en el juego base.",
+      "priority": "optional",
+      "status": "planned",
+      "dependencies": [],
+      "downloadable": false,
+      "version": null,
+      "min_game_version": null,
+      "platforms": [],
+      "package_format": null,
+      "download_url": null,
+      "download_size_bytes": null,
+      "checksum_sha256": null,
+      "content_status": "planned",
+      "contract_state": "metadata_contract_present_package_metadata_pending",
+      "publication_blockers": [
+        "package_not_built",
+        "stadium_asset_rights_review_pending",
+        "resource_loading_and_performance_tests_pending"
+      ],
+      "description": "Estadios y elementos visuales de recintos no incluidos en el juego base."
+    },
+    {
+      "id": "futbol-nova-visual-enhancements",
+      "name": "Gráficos avanzados",
+      "category": "Gráficos",
+      "role": "Texturas de mayor resolución, efectos y recursos visuales de calidad alta; el juego base conserva calidad ligera.",
+      "priority": "optional",
+      "status": "planned",
+      "dependencies": [],
+      "downloadable": false,
+      "version": null,
+      "min_game_version": null,
+      "platforms": [],
+      "package_format": null,
+      "download_url": null,
+      "download_size_bytes": null,
+      "checksum_sha256": null,
+      "content_status": "planned",
+      "contract_state": "metadata_contract_present_package_metadata_pending",
+      "publication_blockers": [
+        "package_not_built",
+        "visual_asset_rights_review_pending",
+        "device_compatibility_and_performance_tests_pending"
+      ],
+      "description": "Texturas de mayor resolución, efectos y recursos visuales de calidad alta; el juego base conserva calidad ligera."
+    },
+    {
+      "id": "futbol-nova-world-leagues",
+      "name": "Ligas del Mundo",
+      "category": "Competiciones",
+      "role": "Paquetes de ligas adicionales por país o región.",
+      "priority": "optional",
+      "status": "in_development",
+      "dependencies": [],
+      "downloadable": false,
+      "existing_system": "data/league_content_manifest.json",
+      "version": null,
+      "min_game_version": null,
+      "platforms": [],
+      "package_format": null,
+      "download_url": null,
+      "download_size_bytes": null,
+      "checksum_sha256": null,
+      "content_status": "in_development",
+      "contract_state": "metadata_contract_present_package_metadata_pending",
+      "publication_blockers": [
+        "season_packages_not_individually_built_and_verified",
+        "club_membership_rosters_rights_and_source_audits_pending",
+        "engine_import_and_installation_tests_pending"
+      ],
+      "description": "Paquetes de ligas adicionales por país o región."
+    },
+    {
+      "id": "futbol-nova-national-teams",
+      "name": "Selecciones nacionales",
+      "category": "Competiciones",
+      "role": "Paquetes de selecciones nacionales verificadas.",
+      "priority": "optional",
+      "status": "in_development",
+      "dependencies": [],
+      "downloadable": false,
+      "existing_system": "data/national_teams_manifest.json",
+      "version": null,
+      "min_game_version": null,
+      "platforms": [],
+      "package_format": null,
+      "download_url": null,
+      "download_size_bytes": null,
+      "checksum_sha256": null,
+      "content_status": "in_development",
+      "contract_state": "metadata_contract_present_package_metadata_pending",
+      "publication_blockers": [
+        "verified_rosters_and_rights_review_pending",
+        "association_packages_not_built_and_verified",
+        "engine_import_and_installation_tests_pending"
+      ],
+      "description": "Paquetes de selecciones nacionales verificadas."
+    },
+    {
+      "id": "futbol-nova-extra-competitions",
+      "name": "Copas y torneos adicionales",
+      "category": "Competiciones",
+      "role": "Torneos y formatos opcionales que no sean necesarios para la experiencia inicial.",
+      "priority": "optional",
+      "status": "planned",
+      "dependencies": [],
+      "downloadable": false,
+      "version": null,
+      "min_game_version": null,
+      "platforms": [],
+      "package_format": null,
+      "download_url": null,
+      "download_size_bytes": null,
+      "checksum_sha256": null,
+      "content_status": "planned",
+      "contract_state": "metadata_contract_present_package_metadata_pending",
+      "publication_blockers": [
+        "module_scope_and_competition_catalog_pending",
+        "package_not_built",
+        "competition_engine_and_installation_tests_pending"
+      ],
+      "description": "Torneos y formatos opcionales que no sean necesarios para la experiencia inicial."
+    },
+    {
+      "id": "futbol-nova-controller-support",
+      "name": "Compatibilidad ampliada con mandos",
+      "category": "Controles",
+      "role": "Perfiles y ajustes específicos de mandos opcionales; los controles táctiles básicos permanecen en el juego base.",
+      "priority": "optional",
+      "status": "testing",
+      "dependencies": [],
+      "downloadable": false,
+      "package_id": "controller_support",
+      "version": "1.0.0",
+      "min_game_version": "0.1.0",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "package_format": "json",
+      "download_url": "https://raw.githubusercontent.com/Cumba35/Nova-Workspace/main/proyectos/juegos/futbol-nova/modules/controller_support/controller_profiles.json",
+      "download_size_bytes": 1623,
+      "checksum_sha256": "9dde718582ddab0a6fc462c02538c00993fc9e47a85aff285f9591a70530856d",
+      "content_status": "testing",
+      "contract_state": "package_metadata_present_validation_pending",
+      "publication_blockers": [
+        "package_integrity_recheck_pending",
+        "godot_parser_and_runtime_validation_pending",
+        "android_bluetooth_usb_controller_device_matrix_pending"
+      ],
+      "description": "Perfiles y ajustes específicos de mandos opcionales; los controles táctiles básicos permanecen en el juego base.",
+      "content_type": "input_extension",
+      "content_filename": "controller_profiles.json",
+      "runtime_adapter": "scripts/input/controller_support_module.gd",
+      "validation_status": "awaiting_godot_and_android_physical_controller_tests"
+    },
+    {
+      "id": "futbol-nova-graphics-enhancements",
+      "name": "Mejoras gráficas",
+      "category": "Gráficos",
+      "role": "Mejora la presentación 3D mediante iluminación más cuidada, sombras configurables y ajuste de exposición/ambiente. Incluye perfiles equilibrados para móviles; los efectos pesados y texturas HD se mantienen en paquetes separados.",
+      "priority": "optional",
+      "status": "in_development",
+      "package_id": "graphics_enhancements",
+      "content_type": "graphics_module",
+      "content_format": "json",
+      "content_filename": "graphics_profiles.json",
+      "dependencies": [],
+      "downloadable": false,
+      "runtime_adapter": "scripts/graphics/graphics_enhancements_module.gd"
+    }
+  ],
+  "nova_apps": {
+    "product_id": "futbol-nova",
+    "product_visibility": "development_catalog",
+    "product_publishable": false,
+    "product_path": "proyectos/juegos/futbol-nova/",
+    "add_ons_section": "Agregados",
+    "add_ons_source": "Este manifiesto y las fichas de módulos publicadas vinculadas al juego.",
+    "rule": "Mostrar Fútbol Nova como ficha de producto en el catálogo de desarrollo; mostrar solo módulos publicados como instalables. No presentar módulos planificados como descargas disponibles."
+  },
+  "limitations": [
+    "El gestor actual de paquetes está orientado principalmente a contenido de ligas; no demuestra todavía la carga dinámica de PCK de funciones.",
+    "La descarga e instalación genérica de módulos de código requiere pruebas específicas de Godot, Android, firma, permisos y compatibilidad antes de habilitarla.",
+    "No se conoce todavía el tamaño real del APK base ni de los módulos; medirlos en builds reales.",
+    "No se debe mover una función esencial a un módulo opcional si impide iniciar o jugar.",
+    "El módulo Mejoras gráficas aplica un perfil de iluminación/entorno cuando su paquete de datos está instalado; los efectos avanzados, texturas HD y pruebas de rendimiento por dispositivo quedan para iteraciones posteriores."
+  ],
+  "continental_league_modules": [
+    {
+      "code": "AFC",
+      "id": "continental-leagues-afc",
+      "name": "Asia",
+      "path": "data/continental_leagues/afc.json",
+      "independent": true,
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "CAF",
+      "id": "continental-leagues-caf",
+      "name": "África",
+      "path": "data/continental_leagues/caf.json",
+      "independent": true,
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "CONCACAF",
+      "id": "continental-leagues-concacaf",
+      "name": "Norteamérica, Centroamérica y Caribe",
+      "path": "data/continental_leagues/concacaf.json",
+      "independent": true,
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "CONMEBOL",
+      "id": "continental-leagues-conmebol",
+      "name": "Sudamérica",
+      "path": "data/continental_leagues/conmebol.json",
+      "independent": true,
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "OFC",
+      "id": "continental-leagues-ofc",
+      "name": "Oceanía",
+      "path": "data/continental_leagues/ofc.json",
+      "independent": true,
+      "status": "catalogue_ready_waiting_for_league_import"
+    },
+    {
+      "code": "UEFA",
+      "id": "continental-leagues-uefa",
+      "name": "Europa",
+      "path": "data/continental_leagues/uefa.json",
+      "independent": true,
+      "status": "catalogued_validation_pending"
+    }
+  ],
+  "continental_competition_modules": [
+    {
+      "id": "caribbean_champions_league",
+      "name": "Liga de Campeones del Caribe",
+      "competition_id": "caribbean_champions_league_nova",
+      "dependencies": [],
+      "independent": true
+    },
+    {
+      "id": "south_america_champions_league",
+      "name": "Liga de Campeones de Sudamérica",
+      "competition_id": "south_america_champions_league_nova",
+      "dependencies": [],
+      "independent": true
+    },
+    {
+      "id": "north_central_america_champions_league",
+      "name": "Liga de Campeones de Norteamérica y Centroamérica",
+      "competition_id": "north_central_america_champions_league_nova",
+      "dependencies": [],
+      "independent": true
+    },
+    {
+      "id": "american_super_champions_tas",
+      "name": "Torneo Americano de Supercampeones (TAS)",
+      "competition_id": "american_super_champions_tas",
+      "dependencies": [
+        "caribbean_champions_league",
+        "south_america_champions_league",
+        "north_central_america_champions_league"
+      ],
+      "independent": true,
+      "install_dependencies_together": true,
+      "dependency_versions": {
+        "caribbean_champions_league": "1.0.0",
+        "south_america_champions_league": "1.0.0",
+        "north_central_america_champions_league": "1.0.0"
+      }
+    }
+  ]
+}

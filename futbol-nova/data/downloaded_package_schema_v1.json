@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nova-apps.example/schemas/futbol-nova/downloaded-package-v1.json",
+  "title": "Fútbol Nova downloaded league package",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "package_type",
+    "players",
+    "teams",
+    "competitions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "package_type": {
+      "const": "league"
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "players": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "display_name",
+          "nationality_id",
+          "primary_position",
+          "attributes"
+        ]
+      }
+    },
+    "teams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "country_id",
+          "player_ids"
+        ],
+        "properties": {
+          "player_ids": {
+            "type": "array",
+            "minItems": 11,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "competitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "team_ids",
+          "format"
+        ],
+        "properties": {
+          "team_ids": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true,
+  "notes": {
+    "national_teams": "Publish separately using package_type=national_teams and national_teams array; they are not club league competitions.",
+    "provenance": "Package release requires source_manifest, rights review, checksum and signed release metadata."
+  }
+}

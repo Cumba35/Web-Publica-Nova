@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "feature_id": "futbol_nova_daily_training_challenges",
+  "status": "home_and_training_hub_navigation_implemented_runtime_validation_pending",
+  "timezone_policy": "server_utc_cycle_with_local_display",
+  "offline_supported": true,
+  "challenge_claims_idempotent": true,
+  "reward_types_allowed": [
+    "training_xp",
+    "career_xp",
+    "cosmetic_unlock"
+  ],
+  "reward_amounts": "configured_per_challenge_not_fixed",
+  "daily_challenge_card": {
+    "internal_name": "Momentos",
+    "display_name": "Desafío diario",
+    "placement": "main_menu_screen_1_home",
+    "excluded_from_training_hub": true
+  },
+  "training_hub": {
+    "entry": "main_menu_screen_1_home_training_action",
+    "layout": "horizontal_carousel",
+    "cards": [
+      {
+        "id": "tutorial",
+        "title": "Tutorial",
+        "status": "planned",
+        "activities": [
+          "movement",
+          "ball_control",
+          "passing",
+          "shooting",
+          "defending",
+          "dribbling",
+          "set_pieces"
+        ]
+      },
+      {
+        "id": "free_kick",
+        "title": "Tiro libre",
+        "status": "planned",
+        "activities": [
+          "select_position_outside_penalty_area",
+          "adjust_wall",
+          "choose_shooter",
+          "shoot_and_score"
+        ]
+      },
+      {
+        "id": "penalty",
+        "title": "Penalti",
+        "status": "planned",
+        "activities": [
+          "choose_shooter",
+          "choose_goalkeeper",
+          "aim",
+          "power",
+          "shoot"
+        ]
+      },
+      {
+        "id": "free_practice",
+        "title": "Práctica libre",
+        "status": "planned_optional",
+        "activities": [
+          "movement",
+          "dribbling",
+          "passing",
+          "shooting"
+        ]
+      }
+    ]
+  },
+  "daily_challenge_fields": [
+    "challenge_id",
+    "cycle_id",
+    "title",
+    "description",
+    "difficulty",
+    "objective",
+    "parameters",
+    "reward_type",
+    "reward_amount",
+    "starts_at_utc",
+    "ends_at_utc",
+    "rules_version"
+  ],
+  "persistence_requirements": [
+    "profile_id",
+    "challenge_id",
+    "cycle_id",
+    "progress",
+    "completion_state",
+    "claimed_at",
+    "pending_sync"
+  ],
+  "security_rules": [
+    "one_claim_per_profile_and_challenge_cycle",
+    "atomic_idempotent_reward_grant",
+    "offline_completion_queued_for_sync",
+    "manual_clock_change_must_not_allow_repeat_claim"
+  ],
+  "notes": [
+    "No fixed reward amount has been approved.",
+    "Do not show unavailable activities as playable.",
+    "Use original art and UI assets."
+  ],
+  "implementation": {
+    "ui_script": "scripts/ui/game_hub.gd",
+    "integration": "scripts/main.gd",
+    "home_daily_card": "implemented_placeholder_waiting_for_first_verified_challenge_and_reward_configuration",
+    "training_cards": [
+      "tutorial",
+      "free_kick",
+      "penalty",
+      "free_practice"
+    ],
+    "training_modes_connect_to_3d_pitch": true,
+    "runtime_validation": "pending_godot_runtime"
+  }
+}
