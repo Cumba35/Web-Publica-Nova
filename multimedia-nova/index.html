@@ -1,2 +1,183 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#08111f"><meta name="description" content="Servicio privado para organizar archivos multimedia y conectar proveedores de almacenamiento autorizados."><title>Multimedia Nova · NOVA</title><link rel="stylesheet" href="../assets/css/site.css"><link rel="icon" href="../assets/icons/multimedia-nova.svg" type="image/svg+xml"></head><body data-site="multimedia"><a class="skip-link" href="#contenido">Saltar al contenido</a><header><div class="wrap bar"><a class="brand" href="/Web-Publica-Nova/"><span class="mark">MM</span><span>NOVA · ECOSISTEMA</span></a><nav class="nav" aria-label="Proyectos"><a href="/Web-Publica-Nova/nova-apps/">Nova Apps</a><a href="/Web-Publica-Nova/nova-ecommerce/">Nova E-commerce</a><a href="/Web-Publica-Nova/nova-bank/">Nova Bank</a><a href="/Web-Publica-Nova/nova-novels/">Nova Novels</a><a href="/Web-Publica-Nova/nova-nexus/">Nova Nexus</a><a href="/Web-Publica-Nova/noticias-nova/">Noticias Nova</a><a href="/Web-Publica-Nova/nova-chat/">Nova Chat</a><a href="/Web-Publica-Nova/multimedia-nova/" aria-current="page">Multimedia Nova</a><a href="/Web-Publica-Nova/nova-ia/">Nova IA</a><a class="donate-link" href="/Web-Publica-Nova/#donaciones">Donaciones</a></nav></div></header><main id="contenido" class="wrap detail"><p class="eyebrow">Almacenamiento · NOVA</p><span class="tag">API existente · interfaz pública pendiente</span><h1>Multimedia Nova</h1><p class="lead">Servicio privado para organizar archivos multimedia y conectar proveedores de almacenamiento autorizados.</p><div class="cols"><section class="panel"><h2>Acerca del proyecto</h2><p class="muted">La API de Multimedia Nova está desplegada en Railway. Ofrece un catálogo privado por usuario y conectores preparados para NOVA Storage, Google Drive y Dropbox; las credenciales OAuth de Google y Dropbox aún deben configurarse en el servidor.</p><h2>Alcance</h2><ul><li>Almacenamiento privado NOVA con rutas por usuario y enlaces temporales</li><li>Google Drive: adaptador implementado, pendiente de credenciales OAuth y autorización individual</li><li>Dropbox: adaptador implementado, pendiente de credenciales OAuth y autorización individual</li><li>MEGA y MediaFire: deshabilitados hasta verificar API y permisos</li><li>Metadatos y tokens de proveedores protegidos en el backend</li></ul></section><aside class="panel"><h2>Estado y límites</h2><p class="notice">La API responde en producción, pero las pruebas reales de carga y descarga autenticadas siguen pendientes. No se exponen buckets, objetos, tokens ni enlaces privados.</p><p class="muted">El panel de usuario está integrado en Nova Apps. Se requiere una sesión autenticada; esta página no permite consultar archivos de terceros.</p><p class="notice">La API de Multimedia Nova tiene una dirección de producción, pero el panel web no está publicado para usuarios. La interfaz se habilitará después de validar inicio de sesión, permisos y carga/descarga de archivos.</p> <a class="button" href="../">Volver al portal Nova</a></aside></div></main><footer><div class="wrap foot"><span>© NOVA · Repositorio público de distribución</span><span><a href="https://github.com/Cumba35/Web-Publica-Nova">Código del portal</a> · <a href="https://github.com/Cumba35">GitHub</a></span></div></footer><script src="../assets/js/site-navigation.js" defer></script></body></html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08111f">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Panel privado de Multimedia Nova para conectar proveedores autorizados y administrar archivos propios.">
+<title>Multimedia Nova · NOVA</title>
+<link rel="stylesheet" href="../assets/css/site.css">
+<style>
+:root{color-scheme:dark}body{background:#0d1428;color:#eef4ff}.mm-wrap{width:min(1100px,calc(100% - 28px));margin:0 auto;padding:22px 0 48px}.mm-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.mm-top a{color:#91e9ff}.mm-hero,.mm-card{background:#151f39;border:1px solid #2d4168;border-radius:18px;padding:18px;margin:16px 0}.mm-hero h1{margin:0 0 8px}.muted{color:#a9b9d8}.mm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}.provider{background:#101a31;border:1px solid #31466f;border-radius:14px;padding:14px}.provider h3{margin:0 0 6px}.mm-btn,button{cursor:pointer;border:0;border-radius:10px;padding:10px 14px;background:#2468a8;color:white;font-weight:700}.mm-btn.secondary{background:#253957;border:1px solid #49638c}.mm-btn:disabled{opacity:.5;cursor:not-allowed}.mm-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.mm-row{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid #2b3a58}.mm-row:last-child{border:0}.mm-row strong{overflow-wrap:anywhere}.mm-row small{display:block;color:#a9b9d8}.mm-file{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.mm-file input,.mm-file select{max-width:100%;padding:9px;background:#0d1428;color:#eef4ff;border:1px solid #49638c;border-radius:9px}.status{padding:10px;border-radius:10px;background:#102b40;color:#bceeff;white-space:pre-wrap}.status.error{background:#421e2a;color:#ffd6df}#mm-login{display:none}.mm-footer{color:#a9b9d8;text-align:center;font-size:.9rem;padding:20px}
+</style>
+</head>
+<body>
+<header class="wrap" style="padding:16px 0">
+<a href="../" style="color:inherit;text-decoration:none;font-weight:800">NOVA · ECOSISTEMA</a>
+<nav><a href="../nova-apps/">Nova Apps</a> · <a href="../">Inicio</a></nav>
+</header>
+
+<main class="mm-wrap">
+<header class="mm-top"><a href="../nova-apps/">← Nova Apps</a><strong>Multimedia Nova</strong><a href="../nova-apps/">Mi cuenta</a><a href="../nova-bank/">Nova Bank</a></header>
+<section class="mm-hero">
+<p class="muted">CENTRO DE ARCHIVOS DEL ECOSISTEMA NOVA</p>
+<h1>Almacenamiento multimedia</h1>
+<p class="muted">Conecta tus servicios de almacenamiento, consulta tus archivos y transfiere contenido desde una única pantalla. Tus conexiones y archivos se aíslan por cuenta NOVA.</p>
+<div id="mm-status" class="status" role="status">Comprobando tu sesión…</div>
+<div id="mm-login" class="mm-actions"><button id="mm-login-btn">Iniciar sesión con Google</button></div>
+</section>
+<section class="mm-card">
+<h2>Servicios de almacenamiento</h2>
+<p class="muted">Cada proveedor requiere que autorices NOVA en su propia pantalla oficial.</p>
+<div id="mm-providers" class="mm-grid"></div>
+</section>
+<section class="mm-card">
+<h2>Transferir un archivo</h2>
+<div class="mm-file">
+<input id="mm-file" type="file" multiple>
+<select id="mm-target"><option value="nova">NOVA Storage privado</option><option value="google-drive">Google Drive</option><option value="dropbox">Dropbox</option></select>
+<button id="mm-upload">Subir archivo</button>
+</div>
+<p class="muted">Puedes seleccionar varios archivos a la vez. Si Dropbox está conectado, NOVA lo selecciona como destino inicial. El permiso se limita al App Folder de NOVA, no al resto de tu Dropbox. NOVA podrá leer, subir y modificar archivos dentro de esa carpeta; el permiso de escritura también permite técnicamente borrar archivos, aunque esta pantalla aún no ofrece una acción de borrado. Límite actual: 100 MB por archivo.</p>
+</section>
+<section class="mm-card">
+<div class="mm-top"><div><h2>Archivos recientes</h2><p class="muted">Catálogo unificado de NOVA Storage y proveedores conectados.</p></div><button class="mm-btn secondary" id="mm-refresh">Actualizar</button></div>
+<div id="mm-assets"><p class="muted">Inicia sesión para consultar tus archivos.</p></div>
+</section>
+<section class="mm-card">
+<h2>Explorar y sincronizar</h2>
+<div class="mm-actions"><button class="mm-btn secondary" id="mm-list-google">Ver archivos de Google Drive</button><button class="mm-btn secondary" id="mm-list-dropbox">Ver archivos de Dropbox</button><button class="mm-btn secondary" id="mm-sync-google">Sincronizar Google Drive</button><button class="mm-btn secondary" id="mm-sync-dropbox">Sincronizar Dropbox</button></div>
+<div id="mm-external-list"></div>
+</section>
+<footer class="mm-footer">NOVA IA · NOVA APPS · Multimedia Nova · <a class="nova-nexus-link" href="https://github.com/Cumba35/Nova-Nexus" aria-label="Ir a Nova Nexus">Nova Nexus</a></footer>
+</main>
+
+
+<footer class="wrap" style="padding:20px 0;color:#a9b9d8">NOVA · Multimedia Nova · <a href="https://github.com/Cumba35/Web-Publica-Nova">Portal público</a></footer>
+<script type="module">
+
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+const supabase = createClient(
+  "https://suirbghmnuxixktzkrze.supabase.co",
+  "sb_publishable_1ZmYJ5J-A8hGDIcUIOiY3g_dYOKdnIp",
+  { auth: { persistSession:true, autoRefreshToken:true, detectSessionInUrl:true, flowType:"pkce" } }
+);
+async function iniciarSesionGoogle() {
+  const { error } = await supabase.auth.signInWithOAuth({
+    provider:"google",
+    options:{ redirectTo:"https://cumba35.github.io/Nova-APPS/" }
+  });
+  if (error) throw error;
+}
+const API="https://multimedia-nova-api-live-production.up.railway.app";
+const $=id=>document.getElementById(id);
+let session=null, connected=new Set(), preferredTargetSet=false;
+function status(message,error=false){$("mm-status").textContent=message;$("mm-status").classList.toggle("error",error);}
+async function getSession(){const {data,error}=await supabase.auth.getSession();if(error)throw error;session=data.session;return session;}
+async function api(path,options={}){if(!session?.access_token)throw new Error("Inicia sesión en Nova Apps.");const headers={Authorization:"Bearer "+session.access_token,...(options.headers||{})};const res=await fetch(API+path,{...options,headers});let data={};try{data=await res.json();}catch{}if(!res.ok)throw new Error(data.error||("Error HTTP "+res.status));return data;}
+function safeText(el,value){el.textContent=String(value??"");}
+async function loadProviders(){
+  const data=await api("/api/providers");
+  connected=new Set();
+  const root=$("mm-providers");
+  root.replaceChildren();
+  for(const p of data.providers||[]){
+    if(p.connection?.connection_status==="connected")connected.add(p.id);
+    const card=document.createElement("article");
+    card.className="provider";
+    const title=document.createElement("h3");title.textContent=p.name||p.id;
+    const detail=document.createElement("p");detail.className="muted";
+    detail.textContent=p.connection?.connection_status==="connected"
+      ?"Conectado"+(p.connection.account_email?" · "+p.connection.account_email:"")
+      :p.status==="credentials_required"?"NOVA debe terminar la configuración segura de este proveedor."
+      :p.reason||p.status||"No conectado";
+    card.append(title,detail);
+    if(["google-drive","dropbox"].includes(p.id)){
+      if(p.connection?.connection_status==="connected"){
+        const disconnect=document.createElement("button");
+        disconnect.className="mm-btn secondary";
+        disconnect.textContent="Desconectar y revocar acceso";
+        disconnect.addEventListener("click",()=>disconnectProvider(p.id).catch(e=>status(e.message,true)));
+        card.append(disconnect);
+      }else{
+        const connectButton=document.createElement("button");
+        connectButton.textContent=p.configured?"Conectar":"Configuración pendiente";
+        connectButton.disabled=!p.configured;
+        connectButton.addEventListener("click",()=>connect(p.id).catch(e=>status(e.message,true)));
+        card.append(connectButton);
+        if(p.id==="dropbox"){
+          const create=document.createElement("a");
+          create.href="https://www.dropbox.com/register";
+          create.target="_blank";create.rel="noopener noreferrer";
+          create.textContent="Crear cuenta gratuita en Dropbox";
+          create.style.display="inline-block";create.style.marginLeft="10px";
+          card.append(create);
+        }
+      }
+    }
+    root.append(card);
+  }
+  if(!preferredTargetSet){
+    if(connected.has("dropbox"))$("mm-target").value="dropbox";
+    preferredTargetSet=true;
+  }
+}
+async function connect(provider){
+  const data=await api("/api/providers/"+provider+"/connect");
+  location.assign(data.authorizationUrl);
+}
+async function disconnectProvider(provider){
+  if(!window.confirm("¿Desconectar "+provider+" de NOVA y revocar el permiso concedido?"))return;
+  status("Revocando el acceso y eliminando los tokens privados…");
+  const result=await api("/api/providers/"+provider+"/disconnect",{method:"DELETE"});
+  if(provider==="dropbox")$("mm-target").value="nova";
+  await Promise.all([loadProviders(),loadAssets()]);
+  status(result.providerRevoked
+    ?"Cuenta desconectada y permiso revocado correctamente."
+    :"Cuenta desconectada y tokens eliminados de NOVA. Comprueba el proveedor para confirmar que el permiso también quedó revocado: "+(result.warning||""));
+}
+async function loadAssets(){const data=await api("/api/assets");const root=$("mm-assets");root.replaceChildren();if(!data.assets?.length){root.textContent="Todavía no hay archivos en el catálogo.";return;}for(const asset of data.assets){const row=document.createElement("div");row.className="mm-row";const left=document.createElement("div");const name=document.createElement("strong");name.textContent=asset.file_name;const meta=document.createElement("small");meta.textContent=asset.provider+" · "+(asset.mime_type||"archivo")+" · "+Number(asset.byte_size||0).toLocaleString()+" bytes";left.append(name,meta);row.append(left);if(asset.provider==="nova"){const b=document.createElement("button");b.textContent="Descargar";b.addEventListener("click",()=>downloadNova(asset.external_file_id,asset.file_name).catch(e=>status(e.message,true)));row.append(b);}else if(["google-drive","dropbox"].includes(asset.provider)){const b=document.createElement("button");b.textContent="Descargar";b.addEventListener("click",()=>downloadExternal(asset.provider,asset.external_file_id,asset.file_name).catch(e=>status(e.message,true)));row.append(b);}root.append(row);}}
+async function downloadNova(path,name){const data=await api("/api/storage/signed-url?path="+encodeURIComponent(path));const a=document.createElement("a");a.href=data.signedUrl;a.download=name;a.click();}
+async function downloadExternal(provider,id,name){const res=await fetch(API+"/api/providers/"+provider+"/download/"+encodeURIComponent(id),{headers:{Authorization:"Bearer "+session.access_token}});if(!res.ok)throw new Error("No se pudo descargar el archivo.");const blob=await res.blob();const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=name;a.click();URL.revokeObjectURL(url);}
+async function upload(){
+  const files=[...$("mm-file").files];
+  if(!files.length)throw new Error("Selecciona uno o varios archivos.");
+  const target=$("mm-target").value;
+  if(target!=="nova"&&!connected.has(target))throw new Error("Conecta primero "+target+".");
+  let uploaded=0;
+  for(let i=0;i<files.length;i++){
+    const file=files[i];
+    status("Subiendo "+(i+1)+" de "+files.length+": "+file.name);
+    await api(target==="nova"?"/api/storage/upload?name="+encodeURIComponent(file.name):"/api/providers/"+target+"/upload?name="+encodeURIComponent(file.name),{method:"POST",headers:{"Content-Type":file.type||"application/octet-stream"},body:await file.arrayBuffer()});
+    uploaded++;
+  }
+  $("mm-file").value="";
+  await loadAssets();
+  status("Carga completada: "+uploaded+" archivo(s) guardado(s) en "+(target==="dropbox"?"tu carpeta privada de Dropbox":target==="nova"?"NOVA Storage":"Google Drive")+".");
+}
+async function listExternal(provider){const data=await api("/api/providers/"+provider+"/files");const root=$("mm-external-list");root.replaceChildren();const entries=data.files||data.entries||[];if(!entries.length){root.textContent="No hay archivos visibles en esta página.";return;}for(const f of entries){if(f[".tag"]==="folder")continue;const row=document.createElement("div");row.className="mm-row";const label=document.createElement("strong");label.textContent=f.name;const meta=document.createElement("small");meta.textContent=provider+" · "+(f.mimeType||f.size||"archivo");row.append(label,meta);root.append(row);}}
+async function sync(provider){const data=await api("/api/providers/"+provider+"/sync",{method:"POST"});status("Sincronización terminada: "+data.synced+" archivos indexados.");await loadAssets();}
+async function init(){try{await getSession();if(!session){status("Necesitas iniciar sesión en Nova Apps para utilizar tu almacenamiento.");$("mm-login").style.display="flex";return;}const q=new URLSearchParams(location.search);if(q.get("connect")==="dropbox"){
+  history.replaceState({},document.title,location.pathname);
+  const providerData=await api("/api/providers");
+  const dropboxProvider=(providerData.providers||[]).find(p=>p.id==="dropbox");
+  if(!dropboxProvider?.configured){
+    status("La conexión de Dropbox todavía no está habilitada en NOVA. Puedes crear tu cuenta ahora; NOVA te permitirá autorizarla cuando termine la configuración segura del servicio.");
+    await loadProviders();
+    return;
+  }
+  status("Abriendo la autorización oficial de Dropbox…");
+  await connect("dropbox");
+  return;
+}const provider=q.get("oauth_provider"),code=q.get("oauth_code"),state=q.get("oauth_state");if(provider&&code&&state){history.replaceState({},document.title,location.pathname);status("Finalizando autorización de "+provider+"…");await api("/api/oauth/"+provider+"/complete",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({code,state})});status(provider+" quedó conectado a tu cuenta NOVA.");}else if(q.has("oauth_error")){status("El proveedor rechazó la autorización: "+q.get("oauth_error"),true);history.replaceState({},document.title,location.pathname);}else status("Sesión NOVA verificada.");await loadProviders();await loadAssets();}catch(e){status(e.message,true);}}
+$("mm-login-btn").addEventListener("click",()=>iniciarSesionGoogle().catch(e=>status(e.message,true)));
+$("mm-upload").addEventListener("click",()=>upload().catch(e=>status(e.message,true)));
+$("mm-refresh").addEventListener("click",()=>Promise.all([loadProviders(),loadAssets()]).catch(e=>status(e.message,true)));
+$("mm-list-google").addEventListener("click",()=>listExternal("google-drive").catch(e=>status(e.message,true)));
+$("mm-list-dropbox").addEventListener("click",()=>listExternal("dropbox").catch(e=>status(e.message,true)));
+$("mm-sync-google").addEventListener("click",()=>sync("google-drive").catch(e=>status(e.message,true)));
+$("mm-sync-dropbox").addEventListener("click",()=>sync("dropbox").catch(e=>status(e.message,true)));
+init();
+</script>
+</body></html>
