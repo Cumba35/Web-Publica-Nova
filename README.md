@@ -87,3 +87,10 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - Validaciones estructurales, espejo público de Fútbol Nova y escaneo de secretos: correctos.
 - Verificación HTTPS automatizada de las diez rutas públicas: correcta.
 - El panel Multimedia Nova ya está incluido en el artefacto publicado. Pendiente: prueba interactiva con una cuenta NOVA real, autorización OAuth de Dropbox y transferencia real de un archivo.
+
+
+### Corrección del destino de inicio de sesión de Multimedia Nova — 2026-11-18
+
+- Se corrigió el parámetro `redirectTo` del acceso Google: ahora vuelve a la ruta pública `https://cumba35.github.io/Web-Publica-Nova/multimedia-nova/`, no a `https://cumba35.github.io/Nova-APPS/` (repositorio privado que no debe usarse como URL pública).
+- El cambio quedó en el archivo `multimedia-nova/index.html` mediante el commit `db403a2b8092e744a6c9bdd2410ae0c2576ba09a`.
+- Pendiente validar que la URL exacta esté permitida en Supabase Auth Redirect URLs y completar una prueba real de Google OAuth desde Android. No se declara completada la autenticación hasta esa prueba.
