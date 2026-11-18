@@ -1,0 +1,15 @@
+# Godot 4 generated editor cache and imported metadata
+.godot/
+
+# Local exports and build outputs
+/build/
+/exported/
+*.apk
+*.aab
+*.pck
+
+# Platform and editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
