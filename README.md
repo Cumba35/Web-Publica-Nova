@@ -129,7 +129,7 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - Incluye perfiles públicos/privados, solicitudes de seguimiento, reacciones, comentarios, guardados, compartir enlaces, bloqueo y envío de reportes.
 - El recomendador inicial es heurístico y explicable: temas elegidos, cuentas seguidas, actualidad y diversidad de autores. No usa mensajes privados ni datos de otras aplicaciones.
 - La base de datos usa tablas separadas y RLS; solo usuarios autenticados pueden consultar las tablas sociales. Los reportes se pueden enviar, pero la cola de moderación administrativa aún requiere su interfaz protegida.
-- Migraciones: `20261118210209_nova_social_foundation`, `20261118210210_nova_social_fk_indexes` y `20261118210224_nova_social_profile_block_visibility`.
+- Migraciones: `20261118210209_nova_social_foundation`, `20261118210210_nova_social_fk_indexes` y `20261118210224_nova_social_profile_block_visibility` y `20261118210441_nova_social_visibility_and_reports`.
 - Pruebas de RLS ejecutadas en NOVA-STAGING con cuentas ficticias dentro de una transacción revertida; no se guardaron datos de prueba.
-- La primera versión no habilita imágenes/vídeos, notificaciones, mensajes privados, federación ActivityPub ni integraciones externas automáticas.
+- La primera versión no habilita imágenes/vídeos, notificaciones, mensajes privados, federación ActivityPub ni integraciones externas automáticas. Los bloqueos se pueden revisar y deshacer desde «Cuentas bloqueadas».
 - Documentación técnica: [Social implementation](docs/SOCIAL_FEATURES_IMPLEMENTATION.md) y [Open-source research](docs/OPEN_SOURCE_RESEARCH_AND_SOCIAL_ROADMAP.md).
