@@ -66,3 +66,5 @@ header .bar > .nav, header > nav:not(.nova-menu-links){display:none!important}
 header .bar{justify-content:space-between}
 .nova-account{margin-left:auto}
 @media(max-width:850px){header .bar{flex-direction:row;align-items:center;flex-wrap:nowrap}.nova-account{margin-left:auto}.bar > .nav{display:none!important}}
+
+.multimedia-header{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.multimedia-header .nova-account{margin-left:auto}
