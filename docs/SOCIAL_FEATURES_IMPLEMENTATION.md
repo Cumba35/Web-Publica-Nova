@@ -62,19 +62,22 @@ No se duplicaron las tablas existentes de Nova Chat, reseñas de Nova Apps ni pe
 
 ## Migraciones aplicadas
 
-Los archivos SQL del repositorio están versionados con los identificadores de producción de `Nova-Nexus`:
-- `20261118210209_nova_social_foundation`
-- `20261118210210_nova_social_fk_indexes`
-- `20261118210224_nova_social_profile_block_visibility`
-- `20261118210441_nova_social_visibility_and_reports`
-- `20261118210812_nova_social_follow_block_guard`
-- `20261118210938_nova_social_notifications`
-- `20261118211007_nova_social_notification_function_permissions`
-- `20261118211008_nova_social_comment_policy_fix`
-- `20261118211147_nova_social_notification_fk_indexes`
-- `20261118211549_nova_social_follow_status_column_guard`
+Los archivos SQL del repositorio usan las versiones del historial de `NOVA-STAGING` (que coinciden con los nombres de archivo). Producción (`Nova-Nexus`) registró los mismos nombres de migración con estos identificadores. La correspondencia se verificó consultando ambos historiales:
 
-Las nueve etapas también se aplicaron en `NOVA-STAGING`. Supabase generó allí estas versiones remotas, en el mismo orden: `20261118210042`, `20261118210127`, `20261118210222`, `20261118210440`, `20261118210810`, `20261118210935`, `20261118210944`, `20261118210956` y `20261118211146`. La correspondencia se verificó leyendo el historial de migraciones de ambos proyectos.
+| Migración | NOVA-STAGING (archivo) | Producción |
+|---|---:|---:|
+| `nova_social_foundation` | `20261118210209` | `20261118210042` |
+| `nova_social_fk_indexes` | `20261118210210` | `20261118210127` |
+| `nova_social_profile_block_visibility` | `20261118210224` | `20261118210222` |
+| `nova_social_visibility_and_reports` | `20261118210441` | `20261118210440` |
+| `nova_social_follow_block_guard` | `20261118210812` | `20261118210810` |
+| `nova_social_notifications` | `20261118210938` | `20261118210935` |
+| `nova_social_notification_function_permissions` | `20261118211007` | `20261118210944` |
+| `nova_social_comment_policy_fix` | `20261118211008` | `20261118210956` |
+| `nova_social_notification_fk_indexes` | `20261118211147` | `20261118211146` |
+| `nova_social_follow_status_column_guard` | `20261118211549` | `20261118211551` |
+
+El SQL se conserva en GitHub para revisión y reproducibilidad. La última migración limita las actualizaciones de relaciones de seguimiento a la columna `status`: el destinatario puede aceptar/rechazar una solicitud, pero no cambiar el `follower_id` para falsificar quién inició la relación.
 
 ## Verificación realizada
 
