@@ -75,7 +75,7 @@ Los archivos SQL del repositorio usan las versiones del historial de producción
 | `nova_social_notification_function_permissions` | `20261118211007` | `20261118210944` |
 | `nova_social_comment_policy_fix` | `20261118211008` | `20261118210956` |
 | `nova_social_notification_fk_indexes` | `20261118211147` | `20261118211146` |
-| `nova_social_follow_status_column_guard` | `20261118211549` | `20261118211551` |
+| `nova_social_follow_status_column_guard` | `20261118211551` | `20261118211549` |
 
 El SQL se conserva en GitHub para revisión y reproducibilidad. La última migración limita las actualizaciones de relaciones de seguimiento a la columna `status`: el destinatario puede aceptar/rechazar una solicitud, pero no cambiar el `follower_id` para falsificar quién inició la relación.
 
