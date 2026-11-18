@@ -62,7 +62,7 @@ No se duplicaron las tablas existentes de Nova Chat, reseñas de Nova Apps ni pe
 
 ## Migraciones aplicadas
 
-Los siguientes nombres/identificadores coinciden con el historial de migraciones de producción `Nova-Nexus`:
+Los archivos SQL del repositorio conservan las versiones de migración del entorno `NOVA-STAGING`. En producción (`Nova-Nexus`) Supabase registró los mismos nombres con identificadores de versión distintos:
 - `20261118210209_nova_social_foundation`
 - `20261118210210_nova_social_fk_indexes`
 - `20261118210224_nova_social_profile_block_visibility`
@@ -73,7 +73,7 @@ Los siguientes nombres/identificadores coinciden con el historial de migraciones
 - `20261118211008_nova_social_comment_policy_fix`
 - `20261118211147_nova_social_notification_fk_indexes`
 
-Las mismas nueve etapas se aplicaron en `NOVA-STAGING`; el sistema remoto generó allí identificadores de versión propios. El contenido SQL se conserva en este repositorio para reproducibilidad.
+Las nueve etapas se aplicaron en ambos entornos. La correspondencia por nombre es: `nova_social_foundation` (staging `20261118210209`, producción `20261118210042`); `nova_social_fk_indexes` (`20261118210210` / `20261118210127`); `nova_social_profile_block_visibility` (`20261118210224` / `20261118210222`); `nova_social_visibility_and_reports` (`20261118210441` / `20261118210440`); `nova_social_follow_block_guard` (`20261118210812` / `20261118210810`); `nova_social_notifications` (`20261118210938` / `20261118210935`); `nova_social_notification_function_permissions` (`20261118211007` / `20261118210944`); `nova_social_comment_policy_fix` (`20261118211008` / `20261118210956`); `nova_social_notification_fk_indexes` (`20261118211147` / `20261118211146`). El SQL se conserva en GitHub para reproducibilidad.
 
 ## Verificación realizada
 
@@ -89,15 +89,15 @@ En producción se comprobó:
 - `anon` no tiene privilegio de lectura.
 - `authenticated` tiene solo las operaciones previstas; `nova_social_reports` permite únicamente INSERT al cliente.
 - El asesor de salud no reportó problemas.
-- El asesor de seguridad mantiene una advertencia de Auth preexistente: la protección contra contraseñas filtradas está desactivada. No se cambió la configuración de Auth desde este trabajo.
+- El asesor de seguridad de Supabase no reportó hallazgos en la última revisión. No se modificó la configuración global de Auth.
 - El asesor de rendimiento no mostró claves foráneas sociales sin índice; los avisos de índices no usados son informativos y se esperan en un módulo recién creado sin tráfico.
 
-La validación de RLS no sustituye una prueba interactiva con dos cuentas reales ni la revisión visual en Chrome Android. Las notificaciones se consultan al cargar o al pulsar actualizar; aún no se habilitó Realtime ni push.
+La validación de RLS no sustituye una prueba interactiva con dos cuentas reales ni la revisión visual en Chrome Android. Las notificaciones internas se consultan al cargar o al pulsar actualizar; aún no se habilitó Realtime ni push.
 
 ## Límites pendientes antes de considerar la red social completa
 
 1. Moderación administrativa: panel privado para revisar reportes, ocultar contenido, suspender cuentas y registrar decisiones.
-2. Notificaciones dentro de NOVA y notificaciones push con permisos.
+2. Notificaciones push con permisos explícitos y suscripciones en tiempo real; las notificaciones internas ya están implementadas y se consultan al cargar o actualizar.
 3. Adjuntos de imagen/vídeo, bucket de Storage, límites de tamaño y revisión de contenido.
 4. Edición de publicaciones/comentarios, respuestas anidadas y herramientas avanzadas de privacidad. Los comentarios de esta primera versión son lineales para evitar una política RLS recursiva.
 5. Pruebas reales de Google OAuth, perfiles y publicaciones con dos cuentas de usuario.
