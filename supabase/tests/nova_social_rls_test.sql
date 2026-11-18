@@ -46,7 +46,7 @@ select set_config('request.jwt.claim.sub','22222222-2222-4222-8222-222222222222'
 insert into public.nova_social_blocks(blocker_id,blocked_id)
 values ('22222222-2222-4222-8222-222222222222','11111111-1111-4111-8111-111111111111');
 select set_config('request.jwt.claim.sub','11111111-1111-4111-8111-111111111111',true);
-do $
+do $rls$
 begin
   if (select count(*) from public.nova_social_posts) <> 1 then
     raise exception 'RLS FAIL: block must hide posts from both sides';
@@ -58,5 +58,5 @@ begin
   exception when insufficient_privilege then
     null;
   end;
-end $;
+end $rls$;
 rollback;
