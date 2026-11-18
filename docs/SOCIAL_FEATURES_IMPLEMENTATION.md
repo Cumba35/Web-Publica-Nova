@@ -13,8 +13,8 @@ Repositorio: https://github.com/Cumba35/Web-Publica-Nova
 - Feed «Para ti», «Siguiendo» y «Más recientes».
 - Reacciones tipo «Me gusta», comentarios, guardados y compartir enlaces.
 - Búsqueda y descubrimiento de cuentas, seguir y dejar de seguir.
-- Solicitudes de seguimiento para perfiles privados, con aceptación/rechazo.
-- Bloqueo, eliminación recíproca del seguimiento y opción de desbloquear.
+- Solicitudes de seguimiento para perfiles privados, con aceptación/rechazo, cancelación de solicitudes enviadas y opción de dejar de seguir.
+- Bloqueo, eliminación recíproca del seguimiento, prevención de nuevas solicitudes entre cuentas bloqueadas y opción de desbloquear.
 - Envío de reportes de publicaciones.
 - Preferencias de temas y activación/desactivación de recomendaciones.
 
@@ -62,6 +62,7 @@ Los siguientes nombres/identificadores coinciden con el historial de migraciones
 - `20261118210210_nova_social_fk_indexes`
 - `20261118210224_nova_social_profile_block_visibility`
 - `20261118210441_nova_social_visibility_and_reports`
+- `20261118210812_nova_social_follow_block_guard`
 
 Las mismas cuatro etapas se aplicaron en `NOVA-STAGING`; el sistema remoto generó allí identificadores de versión propios. El contenido SQL se conserva en este repositorio para reproducibilidad.
 
