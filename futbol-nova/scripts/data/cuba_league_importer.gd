@@ -79,7 +79,7 @@ static func _collect_clubs(competition: Dictionary) -> Array:
 	if competition.get("clubs", []) is Array:
 		for club in competition.get("clubs", []):
 			if club is Dictionary:
-				var copy := club.duplicate(true)
+				var copy: Dictionary = club.duplicate(true)
 				copy["_group_id"] = ""
 				clubs.append(copy)
 	if competition.get("groups", []) is Array:
@@ -88,7 +88,7 @@ static func _collect_clubs(competition: Dictionary) -> Array:
 				continue
 			for club in group.get("clubs", []):
 				if club is Dictionary:
-					var copy := club.duplicate(true)
+					var copy: Dictionary = club.duplicate(true)
 					copy["_group_id"] = str(group.get("id", group.get("name", "")))
 					clubs.append(copy)
 	return clubs

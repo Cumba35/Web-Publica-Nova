@@ -19,7 +19,7 @@ static func evaluate_offside_at_pass(attacker_position: Vector3, ball_position: 
 	for defender_position in defender_positions:
 		if not (defender_position is Vector3):
 			continue
-		var progress := defender_position.z * direction
+		var progress: float = defender_position.z * direction
 		if progress > first_defender_progress:
 			second_defender_progress = first_defender_progress
 			first_defender_progress = progress

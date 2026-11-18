@@ -48,7 +48,7 @@ static func import_installed_packages(registry: NovaFootballDataRegistry, instal
 		var added_teams := 0
 		if package_ok:
 			for source_team in package_teams:
-				var team := source_team.duplicate(true)
+				var team: Dictionary = source_team.duplicate(true)
 				team["fictional"] = bool(team.get("fictional", false))
 				if registry.register_team(team):
 					added_teams += 1

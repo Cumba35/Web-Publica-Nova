@@ -96,7 +96,7 @@ static func record_match(players_by_id: Dictionary, result: Dictionary) -> Dicti
 			var statistics: Dictionary = player.statistics
 			var career: Dictionary = statistics.career
 			var season: Dictionary = statistics.current_season
-			var won := (side == "home" and home_goals > away_goals) or (side == "away" and away_goals > home_goals)
+			var won: bool = (side == "home" and home_goals > away_goals) or (side == "away" and away_goals > home_goals)
 			var drawn := home_goals == away_goals
 			for totals in [career, season]:
 				totals["appearances"] = int(totals.get("appearances", 0)) + 1

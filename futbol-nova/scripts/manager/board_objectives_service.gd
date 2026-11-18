@@ -6,7 +6,7 @@ static func evaluate_match(objectives: Array, match_data: Dictionary) -> Array:
 	for objective in objectives:
 		if not objective is Dictionary:
 			continue
-		var item := objective.duplicate(true)
+		var item: Dictionary = objective.duplicate(true)
 		var type := str(item.get("type", ""))
 		var target := int(item.get("target", 1))
 		var progress := int(item.get("progress", 0))

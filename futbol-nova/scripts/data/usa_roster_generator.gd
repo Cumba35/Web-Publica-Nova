@@ -32,14 +32,14 @@ static func generate_for_registry(registry: NovaFootballDataRegistry) -> Diction
 		var level := int(team.get("competition_level", 3))
 		var ids: Array[String] = []
 		for player_index in range(POSITIONS.size()):
-			var position := POSITIONS[player_index]
+			var position: String = str(POSITIONS[player_index])
 			var templates: Array = templates_by_position.get(position, [])
 			if templates.is_empty():
 				return {"ok": false, "players_added": 0, "teams_completed": 0, "errors": ["No existe plantilla de atributos para " + position]}
 			var template: Dictionary = templates[(team_index * 7 + player_index * 3) % templates.size()]
-			var first := FIRST_NAMES[(team_index * 11 + player_index * 5) % FIRST_NAMES.size()]
-			var surname := SURNAMES[(team_index * 13 + player_index * 7) % SURNAMES.size()]
-			var name := first + " " + surname
+			var first: String = FIRST_NAMES[(team_index * 11 + player_index * 5) % FIRST_NAMES.size()]
+			var surname: String = SURNAMES[(team_index * 13 + player_index * 7) % SURNAMES.size()]
+			var name: String = first + " " + surname
 			var suffix := 2
 			while used_names.has(name.to_lower()):
 				name = first + " " + surname + " " + str(suffix)

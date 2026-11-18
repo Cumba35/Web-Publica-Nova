@@ -267,7 +267,7 @@ func save_master_catalog(catalog: Dictionary) -> bool:
 			return _fail("Un paquete de referencia sin derechos no puede ser jugable: " + str(package.package_id))
 		if not package.get("clubs", null) is Array:
 			return _fail("El paquete de referencia no contiene una lista de clubes: " + str(package.package_id))
-		var nested_club_count := package.clubs.size()
+		var nested_club_count: int = package.clubs.size()
 		var nested_player_count := 0
 		for reference_club in package.clubs:
 			if not reference_club is Dictionary or not reference_club.get("players", []) is Array:
