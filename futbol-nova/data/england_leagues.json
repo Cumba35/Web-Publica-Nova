@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ENG",
+  "season": "2026-27",
+  "competitions": [
+    {
+      "id": "ENG-PL-2026-27",
+      "name": "Liga Premier de Inglaterra — Fútbol Nova",
+      "country_id": "ENG",
+      "country_code": "ENG",
+      "level": 1,
+      "format": "single_group_double_round_robin",
+      "team_ids": [
+        "FN-ENG-AFC-BOURNEMOUTH",
+        "FN-ENG-ARSENAL",
+        "FN-ENG-ASTON-VILLA",
+        "FN-ENG-BRENTFORD",
+        "FN-ENG-BRIGHTON-HOVE-ALBION",
+        "FN-ENG-CHELSEA",
+        "FN-ENG-COVENTRY-CITY",
+        "FN-ENG-CRYSTAL-PALACE",
+        "FN-ENG-EVERTON",
+        "FN-ENG-FULHAM",
+        "FN-ENG-HULL-CITY",
+        "FN-ENG-IPSWICH-TOWN",
+        "FN-ENG-LEEDS-UNITED",
+        "FN-ENG-LIVERPOOL",
+        "FN-ENG-MANCHESTER-CITY",
+        "FN-ENG-MANCHESTER-UNITED",
+        "FN-ENG-NEWCASTLE-UNITED",
+        "FN-ENG-NOTTINGHAM-FOREST",
+        "FN-ENG-SUNDERLAND",
+        "FN-ENG-TOTTENHAM-HOTSPUR"
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": null,
+      "relegation": {
+        "places": 3,
+        "to_competition_id": "ENG-CHAMP-2026-27"
+      }
+    },
+    {
+      "id": "ENG-CHAMP-2026-27",
+      "name": "Campeonato de Inglaterra — Fútbol Nova",
+      "country_id": "ENG",
+      "country_code": "ENG",
+      "level": 2,
+      "format": "single_group_double_round_robin",
+      "team_ids": [
+        "FN-ENG-BIRMINGHAM-CITY",
+        "FN-ENG-BLACKBURN-ROVERS",
+        "FN-ENG-BOLTON-WANDERERS",
+        "FN-ENG-BRISTOL-CITY",
+        "FN-ENG-BURNLEY",
+        "FN-ENG-CARDIFF-CITY",
+        "FN-ENG-CHARLTON-ATHLETIC",
+        "FN-ENG-DERBY-COUNTY",
+        "FN-ENG-LINCOLN-CITY",
+        "FN-ENG-MIDDLESBROUGH",
+        "FN-ENG-MILLWALL",
+        "FN-ENG-NORWICH-CITY",
+        "FN-ENG-PORTSMOUTH",
+        "FN-ENG-PRESTON-NORTH-END",
+        "FN-ENG-QUEENS-PARK-RANGERS",
+        "FN-ENG-SHEFFIELD-UNITED",
+        "FN-ENG-SOUTHAMPTON",
+        "FN-ENG-STOKE-CITY",
+        "FN-ENG-SWANSEA-CITY",
+        "FN-ENG-WATFORD",
+        "FN-ENG-WEST-BROMWICH-ALBION",
+        "FN-ENG-WEST-HAM-UNITED",
+        "FN-ENG-WOLVERHAMPTON-WANDERERS",
+        "FN-ENG-WREXHAM"
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": {
+        "places": 3,
+        "automatic_places": 2,
+        "playoff_places": 1,
+        "to_competition_id": "ENG-PL-2026-27"
+      },
+      "relegation": {
+        "places": 3,
+        "to_competition_id": "ENG-L1-2026-27"
+      }
+    },
+    {
+      "id": "ENG-L1-2026-27",
+      "name": "Liga Uno de Inglaterra — Fútbol Nova",
+      "country_id": "ENG",
+      "country_code": "ENG",
+      "level": 3,
+      "format": "single_group_double_round_robin",
+      "team_ids": [
+        "FN-ENG-AFC-WIMBLEDON",
+        "FN-ENG-BARNSLEY",
+        "FN-ENG-BLACKPOOL",
+        "FN-ENG-BRADFORD-CITY",
+        "FN-ENG-BROMLEY",
+        "FN-ENG-BURTON-ALBION",
+        "FN-ENG-CAMBRIDGE-UNITED",
+        "FN-ENG-DONCASTER-ROVERS",
+        "FN-ENG-HUDDERSFIELD-TOWN",
+        "FN-ENG-LEICESTER-CITY",
+        "FN-ENG-LEYTON-ORIENT",
+        "FN-ENG-LUTON-TOWN",
+        "FN-ENG-MANSFIELD-TOWN",
+        "FN-ENG-MILTON-KEYNES-DONS",
+        "FN-ENG-NOTTS-COUNTY",
+        "FN-ENG-OXFORD-UNITED",
+        "FN-ENG-PETERBOROUGH-UNITED",
+        "FN-ENG-PLYMOUTH-ARGYLE",
+        "FN-ENG-READING",
+        "FN-ENG-SHEFFIELD-WEDNESDAY",
+        "FN-ENG-STEVENAGE",
+        "FN-ENG-STOCKPORT-COUNTY",
+        "FN-ENG-WIGAN-ATHLETIC",
+        "FN-ENG-WYCOMBE-WANDERERS"
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": {
+        "places": 3,
+        "automatic_places": 2,
+        "playoff_places": 1,
+        "to_competition_id": "ENG-CHAMP-2026-27"
+      },
+      "relegation": {
+        "places": 4,
+        "to_competition_id": "ENG-LEAGUE-TWO-OUTSIDE-SCOPE",
+        "target_loaded": false
+      }
+    }
+  ]
+}

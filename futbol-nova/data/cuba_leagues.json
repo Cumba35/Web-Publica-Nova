@@ -1,0 +1,2732 @@
+{
+  "schema_version": "1.2.0",
+  "country_code": "CUB",
+  "language": "es",
+  "competitions": [
+    {
+      "id": "cuba_primera_division_nova",
+      "name": "Primera División de Cuba — Fútbol Nova",
+      "display_name": "Primera División de Cuba — Fútbol Nova",
+      "country_code": "CUB",
+      "level": 1,
+      "status": "fictional_nova",
+      "official": false,
+      "official_badge": false,
+      "format": {
+        "type": "single_group_double_round_robin",
+        "teams": 16,
+        "rounds": 30
+      },
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "head_to_head_points",
+        "head_to_head_goal_difference",
+        "goal_difference",
+        "goals_for",
+        "disciplinary_points_ascending",
+        "draw"
+      ],
+      "promotion": {
+        "relegation_places": 3,
+        "to_competition_id": "cuba_segunda_division_nova"
+      },
+      "clubs": [
+        {
+          "id": "CUB-S1-001",
+          "name": "Santiago de Cuba",
+          "country_code": "CUB",
+          "municipality": "Santiago de Cuba",
+          "province": "Santiago de Cuba",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Santiago de Cuba",
+            "visual": {
+              "primary_color": "rojo caribe",
+              "secondary_color": "azul noche",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "rojo caribe",
+                "accents": "azul noche",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "azul noche",
+                "accents": "rojo caribe",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "rojo caribe",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-002",
+          "name": "Tiburones de La Habana",
+          "country_code": "CUB",
+          "municipality": "La Habana",
+          "province": "La Habana",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Tiburones de La Habana",
+            "visual": {
+              "primary_color": "azul océano",
+              "secondary_color": "blanco",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "azul océano",
+                "accents": "blanco",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "blanco",
+                "accents": "azul océano",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "azul océano",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-3-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-003",
+          "name": "Leones de Camagüey",
+          "country_code": "CUB",
+          "municipality": "Camagüey",
+          "province": "Camagüey",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Leones de Camagüey",
+            "visual": {
+              "primary_color": "oro",
+              "secondary_color": "negro",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "oro",
+                "accents": "negro",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "negro",
+                "accents": "oro",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "oro",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-4-2",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-004",
+          "name": "Cienfuegos Athletic",
+          "country_code": "CUB",
+          "municipality": "Cienfuegos",
+          "province": "Cienfuegos",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Cienfuegos Athletic",
+            "visual": {
+              "primary_color": "azul bahía",
+              "secondary_color": "coral",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "azul bahía",
+                "accents": "coral",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "coral",
+                "accents": "azul bahía",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "azul bahía",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "3-4-2-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-005",
+          "name": "Villa Clara Unido",
+          "country_code": "CUB",
+          "municipality": "Santa Clara",
+          "province": "Villa Clara",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Villa Clara Unido",
+            "visual": {
+              "primary_color": "verde esmeralda",
+              "secondary_color": "blanco",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "verde esmeralda",
+                "accents": "blanco",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "blanco",
+                "accents": "verde esmeralda",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "verde esmeralda",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-006",
+          "name": "Pinar del Río FC",
+          "country_code": "CUB",
+          "municipality": "Pinar del Río",
+          "province": "Pinar del Río",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Pinar del Río FC",
+            "visual": {
+              "primary_color": "verde tabaco",
+              "secondary_color": "amarillo",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "verde tabaco",
+                "accents": "amarillo",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "amarillo",
+                "accents": "verde tabaco",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "verde tabaco",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-3-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-007",
+          "name": "Holguín Deportivo",
+          "country_code": "CUB",
+          "municipality": "Holguín",
+          "province": "Holguín",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Holguín Deportivo",
+            "visual": {
+              "primary_color": "azul celeste",
+              "secondary_color": "blanco",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "azul celeste",
+                "accents": "blanco",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "blanco",
+                "accents": "azul celeste",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "azul celeste",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-4-2",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-008",
+          "name": "Guantánamo Estrella",
+          "country_code": "CUB",
+          "municipality": "Guantánamo",
+          "province": "Guantánamo",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Guantánamo Estrella",
+            "visual": {
+              "primary_color": "rojo intenso",
+              "secondary_color": "negro",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "rojo intenso",
+                "accents": "negro",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "negro",
+                "accents": "rojo intenso",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "rojo intenso",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "3-4-2-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-009",
+          "name": "Matanzas Portuarios",
+          "country_code": "CUB",
+          "municipality": "Matanzas",
+          "province": "Matanzas",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Matanzas Portuarios",
+            "visual": {
+              "primary_color": "azul marino",
+              "secondary_color": "naranja",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "azul marino",
+                "accents": "naranja",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "naranja",
+                "accents": "azul marino",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "azul marino",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-010",
+          "name": "Artemisa Real",
+          "country_code": "CUB",
+          "municipality": "Artemisa",
+          "province": "Artemisa",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Artemisa Real",
+            "visual": {
+              "primary_color": "verde bosque",
+              "secondary_color": "plata",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "verde bosque",
+                "accents": "plata",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "plata",
+                "accents": "verde bosque",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "verde bosque",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-3-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-011",
+          "name": "Granma Deportivo",
+          "country_code": "CUB",
+          "municipality": "Bayamo",
+          "province": "Granma",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Granma Deportivo",
+            "visual": {
+              "primary_color": "rojo granate",
+              "secondary_color": "oro",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "rojo granate",
+                "accents": "oro",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "oro",
+                "accents": "rojo granate",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "rojo granate",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-4-2",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-012",
+          "name": "Las Tunas FC",
+          "country_code": "CUB",
+          "municipality": "Las Tunas",
+          "province": "Las Tunas",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Las Tunas FC",
+            "visual": {
+              "primary_color": "verde lima",
+              "secondary_color": "negro",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "verde lima",
+                "accents": "negro",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "negro",
+                "accents": "verde lima",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "verde lima",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "3-4-2-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-013",
+          "name": "Sancti Spíritus Central",
+          "country_code": "CUB",
+          "municipality": "Sancti Spíritus",
+          "province": "Sancti Spíritus",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Sancti Spíritus Central",
+            "visual": {
+              "primary_color": "blanco",
+              "secondary_color": "verde",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "blanco",
+                "accents": "verde",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "verde",
+                "accents": "blanco",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "blanco",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-014",
+          "name": "Mayabeque Atlético",
+          "country_code": "CUB",
+          "municipality": "San José de las Lajas",
+          "province": "Mayabeque",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Mayabeque Atlético",
+            "visual": {
+              "primary_color": "violeta",
+              "secondary_color": "blanco",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "violeta",
+                "accents": "blanco",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "blanco",
+                "accents": "violeta",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "violeta",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-3-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-015",
+          "name": "Isla Juventud",
+          "country_code": "CUB",
+          "municipality": "Nueva Gerona",
+          "province": "Isla de la Juventud",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Isla Juventud",
+            "visual": {
+              "primary_color": "turquesa",
+              "secondary_color": "azul profundo",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "turquesa",
+                "accents": "azul profundo",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "azul profundo",
+                "accents": "turquesa",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "turquesa",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-4-2",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        },
+        {
+          "id": "CUB-S1-016",
+          "name": "Ciego de Ávila Norte",
+          "country_code": "CUB",
+          "municipality": "Ciego de Ávila",
+          "province": "Ciego de Ávila",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Ciego de Ávila Norte",
+            "visual": {
+              "primary_color": "naranja",
+              "secondary_color": "azul",
+              "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+              "home_kit": {
+                "base": "naranja",
+                "accents": "azul",
+                "design": "Diseño original de Fútbol Nova"
+              },
+              "away_kit": {
+                "base": "azul",
+                "accents": "naranja",
+                "design": "Diseño original invertido"
+              },
+              "goalkeeper_kit": {
+                "base": "gris plata",
+                "accents": "naranja",
+                "design": "Diseño original de alto contraste"
+              },
+              "third_kit": {
+                "availability": "locked_until_commercial_contract",
+                "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                "design": "original_design_generated_after_contract"
+              }
+            },
+            "football": {
+              "preferred_formation": "3-4-2-1",
+              "tactical_style": "Estilo táctico inicial configurable",
+              "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+            }
+          },
+          "division_level": 1,
+          "commercial_contracts": {
+            "third_kit": {
+              "status": "not_contracted",
+              "start_season": null,
+              "end_season": null,
+              "partner_id": null,
+              "annual_value_eur": 0,
+              "production_budget_eur": 0,
+              "design_rights": false,
+              "sponsor_mark_rights": false,
+              "approved_original_design": false,
+              "kit_design": {
+                "status": "generated_after_contract",
+                "base_color": "independent_complementary_palette",
+                "pattern": "unique_original_pattern",
+                "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+              }
+            }
+          }
+        }
+      ],
+      "tiebreaker_mode": "double_round"
+    },
+    {
+      "id": "cuba_segunda_division_nova",
+      "name": "Segunda División de Cuba — Fútbol Nova",
+      "display_name": "Segunda División de Cuba — Fútbol Nova",
+      "country_code": "CUB",
+      "level": 2,
+      "status": "fictional_nova",
+      "official": false,
+      "official_badge": false,
+      "format": {
+        "type": "single_group_double_round_robin",
+        "teams": 16,
+        "rounds": 30
+      },
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "head_to_head_points",
+        "head_to_head_goal_difference",
+        "goal_difference",
+        "goals_for",
+        "disciplinary_points_ascending",
+        "draw"
+      ],
+      "clubs": [
+        {
+          "id": "CUB-S2-001",
+          "name": "Relámpago de Guanabacoa",
+          "country_code": "CUB",
+          "municipality": "Guanabacoa",
+          "province": "La Habana",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Relámpago de Guanabacoa",
+            "nickname": null,
+            "visual": {
+              "primary_color": "azul eléctrico",
+              "secondary_color": "amarillo solar",
+              "tertiary_color": "blanco perla",
+              "crest_concept": "Rayo geométrico dentro de un círculo abierto",
+              "home_kit": {
+                "base": "azul eléctrico",
+                "accents": "amarillo solar",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "blanco perla",
+                "accents": "azul eléctrico",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "amarillo solar",
+                "accents": "blanco perla",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-3-1",
+              "tactical_style": "Presión alta y transiciones verticales",
+              "match_preferences": "Atacar rápido por bandas y rematar pronto",
+              "recruitment_profile": "Jugadores veloces, extremos y laterales resistentes",
+              "club_personality": "Intenso, atrevido y juvenil"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-002",
+          "name": "Faro de Regla",
+          "country_code": "CUB",
+          "municipality": "Regla",
+          "province": "La Habana",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Faro de Regla",
+            "nickname": null,
+            "visual": {
+              "primary_color": "azul marino",
+              "secondary_color": "turquesa",
+              "tertiary_color": "gris plata",
+              "crest_concept": "Faro minimalista sobre tres ondas",
+              "home_kit": {
+                "base": "azul marino",
+                "accents": "turquesa",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "gris plata",
+                "accents": "azul marino",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "turquesa",
+                "accents": "gris plata",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Posesión paciente y amplitud",
+              "match_preferences": "Circular el balón y cambiar el juego de lado",
+              "recruitment_profile": "Mediocentros técnicos y extremos disciplinados",
+              "club_personality": "Sereno, organizado y marítimo"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-003",
+          "name": "Bronce del Padrón",
+          "country_code": "CUB",
+          "municipality": "San Miguel del Padrón",
+          "province": "La Habana",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Bronce del Padrón",
+            "nickname": null,
+            "visual": {
+              "primary_color": "bronce",
+              "secondary_color": "negro carbón",
+              "tertiary_color": "crema",
+              "crest_concept": "Monograma abstracto de tres líneas ascendentes",
+              "home_kit": {
+                "base": "bronce",
+                "accents": "negro carbón",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "crema",
+                "accents": "bronce",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "negro carbón",
+                "accents": "crema",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-4-2",
+              "tactical_style": "Bloque medio y juego directo",
+              "match_preferences": "Buscar segundas jugadas y centros tensos",
+              "recruitment_profile": "Delanteros fuertes y centrales dominantes",
+              "club_personality": "Trabajador, físico y competitivo"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-004",
+          "name": "Prisma de Marianao",
+          "country_code": "CUB",
+          "municipality": "Marianao",
+          "province": "La Habana",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Prisma de Marianao",
+            "nickname": null,
+            "visual": {
+              "primary_color": "violeta",
+              "secondary_color": "cian",
+              "tertiary_color": "blanco",
+              "crest_concept": "Prisma triangular con destello central",
+              "home_kit": {
+                "base": "violeta",
+                "accents": "cian",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "blanco",
+                "accents": "violeta",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "cian",
+                "accents": "blanco",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Posesión técnica y presión tras pérdida",
+              "match_preferences": "Crear superioridades interiores",
+              "recruitment_profile": "Mediapuntas creativos y defensas con buen pase",
+              "club_personality": "Innovador, técnico y expresivo"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-005",
+          "name": "Vértice de Guanajay",
+          "country_code": "CUB",
+          "municipality": "Guanajay",
+          "province": "Artemisa",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Vértice de Guanajay",
+            "nickname": null,
+            "visual": {
+              "primary_color": "verde bosque",
+              "secondary_color": "naranja",
+              "tertiary_color": "marfil",
+              "crest_concept": "Tres vértices formando una estrella abstracta",
+              "home_kit": {
+                "base": "verde bosque",
+                "accents": "naranja",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "marfil",
+                "accents": "verde bosque",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "naranja",
+                "accents": "marfil",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "3-4-2-1",
+              "tactical_style": "Carrileros profundos y presión coordinada",
+              "match_preferences": "Progresar por fuera y ocupar el área con tres atacantes",
+              "recruitment_profile": "Carrileros incansables y centrales rápidos",
+              "club_personality": "Ambicioso, flexible y disciplinado"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-006",
+          "name": "Horizonte de San José",
+          "country_code": "CUB",
+          "municipality": "San José de las Lajas",
+          "province": "Mayabeque",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Horizonte de San José",
+            "nickname": null,
+            "visual": {
+              "primary_color": "azul cielo",
+              "secondary_color": "verde lima",
+              "tertiary_color": "azul noche",
+              "crest_concept": "Línea de horizonte y sol naciente",
+              "home_kit": {
+                "base": "azul cielo",
+                "accents": "verde lima",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "azul noche",
+                "accents": "azul cielo",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "verde lima",
+                "accents": "azul noche",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-1-4-1",
+              "tactical_style": "Bloque compacto y salida asociativa",
+              "match_preferences": "Asegurar el centro y acelerar al recuperar",
+              "recruitment_profile": "Pivote táctico y centrocampistas mixtos",
+              "club_personality": "Equilibrado, paciente y colectivo"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-007",
+          "name": "Coral de Cárdenas",
+          "country_code": "CUB",
+          "municipality": "Cárdenas",
+          "province": "Matanzas",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Coral de Cárdenas",
+            "nickname": null,
+            "visual": {
+              "primary_color": "coral",
+              "secondary_color": "azul profundo",
+              "tertiary_color": "arena",
+              "crest_concept": "Coral estilizado de trazos angulares",
+              "home_kit": {
+                "base": "coral",
+                "accents": "azul profundo",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "arena",
+                "accents": "coral",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "azul profundo",
+                "accents": "arena",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-2-2",
+              "tactical_style": "Ataque interior y combinaciones cortas",
+              "match_preferences": "Juntar mediapuntas y delanteros entre líneas",
+              "recruitment_profile": "Delanteros móviles y mediapuntas ágiles",
+              "club_personality": "Creativo, cercano y ofensivo"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-008",
+          "name": "Cantera de Trinidad",
+          "country_code": "CUB",
+          "municipality": "Trinidad",
+          "province": "Sancti Spíritus",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Cantera de Trinidad",
+            "nickname": null,
+            "visual": {
+              "primary_color": "terracota",
+              "secondary_color": "verde jade",
+              "tertiary_color": "crema",
+              "crest_concept": "Arco colonial abstracto con balón central",
+              "home_kit": {
+                "base": "terracota",
+                "accents": "verde jade",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "crema",
+                "accents": "terracota",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "verde jade",
+                "accents": "crema",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-4-1-1",
+              "tactical_style": "Defensa zonal y contraataque elaborado",
+              "match_preferences": "Proteger el área y lanzar pases diagonales",
+              "recruitment_profile": "Defensas tácticos y atacantes inteligentes",
+              "club_personality": "Tradicional, paciente y resiliente"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-009",
+          "name": "Mangle de Morón",
+          "country_code": "CUB",
+          "municipality": "Morón",
+          "province": "Ciego de Ávila",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Mangle de Morón",
+            "nickname": null,
+            "visual": {
+              "primary_color": "verde manglar",
+              "secondary_color": "amarillo",
+              "tertiary_color": "negro",
+              "crest_concept": "Raíces entrelazadas formando una M",
+              "home_kit": {
+                "base": "verde manglar",
+                "accents": "amarillo",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "negro",
+                "accents": "verde manglar",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "amarillo",
+                "accents": "negro",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Presión por oleadas y recuperación rápida",
+              "match_preferences": "Cerrar líneas de pase y atacar tras robo",
+              "recruitment_profile": "Volantes recuperadores y extremos rápidos",
+              "club_personality": "Incómodo, solidario y enérgico"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-010",
+          "name": "Astillero de Nuevitas",
+          "country_code": "CUB",
+          "municipality": "Nuevitas",
+          "province": "Camagüey",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Astillero de Nuevitas",
+            "nickname": null,
+            "visual": {
+              "primary_color": "azul acero",
+              "secondary_color": "rojo óxido",
+              "tertiary_color": "blanco",
+              "crest_concept": "Proa abstracta y dos líneas de casco",
+              "home_kit": {
+                "base": "azul acero",
+                "accents": "rojo óxido",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "blanco",
+                "accents": "azul acero",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "rojo óxido",
+                "accents": "blanco",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-3-1",
+              "tactical_style": "Construcción desde atrás y centros laterales",
+              "match_preferences": "Salir con pases cortos y abrir el campo",
+              "recruitment_profile": "Centrales pasadores y extremos de centro preciso",
+              "club_personality": "Metódico, resistente y técnico"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-011",
+          "name": "Alisio de Manatí",
+          "country_code": "CUB",
+          "municipality": "Manatí",
+          "province": "Las Tunas",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Alisio de Manatí",
+            "nickname": null,
+            "visual": {
+              "primary_color": "turquesa",
+              "secondary_color": "blanco",
+              "tertiary_color": "azul ultramar",
+              "crest_concept": "Espiral de viento sobre una ola",
+              "home_kit": {
+                "base": "turquesa",
+                "accents": "blanco",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "azul ultramar",
+                "accents": "turquesa",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "blanco",
+                "accents": "azul ultramar",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Ritmo alto y desmarques constantes",
+              "match_preferences": "Cambiar ritmo y atacar espacios a la espalda",
+              "recruitment_profile": "Extremos veloces y mediocampistas de recorrido",
+              "club_personality": "Ligero, rápido y valiente"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-012",
+          "name": "Granito de Niquero",
+          "country_code": "CUB",
+          "municipality": "Niquero",
+          "province": "Granma",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Granito de Niquero",
+            "nickname": null,
+            "visual": {
+              "primary_color": "gris granito",
+              "secondary_color": "rojo vivo",
+              "tertiary_color": "blanco",
+              "crest_concept": "Bloque facetado con una grieta luminosa",
+              "home_kit": {
+                "base": "gris granito",
+                "accents": "rojo vivo",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "blanco",
+                "accents": "gris granito",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "rojo vivo",
+                "accents": "blanco",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "5-3-2",
+              "tactical_style": "Bloque bajo y contraataque potente",
+              "match_preferences": "Defender juntos y salir con pocos toques",
+              "recruitment_profile": "Centrales fuertes y delanteros de ruptura",
+              "club_personality": "Duro, humilde y resistente"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-013",
+          "name": "Níquel de Moa",
+          "country_code": "CUB",
+          "municipality": "Moa",
+          "province": "Holguín",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Níquel de Moa",
+            "nickname": null,
+            "visual": {
+              "primary_color": "verde mineral",
+              "secondary_color": "plata",
+              "tertiary_color": "negro",
+              "crest_concept": "Cristal mineral facetado",
+              "home_kit": {
+                "base": "verde mineral",
+                "accents": "plata",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "negro",
+                "accents": "verde mineral",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "plata",
+                "accents": "negro",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-3-3",
+              "tactical_style": "Presión intensa y circulación vertical",
+              "match_preferences": "Recuperar alto y finalizar con rapidez",
+              "recruitment_profile": "Mediocampistas agresivos en recuperación y extremos directos",
+              "club_personality": "Industrial, intenso y perseverante"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-014",
+          "name": "Guardián de Baracoa",
+          "country_code": "CUB",
+          "municipality": "Baracoa",
+          "province": "Guantánamo",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Guardián de Baracoa",
+            "nickname": null,
+            "visual": {
+              "primary_color": "verde selva",
+              "secondary_color": "cacao",
+              "tertiary_color": "oro suave",
+              "crest_concept": "Montaña y arco de lluvia abstractos",
+              "home_kit": {
+                "base": "verde selva",
+                "accents": "cacao",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "oro suave",
+                "accents": "verde selva",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "cacao",
+                "accents": "oro suave",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-1-4-1",
+              "tactical_style": "Bloque medio y ataques por los pasillos",
+              "match_preferences": "Cerrar el centro y progresar con apoyos cercanos",
+              "recruitment_profile": "Pivote posicional y laterales completos",
+              "club_personality": "Hospitalario, firme y paciente"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-015",
+          "name": "Sierra de Palma Soriano",
+          "country_code": "CUB",
+          "municipality": "Palma Soriano",
+          "province": "Santiago de Cuba",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Sierra de Palma Soriano",
+            "nickname": null,
+            "visual": {
+              "primary_color": "verde montaña",
+              "secondary_color": "amarillo oro",
+              "tertiary_color": "negro",
+              "crest_concept": "Perfil de sierra en escudo hexagonal",
+              "home_kit": {
+                "base": "verde montaña",
+                "accents": "amarillo oro",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "negro",
+                "accents": "verde montaña",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "amarillo oro",
+                "accents": "negro",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-4-2",
+              "tactical_style": "Juego vertical y presión en zona media",
+              "match_preferences": "Atacar segundas jugadas y centros tempranos",
+              "recruitment_profile": "Delanteros complementarios y mediocentros fuertes",
+              "club_personality": "Combativo, directo y orgulloso"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        },
+        {
+          "id": "CUB-S2-016",
+          "name": "Nácar de Nueva Gerona",
+          "country_code": "CUB",
+          "municipality": "Nueva Gerona",
+          "province": "Isla de la Juventud",
+          "fictional": true,
+          "identity": {
+            "identity_type": "original_fictional_club",
+            "short_name": "Nácar de Nueva Gerona",
+            "nickname": null,
+            "visual": {
+              "primary_color": "marfil nacarado",
+              "secondary_color": "azul laguna",
+              "tertiary_color": "violeta",
+              "crest_concept": "Concha abstracta de líneas concéntricas",
+              "home_kit": {
+                "base": "marfil nacarado",
+                "accents": "azul laguna",
+                "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+              },
+              "away_kit": {
+                "base": "violeta",
+                "accents": "marfil nacarado",
+                "design": "Diseño original invertido con detalles exclusivos"
+              },
+              "goalkeeper_kit": {
+                "base": "azul laguna",
+                "accents": "violeta",
+                "design": "Color de alto contraste, diseño original"
+              }
+            },
+            "football": {
+              "preferred_formation": "4-2-3-1",
+              "tactical_style": "Posesión flexible y ataques combinativos",
+              "match_preferences": "Atraer presión y progresar por dentro",
+              "recruitment_profile": "Técnicos de buen control y extremos asociativos",
+              "club_personality": "Imaginativo, técnico y adaptable"
+            },
+            "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+          }
+        }
+      ],
+      "tiebreaker_mode": "double_round"
+    },
+    {
+      "id": "cuba_tercera_division_nova",
+      "name": "Tercera División de Cuba — Fútbol Nova",
+      "display_name": "Tercera División de Cuba — Fútbol Nova",
+      "country_code": "CUB",
+      "level": 3,
+      "status": "fictional_nova",
+      "official": false,
+      "official_badge": false,
+      "format": {
+        "type": "two_regional_groups",
+        "teams": 20,
+        "teams_per_group": 10,
+        "group_rounds": 9,
+        "promotion_playoff": "group_runners_up_two_legged_tie_for_third_place"
+      },
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for",
+        "head_to_head_points",
+        "head_to_head_goal_difference",
+        "disciplinary_points_ascending",
+        "draw"
+      ],
+      "groups": [
+        {
+          "id": "west",
+          "name": "Grupo Occidental",
+          "clubs": [
+            {
+              "id": "CUB-S3-001",
+              "name": "Guayacán de Viñales",
+              "country_code": "CUB",
+              "municipality": "Viñales",
+              "province": "Pinar del Río",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Guayacán de Viñales",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "verde hoja",
+                  "secondary_color": "magenta",
+                  "tertiary_color": "crema",
+                  "crest_concept": "Hoja geométrica de guayacán",
+                  "home_kit": {
+                    "base": "verde hoja",
+                    "accents": "magenta",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "crema",
+                    "accents": "verde hoja",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "magenta",
+                    "accents": "crema",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-4-2",
+                  "tactical_style": "Bloque medio y juego de apoyo",
+                  "match_preferences": "Avanzar en bloque y buscar diagonales",
+                  "recruitment_profile": "Jugadores solidarios y delanteros de apoyo",
+                  "club_personality": "Natural, disciplinado y unido"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-002",
+              "name": "Albor de Bauta",
+              "country_code": "CUB",
+              "municipality": "Bauta",
+              "province": "Artemisa",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Albor de Bauta",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "amarillo amanecer",
+                  "secondary_color": "azul petróleo",
+                  "tertiary_color": "blanco",
+                  "crest_concept": "Semicírculo solar con líneas de movimiento",
+                  "home_kit": {
+                    "base": "amarillo amanecer",
+                    "accents": "azul petróleo",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "blanco",
+                    "accents": "amarillo amanecer",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "azul petróleo",
+                    "accents": "blanco",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-3-3",
+                  "tactical_style": "Presión alta en tramos y amplitud",
+                  "match_preferences": "Acelerar en bandas tras recuperación",
+                  "recruitment_profile": "Extremos intensos y laterales ofensivos",
+                  "club_personality": "Optimista, veloz y trabajador"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-003",
+              "name": "Caña Brava de Güines",
+              "country_code": "CUB",
+              "municipality": "Güines",
+              "province": "Mayabeque",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Caña Brava de Güines",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "verde caña",
+                  "secondary_color": "cobre",
+                  "tertiary_color": "marfil",
+                  "crest_concept": "Hojas cruzadas en patrón abstracto",
+                  "home_kit": {
+                    "base": "verde caña",
+                    "accents": "cobre",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "marfil",
+                    "accents": "verde caña",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "cobre",
+                    "accents": "marfil",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-2-3-1",
+                  "tactical_style": "Juego directo con apoyos cercanos",
+                  "match_preferences": "Buscar profundidad y disputar rechaces",
+                  "recruitment_profile": "Delantero referencia y mediapunta trabajador",
+                  "club_personality": "Tenaz, físico y vertical"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-004",
+              "name": "Viento de Jovellanos",
+              "country_code": "CUB",
+              "municipality": "Jovellanos",
+              "province": "Matanzas",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Viento de Jovellanos",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "celeste",
+                  "secondary_color": "granate",
+                  "tertiary_color": "blanco",
+                  "crest_concept": "Tres curvas de viento en diagonal",
+                  "home_kit": {
+                    "base": "celeste",
+                    "accents": "granate",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "blanco",
+                    "accents": "celeste",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "granate",
+                    "accents": "blanco",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "3-4-3",
+                  "tactical_style": "Ataque por carriles y presión adelantada",
+                  "match_preferences": "Sobrecargar bandas y atacar el segundo palo",
+                  "recruitment_profile": "Carrileros veloces y tres delanteros móviles",
+                  "club_personality": "Audaz, dinámico y ofensivo"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-005",
+              "name": "Campanario de Remedios",
+              "country_code": "CUB",
+              "municipality": "Remedios",
+              "province": "Villa Clara",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Campanario de Remedios",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "rojo teja",
+                  "secondary_color": "azul noche",
+                  "tertiary_color": "dorado",
+                  "crest_concept": "Torre abstracta con reloj sin números",
+                  "home_kit": {
+                    "base": "rojo teja",
+                    "accents": "azul noche",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "dorado",
+                    "accents": "rojo teja",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "azul noche",
+                    "accents": "dorado",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-1-4-1",
+                  "tactical_style": "Orden defensivo y pases entre líneas",
+                  "match_preferences": "Mantener distancias cortas y elegir el momento de acelerar",
+                  "recruitment_profile": "Pivote inteligente y pasadores precisos",
+                  "club_personality": "Serio, paciente y estratégico"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-006",
+              "name": "Río Zaza de Jatibonico",
+              "country_code": "CUB",
+              "municipality": "Jatibonico",
+              "province": "Sancti Spíritus",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Río Zaza de Jatibonico",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "azul río",
+                  "secondary_color": "verde caña",
+                  "tertiary_color": "blanco",
+                  "crest_concept": "Dos ondas que forman una corriente",
+                  "home_kit": {
+                    "base": "azul río",
+                    "accents": "verde caña",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "blanco",
+                    "accents": "azul río",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "verde caña",
+                    "accents": "blanco",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-3-3",
+                  "tactical_style": "Salida limpia y presión tras pérdida",
+                  "match_preferences": "Progresar con triángulos de pase",
+                  "recruitment_profile": "Mediocentros técnicos y centrales serenos",
+                  "club_personality": "Fluido, asociativo y colectivo"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-007",
+              "name": "Cayuelo de Chambas",
+              "country_code": "CUB",
+              "municipality": "Chambas",
+              "province": "Ciego de Ávila",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Cayuelo de Chambas",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "arena",
+                  "secondary_color": "azul Caribe",
+                  "tertiary_color": "naranja",
+                  "crest_concept": "Roca costera con una ola angular",
+                  "home_kit": {
+                    "base": "arena",
+                    "accents": "azul Caribe",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "naranja",
+                    "accents": "arena",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "azul Caribe",
+                    "accents": "naranja",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-4-2",
+                  "tactical_style": "Defensa compacta y transiciones rápidas",
+                  "match_preferences": "Atacar el espacio con dos puntas",
+                  "recruitment_profile": "Delanteros veloces y defensas contundentes",
+                  "club_personality": "Aguerrido, sencillo y solidario"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-008",
+              "name": "Marea de Florida",
+              "country_code": "CUB",
+              "municipality": "Florida",
+              "province": "Camagüey",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Marea de Florida",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "azul océano",
+                  "secondary_color": "menta",
+                  "tertiary_color": "plata",
+                  "crest_concept": "Ola ascendente en forma de F abstracta",
+                  "home_kit": {
+                    "base": "azul océano",
+                    "accents": "menta",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "plata",
+                    "accents": "azul océano",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "menta",
+                    "accents": "plata",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-2-3-1",
+                  "tactical_style": "Posesión con cambios de orientación",
+                  "match_preferences": "Mover al rival y progresar por fuera",
+                  "recruitment_profile": "Extremos técnicos y laterales con resistencia",
+                  "club_personality": "Flexible, creativo y constante"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-017",
+              "name": "Morón Deportivo",
+              "country_code": "CUB",
+              "municipality": "Morón",
+              "province": "Ciego de Ávila",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Morón Deportivo",
+                "visual": {
+                  "primary_color": "amarillo",
+                  "secondary_color": "negro",
+                  "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+                  "home_kit": {
+                    "base": "amarillo",
+                    "accents": "negro",
+                    "design": "Diseño original de Fútbol Nova"
+                  },
+                  "away_kit": {
+                    "base": "negro",
+                    "accents": "amarillo",
+                    "design": "Diseño original invertido"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "gris plata",
+                    "accents": "amarillo",
+                    "design": "Diseño original de alto contraste"
+                  },
+                  "third_kit": {
+                    "availability": "locked_until_commercial_contract",
+                    "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                    "design": "original_design_generated_after_contract"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-3-3",
+                  "tactical_style": "Estilo táctico inicial configurable",
+                  "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+                }
+              },
+              "division_level": 3,
+              "commercial_contracts": {
+                "third_kit": {
+                  "status": "not_contracted",
+                  "start_season": null,
+                  "end_season": null,
+                  "partner_id": null,
+                  "annual_value_eur": 0,
+                  "production_budget_eur": 0,
+                  "design_rights": false,
+                  "sponsor_mark_rights": false,
+                  "approved_original_design": false,
+                  "kit_design": {
+                    "status": "generated_after_contract",
+                    "base_color": "independent_complementary_palette",
+                    "pattern": "unique_original_pattern",
+                    "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+                  }
+                }
+              },
+              "competition_id": "cuba_primera_division_nova"
+            },
+            {
+              "id": "CUB-S3-018",
+              "name": "Trinidad Colonial",
+              "country_code": "CUB",
+              "municipality": "Trinidad",
+              "province": "Sancti Spíritus",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Trinidad Colonial",
+                "visual": {
+                  "primary_color": "rojo colonial",
+                  "secondary_color": "crema",
+                  "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+                  "home_kit": {
+                    "base": "rojo colonial",
+                    "accents": "crema",
+                    "design": "Diseño original de Fútbol Nova"
+                  },
+                  "away_kit": {
+                    "base": "crema",
+                    "accents": "rojo colonial",
+                    "design": "Diseño original invertido"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "gris plata",
+                    "accents": "rojo colonial",
+                    "design": "Diseño original de alto contraste"
+                  },
+                  "third_kit": {
+                    "availability": "locked_until_commercial_contract",
+                    "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                    "design": "original_design_generated_after_contract"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "3-4-2-1",
+                  "tactical_style": "Estilo táctico inicial configurable",
+                  "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+                }
+              },
+              "division_level": 3,
+              "commercial_contracts": {
+                "third_kit": {
+                  "status": "not_contracted",
+                  "start_season": null,
+                  "end_season": null,
+                  "partner_id": null,
+                  "annual_value_eur": 0,
+                  "production_budget_eur": 0,
+                  "design_rights": false,
+                  "sponsor_mark_rights": false,
+                  "approved_original_design": false,
+                  "kit_design": {
+                    "status": "generated_after_contract",
+                    "base_color": "independent_complementary_palette",
+                    "pattern": "unique_original_pattern",
+                    "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+                  }
+                }
+              },
+              "competition_id": "cuba_primera_division_nova"
+            }
+          ],
+          "teams": 10
+        },
+        {
+          "id": "east",
+          "name": "Grupo Oriental",
+          "clubs": [
+            {
+              "id": "CUB-S3-009",
+              "name": "Garra de Puerto Padre",
+              "country_code": "CUB",
+              "municipality": "Puerto Padre",
+              "province": "Las Tunas",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Garra de Puerto Padre",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "rojo coral",
+                  "secondary_color": "negro",
+                  "tertiary_color": "blanco",
+                  "crest_concept": "Garra abstracta de tres trazos",
+                  "home_kit": {
+                    "base": "rojo coral",
+                    "accents": "negro",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "blanco",
+                    "accents": "rojo coral",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "negro",
+                    "accents": "blanco",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-3-3",
+                  "tactical_style": "Presión agresiva y duelos individuales",
+                  "match_preferences": "Forzar errores en salida rival",
+                  "recruitment_profile": "Centrales intensos y extremos verticales",
+                  "club_personality": "Valiente, agresivo y competitivo"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-010",
+              "name": "Cobre de Jiguaní",
+              "country_code": "CUB",
+              "municipality": "Jiguaní",
+              "province": "Granma",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Cobre de Jiguaní",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "cobre",
+                  "secondary_color": "azul tinta",
+                  "tertiary_color": "crema",
+                  "crest_concept": "Mineral en forma de rombo",
+                  "home_kit": {
+                    "base": "cobre",
+                    "accents": "azul tinta",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "crema",
+                    "accents": "cobre",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "azul tinta",
+                    "accents": "crema",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-4-1-1",
+                  "tactical_style": "Bloque medio y contraataque por dentro",
+                  "match_preferences": "Recuperar y lanzar al segundo delantero",
+                  "recruitment_profile": "Mediocentro recuperador y segundo punta rápido",
+                  "club_personality": "Práctico, paciente y oportunista"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-011",
+              "name": "Loma Roja de Banes",
+              "country_code": "CUB",
+              "municipality": "Banes",
+              "province": "Holguín",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Loma Roja de Banes",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "rojo arcilla",
+                  "secondary_color": "verde oscuro",
+                  "tertiary_color": "arena",
+                  "crest_concept": "Loma escalonada con sol pequeño",
+                  "home_kit": {
+                    "base": "rojo arcilla",
+                    "accents": "verde oscuro",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "arena",
+                    "accents": "rojo arcilla",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "verde oscuro",
+                    "accents": "arena",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "5-3-2",
+                  "tactical_style": "Defensa profunda y salida rápida",
+                  "match_preferences": "Proteger área y buscar rupturas",
+                  "recruitment_profile": "Centrales dominantes y puntas veloces",
+                  "club_personality": "Resistente, disciplinado y humilde"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-012",
+              "name": "Brisa de Sagua de Tánamo",
+              "country_code": "CUB",
+              "municipality": "Sagua de Tánamo",
+              "province": "Holguín",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Brisa de Sagua de Tánamo",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "lavanda",
+                  "secondary_color": "turquesa",
+                  "tertiary_color": "blanco",
+                  "crest_concept": "Líneas suaves de brisa alrededor de una estrella",
+                  "home_kit": {
+                    "base": "lavanda",
+                    "accents": "turquesa",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "blanco",
+                    "accents": "lavanda",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "turquesa",
+                    "accents": "blanco",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-3-3",
+                  "tactical_style": "Pases cortos y movilidad ofensiva",
+                  "match_preferences": "Crear triángulos y atraer marcas",
+                  "recruitment_profile": "Mediapuntas móviles y extremos de buen control",
+                  "club_personality": "Técnico, alegre y asociativo"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-013",
+              "name": "Lince de Yateras",
+              "country_code": "CUB",
+              "municipality": "Yateras",
+              "province": "Guantánamo",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Lince de Yateras",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "ámbar",
+                  "secondary_color": "verde profundo",
+                  "tertiary_color": "negro",
+                  "crest_concept": "Ojo felino geométrico, sin mascota realista",
+                  "home_kit": {
+                    "base": "ámbar",
+                    "accents": "verde profundo",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "negro",
+                    "accents": "ámbar",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "verde profundo",
+                    "accents": "negro",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-2-3-1",
+                  "tactical_style": "Transición rápida y presión selectiva",
+                  "match_preferences": "Esperar el error y atacar con pocos toques",
+                  "recruitment_profile": "Jugadores rápidos y defensas anticipadores",
+                  "club_personality": "Astuto, veloz y concentrado"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-014",
+              "name": "Mosaico de Contramaestre",
+              "country_code": "CUB",
+              "municipality": "Contramaestre",
+              "province": "Santiago de Cuba",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Mosaico de Contramaestre",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "azul cobalto",
+                  "secondary_color": "naranja",
+                  "tertiary_color": "marfil",
+                  "crest_concept": "Piezas geométricas asimétricas",
+                  "home_kit": {
+                    "base": "azul cobalto",
+                    "accents": "naranja",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "marfil",
+                    "accents": "azul cobalto",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "naranja",
+                    "accents": "marfil",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-3-3",
+                  "tactical_style": "Posesión creativa y permutas de posición",
+                  "match_preferences": "Rotar posiciones y encontrar pases interiores",
+                  "recruitment_profile": "Jugadores polivalentes y técnicos",
+                  "club_personality": "Expresivo, imprevisible y creativo"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-015",
+              "name": "Salitre de Batabanó",
+              "country_code": "CUB",
+              "municipality": "Batabanó",
+              "province": "Mayabeque",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Salitre de Batabanó",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "blanco salino",
+                  "secondary_color": "azul marino",
+                  "tertiary_color": "rojo",
+                  "crest_concept": "Cristales de sal en forma de estrella",
+                  "home_kit": {
+                    "base": "blanco salino",
+                    "accents": "azul marino",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "rojo",
+                    "accents": "blanco salino",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "azul marino",
+                    "accents": "rojo",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-4-2",
+                  "tactical_style": "Juego aéreo y centros laterales",
+                  "match_preferences": "Ganar duelos y atacar el área",
+                  "recruitment_profile": "Delanteros fuertes y centrales dominantes",
+                  "club_personality": "Firme, directo y trabajador"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-016",
+              "name": "Cumbre de San Luis",
+              "country_code": "CUB",
+              "municipality": "San Luis",
+              "province": "Pinar del Río",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Cumbre de San Luis",
+                "nickname": null,
+                "visual": {
+                  "primary_color": "verde pino",
+                  "secondary_color": "plata",
+                  "tertiary_color": "amarillo pálido",
+                  "crest_concept": "Pico montañoso en líneas ascendentes",
+                  "home_kit": {
+                    "base": "verde pino",
+                    "accents": "plata",
+                    "design": "Diseño original propio del club; sin copiar patrones de equipos reales"
+                  },
+                  "away_kit": {
+                    "base": "amarillo pálido",
+                    "accents": "verde pino",
+                    "design": "Diseño original invertido con detalles exclusivos"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "plata",
+                    "accents": "amarillo pálido",
+                    "design": "Color de alto contraste, diseño original"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-1-4-1",
+                  "tactical_style": "Bloque compacto y salida escalonada",
+                  "match_preferences": "Controlar el ritmo y progresar con paciencia",
+                  "recruitment_profile": "Pivote táctico y centrocampistas de recorrido",
+                  "club_personality": "Sereno, disciplinado y resiliente"
+                },
+                "name_collision_review": "Revisión preliminar frente a listados públicos de clubes cubanos actuales e históricos; no se encontró coincidencia exacta en las fuentes consultadas. Requiere comprobación final antes de publicación."
+              }
+            },
+            {
+              "id": "CUB-S3-019",
+              "name": "Baracoa FC",
+              "country_code": "CUB",
+              "municipality": "Baracoa",
+              "province": "Guantánamo",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Baracoa FC",
+                "visual": {
+                  "primary_color": "verde selva",
+                  "secondary_color": "azul",
+                  "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+                  "home_kit": {
+                    "base": "verde selva",
+                    "accents": "azul",
+                    "design": "Diseño original de Fútbol Nova"
+                  },
+                  "away_kit": {
+                    "base": "azul",
+                    "accents": "verde selva",
+                    "design": "Diseño original invertido"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "gris plata",
+                    "accents": "verde selva",
+                    "design": "Diseño original de alto contraste"
+                  },
+                  "third_kit": {
+                    "availability": "locked_until_commercial_contract",
+                    "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                    "design": "original_design_generated_after_contract"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-2-3-1",
+                  "tactical_style": "Estilo táctico inicial configurable",
+                  "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+                }
+              },
+              "division_level": 3,
+              "commercial_contracts": {
+                "third_kit": {
+                  "status": "not_contracted",
+                  "start_season": null,
+                  "end_season": null,
+                  "partner_id": null,
+                  "annual_value_eur": 0,
+                  "production_budget_eur": 0,
+                  "design_rights": false,
+                  "sponsor_mark_rights": false,
+                  "approved_original_design": false,
+                  "kit_design": {
+                    "status": "generated_after_contract",
+                    "base_color": "independent_complementary_palette",
+                    "pattern": "unique_original_pattern",
+                    "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+                  }
+                }
+              },
+              "competition_id": "cuba_primera_division_nova"
+            },
+            {
+              "id": "CUB-S3-020",
+              "name": "Manzanillo Marítimo",
+              "country_code": "CUB",
+              "municipality": "Manzanillo",
+              "province": "Granma",
+              "fictional": true,
+              "identity": {
+                "identity_type": "original_fictional_club",
+                "short_name": "Manzanillo Marítimo",
+                "visual": {
+                  "primary_color": "azul profundo",
+                  "secondary_color": "arena",
+                  "crest_concept": "Emblema geométrico original inspirado en la localidad; diseño propio",
+                  "home_kit": {
+                    "base": "azul profundo",
+                    "accents": "arena",
+                    "design": "Diseño original de Fútbol Nova"
+                  },
+                  "away_kit": {
+                    "base": "arena",
+                    "accents": "azul profundo",
+                    "design": "Diseño original invertido"
+                  },
+                  "goalkeeper_kit": {
+                    "base": "gris plata",
+                    "accents": "azul profundo",
+                    "design": "Diseño original de alto contraste"
+                  },
+                  "third_kit": {
+                    "availability": "locked_until_commercial_contract",
+                    "unlock_rule": "active_first_division_commercial_contract_and_cleared_rights",
+                    "design": "original_design_generated_after_contract"
+                  }
+                },
+                "football": {
+                  "preferred_formation": "4-4-2",
+                  "tactical_style": "Estilo táctico inicial configurable",
+                  "recruitment_profile": "Plantilla pendiente de conectar con el catálogo canónico de jugadores"
+                }
+              },
+              "division_level": 3,
+              "commercial_contracts": {
+                "third_kit": {
+                  "status": "not_contracted",
+                  "start_season": null,
+                  "end_season": null,
+                  "partner_id": null,
+                  "annual_value_eur": 0,
+                  "production_budget_eur": 0,
+                  "design_rights": false,
+                  "sponsor_mark_rights": false,
+                  "approved_original_design": false,
+                  "kit_design": {
+                    "status": "generated_after_contract",
+                    "base_color": "independent_complementary_palette",
+                    "pattern": "unique_original_pattern",
+                    "note": "La tercera equipación se diseña de forma original al firmar un contrato elegible."
+                  }
+                }
+              },
+              "competition_id": "cuba_primera_division_nova"
+            }
+          ],
+          "teams": 10
+        }
+      ],
+      "tiebreaker_mode": "single_round"
+    }
+  ],
+  "display_convention": {
+    "official_verified_prefix": "✅",
+    "rule": "Prefix the visible name of every competition only when official status and the applicable season are verified.",
+    "fictional_competitions_get_prefix": false
+  },
+  "notes": [
+    "All 52 clubs are fictional original Fútbol Nova entities.",
+    "No official Cuban second or third division has been verified for the target season.",
+    "No automatic promotion into or relegation from the official Cuban first division is assumed."
+  ],
+  "club_identity_policy": {
+    "uniqueness": "Club display names must be original and not imitate real club names from the same country.",
+    "country_authenticity": "All clubs retain their Cuban municipality and province as home location.",
+    "individual_preferences": true,
+    "individual_visual_identity": true,
+    "review_scope": "Check current and historical clubs, including spelling variants and abbreviations.",
+    "publishing_gate": "Do not publish a club if exact or confusingly similar names, crests, kits, slogans or marks are identified.",
+    "policy_file": "club_identity_policy.json",
+    "global_coverage_status": "incomplete",
+    "global_coverage_note": "El catálogo actual contiene clubes cubanos. La política mundial se aplica a futuras incorporaciones; no afirmar que todos los clubes del mundo han sido revisados."
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ESP",
+  "season": "2026-27",
+  "sources": [
+    {
+      "organization": "LALIGA",
+      "url": "https://www.laliga.com/laliga-easports/clubes",
+      "scope": "Primera División, 20 participantes"
+    },
+    {
+      "organization": "LALIGA",
+      "url": "https://www.laliga.com/laliga-hypermotion/clubes",
+      "scope": "Segunda División, 22 participantes"
+    },
+    {
+      "organization": "RFEF",
+      "url": "https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627",
+      "scope": "Primera Federación, 40 participantes en dos grupos"
+    },
+    {
+      "organization": "RFEF",
+      "url": "https://rfef.es/es/noticias/definidos-los-grupos-de-segunda-federacion-para-la-temporada-202627",
+      "scope": "Estructura nacional de Segunda Federación; no incluida en el lote de tres niveles"
+    }
+  ],
+  "competitions": [
+    {
+      "id": "ESP-LL-2026-27",
+      "name": "Primera División de España — Fútbol Nova",
+      "country_id": "ESP",
+      "country_code": "ESP",
+      "level": 1,
+      "format": "single_group_double_round_robin",
+      "groups": [
+        {
+          "id": "ESP-LL-G1",
+          "name": "Grupo único",
+          "team_ids": [
+            "FN-ESP-ATHLETIC-CLUB",
+            "FN-ESP-ATLETICO-MADRID",
+            "FN-ESP-OSASUNA",
+            "FN-ESP-CELTA",
+            "FN-ESP-ALAVES",
+            "FN-ESP-ELCHE",
+            "FN-ESP-BARCELONA",
+            "FN-ESP-GETAFE",
+            "FN-ESP-LEVANTE",
+            "FN-ESP-MALAGA",
+            "FN-ESP-RACING-SANTANDER",
+            "FN-ESP-RAYO-VALLECANO",
+            "FN-ESP-DEPORTIVO",
+            "FN-ESP-ESPANYOL",
+            "FN-ESP-REAL-BETIS",
+            "FN-ESP-REAL-MADRID",
+            "FN-ESP-REAL-SOCIEDAD",
+            "FN-ESP-SEVILLA",
+            "FN-ESP-VALENCIA",
+            "FN-ESP-VILLARREAL"
+          ]
+        }
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": null,
+      "relegation": {
+        "places": 3,
+        "to_competition_id": "ESP-HY-2026-27"
+      },
+      "team_ids": [
+        "FN-ESP-ATHLETIC-CLUB",
+        "FN-ESP-ATLETICO-MADRID",
+        "FN-ESP-OSASUNA",
+        "FN-ESP-CELTA",
+        "FN-ESP-ALAVES",
+        "FN-ESP-ELCHE",
+        "FN-ESP-BARCELONA",
+        "FN-ESP-GETAFE",
+        "FN-ESP-LEVANTE",
+        "FN-ESP-MALAGA",
+        "FN-ESP-RACING-SANTANDER",
+        "FN-ESP-RAYO-VALLECANO",
+        "FN-ESP-DEPORTIVO",
+        "FN-ESP-ESPANYOL",
+        "FN-ESP-REAL-BETIS",
+        "FN-ESP-REAL-MADRID",
+        "FN-ESP-REAL-SOCIEDAD",
+        "FN-ESP-SEVILLA",
+        "FN-ESP-VALENCIA",
+        "FN-ESP-VILLARREAL"
+      ]
+    },
+    {
+      "id": "ESP-HY-2026-27",
+      "name": "Segunda División de España — Fútbol Nova",
+      "country_id": "ESP",
+      "country_code": "ESP",
+      "level": 2,
+      "format": "single_group_double_round_robin",
+      "groups": [
+        {
+          "id": "ESP-HY-G1",
+          "name": "Grupo único",
+          "team_ids": [
+            "FN-ESP-CEUTA",
+            "FN-ESP-ALBACETE",
+            "FN-ESP-BURGOS",
+            "FN-ESP-CADIZ",
+            "FN-ESP-CASTELLON",
+            "FN-ESP-ELDENSE",
+            "FN-ESP-LEGANES",
+            "FN-ESP-TENERIFE",
+            "FN-ESP-SABADELL",
+            "FN-ESP-CELTA-FORTUNA",
+            "FN-ESP-CORDOBA",
+            "FN-ESP-ANDORRA",
+            "FN-ESP-GIRONA",
+            "FN-ESP-GRANADA",
+            "FN-ESP-REAL-SOCIEDAD-B",
+            "FN-ESP-MALLORCA",
+            "FN-ESP-REAL-OVIEDO",
+            "FN-ESP-SPORTING-GIJON",
+            "FN-ESP-VALLADOLID",
+            "FN-ESP-EIBAR",
+            "FN-ESP-ALMERIA",
+            "FN-ESP-LAS-PALMAS"
+          ]
+        }
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": {
+        "places": 3,
+        "automatic_places": 2,
+        "playoff_places": 1,
+        "to_competition_id": "ESP-LL-2026-27"
+      },
+      "relegation": {
+        "places": 4,
+        "to_competition_id": "ESP-PF-2026-27"
+      },
+      "team_ids": [
+        "FN-ESP-CEUTA",
+        "FN-ESP-ALBACETE",
+        "FN-ESP-BURGOS",
+        "FN-ESP-CADIZ",
+        "FN-ESP-CASTELLON",
+        "FN-ESP-ELDENSE",
+        "FN-ESP-LEGANES",
+        "FN-ESP-TENERIFE",
+        "FN-ESP-SABADELL",
+        "FN-ESP-CELTA-FORTUNA",
+        "FN-ESP-CORDOBA",
+        "FN-ESP-ANDORRA",
+        "FN-ESP-GIRONA",
+        "FN-ESP-GRANADA",
+        "FN-ESP-REAL-SOCIEDAD-B",
+        "FN-ESP-MALLORCA",
+        "FN-ESP-REAL-OVIEDO",
+        "FN-ESP-SPORTING-GIJON",
+        "FN-ESP-VALLADOLID",
+        "FN-ESP-EIBAR",
+        "FN-ESP-ALMERIA",
+        "FN-ESP-LAS-PALMAS"
+      ]
+    },
+    {
+      "id": "ESP-PF-2026-27",
+      "name": "Primera Federación de España — Fútbol Nova",
+      "country_id": "ESP",
+      "country_code": "ESP",
+      "level": 3,
+      "format": "two_groups_double_round_robin",
+      "groups": [
+        {
+          "id": "ESP-PF-G1",
+          "name": "Grupo 1",
+          "team_ids": [
+            "FN-ESP-AD-MERIDA",
+            "FN-ESP-ARENAS",
+            "FN-ESP-ATHLETIC-B",
+            "FN-ESP-BARAKALDO",
+            "FN-ESP-CD-CORIA",
+            "FN-ESP-CD-EXTREMADURA",
+            "FN-ESP-CD-LUGO",
+            "FN-ESP-CD-MIRANDES",
+            "FN-ESP-CP-CACERENO",
+            "FN-ESP-CYD-LEONESA",
+            "FN-ESP-PONTEVEDRA",
+            "FN-ESP-RACING-FERROL",
+            "FN-ESP-DEPORTIVO-FABRIL",
+            "FN-ESP-REAL-AVILES",
+            "FN-ESP-REAL-UNION",
+            "FN-ESP-PONFERRADINA",
+            "FN-ESP-UD-LOGRONES",
+            "FN-ESP-UD-OURENSE",
+            "FN-ESP-UNIONISTAS",
+            "FN-ESP-ZAMORA"
+          ]
+        },
+        {
+          "id": "ESP-PF-G2",
+          "name": "Grupo 2",
+          "team_ids": [
+            "FN-ESP-ALCORCON",
+            "FN-ESP-AGUILAS",
+            "FN-ESP-ALGECIRAS",
+            "FN-ESP-ANTEQUERA",
+            "FN-ESP-ATLETICO-MADRILENO",
+            "FN-ESP-TERUEL",
+            "FN-ESP-CE-EUROPA",
+            "FN-ESP-RAYO-MAJADAHONDA",
+            "FN-ESP-CARTAGENA",
+            "FN-ESP-GIMNASTIC",
+            "FN-ESP-HERCULES",
+            "FN-ESP-TORREMOLINOS",
+            "FN-ESP-REAL-JAEN",
+            "FN-ESP-REAL-MADRID-CASTILLA",
+            "FN-ESP-REAL-MURCIA",
+            "FN-ESP-REAL-ZARAGOZA",
+            "FN-ESP-HUESCA",
+            "FN-ESP-IBIZA",
+            "FN-ESP-SANT-ANDREU",
+            "FN-ESP-VILLARREAL-B"
+          ]
+        }
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": {
+        "places": 4,
+        "automatic_places": 2,
+        "playoff_places": 2,
+        "to_competition_id": "ESP-HY-2026-27"
+      },
+      "relegation": {
+        "places": 4,
+        "to_competition_id": "ESP-SEGUNDA-FEDERACION-OUT-OF-SCOPE",
+        "target_loaded": false
+      },
+      "team_ids": [
+        "FN-ESP-AD-MERIDA",
+        "FN-ESP-ARENAS",
+        "FN-ESP-ATHLETIC-B",
+        "FN-ESP-BARAKALDO",
+        "FN-ESP-CD-CORIA",
+        "FN-ESP-CD-EXTREMADURA",
+        "FN-ESP-CD-LUGO",
+        "FN-ESP-CD-MIRANDES",
+        "FN-ESP-CP-CACERENO",
+        "FN-ESP-CYD-LEONESA",
+        "FN-ESP-PONTEVEDRA",
+        "FN-ESP-RACING-FERROL",
+        "FN-ESP-DEPORTIVO-FABRIL",
+        "FN-ESP-REAL-AVILES",
+        "FN-ESP-REAL-UNION",
+        "FN-ESP-PONFERRADINA",
+        "FN-ESP-UD-LOGRONES",
+        "FN-ESP-UD-OURENSE",
+        "FN-ESP-UNIONISTAS",
+        "FN-ESP-ZAMORA",
+        "FN-ESP-ALCORCON",
+        "FN-ESP-AGUILAS",
+        "FN-ESP-ALGECIRAS",
+        "FN-ESP-ANTEQUERA",
+        "FN-ESP-ATLETICO-MADRILENO",
+        "FN-ESP-TERUEL",
+        "FN-ESP-CE-EUROPA",
+        "FN-ESP-RAYO-MAJADAHONDA",
+        "FN-ESP-CARTAGENA",
+        "FN-ESP-GIMNASTIC",
+        "FN-ESP-HERCULES",
+        "FN-ESP-TORREMOLINOS",
+        "FN-ESP-REAL-JAEN",
+        "FN-ESP-REAL-MADRID-CASTILLA",
+        "FN-ESP-REAL-MURCIA",
+        "FN-ESP-REAL-ZARAGOZA",
+        "FN-ESP-HUESCA",
+        "FN-ESP-IBIZA",
+        "FN-ESP-SANT-ANDREU",
+        "FN-ESP-VILLARREAL-B"
+      ]
+    }
+  ]
+}

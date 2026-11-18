@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "USA",
+  "season": "2026",
+  "competition_model": "three_independent_leagues_no_cross_league_promotion_or_relegation",
+  "sources": [
+    {
+      "organization": "MLS",
+      "url": "https://www.mlssoccer.com/news/2026-mls-competition-guidelines",
+      "scope": "30 MLS clubs; 34 regular-season matches per club"
+    },
+    {
+      "organization": "USL Championship",
+      "url": "https://www.uslsoccer.com/news_article/show/1351433",
+      "scope": "25 clubs; 2026 conference alignment and season format"
+    },
+    {
+      "organization": "USL League One",
+      "url": "https://www.uslsoccer.com/news_article/show/1351434-usl-league-one-announces-competition-format-for-2026-season",
+      "scope": "17 clubs; 32 regular-season matches per club"
+    }
+  ],
+  "competitions": [
+    {
+      "id": "USA-MLS-2026",
+      "name": "Major League Soccer — Fútbol Nova",
+      "country_code": "USA",
+      "level": 1,
+      "format": "custom_schedule_pending",
+      "official_competition": "Major League Soccer",
+      "team_ids": [
+        "FN-USA-ATLANTA-UNITED",
+        "FN-USA-CHARLOTTE-FC",
+        "FN-USA-CHICAGO-FIRE-FC",
+        "FN-USA-FC-CINCINNATI",
+        "FN-USA-COLUMBUS-CREW",
+        "FN-USA-D-C-UNITED",
+        "FN-USA-INTER-MIAMI-CF",
+        "FN-USA-CF-MONTREAL",
+        "FN-USA-NASHVILLE-SC",
+        "FN-USA-NEW-ENGLAND-REVOLUTION",
+        "FN-USA-NEW-YORK-CITY-FC",
+        "FN-USA-ORLANDO-CITY-SC",
+        "FN-USA-PHILADELPHIA-UNION",
+        "FN-USA-RED-BULL-NEW-YORK",
+        "FN-USA-TORONTO-FC",
+        "FN-USA-AUSTIN-FC",
+        "FN-USA-COLORADO-RAPIDS",
+        "FN-USA-FC-DALLAS",
+        "FN-USA-HOUSTON-DYNAMO-FC",
+        "FN-USA-LOS-ANGELES-FOOTBALL-CLUB",
+        "FN-USA-LA-GALAXY",
+        "FN-USA-MINNESOTA-UNITED-FC",
+        "FN-USA-PORTLAND-TIMBERS",
+        "FN-USA-REAL-SALT-LAKE",
+        "FN-USA-ST-LOUIS-CITY-SC",
+        "FN-USA-SAN-DIEGO-FC",
+        "FN-USA-SAN-JOSE-EARTHQUAKES",
+        "FN-USA-SEATTLE-SOUNDERS-FC",
+        "FN-USA-SPORTING-KANSAS-CITY",
+        "FN-USA-VANCOUVER-WHITECAPS-FC"
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": null,
+      "relegation": null,
+      "game_rule_note": "Competición independiente. No se heredan ascensos ni descensos desde/hacia las otras competiciones estadounidenses."
+    },
+    {
+      "id": "USA-USLC-2026",
+      "name": "USL Championship — Fútbol Nova",
+      "country_code": "USA",
+      "level": 2,
+      "format": "custom_schedule_pending",
+      "official_competition": "USL Championship",
+      "team_ids": [
+        "FN-USA-BIRMINGHAM-LEGION-FC",
+        "FN-USA-BROOKLYN-FC",
+        "FN-USA-CHARLESTON-BATTERY",
+        "FN-USA-DETROIT-CITY-FC",
+        "FN-USA-HARTFORD-ATHLETIC",
+        "FN-USA-INDY-ELEVEN",
+        "FN-USA-LOUDOUN-UNITED-FC",
+        "FN-USA-LOUISVILLE-CITY-FC",
+        "FN-USA-MIAMI-FC",
+        "FN-USA-PITTSBURGH-RIVERHOUNDS-SC",
+        "FN-USA-RHODE-ISLAND-FC",
+        "FN-USA-SPORTING-CLUB-JACKSONVILLE",
+        "FN-USA-TAMPA-BAY-ROWDIES",
+        "FN-USA-COLORADO-SPRINGS-SWITCHBACKS-FC",
+        "FN-USA-EL-PASO-LOCOMOTIVE-FC",
+        "FN-USA-LAS-VEGAS-LIGHTS-FC",
+        "FN-USA-LEXINGTON-SC",
+        "FN-USA-MONTEREY-BAY-FC",
+        "FN-USA-NEW-MEXICO-UNITED",
+        "FN-USA-OAKLAND-ROOTS-SC",
+        "FN-USA-ORANGE-COUNTY-SC",
+        "FN-USA-PHOENIX-RISING-FC",
+        "FN-USA-SACRAMENTO-REPUBLIC-FC",
+        "FN-USA-SAN-ANTONIO-FC",
+        "FN-USA-FC-TULSA"
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": null,
+      "relegation": null,
+      "game_rule_note": "Competición independiente. No se heredan ascensos ni descensos desde/hacia las otras competiciones estadounidenses."
+    },
+    {
+      "id": "USA-USL1-2026",
+      "name": "USL League One — Fútbol Nova",
+      "country_code": "USA",
+      "level": 3,
+      "format": "custom_schedule_pending",
+      "official_competition": "USL League One",
+      "team_ids": [
+        "FN-USA-ATHLETIC-CLUB-BOISE",
+        "FN-USA-AV-ALTA-FC",
+        "FN-USA-CHARLOTTE-INDEPENDENCE",
+        "FN-USA-CHATTANOOGA-RED-WOLVES-SC",
+        "FN-USA-CORPUS-CHRISTI-FC",
+        "FN-USA-FORT-WAYNE-FC",
+        "FN-USA-FORWARD-MADISON-FC",
+        "FN-USA-GREENVILLE-TRIUMPH-SC",
+        "FN-USA-FC-NAPLES",
+        "FN-USA-NEW-YORK-COSMOS",
+        "FN-USA-ONE-KNOXVILLE-SC",
+        "FN-USA-PORTLAND-HEARTS-OF-PINE",
+        "FN-USA-RICHMOND-KICKERS",
+        "FN-USA-SARASOTA-PARADISE",
+        "FN-USA-SPOKANE-VELOCITY-FC",
+        "FN-USA-UNION-OMAHA",
+        "FN-USA-WESTCHESTER-SC"
+      ],
+      "points": {
+        "win": 3,
+        "draw": 1,
+        "loss": 0
+      },
+      "tiebreakers": [
+        "points",
+        "goal_difference",
+        "goals_for"
+      ],
+      "promotion": null,
+      "relegation": null,
+      "game_rule_note": "Competición independiente. No se heredan ascensos ni descensos desde/hacia las otras competiciones estadounidenses."
+    }
+  ]
+}
