@@ -105,3 +105,12 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - El botón expone `aria-controls` y `aria-expanded`; Escape cierra el panel y devuelve el foco al botón.
 - El validador comprueba el cargador compartido y rechaza botones de menú antiguos. El despliegue verifica también la ruta pública de Fútbol Nova.
 - Límite de verificación: los workflows comprueban estructura, enlaces, despliegue HTTPS y secretos; no sustituyen una prueba interactiva con una cuenta real de Google/Supabase ni verifican cambios de perfil en producción.
+
+
+### Endurecimiento del menú global — 2026-11-18 (continuación)
+
+- El cambio de apariencia tolera que el navegador bloquee `localStorage`: el tema sigue aplicándose durante la página aunque no pueda persistirse.
+- Los rótulos del control de apariencia indican la acción disponible (cambiar a claro/oscuro) y su estado se expone mediante `aria-pressed`.
+- El modo claro incluye estilos específicos para Multimedia Nova y Fútbol Nova, además de los estilos generales del portal.
+- La validación estática comprueba que el controlador compartido contiene inicio de sesión Google, edición de perfil, cierre de sesión, persistencia de tema, accesibilidad y cierre con Escape.
+- Las pruebas de GitHub Actions no pueden sustituir una autorización OAuth real ni confirmar cambios de perfil en una cuenta del propietario; esa comprobación requiere una sesión interactiva autorizada.
