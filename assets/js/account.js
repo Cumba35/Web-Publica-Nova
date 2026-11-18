@@ -52,11 +52,13 @@ host.innerHTML=`<button class="nova-account-btn" type="button" aria-label="Abrir
 </section>`;
 const bar=document.querySelector("header .bar")||document.querySelector("body > header")||document.querySelector("body > main")||document.body;if(bar)bar.append(host);
 const button=host.querySelector(".nova-account-btn"),panel=host.querySelector(".nova-account-panel"),summary=host.querySelector(".nova-account-summary"),form=host.querySelector(".nova-account-form"),login=host.querySelector(".nova-account-login"),status=host.querySelector(".nova-account-status"),nameInput=host.querySelector("#nova-account-name"),avatarInput=host.querySelector("#nova-account-avatar");
+panel.id="nova-account-panel";button.setAttribute("aria-controls",panel.id);button.setAttribute("aria-expanded","false");
+function setPanelOpen(open){panel.hidden=!open;button.setAttribute("aria-expanded",String(open));}
 const pageNav=host.querySelector(".nova-menu-links[aria-label]");pages.forEach(([label,url])=>{const a=document.createElement("a");a.href=url;a.textContent=label;if(location.pathname.replace(/\/$/,"")===url.replace(/\/$/,""))a.setAttribute("aria-current","page");pageNav.append(a);});
 function currentPageReturnUrl(){const u=new URL(location.href);["code","error","error_code","error_description","access_token","refresh_token","type"].forEach(k=>u.searchParams.delete(k));return u.href;}
 function paint(session){const user=session?.user||null,meta=user?.user_metadata||{};button.textContent=user?(meta.full_name||meta.name||user.email||"U").trim().slice(0,1).toUpperCase():"♙";button.setAttribute("aria-label",user?"Abrir menú y cuenta de usuario":"Abrir menú e iniciar sesión");summary.textContent=user?(user.email||"Sesión iniciada"):"Inicia sesión para acceder a las funciones de tu cuenta.";form.hidden=!user;login.hidden=!!user;if(user){nameInput.value=meta.full_name||meta.name||"";avatarInput.value=meta.avatar_url||meta.picture||"";const avatar=meta.avatar_url||meta.picture;if(avatar&&/^https:\/\//i.test(avatar)){button.replaceChildren();const img=document.createElement("img");img.src=avatar;img.alt="";button.append(img);}}}
 async function refresh(){const {data,error}=await supabase.auth.getSession();if(error)status.textContent=error.message;paint(data?.session);}
-button.addEventListener("click",()=>{panel.hidden=!panel.hidden;});
+button.addEventListener("click",()=>setPanelOpen(panel.hidden));
 host.querySelector(".nova-theme-toggle").addEventListener("click",()=>{const light=!document.body.classList.contains("nova-light");document.body.classList.toggle("nova-light",light);localStorage.setItem("nova-theme",light?"light":"dark");host.querySelector(".nova-theme-toggle").textContent=light?"☀️ Modo claro":"🌙 Modo oscuro";});
 const savedTheme=localStorage.getItem("nova-theme");if(savedTheme==="light")document.body.classList.add("nova-light");host.querySelector(".nova-theme-toggle").textContent=savedTheme==="light"?"☀️ Modo claro":"🌙 Modo oscuro";
 host.querySelector(".nova-account-google").addEventListener("click",async()=>{status.textContent="Abriendo Google…";const {error}=await supabase.auth.signInWithOAuth({provider:"google",options:{redirectTo:currentPageReturnUrl(),queryParams:{prompt:"select_account"}}});if(error)status.textContent=error.message;});
@@ -64,5 +66,5 @@ host.querySelector(".nova-account-save").addEventListener("click",async()=>{cons
 host.querySelector(".nova-account-logout").addEventListener("click",async()=>{const {error}=await supabase.auth.signOut();status.textContent=error?error.message:"Sesión cerrada.";if(!error)paint(null);});
 supabase.auth.onAuthStateChange((_event,session)=>{paint(session);if(session&&new URLSearchParams(location.search).has("code")){const u=new URL(location.href);u.searchParams.delete("code");history.replaceState({},document.title,u.pathname+u.search+u.hash);}});
 refresh().catch(e=>{status.textContent=e.message;});
-document.addEventListener("click",e=>{if(!host.contains(e.target))panel.hidden=true;});
-document.addEventListener("keydown",e=>{if(e.key==="Escape")panel.hidden=true;});
+document.addEventListener("click",e=>{if(!host.contains(e.target))setPanelOpen(false);});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!panel.hidden){setPanelOpen(false);button.focus();}});
