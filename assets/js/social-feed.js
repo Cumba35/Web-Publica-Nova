@@ -240,7 +240,7 @@ async function loadDiscover() {
   let people = (data || []).filter(person => !state.relationships.has(person.user_id) || state.relationships.get(person.user_id) === "rejected");
   const interests = new Set((state.preferences.interests || []).map(tag => tag.toLowerCase()));
   const scores = new Map(people.map(person => [person.user_id, 0]));
-  if (people.length && interests.size && !term) {
+  if (people.length && interests.size && !term && state.preferences.personalized_feed_enabled) {
     const ids = people.map(person => person.user_id);
     const posts = await supabase.from("nova_social_posts").select("author_id,tags,created_at")
       .in("author_id", ids).eq("status", "published").order("created_at", { ascending: false }).limit(150);
