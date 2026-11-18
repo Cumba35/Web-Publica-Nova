@@ -50,7 +50,7 @@ host.innerHTML=`<button class="nova-account-btn" type="button" aria-label="Abrir
 <div class="nova-menu-section"><h3 class="nova-menu-title">Otras páginas NOVA</h3><nav class="nova-menu-links" aria-label="Otras páginas NOVA"></nav></div>
 <div class="nova-menu-section"><h3 class="nova-menu-title">Ecosistema y apoyo</h3><div class="nova-menu-links"><a href="/Web-Publica-Nova/#donaciones">Donaciones</a><a href="https://github.com/Cumba35/Web-Publica-Nova">Código público</a><a href="/Web-Publica-Nova/nova-nexus/">Eventos y novedades</a></div></div>
 </section>`;
-const bar=document.querySelector("header .bar")||document.querySelector("body > header");if(bar)bar.append(host);
+const bar=document.querySelector("header .bar")||document.querySelector("body > header")||document.querySelector("body > main")||document.body;if(bar)bar.append(host);
 const button=host.querySelector(".nova-account-btn"),panel=host.querySelector(".nova-account-panel"),summary=host.querySelector(".nova-account-summary"),form=host.querySelector(".nova-account-form"),login=host.querySelector(".nova-account-login"),status=host.querySelector(".nova-account-status"),nameInput=host.querySelector("#nova-account-name"),avatarInput=host.querySelector("#nova-account-avatar");
 const pageNav=host.querySelector(".nova-menu-links[aria-label]");pages.forEach(([label,url])=>{const a=document.createElement("a");a.href=url;a.textContent=label;if(location.pathname.replace(/\/$/,"")===url.replace(/\/$/,""))a.setAttribute("aria-current","page");pageNav.append(a);});
 function currentPageReturnUrl(){const u=new URL(location.href);["code","error","error_code","error_description","access_token","refresh_token","type"].forEach(k=>u.searchParams.delete(k));return u.href;}
