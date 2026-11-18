@@ -130,7 +130,7 @@ func _test_data_service(failures: PackedStringArray) -> void:
 	var first_kits := service.get_available_kits(first_club_id, 2026)
 	if first_kits.has("third"):
 		failures.append("DataService: tercera equipación desbloqueada sin contrato comercial")
-	var first_roster := service.registry.get_team_roster(first_club_id)
+	var first_roster: Array = service.registry.get_team_roster(first_club_id)
 	if first_roster.is_empty() or not first_roster[0].has("economy"):
 		failures.append("DataService: jugador generado de Primera sin valoración económica")
 	if int(summary.get("teams", 0)) != 725:

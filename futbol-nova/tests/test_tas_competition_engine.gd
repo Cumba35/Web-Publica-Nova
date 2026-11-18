@@ -14,7 +14,7 @@ func _initialize() -> void:
 	if int(edition.get("participant_count", 0)) != 9 or int(edition.get("total_scheduled_matches", 0)) != 9:
 		errors.append("La edición inicial debe tener nueve clubes y nueve partidos.")
 	for group_id in ["A", "B", "C"]:
-		var stage_id := "first_phase_group_" + group_id
+		var stage_id: String = "first_phase_group_" + str(group_id)
 		var fixtures: Array = edition.fixtures_by_stage.get(stage_id, [])
 		if fixtures.size() != 3:
 			errors.append("Cada grupo debe tener tres partidos: " + group_id)

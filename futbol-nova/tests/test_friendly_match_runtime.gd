@@ -91,8 +91,7 @@ func _run_acceptance_test() -> void:
 				if not game.ball.sleeping:
 					failures.append("La prueba no pudo simular un balón dormido antes del reinicio.")
 				game._reset_ball()
-				if game.match_11v1
-1_controller.has_controlled_possession():
+				if game.match_11v11_controller.has_controlled_possession():
 					failures.append("El reinicio tras un gol conservó la posesión anterior.")
 				if game.ball.freeze:
 					failures.append("El balón quedó congelado después del reinicio.")
