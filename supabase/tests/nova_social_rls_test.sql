@@ -15,11 +15,11 @@ set local role authenticated;
 select set_config('request.jwt.claim.sub','11111111-1111-4111-8111-111111111111',true);
 do $$
 begin
-  if (select count(*) from public.nova_social_posts) <> 2 then
-    raise exception 'RLS FAIL: user A should see own + public post only';
+  if (select count(*) from public.nova_social_posts) <> 1 then
+    raise exception 'RLS FAIL: private profile posts must be hidden before follow approval';
   end if;
   if exists (select 1 from public.nova_social_posts where body='B followers post') then
-    raise exception 'RLS FAIL: user A saw followers-only post without following';
+    raise exception 'RLS FAIL: user A saw a followers-only post without following';
   end if;
   begin
     insert into public.nova_social_posts(author_id,body) values
@@ -38,8 +38,8 @@ where follower_id='11111111-1111-4111-8111-111111111111'
 select set_config('request.jwt.claim.sub','11111111-1111-4111-8111-111111111111',true);
 do $$
 begin
-  if not exists (select 1 from public.nova_social_posts where body='B followers post') then
-    raise exception 'RLS FAIL: accepted follower cannot read followers-only post';
+  if (select count(*) from public.nova_social_posts) <> 3 then
+    raise exception 'RLS FAIL: approved follower must see both public and follower posts from private profile';
   end if;
 end $$;
 select set_config('request.jwt.claim.sub','22222222-2222-4222-8222-222222222222',true);
@@ -49,7 +49,7 @@ select set_config('request.jwt.claim.sub','11111111-1111-4111-8111-111111111111'
 do $$
 begin
   if (select count(*) from public.nova_social_posts) <> 1 then
-    raise exception 'RLS FAIL: block should hide posts from both sides';
+    raise exception 'RLS FAIL: block must hide posts from both sides';
   end if;
 end $$;
 rollback;
