@@ -6,7 +6,7 @@ Rama: main
 
 ## Objetivo
 
-Investigar proyectos públicos de GitHub que puedan mejorar la experiencia visual, accesibilidad, rendimiento y funciones sociales de las páginas NOVA. Reutilizar código solo después de comprobar licencia, mantenimiento, seguridad, dependencias y compatibilidad. Esta investigación es una hoja de ruta, no afirma que las funciones sociales estén ya desplegadas.
+Investigar proyectos públicos de GitHub que puedan mejorar la experiencia visual, accesibilidad, rendimiento y funciones sociales de las páginas NOVA. Reutilizar código solo después de comprobar licencia, mantenimiento, seguridad, dependencias y compatibilidad. El análisis distingue ideas, código reutilizable y funciones efectivamente desplegadas. NOVA Social ya cuenta con una primera versión integrada; los elementos marcados como pendientes no se anuncian como disponibles.
 
 ## Diagnóstico del portal actual
 
@@ -153,3 +153,11 @@ No se han copiado archivos de terceros ni se ha activado una red social falsa. E
 
 - Documentación de implementación y comprobaciones: [SOCIAL_FEATURES_IMPLEMENTATION.md](SOCIAL_FEATURES_IMPLEMENTATION.md).
 - Las migraciones de producción están versionadas en GitHub con los identificadores del historial de `Nova-Nexus`; el entorno de pruebas conserva los identificadores remotos que generó Supabase.
+
+
+## Estado real de NOVA Social al cierre de esta revisión
+
+- Primera versión integrada en `/nova-social/`: perfiles, publicaciones de texto/enlaces, feed cronológico y personalizado, búsqueda de usuarios, seguimiento y solicitudes, reacciones, comentarios lineales, guardados, compartir, bloqueos, reportes y notificaciones internas.
+- Recomendador inicial propio y explicable; no se copió el código de los proyectos externos. La investigación de OpenSocial, freed, AlohaSocial, fediway, Gobo y for-you se utilizó para definir criterios y una hoja de ruta, respetando las licencias no confirmadas.
+- Las funciones de moderación administrativa, multimedia, Realtime/push, mensajería privada y federación siguen pendientes.
+- El código de la primera versión y las migraciones SQL están versionados en el repositorio NOVA; las credenciales y datos personales permanecen fuera de GitHub.
