@@ -35,6 +35,18 @@ select set_config('request.jwt.claim.sub','22222222-2222-4222-8222-222222222222'
 update public.nova_social_follows set status='accepted'
 where follower_id='11111111-1111-4111-8111-111111111111'
   and followed_id='22222222-2222-4222-8222-222222222222';
+do $follow_guard$
+begin
+  begin
+    update public.nova_social_follows
+      set follower_id='33333333-3333-4333-8333-333333333333'
+      where follower_id='11111111-1111-4111-8111-111111111111'
+        and followed_id='22222222-2222-4222-8222-222222222222';
+    raise exception 'SECURITY FAIL: followed user reassigned the follower_id';
+  exception when insufficient_privilege then
+    null;
+  end;
+end $follow_guard$;
 select set_config('request.jwt.claim.sub','11111111-1111-4111-8111-111111111111',true);
 do $approved$
 begin
