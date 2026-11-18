@@ -64,7 +64,7 @@ Los siguientes nombres/identificadores coinciden con el historial de migraciones
 - `20261118210441_nova_social_visibility_and_reports`
 - `20261118210812_nova_social_follow_block_guard`
 
-Las mismas cuatro etapas se aplicaron en `NOVA-STAGING`; el sistema remoto generó allí identificadores de versión propios. El contenido SQL se conserva en este repositorio para reproducibilidad.
+Las mismas cinco etapas se aplicaron en `NOVA-STAGING`; el sistema remoto generó allí identificadores de versión propios. El contenido SQL se conserva en este repositorio para reproducibilidad.
 
 ## Verificación realizada
 
