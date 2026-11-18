@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "module_id": "futbol_nova_realism",
+  "profile": {
+    "profile_id": "realism_balanced",
+    "display_name": "Realista · Equilibrado",
+    "fatigue_enabled": true,
+    "movement_fatigue_per_second": 0.10,
+    "recovery_per_second": 0.16,
+    "minimum_speed_multiplier": 0.78,
+    "injury_detail_enabled": true,
+    "referee_variation_enabled": true,
+    "ball_physics_detail_enabled": true,
+    "tactical_ai_detail_enabled": true
+  },
+  "notes": "Los campos de lesiones, arbitraje, física y táctica describen ampliaciones previstas; solo la fatiga de movimiento se activa en la primera integración del módulo."
+}

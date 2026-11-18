@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "nova_national_team_tournaments",
+  "display_name": "Torneos internacionales de selecciones",
+  "scope": "mens_senior_national_teams",
+  "separate_from_club_competitions": true,
+  "confederations": [
+    "AFC",
+    "CAF",
+    "CONCACAF",
+    "CONMEBOL",
+    "OFC",
+    "UEFA"
+  ],
+  "global_governing_body": "FIFA",
+  "competition_count": 16,
+  "competitions": [
+    {
+      "id": "fifa_world_cup",
+      "name": "Copa Mundial de la FIFA",
+      "competition_type": "world_championship",
+      "confederations": [
+        "FIFA"
+      ],
+      "format": "qualification_then_group_stage_then_knockout",
+      "cycle": "four_years",
+      "qualification_source": "six_confederation_qualifiers_and_intercontinental_playoffs",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "fifa_world_cup_qualifiers_afc",
+      "name": "Clasificación mundialista · Asia",
+      "competition_type": "world_qualifier",
+      "confederations": [
+        "AFC"
+      ],
+      "format": "multi_round_groups_and_playoffs",
+      "cycle": "four_years",
+      "qualification_source": "official_fifa_world_cup_qualification_format",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "fifa_world_cup_qualifiers_caf",
+      "name": "Clasificación mundialista · África",
+      "competition_type": "world_qualifier",
+      "confederations": [
+        "CAF"
+      ],
+      "format": "groups_and_playoffs",
+      "cycle": "four_years",
+      "qualification_source": "official_fifa_world_cup_qualification_format",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "fifa_world_cup_qualifiers_concacaf",
+      "name": "Clasificación mundialista · Norteamérica, Centroamérica y Caribe",
+      "competition_type": "world_qualifier",
+      "confederations": [
+        "CONCACAF"
+      ],
+      "format": "multi_round_groups_and_playoffs",
+      "cycle": "four_years",
+      "qualification_source": "official_fifa_world_cup_qualification_format",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "fifa_world_cup_qualifiers_conmebol",
+      "name": "Clasificación mundialista · Sudamérica",
+      "competition_type": "world_qualifier",
+      "confederations": [
+        "CONMEBOL"
+      ],
+      "format": "league_round_robin",
+      "cycle": "four_years",
+      "qualification_source": "official_fifa_world_cup_qualification_format",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "fifa_world_cup_qualifiers_ofc",
+      "name": "Clasificación mundialista · Oceanía",
+      "competition_type": "world_qualifier",
+      "confederations": [
+        "OFC"
+      ],
+      "format": "groups_and_playoffs",
+      "cycle": "four_years",
+      "qualification_source": "official_fifa_world_cup_qualification_format",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "fifa_world_cup_qualifiers_uefa",
+      "name": "Clasificación mundialista · Europa",
+      "competition_type": "world_qualifier",
+      "confederations": [
+        "UEFA"
+      ],
+      "format": "groups_and_playoffs",
+      "cycle": "four_years",
+      "qualification_source": "official_fifa_world_cup_qualification_format",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "uefa_euro",
+      "name": "Campeonato Europeo de la UEFA",
+      "competition_type": "continental_championship",
+      "confederations": [
+        "UEFA"
+      ],
+      "format": "qualification_then_group_stage_then_knockout",
+      "cycle": "four_years",
+      "qualification_source": "uefa_european_qualifiers",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "uefa_nations_league",
+      "name": "UEFA Nations League",
+      "competition_type": "nations_league",
+      "confederations": [
+        "UEFA"
+      ],
+      "format": "tiered_leagues_groups_and_finals",
+      "cycle": "two_years",
+      "qualification_source": "uefa_nations_league_access_and_draw_rules",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "copa_america",
+      "name": "Copa América",
+      "competition_type": "continental_championship",
+      "confederations": [
+        "CONMEBOL"
+      ],
+      "format": "group_stage_then_knockout",
+      "cycle": "four_years",
+      "qualification_source": "conmebol_qualification_and_invitation_rules_if_applicable",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "concacaf_gold_cup",
+      "name": "Copa Oro de la Concacaf",
+      "competition_type": "continental_championship",
+      "confederations": [
+        "CONCACAF"
+      ],
+      "format": "qualification_then_group_stage_then_knockout",
+      "cycle": "two_years",
+      "qualification_source": "concacaf_nations_league_and_qualifying_rules",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "concacaf_nations_league",
+      "name": "Concacaf Nations League",
+      "competition_type": "nations_league",
+      "confederations": [
+        "CONCACAF"
+      ],
+      "format": "tiered_leagues_groups_and_finals",
+      "cycle": "annual_cycle",
+      "qualification_source": "concacaf_league_access_and_promotion_rules",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "afc_asian_cup",
+      "name": "Copa Asiática de la AFC",
+      "competition_type": "continental_championship",
+      "confederations": [
+        "AFC"
+      ],
+      "format": "qualification_then_group_stage_then_knockout",
+      "cycle": "four_years",
+      "qualification_source": "afc_asian_cup_qualifiers",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "caf_africa_cup_of_nations",
+      "name": "Copa Africana de Naciones",
+      "competition_type": "continental_championship",
+      "confederations": [
+        "CAF"
+      ],
+      "format": "qualification_then_group_stage_then_knockout",
+      "cycle": "two_years",
+      "qualification_source": "caf_afcon_qualifiers",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "ofc_nations_cup",
+      "name": "Copa de Naciones de la OFC",
+      "competition_type": "continental_championship",
+      "confederations": [
+        "OFC"
+      ],
+      "format": "qualification_then_group_stage_then_knockout",
+      "cycle": "four_years",
+      "qualification_source": "ofc_nations_cup_qualification",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    },
+    {
+      "id": "finalissima",
+      "name": "Finalissima",
+      "competition_type": "intercontinental_super_cup",
+      "confederations": [
+        "UEFA",
+        "CONMEBOL"
+      ],
+      "format": "single_match",
+      "cycle": "irregular",
+      "qualification_source": "continental_champions_of_europe_and_south_america",
+      "scope": "mens_senior_national_teams",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "runtime_status": "catalog_only_national_rosters_required"
+    }
+  ],
+  "shared_rules": {
+    "participants_must_be_registered_national_team_ids": true,
+    "eligibility_must_be_verified": true,
+    "rosters_require_official_callups": true,
+    "fixtures_and_standings_persisted_by_edition": true,
+    "draws_use_shared_ceremony": true,
+    "do_not_mix_club_ids_with_national_team_ids": true
+  },
+  "implementation_status": "catalog_created_national_team_packages_and_match_runtime_pending",
+  "blocking_dependencies": [
+    "national_teams_manifest.json packages must be published with verified squads",
+    "national player identities and FIFA eligibility must be validated",
+    "competition-specific official qualification and draw regulations must be audited per edition"
+  ]
+}

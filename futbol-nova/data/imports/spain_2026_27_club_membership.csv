@@ -1,0 +1,83 @@
+source_club_id,country_code,city,division_level,competition_id,season,source_url,active,gender,team_type
+ESP-2026-27-L1-athletic-club,ESP,Bilbao,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-atletico-madrid,ESP,Madrid,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-osasuna,ESP,Pamplona,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-celta,ESP,Vigo,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-alaves,ESP,Vitoria-Gasteiz,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-elche,ESP,Elche,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-barcelona,ESP,Barcelona,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-getafe,ESP,Getafe,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-levante,ESP,Valencia,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-malaga,ESP,Málaga,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-racing-santander,ESP,Santander,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-rayo-vallecano,ESP,Madrid,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-deportivo,ESP,A Coruña,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-espanyol,ESP,Barcelona,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-real-betis,ESP,Sevilla,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-real-madrid,ESP,Madrid,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-real-sociedad,ESP,San Sebastián,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-sevilla,ESP,Sevilla,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-valencia,ESP,Valencia,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L1-villarreal,ESP,Vila-real,1,ESP-LL-2026-27,2026-27,https://www.laliga.com/laliga-easports/clubes,true,men,first_team
+ESP-2026-27-L2-ceuta,ESP,Ceuta,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-albacete,ESP,Albacete,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-burgos,ESP,Burgos,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-cadiz,ESP,Cádiz,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-castellon,ESP,Castelló de la Plana,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-eldense,ESP,Elda,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-leganes,ESP,Leganés,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-tenerife,ESP,Santa Cruz de Tenerife,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-sabadell,ESP,Sabadell,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-celta-fortuna,ESP,Vigo,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-cordoba,ESP,Córdoba,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-andorra,ESP,Encamp,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-girona,ESP,Girona,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-granada,ESP,Granada,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-real-sociedad-b,ESP,San Sebastián,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-mallorca,ESP,Palma,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-real-oviedo,ESP,Oviedo,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-sporting-gijon,ESP,Gijón,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-valladolid,ESP,Valladolid,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-eibar,ESP,Eibar,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-almeria,ESP,Almería,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L2-las-palmas,ESP,Las Palmas de Gran Canaria,2,ESP-HY-2026-27,2026-27,https://www.laliga.com/laliga-hypermotion/clubes,true,men,first_team
+ESP-2026-27-L3-ad-merida,ESP,Mérida,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-arenas,ESP,Getxo,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-athletic-b,ESP,Bilbao,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-barakaldo,ESP,Barakaldo,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-cd-coria,ESP,Coria,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-cd-extremadura,ESP,Almendralejo,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-cd-lugo,ESP,Lugo,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-cd-mirandes,ESP,Miranda de Ebro,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-cp-cacereno,ESP,Cáceres,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-cyd-leonesa,ESP,León,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-pontevedra,ESP,Pontevedra,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-racing-ferrol,ESP,Ferrol,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-deportivo-fabril,ESP,A Coruña,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-real-aviles,ESP,Avilés,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-real-union,ESP,Irún,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-ponferradina,ESP,Ponferrada,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-ud-logrones,ESP,Logroño,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-ud-ourense,ESP,Ourense,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-unionistas,ESP,Salamanca,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-zamora,ESP,Zamora,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-alcorcon,ESP,Alcorcón,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-aguilas,ESP,Águilas,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-algeciras,ESP,Algeciras,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-antequera,ESP,Antequera,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-atletico-madrileno,ESP,Madrid,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-teruel,ESP,Teruel,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-ce-europa,ESP,Barcelona,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-rayo-majadahonda,ESP,Majadahonda,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-cartagena,ESP,Cartagena,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-gimnastic,ESP,Tarragona,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-hercules,ESP,Alicante,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-torremolinos,ESP,Torremolinos,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-real-jaen,ESP,Jaén,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-real-madrid-castilla,ESP,Madrid,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-real-murcia,ESP,Murcia,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-real-zaragoza,ESP,Zaragoza,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-huesca,ESP,Huesca,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-ibiza,ESP,Eivissa,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-sant-andreu,ESP,Barcelona,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team
+ESP-2026-27-L3-villarreal-b,ESP,Vila-real,3,ESP-PF-2026-27,2026-27,https://rfef.es/es/noticias/aprobados-los-grupos-de-primera-federacion-para-la-temporada-202627,true,men,first_team

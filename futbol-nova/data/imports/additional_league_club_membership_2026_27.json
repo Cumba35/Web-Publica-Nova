@@ -1,0 +1,1037 @@
+{
+  "schema_version": "1.0.0",
+  "season": "2026-27",
+  "generated_at": "2026-11-14",
+  "purpose": "Verified first-division club membership seed for the ten recommended downloadable leagues. This is not a playable package and contains no player rosters.",
+  "policy": {
+    "club_membership_only": true,
+    "player_rosters_included": false,
+    "downloadable": false,
+    "reason": "Player rosters, player identity data, rights review, package payloads and engine validation are still pending.",
+    "names_are_factual_club_names": true,
+    "logos_and_trademarks_not_included": true,
+    "verified_primary_source_leagues": [
+      "TUR",
+      "KSA",
+      "JPN",
+      "CYP"
+    ],
+    "secondary_source_review_required_for_remaining_leagues": true
+  },
+  "leagues": [
+    {
+      "rank": 11,
+      "country_code": "TUR",
+      "country": "Turquía",
+      "region_id": "europe",
+      "competition_name": "Süper Lig",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 18,
+      "clubs": [
+        {
+          "id": "FN-TUR-AMED-SPORTIF-FAALIYETLER",
+          "name": "Amed Sportif Faaliyetler",
+          "order": 1
+        },
+        {
+          "id": "FN-TUR-ARCA-CORUM-FK",
+          "name": "Arca Çorum FK",
+          "order": 2
+        },
+        {
+          "id": "FN-TUR-BESIKTAS",
+          "name": "Beşiktaş",
+          "order": 3
+        },
+        {
+          "id": "FN-TUR-CAYKUR-RIZESPOR",
+          "name": "Çaykur Rizespor",
+          "order": 4
+        },
+        {
+          "id": "FN-TUR-CORENDON-ALANYASPOR",
+          "name": "Corendon Alanyaspor",
+          "order": 5
+        },
+        {
+          "id": "FN-TUR-ERZURUMSPOR-FK",
+          "name": "Erzurumspor FK",
+          "order": 6
+        },
+        {
+          "id": "FN-TUR-EYUPSPOR",
+          "name": "Eyüpspor",
+          "order": 7
+        },
+        {
+          "id": "FN-TUR-FENERBAHCE",
+          "name": "Fenerbahçe",
+          "order": 8
+        },
+        {
+          "id": "FN-TUR-GALATASARAY",
+          "name": "Galatasaray",
+          "order": 9
+        },
+        {
+          "id": "FN-TUR-GAZIANTEP-FK",
+          "name": "Gaziantep FK",
+          "order": 10
+        },
+        {
+          "id": "FN-TUR-GENCLERBIRLIGI",
+          "name": "Gençlerbirliği",
+          "order": 11
+        },
+        {
+          "id": "FN-TUR-GOZTEPE",
+          "name": "Göztepe",
+          "order": 12
+        },
+        {
+          "id": "FN-TUR-ISTANBUL-BASAKSEHIR",
+          "name": "İstanbul Başakşehir",
+          "order": 13
+        },
+        {
+          "id": "FN-TUR-KASIMPASA",
+          "name": "Kasımpaşa",
+          "order": 14
+        },
+        {
+          "id": "FN-TUR-KOCAELISPOR",
+          "name": "Kocaelispor",
+          "order": 15
+        },
+        {
+          "id": "FN-TUR-SAMSUNSPOR",
+          "name": "Samsunspor",
+          "order": 16
+        },
+        {
+          "id": "FN-TUR-TRABZONSPOR",
+          "name": "Trabzonspor",
+          "order": 17
+        },
+        {
+          "id": "FN-TUR-TUMOSAN-KONYASPOR",
+          "name": "Tümosan Konyaspor",
+          "order": 18
+        }
+      ],
+      "source": {
+        "url": "https://www.tff.org/default.aspx?2707pg=20&ftxtID=51360&pageID=204",
+        "description": "TFF official 2026-2027 professional clubs' senior squad-list announcement, 16 Sep 2026.",
+        "checked_at": "2026-11-14",
+        "verification_level": "primary_official_source"
+      }
+    },
+    {
+      "rank": 12,
+      "country_code": "BEL",
+      "country": "Bélgica",
+      "region_id": "europe",
+      "competition_name": "Jupiler Pro League",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 18,
+      "clubs": [
+        {
+          "id": "FN-BEL-CERCLE-BRUGGE",
+          "name": "Cercle Brugge",
+          "order": 1
+        },
+        {
+          "id": "FN-BEL-CLUB-BRUGGE",
+          "name": "Club Brugge",
+          "order": 2
+        },
+        {
+          "id": "FN-BEL-KAA-GENT",
+          "name": "KAA Gent",
+          "order": 3
+        },
+        {
+          "id": "FN-BEL-KRC-GENK",
+          "name": "KRC Genk",
+          "order": 4
+        },
+        {
+          "id": "FN-BEL-KV-KORTRIJK",
+          "name": "KV Kortrijk",
+          "order": 5
+        },
+        {
+          "id": "FN-BEL-KV-MECHELEN",
+          "name": "KV Mechelen",
+          "order": 6
+        },
+        {
+          "id": "FN-BEL-KVC-WESTERLO",
+          "name": "KVC Westerlo",
+          "order": 7
+        },
+        {
+          "id": "FN-BEL-LOMMEL-SK",
+          "name": "Lommel SK",
+          "order": 8
+        },
+        {
+          "id": "FN-BEL-OH-LEUVEN",
+          "name": "OH Leuven",
+          "order": 9
+        },
+        {
+          "id": "FN-BEL-RAAL-LA-LOUVIERE",
+          "name": "RAAL La Louvière",
+          "order": 10
+        },
+        {
+          "id": "FN-BEL-ROYAL-ANTWERP-FC",
+          "name": "Royal Antwerp FC",
+          "order": 11
+        },
+        {
+          "id": "FN-BEL-ROYALE-UNION-SAINT-GILLOISE",
+          "name": "Royale Union Saint-Gilloise",
+          "order": 12
+        },
+        {
+          "id": "FN-BEL-RSC-ANDERLECHT",
+          "name": "RSC Anderlecht",
+          "order": 13
+        },
+        {
+          "id": "FN-BEL-SK-BEVEREN",
+          "name": "SK Beveren",
+          "order": 14
+        },
+        {
+          "id": "FN-BEL-SPORTING-CHARLEROI",
+          "name": "Sporting Charleroi",
+          "order": 15
+        },
+        {
+          "id": "FN-BEL-STANDARD-DE-LIEGE",
+          "name": "Standard de Liège",
+          "order": 16
+        },
+        {
+          "id": "FN-BEL-STVV",
+          "name": "STVV",
+          "order": 17
+        },
+        {
+          "id": "FN-BEL-SV-ZULTE-WAREGEM",
+          "name": "SV Zulte Waregem",
+          "order": 18
+        }
+      ],
+      "source": {
+        "url": "https://www.proleague.be/jpl-clubs",
+        "description": "Official Pro League club directory",
+        "checked_at": "2026-11-14"
+      }
+    },
+    {
+      "rank": 13,
+      "country_code": "KSA",
+      "country": "Arabia Saudita",
+      "region_id": "asia",
+      "competition_name": "Saudi Pro League",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 18,
+      "clubs": [
+        {
+          "id": "FN-KSA-ABHA",
+          "name": "Abha",
+          "order": 1
+        },
+        {
+          "id": "FN-KSA-AL-AHLI",
+          "name": "Al Ahli",
+          "order": 2
+        },
+        {
+          "id": "FN-KSA-AL-ITTIHAD",
+          "name": "Al Ittihad",
+          "order": 3
+        },
+        {
+          "id": "FN-KSA-AL-ETTIFAQ",
+          "name": "Al Ettifaq",
+          "order": 4
+        },
+        {
+          "id": "FN-KSA-AL-TAAWOUN",
+          "name": "Al Taawoun",
+          "order": 5
+        },
+        {
+          "id": "FN-KSA-AL-HAZEM",
+          "name": "Al Hazem",
+          "order": 6
+        },
+        {
+          "id": "FN-KSA-AL-KHOLOOD",
+          "name": "Al Kholood",
+          "order": 7
+        },
+        {
+          "id": "FN-KSA-AL-KHALEEJ",
+          "name": "Al Khaleej",
+          "order": 8
+        },
+        {
+          "id": "FN-KSA-AL-DIRAIYAH",
+          "name": "Al Diraiyah",
+          "order": 9
+        },
+        {
+          "id": "FN-KSA-AL-RIYADH",
+          "name": "Al Riyadh",
+          "order": 10
+        },
+        {
+          "id": "FN-KSA-AL-SHABAB",
+          "name": "Al Shabab",
+          "order": 11
+        },
+        {
+          "id": "FN-KSA-AL-FATEH",
+          "name": "Al Fateh",
+          "order": 12
+        },
+        {
+          "id": "FN-KSA-AL-FAYHA",
+          "name": "Al Fayha",
+          "order": 13
+        },
+        {
+          "id": "FN-KSA-AL-FAISALY",
+          "name": "Al Faisaly",
+          "order": 14
+        },
+        {
+          "id": "FN-KSA-AL-QADISIYAH",
+          "name": "Al Qadisiyah",
+          "order": 15
+        },
+        {
+          "id": "FN-KSA-AL-NASSR",
+          "name": "Al Nassr",
+          "order": 16
+        },
+        {
+          "id": "FN-KSA-AL-HILAL",
+          "name": "Al Hilal",
+          "order": 17
+        },
+        {
+          "id": "FN-KSA-NEOM",
+          "name": "NEOM",
+          "order": 18
+        }
+      ],
+      "source": {
+        "url": "https://www.spl.com.sa/en",
+        "description": "Saudi Pro League official 2026-27 season overview; states the 18 participating clubs and club/city list.",
+        "checked_at": "2026-11-14",
+        "verification_level": "primary_official_source"
+      }
+    },
+    {
+      "rank": 14,
+      "country_code": "ECU",
+      "country": "Ecuador",
+      "region_id": "south_america",
+      "competition_name": "LigaPro Serie A",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 16,
+      "clubs": [
+        {
+          "id": "FN-ECU-INDEPENDIENTE-DEL-VALLE",
+          "name": "Independiente del Valle",
+          "order": 1
+        },
+        {
+          "id": "FN-ECU-MACARA",
+          "name": "Macará",
+          "order": 2
+        },
+        {
+          "id": "FN-ECU-UNIVERSIDAD-CATOLICA",
+          "name": "Universidad Católica",
+          "order": 3
+        },
+        {
+          "id": "FN-ECU-LDU-QUITO",
+          "name": "LDU Quito",
+          "order": 4
+        },
+        {
+          "id": "FN-ECU-AUCAS",
+          "name": "Aucas",
+          "order": 5
+        },
+        {
+          "id": "FN-ECU-BARCELONA-SC",
+          "name": "Barcelona SC",
+          "order": 6
+        },
+        {
+          "id": "FN-ECU-LIBERTAD",
+          "name": "Libertad",
+          "order": 7
+        },
+        {
+          "id": "FN-ECU-GUAYAQUIL-CITY",
+          "name": "Guayaquil City",
+          "order": 8
+        },
+        {
+          "id": "FN-ECU-LEONES-FC",
+          "name": "Leones FC",
+          "order": 9
+        },
+        {
+          "id": "FN-ECU-EMELEC",
+          "name": "Emelec",
+          "order": 10
+        },
+        {
+          "id": "FN-ECU-MUSHUC-RUNA",
+          "name": "Mushuc Runa",
+          "order": 11
+        },
+        {
+          "id": "FN-ECU-DEPORTIVO-CUENCA",
+          "name": "Deportivo Cuenca",
+          "order": 12
+        },
+        {
+          "id": "FN-ECU-ORENSE",
+          "name": "Orense",
+          "order": 13
+        },
+        {
+          "id": "FN-ECU-DELFIN",
+          "name": "Delfín",
+          "order": 14
+        },
+        {
+          "id": "FN-ECU-TECNICO-UNIVERSITARIO",
+          "name": "Técnico Universitario",
+          "order": 15
+        },
+        {
+          "id": "FN-ECU-MANTA",
+          "name": "Manta",
+          "order": 16
+        }
+      ],
+      "source": {
+        "url": "https://ligapro.ec/",
+        "description": "Official LigaPro 2026 Serie A phase tables",
+        "checked_at": "2026-11-14"
+      }
+    },
+    {
+      "rank": 15,
+      "country_code": "GRE",
+      "country": "Grecia",
+      "region_id": "europe",
+      "competition_name": "Super League Greece",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 14,
+      "clubs": [
+        {
+          "id": "FN-GRE-AEK-ATHENS",
+          "name": "AEK Athens",
+          "order": 1
+        },
+        {
+          "id": "FN-GRE-ARIS",
+          "name": "Aris",
+          "order": 2
+        },
+        {
+          "id": "FN-GRE-ASTERAS-TRIPOLIS",
+          "name": "Asteras Tripolis",
+          "order": 3
+        },
+        {
+          "id": "FN-GRE-A-E-KIFISIA",
+          "name": "A.E. Kifisia",
+          "order": 4
+        },
+        {
+          "id": "FN-GRE-ATROMITOS",
+          "name": "Atromitos",
+          "order": 5
+        },
+        {
+          "id": "FN-GRE-IRAKLIS",
+          "name": "Iraklis",
+          "order": 6
+        },
+        {
+          "id": "FN-GRE-LEVADIAKOS",
+          "name": "Levadiakos",
+          "order": 7
+        },
+        {
+          "id": "FN-GRE-KALAMATA",
+          "name": "Kalamata",
+          "order": 8
+        },
+        {
+          "id": "FN-GRE-OFI",
+          "name": "OFI",
+          "order": 9
+        },
+        {
+          "id": "FN-GRE-OLYMPIACOS",
+          "name": "Olympiacos",
+          "order": 10
+        },
+        {
+          "id": "FN-GRE-PANATHINAIKOS",
+          "name": "Panathinaikos",
+          "order": 11
+        },
+        {
+          "id": "FN-GRE-PANETOLIKOS",
+          "name": "Panetolikos",
+          "order": 12
+        },
+        {
+          "id": "FN-GRE-PAOK",
+          "name": "PAOK",
+          "order": 13
+        },
+        {
+          "id": "FN-GRE-VOLOS",
+          "name": "Volos",
+          "order": 14
+        }
+      ],
+      "source": {
+        "url": "https://news.bet365.com/en-gb/article/super-league-greece-dates-teams-venues-and-format/2024120509515147373",
+        "description": "2026-27 season team list and competition format, updated 19 May 2026",
+        "checked_at": "2026-11-14"
+      }
+    },
+    {
+      "rank": 16,
+      "country_code": "EGY",
+      "country": "Egipto",
+      "region_id": "africa",
+      "competition_name": "Egyptian Premier League",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 20,
+      "clubs": [
+        {
+          "id": "FN-EGY-PYRAMIDS-FC",
+          "name": "Pyramids FC",
+          "order": 1
+        },
+        {
+          "id": "FN-EGY-AL-AHLY",
+          "name": "Al Ahly",
+          "order": 2
+        },
+        {
+          "id": "FN-EGY-ZAMALEK",
+          "name": "Zamalek",
+          "order": 3
+        },
+        {
+          "id": "FN-EGY-CERAMICA-CLEOPATRA",
+          "name": "Ceramica Cleopatra",
+          "order": 4
+        },
+        {
+          "id": "FN-EGY-AL-ITTIHAD-ALEXANDRIA",
+          "name": "Al Ittihad Alexandria",
+          "order": 5
+        },
+        {
+          "id": "FN-EGY-MODERN-SPORT",
+          "name": "Modern Sport",
+          "order": 6
+        },
+        {
+          "id": "FN-EGY-ARAB-CONTRACTORS",
+          "name": "Arab Contractors",
+          "order": 7
+        },
+        {
+          "id": "FN-EGY-NATIONAL-BANK-OF-EGYPT",
+          "name": "National Bank of Egypt",
+          "order": 8
+        },
+        {
+          "id": "FN-EGY-SMOUHA",
+          "name": "Smouha",
+          "order": 9
+        },
+        {
+          "id": "FN-EGY-ZED-FC",
+          "name": "ZED FC",
+          "order": 10
+        },
+        {
+          "id": "FN-EGY-PETROJET",
+          "name": "Petrojet",
+          "order": 11
+        },
+        {
+          "id": "FN-EGY-AL-MASRY",
+          "name": "Al Masry",
+          "order": 12
+        },
+        {
+          "id": "FN-EGY-OLYMPIC-EL-QANAH",
+          "name": "Olympic El Qanah",
+          "order": 13
+        },
+        {
+          "id": "FN-EGY-TALA-EA-EL-GAISH",
+          "name": "Tala'ea El Gaish",
+          "order": 14
+        },
+        {
+          "id": "FN-EGY-WADI-DEGLA",
+          "name": "Wadi Degla",
+          "order": 15
+        },
+        {
+          "id": "FN-EGY-ENPPI",
+          "name": "ENPPI",
+          "order": 16
+        },
+        {
+          "id": "FN-EGY-GHAZL-EL-MAHALLA",
+          "name": "Ghazl El Mahalla",
+          "order": 17
+        },
+        {
+          "id": "FN-EGY-ASYUT-PETROLEUM",
+          "name": "Asyut Petroleum",
+          "order": 18
+        },
+        {
+          "id": "FN-EGY-ABOU-QIR-FERTILIZERS",
+          "name": "Abou Qir Fertilizers",
+          "order": 19
+        },
+        {
+          "id": "FN-EGY-EL-GOUNA",
+          "name": "El Gouna",
+          "order": 20
+        }
+      ],
+      "source": {
+        "url": "https://www.sport.mega-egy.com/en/tables/",
+        "description": "2026-27 standings updated 13 Nov 2026",
+        "checked_at": "2026-11-14"
+      }
+    },
+    {
+      "rank": 17,
+      "country_code": "CZE",
+      "country": "Chequia",
+      "region_id": "europe",
+      "competition_name": "Czech First League",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 16,
+      "clubs": [
+        {
+          "id": "FN-CZE-SK-ARTIS-BRNO",
+          "name": "SK Artis Brno",
+          "order": 1
+        },
+        {
+          "id": "FN-CZE-BOHEMIANS-1905",
+          "name": "Bohemians 1905",
+          "order": 2
+        },
+        {
+          "id": "FN-CZE-FC-HRADEC-KRALOVE",
+          "name": "FC Hradec Králové",
+          "order": 3
+        },
+        {
+          "id": "FN-CZE-FK-JABLONEC",
+          "name": "FK Jablonec",
+          "order": 4
+        },
+        {
+          "id": "FN-CZE-FC-SLOVAN-LIBEREC",
+          "name": "FC Slovan Liberec",
+          "order": 5
+        },
+        {
+          "id": "FN-CZE-FK-MLADA-BOLESLAV",
+          "name": "FK Mladá Boleslav",
+          "order": 6
+        },
+        {
+          "id": "FN-CZE-SK-SIGMA-OLOMOUC",
+          "name": "SK Sigma Olomouc",
+          "order": 7
+        },
+        {
+          "id": "FN-CZE-FC-BANIK-OSTRAVA",
+          "name": "FC Baník Ostrava",
+          "order": 8
+        },
+        {
+          "id": "FN-CZE-FK-PARDUBICE",
+          "name": "FK Pardubice",
+          "order": 9
+        },
+        {
+          "id": "FN-CZE-FC-VIKTORIA-PLZEN",
+          "name": "FC Viktoria Plzeň",
+          "order": 10
+        },
+        {
+          "id": "FN-CZE-SK-SLAVIA-PRAGUE",
+          "name": "SK Slavia Prague",
+          "order": 11
+        },
+        {
+          "id": "FN-CZE-1-FC-SLOVACKO",
+          "name": "1. FC Slovácko",
+          "order": 12
+        },
+        {
+          "id": "FN-CZE-AC-SPARTA-PRAGUE",
+          "name": "AC Sparta Prague",
+          "order": 13
+        },
+        {
+          "id": "FN-CZE-FK-TEPLICE",
+          "name": "FK Teplice",
+          "order": 14
+        },
+        {
+          "id": "FN-CZE-FC-ZBROJOVKA-BRNO",
+          "name": "FC Zbrojovka Brno",
+          "order": 15
+        },
+        {
+          "id": "FN-CZE-FC-ZLIN",
+          "name": "FC Zlín",
+          "order": 16
+        }
+      ],
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Czech_First_League",
+        "description": "2026-27 participating clubs list, checked 14 Nov 2026; secondary source, federation confirmation pending",
+        "checked_at": "2026-11-14"
+      }
+    },
+    {
+      "rank": 18,
+      "country_code": "JPN",
+      "country": "Japón",
+      "region_id": "asia",
+      "competition_name": "J1 League",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 20,
+      "clubs": [
+        {
+          "id": "FN-JPN-KASHIMA-ANTLERS",
+          "name": "Kashima Antlers",
+          "order": 1
+        },
+        {
+          "id": "FN-JPN-MITO-HOLLYHOCK",
+          "name": "Mito HollyHock",
+          "order": 2
+        },
+        {
+          "id": "FN-JPN-URAWA-REDS",
+          "name": "Urawa Reds",
+          "order": 3
+        },
+        {
+          "id": "FN-JPN-JEF-UNITED-CHIBA",
+          "name": "JEF United Chiba",
+          "order": 4
+        },
+        {
+          "id": "FN-JPN-KASHIWA-REYSOL",
+          "name": "Kashiwa Reysol",
+          "order": 5
+        },
+        {
+          "id": "FN-JPN-FC-TOKYO",
+          "name": "FC Tokyo",
+          "order": 6
+        },
+        {
+          "id": "FN-JPN-TOKYO-VERDY",
+          "name": "Tokyo Verdy",
+          "order": 7
+        },
+        {
+          "id": "FN-JPN-FC-MACHIDA-ZELVIA",
+          "name": "FC Machida Zelvia",
+          "order": 8
+        },
+        {
+          "id": "FN-JPN-KAWASAKI-FRONTALE",
+          "name": "Kawasaki Frontale",
+          "order": 9
+        },
+        {
+          "id": "FN-JPN-YOKOHAMA-F-MARINOS",
+          "name": "Yokohama F. Marinos",
+          "order": 10
+        },
+        {
+          "id": "FN-JPN-SHIMIZU-S-PULSE",
+          "name": "Shimizu S-Pulse",
+          "order": 11
+        },
+        {
+          "id": "FN-JPN-NAGOYA-GRAMPUS",
+          "name": "Nagoya Grampus",
+          "order": 12
+        },
+        {
+          "id": "FN-JPN-KYOTO-SANGA",
+          "name": "Kyoto Sanga",
+          "order": 13
+        },
+        {
+          "id": "FN-JPN-GAMBA-OSAKA",
+          "name": "Gamba Osaka",
+          "order": 14
+        },
+        {
+          "id": "FN-JPN-CEREZO-OSAKA",
+          "name": "Cerezo Osaka",
+          "order": 15
+        },
+        {
+          "id": "FN-JPN-VISSEL-KOBE",
+          "name": "Vissel Kobe",
+          "order": 16
+        },
+        {
+          "id": "FN-JPN-FAGIANO-OKAYAMA",
+          "name": "Fagiano Okayama",
+          "order": 17
+        },
+        {
+          "id": "FN-JPN-SANFRECCE-HIROSHIMA",
+          "name": "Sanfrecce Hiroshima",
+          "order": 18
+        },
+        {
+          "id": "FN-JPN-AVISPA-FUKUOKA",
+          "name": "Avispa Fukuoka",
+          "order": 19
+        },
+        {
+          "id": "FN-JPN-V-VAREN-NAGASAKI",
+          "name": "V-Varen Nagasaki",
+          "order": 20
+        }
+      ],
+      "source": {
+        "url": "https://www.jleague.jp/en/j1/club/",
+        "description": "Official J.League J1 club directory, checked 14 Nov 2026.",
+        "checked_at": "2026-11-14",
+        "verification_level": "primary_official_source"
+      }
+    },
+    {
+      "rank": 19,
+      "country_code": "PAR",
+      "country": "Paraguay",
+      "region_id": "south_america",
+      "competition_name": "Primera División",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 12,
+      "clubs": [
+        {
+          "id": "FN-PAR-SPORTIVO-AMELIANO",
+          "name": "Sportivo Ameliano",
+          "order": 1
+        },
+        {
+          "id": "FN-PAR-SPORTIVO-LUQUENO",
+          "name": "Sportivo Luqueño",
+          "order": 2
+        },
+        {
+          "id": "FN-PAR-GUARANI",
+          "name": "Guaraní",
+          "order": 3
+        },
+        {
+          "id": "FN-PAR-SPORTIVO-SAN-LORENZO",
+          "name": "Sportivo San Lorenzo",
+          "order": 4
+        },
+        {
+          "id": "FN-PAR-RECOLETA-FC",
+          "name": "Recoleta FC",
+          "order": 5
+        },
+        {
+          "id": "FN-PAR-RUBIO-NU",
+          "name": "Rubio Ñu",
+          "order": 6
+        },
+        {
+          "id": "FN-PAR-OLIMPIA",
+          "name": "Olimpia",
+          "order": 7
+        },
+        {
+          "id": "FN-PAR-SPORTIVO-TRINIDENSE",
+          "name": "Sportivo Trinidense",
+          "order": 8
+        },
+        {
+          "id": "FN-PAR-LIBERTAD",
+          "name": "Libertad",
+          "order": 9
+        },
+        {
+          "id": "FN-PAR-NACIONAL",
+          "name": "Nacional",
+          "order": 10
+        },
+        {
+          "id": "FN-PAR-SPORTIVO-2-DE-MAYO",
+          "name": "Sportivo 2 de Mayo",
+          "order": 11
+        },
+        {
+          "id": "FN-PAR-CERRO-PORTENO",
+          "name": "Cerro Porteño",
+          "order": 12
+        }
+      ],
+      "source": {
+        "url": "https://www.apf.org.py/noticias/la-espera-termino-arranca-el-clausura",
+        "description": "Official APF 2026 Clausura participants, 24 Jul 2026",
+        "checked_at": "2026-11-14"
+      }
+    },
+    {
+      "rank": 20,
+      "country_code": "CYP",
+      "country": "Chipre",
+      "region_id": "europe",
+      "competition_name": "Cyprus League by Stoiximan",
+      "season": "2026-27",
+      "division_level": 1,
+      "membership_status": "source_catalogued_pending_second_source_review",
+      "club_count": 14,
+      "clubs": [
+        {
+          "id": "FN-CYP-AEK-LARNACA",
+          "name": "AEK Larnaca",
+          "order": 1
+        },
+        {
+          "id": "FN-CYP-OMONIA-NICOSIA",
+          "name": "Omonia Nicosia",
+          "order": 2
+        },
+        {
+          "id": "FN-CYP-AEL-LIMASSOL",
+          "name": "AEL Limassol",
+          "order": 3
+        },
+        {
+          "id": "FN-CYP-APOEL",
+          "name": "APOEL",
+          "order": 4
+        },
+        {
+          "id": "FN-CYP-PAFOS-FC",
+          "name": "Pafos FC",
+          "order": 5
+        },
+        {
+          "id": "FN-CYP-APOLLON-LIMASSOL",
+          "name": "Apollon Limassol",
+          "order": 6
+        },
+        {
+          "id": "FN-CYP-ARIS-LIMASSOL",
+          "name": "Aris Limassol",
+          "order": 7
+        },
+        {
+          "id": "FN-CYP-ALS-OMONIA-29M",
+          "name": "ALS Omonia 29M",
+          "order": 8
+        },
+        {
+          "id": "FN-CYP-OLYMPIAKOS-NICOSIA",
+          "name": "Olympiakos Nicosia",
+          "order": 9
+        },
+        {
+          "id": "FN-CYP-NEA-SALAMINA",
+          "name": "Nea Salamina",
+          "order": 10
+        },
+        {
+          "id": "FN-CYP-ANORTHOSIS",
+          "name": "Anorthosis",
+          "order": 11
+        },
+        {
+          "id": "FN-CYP-KARMIOTISSA-POLEMIDION",
+          "name": "Karmiotissa Polemidion",
+          "order": 12
+        },
+        {
+          "id": "FN-CYP-OMONIA-ARADIPPOU",
+          "name": "Omonia Aradippou",
+          "order": 13
+        },
+        {
+          "id": "FN-CYP-KRASAVA-ENY",
+          "name": "Krasava ENY",
+          "order": 14
+        }
+      ],
+      "source": {
+        "url": "https://www.cfa.com.cy/Gr/news/53532",
+        "description": "Cyprus Football Association official 2026-27 league proclamation dated 10 Jul 2026, lists all 14 participating clubs.",
+        "checked_at": "2026-11-14",
+        "verification_level": "primary_official_source"
+      }
+    }
+  ]
+}

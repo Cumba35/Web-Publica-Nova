@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "available_balls": [
+    {
+      "id": "nova_classic_white",
+      "asset_id": "ball_nova_classic_white",
+      "display_name": "Nova Classic",
+      "license_status": "original",
+      "physics_profile_id": "standard_match_ball"
+    },
+    {
+      "id": "nova_cuba_tropical",
+      "asset_id": "ball_nova_cuba_tropical",
+      "display_name": "Cuba Tropical",
+      "license_status": "original",
+      "physics_profile_id": "standard_match_ball"
+    }
+  ],
+  "leagues": {
+    "cuba_national_league": {
+      "official_ball": {
+        "id": "nova_cuba_tropical",
+        "asset_id": "ball_nova_cuba_tropical",
+        "display_name": "Cuba Tropical",
+        "license_status": "original",
+        "physics_profile_id": "standard_match_ball"
+      },
+      "shared_across_divisions": true
+    }
+  }
+}

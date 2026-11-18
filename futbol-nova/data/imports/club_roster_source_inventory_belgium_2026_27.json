@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "BEL",
+  "season": "2026-27",
+  "competition": "Jupiler Pro League",
+  "source_authority": "Belgian Pro League",
+  "official_club_directory": "https://www.proleague.be/jpl-clubs",
+  "rights_status": "reference_only_reuse_rights_not_cleared",
+  "playable": false,
+  "clubs": [
+    {
+      "club_code": "CER",
+      "club_name": "Cercle Brugge",
+      "official_squad_url": "https://www.proleague.be/teams/cercle-brugge-3/squad",
+      "source_status": "official_roster_transcribed_partial_snapshot_2026_11_14"
+    },
+    {
+      "club_code": "CLU",
+      "club_name": "Club Brugge",
+      "official_squad_url": "https://www.proleague.be/teams/club-brugge-4/squad",
+      "source_status": "official_roster_transcribed_partial_snapshot_2026_11_14"
+    },
+    {
+      "club_code": "GNT",
+      "club_name": "KAA Gent",
+      "official_squad_url": "https://www.proleague.be/teams/kaa-gent-7/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "GNK",
+      "club_name": "KRC Genk",
+      "official_squad_url": "https://www.proleague.be/teams/krc-genk-6/squad",
+      "source_status": "official_roster_transcribed_partial_snapshot_2026_11_14"
+    },
+    {
+      "club_code": "KVK",
+      "club_name": "KV Kortrijk",
+      "official_squad_url": "https://www.proleague.be/teams/kv-kortrijk-24/squad",
+      "source_status": "official_proleague_roster_transcribed_2026_11_14"
+    },
+    {
+      "club_code": "KVM",
+      "club_name": "KV Mechelen",
+      "official_squad_url": "https://www.proleague.be/teams/kv-mechelen-8/squad",
+      "source_status": "official_roster_transcribed_partial_snapshot_2026_11_14"
+    },
+    {
+      "club_code": "WES",
+      "club_name": "KVC Westerlo",
+      "official_squad_url": "https://www.proleague.be/teams/kvc-westerlo-15/squad",
+      "source_status": "official_roster_transcribed_partial_snapshot_2026_11_14"
+    },
+    {
+      "club_code": "LOM",
+      "club_name": "Lommel SK",
+      "official_squad_url": "https://www.proleague.be/teams/lommel-sk-29/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "OHL",
+      "club_name": "OH Leuven",
+      "official_squad_url": "https://www.proleague.be/teams/oh-leuven-9/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "LAL",
+      "club_name": "RAAL La Louvière",
+      "official_squad_url": "https://www.proleague.be/teams/raal-la-louviere-10/squad",
+      "source_status": "official_roster_transcribed_2026_11_14"
+    },
+    {
+      "club_code": "ANT",
+      "club_name": "Royal Antwerp FC",
+      "official_squad_url": "https://www.proleague.be/teams/royal-antwerp-fc-2/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "USG",
+      "club_name": "Royale Union Saint-Gilloise",
+      "official_squad_url": "https://www.proleague.be/teams/royale-union-saint-gilloise-14/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "AND",
+      "club_name": "RSC Anderlecht",
+      "official_squad_url": "https://www.proleague.be/teams/rsc-anderlecht-1/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "SKB",
+      "club_name": "SK Beveren",
+      "official_squad_url": "https://www.proleague.be/teams/sk-beveren-19/squad",
+      "source_status": "official_club_squad_page_transcribed_partial_28_visible_players_11_not_visible"
+    },
+    {
+      "club_code": "CHA",
+      "club_name": "Sporting Charleroi",
+      "official_squad_url": "https://www.proleague.be/teams/sporting-charleroi-12/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "STA",
+      "club_name": "Standard de Liège",
+      "official_squad_url": "https://www.proleague.be/teams/standard-de-liege-13/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    },
+    {
+      "club_code": "STV",
+      "club_name": "STVV",
+      "official_squad_url": "https://www.proleague.be/teams/stvv-11/squad",
+      "source_status": "official_roster_transcribed_2026_11_14"
+    },
+    {
+      "club_code": "ZWA",
+      "club_name": "SV Zulte Waregem",
+      "official_squad_url": "https://www.proleague.be/teams/sv-zulte-waregem-16/squad",
+      "source_status": "official_squad_page_opened_transcription_pending"
+    }
+  ],
+  "club_count": 18,
+  "rosters_transcribed": 9,
+  "notes": [
+    "Los enlaces oficiales de plantilla se localizaron desde el directorio de clubes de Pro League.",
+    "Los datos actuales de las páginas pueden cambiar durante la temporada; se debe guardar fecha de captura.",
+    "No importar posiciones o dorsales de fuentes secundarias como si fueran datos federativos oficiales.",
+    "Cinco plantillas se transcribieron desde las páginas oficiales accesibles: Cercle Brugge, Club Brugge, KRC Genk, KV Mechelen y KVC Westerlo. Las otras trece siguen pendientes de transcripción o reintento.",
+    "SK Beveren se recuperó desde su web oficial; la cabecera indica 39 jugadores pero el texto recuperado expone 28 fichas. No se inventan los 11 restantes; revisar la página visual/datos estructurados.",
+    "KV Kortrijk se añadió con 31 jugadores transcritos desde la página oficial Pro League.",
+    "RAAL La Louvière (29 jugadores) y STVV (27 jugadores) transcritos desde las páginas oficiales Pro League el 2026-11-14."
+  ],
+  "pages_opened_successfully": 18,
+  "pages_timeout": 0,
+  "last_source_check": "2026-11-14",
+  "players_transcribed": 276,
+  "roster_dataset": "data/imports/belgium_jupiler_pro_league_rosters_2026_27_partial.json",
+  "transcription_status": "9_of_18_clubs_transcribed_9_pending_and_11_skb_entries_unresolved"
+}

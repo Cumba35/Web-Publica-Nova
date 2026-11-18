@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "region_definition": "Geographic game-content grouping; countries are assigned once for browsing. Cross-confederation competition data remains separately indexed.",
+  "regions": [
+    {
+      "id": "europe",
+      "name": "Europa",
+      "subregions": [
+        "Europa occidental",
+        "Europa central",
+        "Europa oriental",
+        "Europa meridional",
+        "Europa septentrional"
+      ],
+      "country_codes": [
+        "ENG",
+        "ESP",
+        "ITA",
+        "GER",
+        "FRA",
+        "POR",
+        "NED",
+        "TUR",
+        "BEL",
+        "GRE",
+        "CZE",
+        "CYP"
+      ]
+    },
+    {
+      "id": "south_america",
+      "name": "Sudamérica",
+      "subregions": [
+        "Cono Sur",
+        "Región andina",
+        "Brasil"
+      ],
+      "country_codes": [
+        "BRA",
+        "ARG",
+        "COL",
+        "ECU",
+        "PAR"
+      ]
+    },
+    {
+      "id": "north_central_america_caribbean",
+      "name": "Norteamérica, Centroamérica y Caribe",
+      "subregions": [
+        "Norteamérica",
+        "Centroamérica",
+        "Caribe"
+      ],
+      "country_codes": []
+    },
+    {
+      "id": "africa",
+      "name": "África",
+      "subregions": [
+        "Norte de África",
+        "África occidental",
+        "África central",
+        "África oriental",
+        "África austral"
+      ],
+      "country_codes": [
+        "EGY"
+      ]
+    },
+    {
+      "id": "asia",
+      "name": "Asia",
+      "subregions": [
+        "Asia occidental",
+        "Asia central",
+        "Asia meridional",
+        "Asia oriental",
+        "Sudeste asiático"
+      ],
+      "country_codes": [
+        "KSA",
+        "JPN"
+      ]
+    },
+    {
+      "id": "oceania",
+      "name": "Oceanía",
+      "subregions": [
+        "Australia y Nueva Zelanda",
+        "Pacífico"
+      ],
+      "country_codes": []
+    }
+  ],
+  "rules": [
+    "El selector muestra primero la región y después país, nivel/división, competición y temporada.",
+    "Cada liga es un paquete seleccionable por separado; se puede seleccionar varias, toda una región o todas las ligas disponibles.",
+    "Los países sin lote verificado aparecen como 'En preparación', nunca como descarga lista.",
+    "La pertenencia geográfica no sustituye la confederación oficial ni determina elegibilidad internacional."
+  ]
+}

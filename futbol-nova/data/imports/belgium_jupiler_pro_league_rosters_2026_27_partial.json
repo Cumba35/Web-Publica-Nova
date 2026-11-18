@@ -1,0 +1,1736 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "BEL",
+  "country": "Bélgica",
+  "season": "2026-27",
+  "competition": "Jupiler Pro League",
+  "source_authority": "Belgian Pro League",
+  "snapshot_date": "2026-11-14",
+  "data_scope": [
+    "full_name",
+    "broad_position",
+    "shirt_number_when_published",
+    "club_registration_reference"
+  ],
+  "excluded_fields": [
+    "nationality",
+    "date_of_birth",
+    "height",
+    "weight",
+    "preferred_foot",
+    "statistics",
+    "market_value",
+    "national_team_eligibility"
+  ],
+  "rights_status": "reference_only_reuse_rights_not_cleared",
+  "playable": false,
+  "clubs": [
+    {
+      "club_code": "CER",
+      "club_name": "Cercle Brugge",
+      "source_url": "https://www.proleague.be/teams/cercle-brugge-3/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn806536view0",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Gaëtan Coucke",
+          "position": "GK",
+          "shirt_number": 1,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Yann Lienard",
+          "position": "GK",
+          "shirt_number": 21,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Bas Langenbick",
+          "position": "GK",
+          "shirt_number": 84,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Tiemen De Bel",
+          "position": "GK",
+          "shirt_number": 94,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Ibrahim Diakité",
+          "position": "DEF",
+          "shirt_number": 2,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Yago Lincoln",
+          "position": "DEF",
+          "shirt_number": 3,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Emmanuel Kakou",
+          "position": "DEF",
+          "shirt_number": 5,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Valy Konaté",
+          "position": "DEF",
+          "shirt_number": 12,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Gary Magnée",
+          "position": "DEF",
+          "shirt_number": 15,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Geoffrey Kondo",
+          "position": "DEF",
+          "shirt_number": 24,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Royer Caicedo",
+          "position": "DEF",
+          "shirt_number": 33,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Tayo Adaramola",
+          "position": "DEF",
+          "shirt_number": 45,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Sebbe Gheerardyns",
+          "position": "DEF",
+          "shirt_number": 75,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Louis Colman",
+          "position": "DEF",
+          "shirt_number": 82,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Sam Behaeghe",
+          "position": "DEF",
+          "shirt_number": 88,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Erick Nunes",
+          "position": "MID",
+          "shirt_number": 8,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Lazare Amani",
+          "position": "MID",
+          "shirt_number": 10,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Luke Le Roux",
+          "position": "MID",
+          "shirt_number": 18,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Hannes Van der Bruggen",
+          "position": "MID",
+          "shirt_number": 28,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Lukas Mondele",
+          "position": "MID",
+          "shirt_number": 42,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Viggo Martens",
+          "position": "MID",
+          "shirt_number": 71,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Lukas Rocha Torres",
+          "position": "MID",
+          "shirt_number": 73,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Prince Zagadou",
+          "position": "FWD",
+          "shirt_number": null,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Abdoul Ouattara",
+          "position": "FWD",
+          "shirt_number": 7,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Steve Ngoura",
+          "position": "FWD",
+          "shirt_number": 9,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Charles Herrmann",
+          "position": "FWD",
+          "shirt_number": 11,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Dante Vanzeir",
+          "position": "FWD",
+          "shirt_number": 13,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Joel Ndala",
+          "position": "FWD",
+          "shirt_number": 17,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Abdoulie Manneh",
+          "position": "FWD",
+          "shirt_number": 20,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Lucas Michal",
+          "position": "FWD",
+          "shirt_number": 22,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Tunde Akinsola",
+          "position": "FWD",
+          "shirt_number": 30,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Krys Kouassi",
+          "position": "FWD",
+          "shirt_number": 41,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Ilian Temperman",
+          "position": "FWD",
+          "shirt_number": 62,
+          "source_group": "FWD"
+        }
+      ]
+    },
+    {
+      "club_code": "CLU",
+      "club_name": "Club Brugge",
+      "source_url": "https://www.proleague.be/teams/club-brugge-4/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn806536view1",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Yann Sommer",
+          "position": "GK",
+          "shirt_number": 1,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Nordin Jackers",
+          "position": "GK",
+          "shirt_number": 29,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Axl De Corte",
+          "position": "GK",
+          "shirt_number": 71,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Argus Vanden Driessche",
+          "position": "GK",
+          "shirt_number": 81,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Lee Han-Beom",
+          "position": "DEF",
+          "shirt_number": 3,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Joel Ordóñez",
+          "position": "DEF",
+          "shirt_number": 4,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Matteo Dams",
+          "position": "DEF",
+          "shirt_number": 32,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Hugo Siquet",
+          "position": "DEF",
+          "shirt_number": 41,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Brandon Mechele",
+          "position": "DEF",
+          "shirt_number": 44,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Samba Coulibaly",
+          "position": "DEF",
+          "shirt_number": 54,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Jorne Spileers",
+          "position": "DEF",
+          "shirt_number": 58,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Kyriani Sabbe",
+          "position": "DEF",
+          "shirt_number": 64,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Joaquin Seys",
+          "position": "DEF",
+          "shirt_number": 65,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Samuel Gomez van Hoogen",
+          "position": "DEF",
+          "shirt_number": 82,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Andre Garcia",
+          "position": "DEF",
+          "shirt_number": 90,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Wout Verlinden",
+          "position": "DEF",
+          "shirt_number": 93,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Freddie Potts",
+          "position": "MID",
+          "shirt_number": 8,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Hugo Vetlesen",
+          "position": "MID",
+          "shirt_number": 10,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Cheveyo Tsawa",
+          "position": "MID",
+          "shirt_number": 16,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Hans Vanaken",
+          "position": "MID",
+          "shirt_number": 20,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Lynnt Audoor",
+          "position": "MID",
+          "shirt_number": 62,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Félix Lemaréchal",
+          "position": "MID",
+          "shirt_number": 80,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Tian Nai Koren",
+          "position": "MID",
+          "shirt_number": 85,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Gianluca Okon-Engstler",
+          "position": "MID",
+          "shirt_number": 86,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Nicolò Tresoldi",
+          "position": "FWD",
+          "shirt_number": 7,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Carlos Forbs",
+          "position": "FWD",
+          "shirt_number": 9,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Jan Virgili",
+          "position": "FWD",
+          "shirt_number": 11,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Romeo Vermant",
+          "position": "FWD",
+          "shirt_number": 17,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Wisdom Mike",
+          "position": "FWD",
+          "shirt_number": 27,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Milan Robberechts",
+          "position": "FWD",
+          "shirt_number": 39,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Mamadou Diakhon",
+          "position": "FWD",
+          "shirt_number": 67,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Jessi Da Silva",
+          "position": "FWD",
+          "shirt_number": 72,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Andrej Vasovic",
+          "position": "FWD",
+          "shirt_number": 77,
+          "source_group": "FWD"
+        }
+      ]
+    },
+    {
+      "club_code": "GNK",
+      "club_name": "KRC Genk",
+      "source_url": "https://www.proleague.be/teams/krc-genk-6/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn806536view3",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Tobe Leysen",
+          "position": "GK",
+          "shirt_number": 1,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Tobias Lawal",
+          "position": "GK",
+          "shirt_number": 26,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Lucca Brughmans",
+          "position": "GK",
+          "shirt_number": 28,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Émile Doucouré",
+          "position": "GK",
+          "shirt_number": 97,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Christiaan Ravych",
+          "position": "DEF",
+          "shirt_number": 5,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Matte Smets",
+          "position": "DEF",
+          "shirt_number": 6,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Joris Kayembe",
+          "position": "DEF",
+          "shirt_number": 18,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Yaimar Medina",
+          "position": "DEF",
+          "shirt_number": 19,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Kevin Amaro",
+          "position": "DEF",
+          "shirt_number": 20,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Milan Roganovic",
+          "position": "DEF",
+          "shirt_number": 25,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Adrian Palacios",
+          "position": "DEF",
+          "shirt_number": 34,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Josue Kongolo",
+          "position": "DEF",
+          "shirt_number": 44,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Christian Akpan",
+          "position": "DEF",
+          "shirt_number": 65,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Elie Mbavu",
+          "position": "DEF",
+          "shirt_number": 73,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Emmanuel Sarfo",
+          "position": "DEF",
+          "shirt_number": 84,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Moussa Kone",
+          "position": "MID",
+          "shirt_number": null,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Benjamin Tahirovic",
+          "position": "MID",
+          "shirt_number": 4,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Bryan Heynen",
+          "position": "MID",
+          "shirt_number": 8,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Jeppe Erenbjerg",
+          "position": "MID",
+          "shirt_number": 11,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Ibrahima Bangoura",
+          "position": "MID",
+          "shirt_number": 21,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Nikolas Sattlberger",
+          "position": "MID",
+          "shirt_number": 24,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Daan Heymans",
+          "position": "MID",
+          "shirt_number": 38,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "August De Wannemacker",
+          "position": "MID",
+          "shirt_number": 56,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Kenan Haroun",
+          "position": "MID",
+          "shirt_number": 86,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Junya Ito",
+          "position": "FWD",
+          "shirt_number": 10,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Rafiu Durosinmi",
+          "position": "FWD",
+          "shirt_number": 17,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Aaron Bibout",
+          "position": "FWD",
+          "shirt_number": 23,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Ayumu Yokoyama",
+          "position": "FWD",
+          "shirt_number": 30,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Noah Adedeji-Sternberg",
+          "position": "FWD",
+          "shirt_number": 32,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Jerry Afriyie",
+          "position": "FWD",
+          "shirt_number": 33,
+          "source_group": "FWD"
+        }
+      ]
+    },
+    {
+      "club_code": "KVK",
+      "club_name": "KV Kortrijk",
+      "source_url": "https://www.proleague.be/fr/equipes/kv-kortrijk-24/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn504337search1",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Patrik Gunnarsson",
+          "position": "GK",
+          "shirt_number": 1
+        },
+        {
+          "full_name": "Ebbe De Vlaeminck",
+          "position": "GK",
+          "shirt_number": 13
+        },
+        {
+          "full_name": "Marko Ilic",
+          "position": "GK",
+          "shirt_number": 31
+        },
+        {
+          "full_name": "Tristen Alliet",
+          "position": "GK",
+          "shirt_number": 77
+        },
+        {
+          "full_name": "Matthew Anderson",
+          "position": "DEF",
+          "shirt_number": 3
+        },
+        {
+          "full_name": "Harrison Murray-Campbell",
+          "position": "DEF",
+          "shirt_number": 4
+        },
+        {
+          "full_name": "James Ndjeungoue",
+          "position": "DEF",
+          "shirt_number": 5
+        },
+        {
+          "full_name": "Mohamed Fofana",
+          "position": "DEF",
+          "shirt_number": 15
+        },
+        {
+          "full_name": "Gilles Dewaele",
+          "position": "DEF",
+          "shirt_number": 20
+        },
+        {
+          "full_name": "Axel Drouhin",
+          "position": "DEF",
+          "shirt_number": 21
+        },
+        {
+          "full_name": "Gilles Ruyssen",
+          "position": "DEF",
+          "shirt_number": 22
+        },
+        {
+          "full_name": "Basile Vroninks",
+          "position": "DEF",
+          "shirt_number": 25
+        },
+        {
+          "full_name": "Rudy Kohon",
+          "position": "DEF",
+          "shirt_number": 36
+        },
+        {
+          "full_name": "Guust Lamerand",
+          "position": "DEF",
+          "shirt_number": 45
+        },
+        {
+          "full_name": "Lennard Hens",
+          "position": "MID",
+          "shirt_number": null
+        },
+        {
+          "full_name": "Liam De Smet",
+          "position": "MID",
+          "shirt_number": 6
+        },
+        {
+          "full_name": "Nayel Mehssatou",
+          "position": "MID",
+          "shirt_number": 8
+        },
+        {
+          "full_name": "Rok Storman",
+          "position": "MID",
+          "shirt_number": 17
+        },
+        {
+          "full_name": "Brecht Dejaegere",
+          "position": "MID",
+          "shirt_number": 19
+        },
+        {
+          "full_name": "Jamie Roche",
+          "position": "MID",
+          "shirt_number": 24
+        },
+        {
+          "full_name": "Boris Lambert",
+          "position": "MID",
+          "shirt_number": 35
+        },
+        {
+          "full_name": "Ken Masui",
+          "position": "MID",
+          "shirt_number": 71
+        },
+        {
+          "full_name": "Suf Podgoreanu",
+          "position": "FWD",
+          "shirt_number": 7
+        },
+        {
+          "full_name": "Goduine Koyalipou",
+          "position": "FWD",
+          "shirt_number": 10
+        },
+        {
+          "full_name": "Shandre Campbell",
+          "position": "FWD",
+          "shirt_number": 11
+        },
+        {
+          "full_name": "Lenn De Smet",
+          "position": "FWD",
+          "shirt_number": 14
+        },
+        {
+          "full_name": "Jellert Van Landschoot",
+          "position": "FWD",
+          "shirt_number": 18
+        },
+        {
+          "full_name": "Cassius Mailula",
+          "position": "FWD",
+          "shirt_number": 21
+        },
+        {
+          "full_name": "Thierry Ambrose",
+          "position": "FWD",
+          "shirt_number": 68
+        },
+        {
+          "full_name": "Anthony Philips",
+          "position": "FWD",
+          "shirt_number": 70
+        },
+        {
+          "full_name": "Sixtus Ogbuehi",
+          "position": "FWD",
+          "shirt_number": 90
+        }
+      ]
+    },
+    {
+      "club_code": "KVM",
+      "club_name": "KV Mechelen",
+      "source_url": "https://www.proleague.be/teams/kv-mechelen-8/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn755081view1",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Ortwin De Wolf",
+          "position": "GK",
+          "shirt_number": 1,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Nacho Mirás",
+          "position": "GK",
+          "shirt_number": 13,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Tijn Van Ingelgom",
+          "position": "GK",
+          "shirt_number": 15,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Axel Willockx",
+          "position": "GK",
+          "shirt_number": 32,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Luc Marijnissen",
+          "position": "DEF",
+          "shirt_number": 2,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "José Marsà",
+          "position": "DEF",
+          "shirt_number": 3,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Gora Diouf",
+          "position": "DEF",
+          "shirt_number": 4,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Leo Hjelde",
+          "position": "DEF",
+          "shirt_number": 5,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Ian Struyf",
+          "position": "DEF",
+          "shirt_number": 18,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Kobe Corbanie",
+          "position": "DEF",
+          "shirt_number": 20,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Tommy St. Jago",
+          "position": "DEF",
+          "shirt_number": 33,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Mike Eerdhuijzen",
+          "position": "DEF",
+          "shirt_number": 44,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Ryan Teague",
+          "position": "MID",
+          "shirt_number": null,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Yanis Asghir",
+          "position": "MID",
+          "shirt_number": null,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Fredrik Hammar",
+          "position": "MID",
+          "shirt_number": 6,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Thérence Koudou",
+          "position": "MID",
+          "shirt_number": 7,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Dikeni Salifou",
+          "position": "MID",
+          "shirt_number": 8,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Maksim Kireev",
+          "position": "MID",
+          "shirt_number": 10,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Bilal Bafdili",
+          "position": "MID",
+          "shirt_number": 11,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Dennis Praet",
+          "position": "MID",
+          "shirt_number": 26,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Marco Decherf",
+          "position": "MID",
+          "shirt_number": 30,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Massimo Decoene",
+          "position": "MID",
+          "shirt_number": 39,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Amine Ouahabi",
+          "position": "MID",
+          "shirt_number": 40,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Mats Van Helden",
+          "position": "MID",
+          "shirt_number": 49,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Myron van Brederode",
+          "position": "FWD",
+          "shirt_number": 9,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Benito Raman",
+          "position": "FWD",
+          "shirt_number": 14,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Adeshina Ayodele",
+          "position": "FWD",
+          "shirt_number": 16,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Cedric Van Meirvenne",
+          "position": "FWD",
+          "shirt_number": 17,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Malcolm Lohunanu-Mbasi",
+          "position": "FWD",
+          "shirt_number": 19,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Halil Özdemir",
+          "position": "FWD",
+          "shirt_number": 21,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Simion Michez",
+          "position": "FWD",
+          "shirt_number": 23,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Keano Van Rafelghem",
+          "position": "FWD",
+          "shirt_number": 27,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Bouke Boersma",
+          "position": "FWD",
+          "shirt_number": 28,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Bill Antonio",
+          "position": "FWD",
+          "shirt_number": 29,
+          "source_group": "FWD"
+        }
+      ]
+    },
+    {
+      "club_code": "WES",
+      "club_name": "KVC Westerlo",
+      "source_url": "https://www.proleague.be/teams/kvc-westerlo-15/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn755081view2",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Bill Lathouwers",
+          "position": "GK",
+          "shirt_number": 1,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Jahnilo Wiegel-Triebel",
+          "position": "GK",
+          "shirt_number": 21,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Andreas Jungdal",
+          "position": "GK",
+          "shirt_number": 99,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Lasse Flø",
+          "position": "DEF",
+          "shirt_number": 2,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Amando Lapage",
+          "position": "DEF",
+          "shirt_number": 4,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Seiji Kimura",
+          "position": "DEF",
+          "shirt_number": 5,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Reno Münz",
+          "position": "DEF",
+          "shirt_number": 6,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Lucas Mbamba-Muanda",
+          "position": "DEF",
+          "shirt_number": 23,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Michée Ndembi",
+          "position": "DEF",
+          "shirt_number": 24,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Dylan Ourega",
+          "position": "DEF",
+          "shirt_number": 28,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Botond Balogh",
+          "position": "DEF",
+          "shirt_number": 40,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Fabio Ferraro",
+          "position": "DEF",
+          "shirt_number": 88,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Serhii Sydorchuk",
+          "position": "MID",
+          "shirt_number": 8,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Reda Laalaoui",
+          "position": "MID",
+          "shirt_number": 12,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Cisse Sandra",
+          "position": "MID",
+          "shirt_number": 14,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Cameron Congreve",
+          "position": "MID",
+          "shirt_number": 20,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Pape Diong",
+          "position": "MID",
+          "shirt_number": 26,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Dogucan Haspolat",
+          "position": "MID",
+          "shirt_number": 34,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Thomas Van den Keybus",
+          "position": "MID",
+          "shirt_number": 39,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Ibrahim Fofana",
+          "position": "MID",
+          "shirt_number": 45,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Philippe Bibout",
+          "position": "MID",
+          "shirt_number": 71,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Abdoulaye Kone",
+          "position": "FWD",
+          "shirt_number": null,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Dino Delic",
+          "position": "FWD",
+          "shirt_number": null,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Shunsuke Saito",
+          "position": "FWD",
+          "shirt_number": 7,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Norman Bassette",
+          "position": "FWD",
+          "shirt_number": 9,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Nikola Storm",
+          "position": "FWD",
+          "shirt_number": 10,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Naoufal Bohamdi-Kamoni",
+          "position": "FWD",
+          "shirt_number": 11,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Isa Sakamoto",
+          "position": "FWD",
+          "shirt_number": 13,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "David Amegnaglo",
+          "position": "FWD",
+          "shirt_number": 17,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Emmanuel Tsimba",
+          "position": "FWD",
+          "shirt_number": 22,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Yang Min-Hyeok",
+          "position": "FWD",
+          "shirt_number": 47,
+          "source_group": "FWD"
+        }
+      ]
+    },
+    {
+      "club_code": "LAL",
+      "club_name": "RAAL La Louvière",
+      "source_url": "https://www.proleague.be/teams/raal-la-louviere-10/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn648222view3",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Tiago Pereira Cardoso",
+          "position": "GK",
+          "shirt_number": 16,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Marcos Peano",
+          "position": "GK",
+          "shirt_number": 21,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Lucas Monteiro",
+          "position": "GK",
+          "shirt_number": 71,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Théo Radelet",
+          "position": "GK",
+          "shirt_number": 91,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Manu Verbruggen",
+          "position": "DEF",
+          "shirt_number": null,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Nolan Gillot",
+          "position": "DEF",
+          "shirt_number": 3,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Wagane Faye",
+          "position": "DEF",
+          "shirt_number": 4,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Thierry Lutonda",
+          "position": "DEF",
+          "shirt_number": 5,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Shaquil Delos",
+          "position": "DEF",
+          "shirt_number": 18,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Siad Gourville",
+          "position": "DEF",
+          "shirt_number": 22,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Djibril Lamego",
+          "position": "DEF",
+          "shirt_number": 25,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Patrick Nkoa",
+          "position": "DEF",
+          "shirt_number": 33,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Mehdi Boukamir",
+          "position": "DEF",
+          "shirt_number": 44,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Yllan Okou",
+          "position": "DEF",
+          "shirt_number": 99,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Mátyás Kovács",
+          "position": "MID",
+          "shirt_number": 7,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Mame Wade",
+          "position": "MID",
+          "shirt_number": 10,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Noah Makembo",
+          "position": "MID",
+          "shirt_number": 20,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Joël Ito",
+          "position": "MID",
+          "shirt_number": 23,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Bryan Soumaré",
+          "position": "MID",
+          "shirt_number": 28,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Marius Courcoul",
+          "position": "MID",
+          "shirt_number": 29,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Ismaila Coulibaly",
+          "position": "MID",
+          "shirt_number": 48,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Anas Tajaouart",
+          "position": "MID",
+          "shirt_number": 78,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Timéo Kerckhofs",
+          "position": "MID",
+          "shirt_number": 89,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Elias Filet",
+          "position": "FWD",
+          "shirt_number": 9,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Mustapha Isah",
+          "position": "FWD",
+          "shirt_number": 11,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Mouhamed Belkheir",
+          "position": "FWD",
+          "shirt_number": 14,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Zsombor Gruber",
+          "position": "FWD",
+          "shirt_number": 30,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Quentin Benaets",
+          "position": "FWD",
+          "shirt_number": 43,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Léandro Rousseau",
+          "position": "FWD",
+          "shirt_number": 90,
+          "source_group": "FWD"
+        }
+      ]
+    },
+    {
+      "club_code": "SKB",
+      "club_name": "SK Beveren",
+      "source_url": "https://www.skbeveren.be/ploegen/a-kern",
+      "source_authority": "SK Beveren official club website",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn123549view0",
+      "source_status": "transcribed_from_official_club_page_partial_visible_player_list",
+      "players": [
+        {
+          "full_name": "Johannes Schenk",
+          "position": "GK",
+          "shirt_number": 1
+        },
+        {
+          "full_name": "Maxim Deman",
+          "position": "GK",
+          "shirt_number": 16
+        },
+        {
+          "full_name": "Milan De Schutter",
+          "position": "GK",
+          "shirt_number": 20
+        },
+        {
+          "full_name": "Josua Tshiolola",
+          "position": "GK",
+          "shirt_number": 84
+        },
+        {
+          "full_name": "Dominic Thompson",
+          "position": "DEF",
+          "shirt_number": 2
+        },
+        {
+          "full_name": "Viktor Boone",
+          "position": "DEF",
+          "shirt_number": 3
+        },
+        {
+          "full_name": "Christophe Janssens",
+          "position": "DEF",
+          "shirt_number": 4
+        },
+        {
+          "full_name": "Laurent Jans",
+          "position": "DEF",
+          "shirt_number": 21
+        },
+        {
+          "full_name": "Cheick Oumar Konaté",
+          "position": "DEF",
+          "shirt_number": 25
+        },
+        {
+          "full_name": "Bruno Godeau",
+          "position": "DEF",
+          "shirt_number": 31
+        },
+        {
+          "full_name": "Yoni Gomis",
+          "position": "DEF",
+          "shirt_number": 35
+        },
+        {
+          "full_name": "Jannik Robatsch",
+          "position": "DEF",
+          "shirt_number": 48
+        },
+        {
+          "full_name": "Stephane Keller",
+          "position": "DEF",
+          "shirt_number": 77
+        },
+        {
+          "full_name": "Ferre Slegers",
+          "position": "MID",
+          "shirt_number": 8
+        },
+        {
+          "full_name": "Guillaume De Schryver",
+          "position": "MID",
+          "shirt_number": 10
+        },
+        {
+          "full_name": "Léandre Kuavita",
+          "position": "MID",
+          "shirt_number": 14
+        },
+        {
+          "full_name": "Sieben Dewaele",
+          "position": "MID",
+          "shirt_number": 18
+        },
+        {
+          "full_name": "Christian Brüls",
+          "position": "MID",
+          "shirt_number": 22
+        },
+        {
+          "full_name": "Arno Verschueren",
+          "position": "MID",
+          "shirt_number": 24
+        },
+        {
+          "full_name": "Cheick Condé",
+          "position": "MID",
+          "shirt_number": 44
+        },
+        {
+          "full_name": "Chris Lokesa",
+          "position": "FWD",
+          "shirt_number": 5
+        },
+        {
+          "full_name": "Ilyes Najim",
+          "position": "FWD",
+          "shirt_number": 7
+        },
+        {
+          "full_name": "Elohim Kaboré",
+          "position": "FWD",
+          "shirt_number": 9
+        },
+        {
+          "full_name": "Junior Diouf",
+          "position": "FWD",
+          "shirt_number": 11
+        },
+        {
+          "full_name": "Jearl Margaritha",
+          "position": "FWD",
+          "shirt_number": 17
+        },
+        {
+          "full_name": "Victor Olatunji",
+          "position": "FWD",
+          "shirt_number": 33
+        },
+        {
+          "full_name": "Kurt Abrahams",
+          "position": "FWD",
+          "shirt_number": 34
+        },
+        {
+          "full_name": "Lennart Mertens",
+          "position": "FWD",
+          "shirt_number": 92
+        }
+      ]
+    },
+    {
+      "club_code": "STV",
+      "club_name": "STVV",
+      "source_url": "https://www.proleague.be/teams/stvv-11/squad",
+      "source_authority": "Belgian Pro League",
+      "retrieved_on": "2026-11-14",
+      "source_ref": "turn648222view9",
+      "source_status": "transcribed_from_official_proleague_squad_page",
+      "players": [
+        {
+          "full_name": "Leo Kokubo",
+          "position": "GK",
+          "shirt_number": 16,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Matt Lendfers",
+          "position": "GK",
+          "shirt_number": 21,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Ahmad Aburasyin",
+          "position": "GK",
+          "shirt_number": 25,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Nkima Ngoy",
+          "position": "GK",
+          "shirt_number": 30,
+          "source_group": "GK"
+        },
+        {
+          "full_name": "Taiga Hata",
+          "position": "DEF",
+          "shirt_number": 3,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Kota Takai",
+          "position": "DEF",
+          "shirt_number": 4,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Shogo Taniguchi",
+          "position": "DEF",
+          "shirt_number": 5,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Wolke Janssens",
+          "position": "DEF",
+          "shirt_number": 22,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Joedrick Pupe",
+          "position": "DEF",
+          "shirt_number": 23,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Visar Musliu",
+          "position": "DEF",
+          "shirt_number": 26,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Jeremy Mbambi",
+          "position": "DEF",
+          "shirt_number": 27,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Rune Verheyden",
+          "position": "DEF",
+          "shirt_number": 39,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Robert-Jan Vanwesemael",
+          "position": "DEF",
+          "shirt_number": 60,
+          "source_group": "DEF"
+        },
+        {
+          "full_name": "Abdoulaye Sissako",
+          "position": "MID",
+          "shirt_number": 8,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Ryan Merlen",
+          "position": "MID",
+          "shirt_number": 14,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Nelson Ishiwatari",
+          "position": "MID",
+          "shirt_number": 18,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Illyès Benachour",
+          "position": "MID",
+          "shirt_number": 31,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Alouis Diriken",
+          "position": "MID",
+          "shirt_number": 33,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Ryotaro Araki",
+          "position": "MID",
+          "shirt_number": 71,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Shion Shinkawa",
+          "position": "MID",
+          "shirt_number": 99,
+          "source_group": "MID"
+        },
+        {
+          "full_name": "Arbnor Muja",
+          "position": "FWD",
+          "shirt_number": 7,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Samed Bazdar",
+          "position": "FWD",
+          "shirt_number": 9,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Ilias Sebaoui",
+          "position": "FWD",
+          "shirt_number": 10,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Nathanaël Mbuku",
+          "position": "FWD",
+          "shirt_number": 11,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Frederic Soèllé Soèllé",
+          "position": "FWD",
+          "shirt_number": 19,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Kaito Matsuzawa",
+          "position": "FWD",
+          "shirt_number": 38,
+          "source_group": "FWD"
+        },
+        {
+          "full_name": "Oumar Diouf",
+          "position": "FWD",
+          "shirt_number": 77,
+          "source_group": "FWD"
+        }
+      ]
+    }
+  ],
+  "club_count": 9,
+  "players_transcribed": 276,
+  "notes": [
+    "Transcripción parcial de cinco páginas oficiales accesibles en esta revisión; no representa aún las 18 plantillas completas.",
+    "Los dorsales ausentes en la página oficial se guardan como null; no se deducen.",
+    "Las páginas oficiales pueden cambiar durante la temporada; esta captura es una instantánea del 14-11-2026.",
+    "La transcripción de nombres y dorsales no concede derechos de redistribución ni autoriza un paquete jugable.",
+    "SK Beveren: se añadió transcripción de los 28 registros de jugador visibles en la página oficial del primer equipo; el encabezado de la página indica 39 jugadores, por lo que 11 registros no quedaron visibles en el texto recuperado y el club permanece parcial.",
+    "KV Kortrijk: plantilla transcrita desde la página oficial Pro League. Lennard Hens aparece sin dorsal publicado y se conserva null.",
+    "RAAL La Louvière y STVV añadidos desde sus páginas oficiales de plantillas Pro League el 2026-11-14."
+  ]
+}

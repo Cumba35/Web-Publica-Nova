@@ -1,0 +1,69 @@
+source_club_id,country_code,city,division_level,competition_id,season,source_url,active,gender,team_type
+ENG-2026-27-L1-afc-bournemouth,ENG,Bournemouth,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-arsenal,ENG,London North,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-aston-villa,ENG,Birmingham,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-brentford,ENG,Brentford,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-brighton-hove-albion,ENG,Brighton,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-chelsea,ENG,London West,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-coventry-city,ENG,Coventry,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-crystal-palace,ENG,London South,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-everton,ENG,Liverpool,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-fulham,ENG,London West Fulham,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-hull-city,ENG,Hull,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-ipswich-town,ENG,Ipswich,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-leeds-united,ENG,Leeds,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-liverpool,ENG,Liverpool,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-manchester-city,ENG,Manchester,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-manchester-united,ENG,Manchester United,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-newcastle-united,ENG,Newcastle,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-nottingham-forest,ENG,Nottingham,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-sunderland,ENG,Sunderland,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L1-tottenham-hotspur,ENG,London North Tottenham,1,ENG-PL-2026-27,2026-27,https://www.premierleague.com/en/news/4365156,true,men,first_team
+ENG-2026-27-L2-birmingham-city,ENG,Birmingham,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-blackburn-rovers,ENG,Blackburn,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-bolton-wanderers,ENG,Bolton,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-bristol-city,ENG,Bristol,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-burnley,ENG,Burnley,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-cardiff-city,ENG,Cardiff,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-charlton-athletic,ENG,Charlton,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-derby-county,ENG,Derby,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-lincoln-city,ENG,Lincoln,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-middlesbrough,ENG,Middlesbrough,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-millwall,ENG,London South East,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-norwich-city,ENG,Norwich,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-portsmouth,ENG,Portsmouth,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-preston-north-end,ENG,Preston,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-queens-park-rangers,ENG,London West Rangers,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-sheffield-united,ENG,Sheffield United,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-southampton,ENG,Southampton,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-stoke-city,ENG,Stoke,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-swansea-city,ENG,Swansea,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-watford,ENG,Watford,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-west-bromwich-albion,ENG,West Bromwich,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-west-ham-united,ENG,London East,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-wolverhampton-wanderers,ENG,Wolverhampton,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L2-wrexham,ENG,Wrexham,2,ENG-CHAMP-2026-27,2026-27,https://www.paramountplus.com/sneak-peak/how-to-watch-efl-championship/,true,men,first_team
+ENG-2026-27-L3-afc-wimbledon,ENG,Wimbledon,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-barnsley,ENG,Barnsley,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-blackpool,ENG,Blackpool,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-bradford-city,ENG,Bradford,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-bromley,ENG,Bromley,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-burton-albion,ENG,Burton,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-cambridge-united,ENG,Cambridge,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-doncaster-rovers,ENG,Doncaster,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-huddersfield-town,ENG,Huddersfield,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-leicester-city,ENG,Leicester,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-leyton-orient,ENG,Leyton,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-luton-town,ENG,Luton,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-mansfield-town,ENG,Mansfield,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-milton-keynes-dons,ENG,Milton Keynes,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-notts-county,ENG,Nottingham County,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-oxford-united,ENG,Oxford,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-peterborough-united,ENG,Peterborough,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-plymouth-argyle,ENG,Plymouth,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-reading,ENG,Reading,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-sheffield-wednesday,ENG,Sheffield Wednesday,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-stevenage,ENG,Stevenage,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-stockport-county,ENG,Stockport,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-wigan-athletic,ENG,Wigan,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team
+ENG-2026-27-L3-wycombe-wanderers,ENG,High Wycombe,3,ENG-L1-2026-27,2026-27,https://www.skysports.com/football/news/11719/13552244/league-one-2026-27-season-fixtures-dates-schedule-and-how-to-watch,true,men,first_team

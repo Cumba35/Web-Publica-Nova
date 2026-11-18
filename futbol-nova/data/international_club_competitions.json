@@ -1,0 +1,717 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "international_club",
+  "ui_category": "club",
+  "status": "worldwide_competition_catalog_registered_runtime_integration_in_progress",
+  "description": "Catálogo mundial de competiciones internacionales masculinas de clubes: América, Europa, África, Asia, Oceanía y torneos intercontinentales.",
+  "competitions": [
+    {
+      "id": "caribbean_champions_league_nova",
+      "name": "Liga de Campeones del Caribe",
+      "region": "caribbean_cfu",
+      "tier": 1,
+      "format": "four_groups_single_round_robin_then_knockout",
+      "qualification_source": "cfu_first_division_final_positions_and_assigned_slots",
+      "stages": [
+        "league_phase_4_groups_of_12",
+        "intergroup_playoff",
+        "round_of_16",
+        "quarterfinals",
+        "semifinals",
+        "final"
+      ],
+      "two_legged_until": "semifinals",
+      "final_neutral": true,
+      "participant_count": 48,
+      "implementation_config": "data/caribbean_champions_league.json",
+      "engine": "scripts/simulation/caribbean_champions_league_engine.gd",
+      "calendar_season_id": "2026-2027",
+      "calendar_start": "2026-10-10",
+      "calendar_end": "2027-06-21",
+      "calendar_status": "common_regional_calendar_defined_domestic_audit_pending",
+      "founding_year": 2020,
+      "founding_status": "user_confirmed",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "caribbean_champions_league_nova",
+        "real_world_name": "Concacaf Caribbean Cup",
+        "mapping_type": "real_world_equivalent",
+        "status": "initial_records_loaded",
+        "editions_loaded": 3
+      }
+    },
+    {
+      "id": "american_super_champions_tas",
+      "name": "Torneo Americano de Supercampeones (TAS)",
+      "region": "americas",
+      "tier": 0,
+      "format": "three_regional_groups_single_round_robin_then_final_group_single_round_robin",
+      "qualification_source": "top_three_finishers_from_each_of_the_three_eligible_american_regional_competitions",
+      "qualification_rule": {
+        "qualifiers_per_regional_competition": 3,
+        "places": [
+          {
+            "position": 1,
+            "achievement": "champion"
+          },
+          {
+            "position": 2,
+            "achievement": "runner_up"
+          },
+          {
+            "position": 3,
+            "achievement": "third_place"
+          }
+        ],
+        "note": "Se clasifican los tres primeros puestos de cada liga regional: campeón, subcampeón y tercer lugar."
+      },
+      "stages": [
+        "first_phase_three_groups_of_three_single_match",
+        "final_group_three_qualifiers_single_match",
+        "championship_final_single_match"
+      ],
+      "format_details_status": "all_13_fixtures_single_match_stage_lifecycle_implemented",
+      "participant_count": 9,
+      "two_legged_until": null,
+      "final_neutral": null,
+      "regional_representation": {
+        "caribbean": {
+          "represented_by": "caribbean_champions_league_nova",
+          "qualifiers_per_competition": 3,
+          "positions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "south_america": {
+          "represented_by": "south_america_champions_league_nova",
+          "qualifiers_per_competition": 3,
+          "positions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "north_and_central_america": {
+          "represented_by": "north_central_america_champions_league_nova",
+          "qualifiers_per_competition": 3,
+          "positions": [
+            1,
+            2,
+            3
+          ]
+        },
+        "group_assignment": {
+          "A": {
+            "caribbean_position": 1,
+            "south_america_position": 2,
+            "north_and_central_america_position": 3
+          },
+          "B": {
+            "caribbean_position": 2,
+            "south_america_position": 3,
+            "north_and_central_america_position": 1
+          },
+          "C": {
+            "caribbean_position": 3,
+            "south_america_position": 1,
+            "north_and_central_america_position": 2
+          }
+        },
+        "excluded_competitions": [
+          "CFU Club Shield",
+          "Copa del Caribe de Concacaf"
+        ],
+        "note": "Nueve participantes: campeón, subcampeón y tercer lugar de cada una de las tres ligas regionales. Cada grupo contiene un equipo de cada región y una combinación de posiciones 1.º, 2.º y 3.º."
+      },
+      "eligible_regional_competition_ids": [
+        "caribbean_champions_league_nova",
+        "south_america_champions_league_nova",
+        "north_central_america_champions_league_nova"
+      ],
+      "calendar": {
+        "season_id": "2027",
+        "start_date": "2027-08-27",
+        "end_date": "2027-09-11",
+        "status": "competition_format_and_hosting_rules_defined_match_dates_and_tiebreakers_pending"
+      },
+      "group_stage": {
+        "group_count": 3,
+        "teams_per_group": 3,
+        "format": "single_round_robin",
+        "matches_per_team": 2,
+        "matches_per_group": 3,
+        "qualification_rule": "group_winner_only",
+        "qualifiers": 3,
+        "total_matches": 9,
+        "tiebreakers": "tas_ordered_tiebreakers"
+      },
+      "final_group": {
+        "teams": 3,
+        "participants": "winners_of_each_first_phase_group",
+        "format": "single_round_robin",
+        "matches_per_team": 2,
+        "total_matches": 3,
+        "champion_rule": "top_of_final_group_standings",
+        "tiebreakers_status": "implemented_points_goal_difference_goals_for_head_to_head_fair_play_seeded_draw",
+        "qualification_to_championship_final": "top_two_teams",
+        "championship_finalists": 2,
+        "tiebreakers": [
+          "points",
+          "goal_difference",
+          "goals_for",
+          "head_to_head_points",
+          "head_to_head_goal_difference",
+          "head_to_head_goals_for",
+          "fair_play",
+          "seeded_draw"
+        ]
+      },
+      "championship_final": {
+        "format": "single_match",
+        "participants": "top_two_of_final_group",
+        "champion_rule": "winner_of_championship_final",
+        "neutral_venue": true
+      },
+      "total_matches": 13,
+      "hosting": {
+        "host_selection": "random_draw_among_countries_represented_by_participating_clubs",
+        "host_country_must_be_participant_country": true,
+        "consecutive_host_country_prohibited": true,
+        "host_country_history_required": true,
+        "venue_changes_each_edition": true,
+        "draw_timing_status": "fixed_three_days_after_regional_finals",
+        "final_venue_same_host_country": true,
+        "final_venue_rule": "The championship final is played in the same host country selected for the tournament edition.",
+        "host_draw_date": "2027-06-24",
+        "host_draw_rule": "The host country draw takes place three days after the three regional competition finals, scheduled for 2027-06-21.",
+        "host_draw_relative_to_regional_finals_days": 3,
+        "host_draw_before_tournament_start": true,
+        "draw_public": true,
+        "draw_visibility": "public",
+        "result_publication": "automatic",
+        "result_publication_target": "NOVA",
+        "result_publication_trigger": "immediately_after_draw_completion",
+        "public_result_fields": [
+          "host_country",
+          "draw_date",
+          "eligible_participant_countries",
+          "previous_edition_host_exclusion"
+        ],
+        "draw_audit_record_required": true,
+        "host_exclusion_policy": "exclude_last_five_host_countries",
+        "excluded_previous_host_count": 5,
+        "host_history_window_editions": 5,
+        "eligible_countries_public_before_draw": true,
+        "public_pre_draw_information": [
+          "eligible_participant_countries",
+          "excluded_last_five_host_countries",
+          "draw_date",
+          "fallback_three_countries_if_no_standard_eligible_country"
+        ],
+        "single_eligible_country_rule": "If exactly one participant country remains eligible after excluding the five most recent host countries, assign that country automatically without a draw.",
+        "no_eligible_countries_fallback": {
+          "enabled": true,
+          "method": "public_random_draw",
+          "fallback_country_count": 3,
+          "selection_rule": "If no participant country remains eligible after excluding the five most recent host countries, expand the draw pool to the next three participant countries in the host-exclusion ranking immediately after those five excluded countries.",
+          "fallback_countries_must_be_participant_countries": true,
+          "draw_required": true,
+          "fallback_order": "sixth_seventh_and_eighth_most_recent_host_countries_that_are_represented_by_participating_clubs",
+          "result_publication": "automatic",
+          "draw_audit_record_required": true
+        },
+        "host_selection_contingency_order": [
+          "If more than one country is eligible, hold the standard public random draw among eligible participant countries.",
+          "If exactly one country is eligible, assign it automatically without a draw.",
+          "If no country is eligible, hold a public random draw among the next three participant countries in the exclusion ranking after the five most recent host countries.",
+          "If any country in a three-country fallback group is objectively unable to host due to an exceptional circumstance, document the reason and expand to the next three participant countries in the host-history exclusion ranking; repeat in groups of three until a valid host is selected."
+        ],
+        "fallback_draw_date": "2027-06-24",
+        "fallback_draw_same_date_as_standard_draw": true,
+        "fallback_draw_timing_rule": "If the fallback draw among the next three countries is required, it takes place publicly on the same scheduled date as the standard host-country draw: 2027-06-24.",
+        "exceptional_fallback": {
+          "enabled": true,
+          "trigger": "If one or more countries in the initial three-country contingency pool are objectively unable to host due to an exceptional circumstance.",
+          "method": "public_random_draw_from_next_three_countries",
+          "countries_per_expansion": 3,
+          "selection_order": "Continue down the host-history exclusion ranking in consecutive groups of three participant countries, skipping countries already drawn or confirmed unable to host.",
+          "repeat_until": "A valid host country is selected from a group with at least one eligible country.",
+          "draw_date": "2027-06-24",
+          "same_date_as_original_host_draw": true,
+          "draw_public": true,
+          "result_publication": "automatic",
+          "draw_audit_record_required": true,
+          "exceptional_unavailability_must_be_documented": true
+        },
+        "host_confirmation": {
+          "required_before_country_is_considered_eligible": true,
+          "confirmation_must_be_official": true,
+          "confirmation_source": "official_written_confirmation_from_the_country_hosting_authority_or_designated_organizing_body",
+          "confirmation_status_required": "confirmed",
+          "unconfirmed_country_treatment": "exclude_from_current_draw_pool_and_record_reason",
+          "confirmation_deadline": "before_host_draw_on_2027-06-24"
+        }
+      },
+      "edition_history": {
+        "inaugural_edition": {
+          "edition_id": "2027",
+          "start_date": "2027-08-27",
+          "end_date": "2027-09-11",
+          "historical_context": "The TAS inaugural edition began after the completion of the first season of the three regional leagues, which ended on 2027-06-21.",
+          "follows_first_regional_season": true,
+          "preceding_regional_season_end_date": "2027-06-21",
+          "winner_record": {
+            "person_name": "Anier",
+            "achievement": "won_the_inaugural_TAS_edition",
+            "preceding_achievement": "won_Santiago_de_Cuba_first_international_tournament",
+            "sequence": [
+              "Anier wins Santiago de Cuba's first international tournament.",
+              "After that achievement, Anier wins the inaugural 2027 TAS edition."
+            ],
+            "record_type": "user_defined_career_history"
+          },
+          "result_status": "historical_scenario_recorded_by_user_not_yet_a_simulated_match_result"
+        }
+      },
+      "engine": "scripts/simulation/tas_match_decision_engine.gd",
+      "match_rules": {
+        "fixture_format": "single_match",
+        "regulation_minutes": 90,
+        "extra_time": {
+          "enabled": true,
+          "periods": 2,
+          "minutes_per_period": 15,
+          "applies_to": "championship_final_only",
+          "trigger": "draw_after_regulation"
+        },
+        "penalty_shootout": {
+          "enabled": true,
+          "trigger": "draw_after_extra_time",
+          "format": "five_kicks_each_then_sudden_death"
+        },
+        "group_stage": {
+          "draws_allowed": true,
+          "extra_time": false,
+          "penalty_shootout": false
+        },
+        "final_group": {
+          "draws_allowed": true,
+          "extra_time": false,
+          "penalty_shootout": false
+        },
+        "championship_final": {
+          "draws_allowed_after_regulation": false,
+          "extra_time": true,
+          "penalty_shootout": true
+        },
+        "note": "Todos los encuentros se disputan a partido único. La primera fase y el grupo final admiten empate; solo la final por el título exige ganador y utiliza prórroga y penaltis."
+      },
+      "implementation_status": {
+        "match_decision_engine": "implemented",
+        "football_data_service_match_resolution": "integrated",
+        "full_competition_lifecycle": "core_single_match_lifecycle_persistence_and_stage_advancement_implemented",
+        "automated_test": [
+          "tests/test_tas_match_decision_engine.gd",
+          "tests/test_tas_competition_engine.gd"
+        ],
+        "automated_test_execution": "pending_godot_4",
+        "standings_tiebreak_engine": "implemented",
+        "football_data_service_tiebreak_persistence": "integrated",
+        "automated_tiebreak_tests": "added",
+        "qualification_from_regional_results": "pending_regional_result_bridge",
+        "tiebreakers": "implemented_reproducible_seeded_draw_and_saved_draw_lots"
+      },
+      "tiebreakers": {
+        "applies_to": [
+          "first_phase_groups",
+          "final_group"
+        ],
+        "ordered_criteria": [
+          "points",
+          "overall_goal_difference",
+          "overall_goals_scored",
+          "head_to_head_points_goal_difference_and_goals_scored_among_tied_teams",
+          "fair_play_fewer_disciplinary_points",
+          "reproducible_recorded_random_draw"
+        ],
+        "head_to_head_rule": "When multiple clubs remain tied after overall goal difference and goals scored, compare only matches played among the tied clubs: points, goal difference, then goals scored.",
+        "fair_play_rule": "The club with fewer disciplinary points ranks higher.",
+        "random_draw_rule": "If all previous criteria remain equal, use a seeded random draw. Persist the seed and each tied club's draw lot in the season state so reloading does not change the ranking.",
+        "status": "defined"
+      },
+      "founding_year": 2021,
+      "founding_status": "user_confirmed",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "american_super_champions_tas",
+        "real_world_name": "No real-world equivalent",
+        "mapping_type": "user_created_competition",
+        "status": "no_real_world_history",
+        "editions_loaded": 0
+      }
+    },
+    {
+      "id": "south_america_champions_league_nova",
+      "name": "Liga de Campeones de Sudamérica",
+      "region": "south_america",
+      "tier": 1,
+      "format": "four_groups_single_round_robin_then_knockout",
+      "qualification_source": "south_america_first_division_associations_48_slots",
+      "participant_count": 40,
+      "implementation_config": "data/south_america_champions_league.json",
+      "engine": "pending_shared_regional_champions_engine",
+      "format_details_status": "40_slots_fully_assigned_group_draw_and_runtime_integration_pending",
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "common_regional_calendar_defined_domestic_audit_pending",
+      "group_stage_matchdays": 9,
+      "group_stage_matches": 180,
+      "calendar_start": "2026-10-10",
+      "calendar_end": "2027-06-21",
+      "founding_year": 2020,
+      "founding_status": "user_confirmed",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "south_america_champions_league_nova",
+        "real_world_name": "CONMEBOL Libertadores",
+        "mapping_type": "real_world_equivalent",
+        "status": "initial_records_loaded",
+        "editions_loaded": 66
+      }
+    },
+    {
+      "id": "north_central_america_champions_league_nova",
+      "name": "Liga de Campeones de Norteamérica y Centroamérica",
+      "region": "north_and_central_america",
+      "tier": 1,
+      "format": "four_groups_single_round_robin_then_knockout",
+      "qualification_source": "north_and_central_america_first_division_associations_48_slots",
+      "participant_count": 40,
+      "implementation_config": "data/north_central_america_champions_league.json",
+      "engine": "pending_shared_regional_champions_engine",
+      "format_details_status": "40_slots_fully_assigned_group_draw_and_runtime_integration_pending",
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "common_regional_calendar_defined_domestic_audit_pending",
+      "group_stage_matchdays": 9,
+      "group_stage_matches": 180,
+      "calendar_start": "2026-10-10",
+      "calendar_end": "2027-06-21",
+      "founding_year": 2020,
+      "founding_status": "user_confirmed",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "north_central_america_champions_league_nova",
+        "real_world_name": "Concacaf Champions Cup",
+        "mapping_type": "real_world_equivalent",
+        "status": "champions_history_expanded_2026_final_details_pending",
+        "editions_loaded": 59
+      }
+    },
+    {
+      "id": "uefa_champions_league_nova",
+      "name": "UEFA Champions League",
+      "region": "europe",
+      "confederation": "UEFA",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "league_phase_36_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "uefa_champions_league_nova",
+        "real_world_name": "UEFA Champions League",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 71
+      }
+    },
+    {
+      "id": "uefa_europa_league_nova",
+      "name": "UEFA Europa League",
+      "region": "europe",
+      "confederation": "UEFA",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "league_phase_36_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "uefa_europa_league_nova",
+        "real_world_name": "UEFA Europa League",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 55
+      }
+    },
+    {
+      "id": "uefa_conference_league_nova",
+      "name": "UEFA Conference League",
+      "region": "europe",
+      "confederation": "UEFA",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "league_phase_36_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "uefa_conference_league_nova",
+        "real_world_name": "UEFA Conference League",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded_with_2025_26_match_archive",
+        "editions_loaded": 5
+      }
+    },
+    {
+      "id": "caf_champions_league_nova",
+      "name": "CAF Champions League",
+      "region": "africa",
+      "confederation": "CAF",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "qualifying_then_group_stage_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "caf_champions_league_nova",
+        "real_world_name": "CAF Champions League",
+        "mapping_type": "official_competition",
+        "status": "2025-26_final_details_added",
+        "editions_loaded": 63
+      }
+    },
+    {
+      "id": "caf_confederation_cup_nova",
+      "name": "CAF Confederation Cup",
+      "region": "africa",
+      "confederation": "CAF",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "qualifying_then_group_stage_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "caf_confederation_cup_nova",
+        "real_world_name": "CAF Confederation Cup",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 22
+      }
+    },
+    {
+      "id": "afc_champions_league_elite_nova",
+      "name": "AFC Champions League Elite",
+      "region": "asia",
+      "confederation": "AFC",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "east_west_league_phase_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "afc_champions_league_elite_nova",
+        "real_world_name": "AFC Champions League Elite",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 35
+      }
+    },
+    {
+      "id": "afc_champions_league_two_nova",
+      "name": "AFC Champions League Two",
+      "region": "asia",
+      "confederation": "AFC",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "qualifying_then_group_stage_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "afc_champions_league_two_nova",
+        "real_world_name": "AFC Champions League Two",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 1
+      }
+    },
+    {
+      "id": "afc_challenge_league_nova",
+      "name": "AFC Challenge League",
+      "region": "asia",
+      "confederation": "AFC",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "qualifying_then_group_stage_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "afc_challenge_league_nova",
+        "real_world_name": "AFC Challenge League",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 1
+      }
+    },
+    {
+      "id": "ofc_champions_league_nova",
+      "name": "OFC Champions League",
+      "region": "oceania",
+      "confederation": "OFC",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "qualifying_then_group_stage_then_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "ofc_champions_league_nova",
+        "real_world_name": "OFC Champions League",
+        "mapping_type": "official_competition",
+        "status": "2026_final_details_added",
+        "editions_loaded": 25
+      }
+    },
+    {
+      "id": "fifa_intercontinental_cup_nova",
+      "name": "FIFA Intercontinental Cup",
+      "region": "global",
+      "confederation": "FIFA",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "confederation_champions_knockout",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "fifa_intercontinental_cup_nova",
+        "real_world_name": "FIFA Intercontinental Cup",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 2
+      }
+    },
+    {
+      "id": "fifa_club_world_cup_nova",
+      "name": "FIFA Club World Cup",
+      "region": "global",
+      "confederation": "FIFA",
+      "tier": 1,
+      "scope": "mens_senior_club",
+      "format": "global_club_tournament",
+      "qualification_source": "official_domestic_league_and_confederation_results",
+      "participant_count": null,
+      "calendar_season_id": "2026-2027",
+      "calendar_status": "competition_registered_format_and_slots_require_official_season_validation",
+      "founding_year": null,
+      "founding_status": "official_history_to_be_verified",
+      "runtime_status": "catalog_registered_playable_engine_pending",
+      "draw_ceremony": "shared_nova_competition_draw_ceremony",
+      "match_resolution": "shared_match_resolution_pending",
+      "historical_reference": {
+        "dataset": "data/competition_historical_reference.json",
+        "competition_id": "fifa_club_world_cup_nova",
+        "real_world_name": "FIFA Club World Cup",
+        "mapping_type": "official_competition",
+        "status": "initial_records_loaded",
+        "editions_loaded": 1
+      }
+    }
+  ],
+  "shared_rules": {
+    "club_only": true,
+    "separate_from_national_team_competitions": true,
+    "fixtures_must_use_registered_club_ids": true,
+    "qualification_must_be_derived_from_completed_domestic_or_continental_results": true,
+    "do_not_duplicate_club_in_same_edition": true,
+    "season_id_required": true,
+    "match_results_must_flow_through_shared_match_resolution": true,
+    "standings_and_brackets_must_be_persisted": true,
+    "official_ball_policy": "use_competition_ball_if_configured_else_inherit_parent_league_ball"
+  },
+  "implementation_gates": [
+    "Load participating countries and clubs from the global club registry, not from the Cuban-only importer.",
+    "Generate calendars only after the qualified club list is complete.",
+    "Connect every fixture to the shared match-result resolver and season save system.",
+    "Add automated tests for qualification, duplicate prevention, bracket sizes, byes, two-leg aggregates and final resolution.",
+    "For the Caribbean Champions League, keep the two unallocated places and unresolved tiebreak criteria as hard start gates; require all 48 clubs to be registered playable First Division clubs.",
+    "Las ligas de Sudamérica y Norteamérica y Centroamérica tienen 40 clubes: cuatro por cada una de sus diez asociaciones, con un club de cada asociación en cada grupo."
+  ]
+}

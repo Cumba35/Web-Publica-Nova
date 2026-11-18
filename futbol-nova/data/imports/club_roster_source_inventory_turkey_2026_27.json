@@ -1,0 +1,2800 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "TUR",
+  "season": "2026-27",
+  "competition": "Süper Lig",
+  "source_authority": "Türkiye Futbol Federasyonu (TFF)",
+  "source_announcement_url": "https://www.tff.org/default.aspx?2707pg=25&ftxtID=51360&pageID=204",
+  "source_announcement_date": "2026-09-16",
+  "source_description": "TFF publicó los listados oficiales A de clubes profesionales tras la primera ventana de transferencias 2026/27.",
+  "rights_status": "reference_only_reuse_rights_not_cleared",
+  "import_status": "all_18_squad_lists_transcribed_reference_only",
+  "playable": false,
+  "club_sources": [
+    {
+      "club_code": "AMED",
+      "club_name": "Amed Sportif Faaliyetler",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/9ab45658f5c14285979fb8e8c252e742.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "COR",
+      "club_name": "Arca Çorum FK",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/8f9b80fb5fa54da4b2dde9120beaa1fc.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "BJK",
+      "club_name": "Beşiktaş A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/275a2f50a04741bc8ee53f661bfcdca9.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "RIZ",
+      "club_name": "Çaykur Rizespor A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/c53e6b6905134e79a1298978f9c5c6cf.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "ALA",
+      "club_name": "Corendon Alanyaspor",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/f291ffecfdc4423abbf0ef14ee0ba330.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "ERZ",
+      "club_name": "Erzurumspor FK",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/6886ebbdde5d4eb3ba6be03ebb12f458.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "EYP",
+      "club_name": "Eyüpspor",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/e485ec09ca624b3b9e36c5a32208cc38.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "FB",
+      "club_name": "Fenerbahçe A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/d6f41c8a0af64b0e9241cdec291a46b5.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "GS",
+      "club_name": "Galatasaray A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/c75b855b82a34e7f849da2e90da51cd8.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "GFK",
+      "club_name": "Gaziantep Futbol Kulübü A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/e5e0ea3b3115440db7293ddd633353f3.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "GEN",
+      "club_name": "Gençlerbirliği",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/97c440620d87410bb46cf0348084cc22.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "GOZ",
+      "club_name": "Göztepe A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/f5ede1999719449892b15f57f90a5d98.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "IBFK",
+      "club_name": "İstanbul Başakşehir FK",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/344c142c229d4de1b4786e615dbda656.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "KAS",
+      "club_name": "Kasımpaşa A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/be93cea387634ad582d80cc3f4c9f3a3.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "KOC",
+      "club_name": "Kocaelispor",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/a3835d0e0d3a49eba5263bc574b45e40.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "SAM",
+      "club_name": "Samsunspor A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/5ad2bc6cbca9457ba87806ac2107cc69.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "TRA",
+      "club_name": "Trabzonspor A.Ş.",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/6269a021e7464d8698541184f8e659b8.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    },
+    {
+      "club_code": "KON",
+      "club_name": "Tümosan Konyaspor",
+      "official_roster_pdf": "https://www.tff.org/Resources/TFF/Auto/e79b1b1c961640de871bb8c00497fcc7.pdf",
+      "source_status": "transcribed_from_official_tff_pdf"
+    }
+  ],
+  "extracted_rosters": [
+    {
+      "club_code": "ALA",
+      "club_name": "Corendon Alanyaspor",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/f291ffecfdc4423abbf0ef14ee0ba330.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ANTONIO SIMAO MUANZA",
+          "shirt_number": 58
+        },
+        {
+          "source_row": 2,
+          "full_name": "ARDA USLUOĞLU",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 3,
+          "full_name": "AROUNA KIGBAFORY SORO",
+          "shirt_number": 32
+        },
+        {
+          "source_row": 4,
+          "full_name": "BARAN ALİ GEZEK",
+          "shirt_number": 55
+        },
+        {
+          "source_row": 5,
+          "full_name": "BEDİRHAN ÖZYURT",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 6,
+          "full_name": "BİLAL DEMİRAĞ",
+          "shirt_number": 44
+        },
+        {
+          "source_row": 7,
+          "full_name": "EMRE DEMİR",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 8,
+          "full_name": "ENES KESKİN",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 9,
+          "full_name": "FATİH AKSOY",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 10,
+          "full_name": "FIDAN ALITI",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 11,
+          "full_name": "FLORENT HADERGJONAJ",
+          "shirt_number": 94
+        },
+        {
+          "source_row": 12,
+          "full_name": "GAİUS ABRAHAM JERED MAKOUTA",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 13,
+          "full_name": "HÜSEYİN ŞEN",
+          "shirt_number": 35
+        },
+        {
+          "source_row": 14,
+          "full_name": "IANIS HAGI",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 15,
+          "full_name": "IVAN CEDRIC BIKOUE EMBOLO",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 16,
+          "full_name": "İBRAHİM KAYA",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 17,
+          "full_name": "İZZET ÇELİK",
+          "shirt_number": 26
+        },
+        {
+          "source_row": 18,
+          "full_name": "MAHMUT CAN KARA",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 19,
+          "full_name": "MERT FURKAN BAYRAM",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 20,
+          "full_name": "MESCHACK ELIA LINA",
+          "shirt_number": 12
+        },
+        {
+          "source_row": 21,
+          "full_name": "NUNO MIGUEL REIS LIMA",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 22,
+          "full_name": "OMAR BEN ALI",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 23,
+          "full_name": "PAOLO FERNANDES CANTIN",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 24,
+          "full_name": "PAULO VICTOR MILEO VIDOTTI",
+          "shirt_number": 48
+        },
+        {
+          "source_row": 25,
+          "full_name": "RUAN PEREIRA DUARTE",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 26,
+          "full_name": "ŞAHİN DİK",
+          "shirt_number": 28
+        },
+        {
+          "source_row": 27,
+          "full_name": "UI JO HWANG",
+          "shirt_number": 16
+        },
+        {
+          "source_row": 28,
+          "full_name": "YUSUF ÖZDEMİR",
+          "shirt_number": 88
+        }
+      ]
+    },
+    {
+      "club_code": "AMED",
+      "club_name": "Amed Sportif Faaliyetler",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/9ab45658f5c14285979fb8e8c252e742.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 26,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ALBAN-MARC LAFONT",
+          "shirt_number": 40
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALİ TURAP BÜLBÜL",
+          "shirt_number": 81
+        },
+        {
+          "source_row": 3,
+          "full_name": "AMADOU CİSSE",
+          "shirt_number": 33
+        },
+        {
+          "source_row": 4,
+          "full_name": "BERK KIZILDEMİR",
+          "shirt_number": 97
+        },
+        {
+          "source_row": 5,
+          "full_name": "CEM ÜSTÜNDAĞ",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 6,
+          "full_name": "CENGİZ UMUT MERAŞ",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 7,
+          "full_name": "DAVID ROBERT BATES",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 8,
+          "full_name": "DIAA SABI'A",
+          "shirt_number": 91
+        },
+        {
+          "source_row": 9,
+          "full_name": "DİLHAN DEMİR",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 10,
+          "full_name": "ERMAL KRASNIQI",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 11,
+          "full_name": "FURKAN SOYALP",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 12,
+          "full_name": "GIFT EMMANUEL ORBAN",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 13,
+          "full_name": "GÖKHAN GÜL",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 14,
+          "full_name": "KAHRAMAN DEMİRTAŞ",
+          "shirt_number": 47
+        },
+        {
+          "source_row": 15,
+          "full_name": "LUMBARDH DELLOVA",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 16,
+          "full_name": "MBAYE DIAGNE",
+          "shirt_number": 45
+        },
+        {
+          "source_row": 17,
+          "full_name": "MEHMET YEŞİL",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 18,
+          "full_name": "MİRAÇ ACER",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 19,
+          "full_name": "MOHAMED KHALİL",
+          "shirt_number": 74
+        },
+        {
+          "source_row": 20,
+          "full_name": "MUHAMMED HASAN YILDIRIM",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 21,
+          "full_name": "MUSTAFA BURAK BOZAN",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 22,
+          "full_name": "RAYAN LUTİN",
+          "shirt_number": 93
+        },
+        {
+          "source_row": 23,
+          "full_name": "RAYAN,NY,ALNA,ARNALDO RAVELOSON",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 24,
+          "full_name": "SAMUEL LEO BEAT BALLET",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 25,
+          "full_name": "YAKUP GİRİŞEN",
+          "shirt_number": 92
+        },
+        {
+          "source_row": 26,
+          "full_name": "YIRA COLLINS SOR",
+          "shirt_number": 11
+        }
+      ]
+    },
+    {
+      "club_code": "BJK",
+      "club_name": "Beşiktaş A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/275a2f50a04741bc8ee53f661bfcdca9.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "AHMET SAMİ BİRCAN",
+          "shirt_number": 70
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALEXANDER NÜBEL",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 3,
+          "full_name": "BADOBRE EMMANUEL ELYSEE DJEDJE AGBADOU",
+          "shirt_number": 12
+        },
+        {
+          "source_row": 4,
+          "full_name": "CAN KELEŞ",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 5,
+          "full_name": "DOĞAN ALEMDAR",
+          "shirt_number": 80
+        },
+        {
+          "source_row": 6,
+          "full_name": "DUSAN VLAHOVIC",
+          "shirt_number": 28
+        },
+        {
+          "source_row": 7,
+          "full_name": "EMİR YAŞAR",
+          "shirt_number": 96
+        },
+        {
+          "source_row": 8,
+          "full_name": "EMİRHAN TOPÇU",
+          "shirt_number": 53
+        },
+        {
+          "source_row": 9,
+          "full_name": "ERNEST POKU",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 10,
+          "full_name": "FABIO MIRETTI",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 11,
+          "full_name": "HYEONGYU OH",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 12,
+          "full_name": "ISHOLA JUNIOR OLAITAN",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 13,
+          "full_name": "İLHAN FAKILI",
+          "shirt_number": 29
+        },
+        {
+          "source_row": 14,
+          "full_name": "KARTAL KAYRA YILMAZ",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 15,
+          "full_name": "KASSOUM OUATTARA",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 16,
+          "full_name": "LEANDRO TROSSARD",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 17,
+          "full_name": "MICHAEL AMIR MURILLO BERMUDEZ",
+          "shirt_number": 62
+        },
+        {
+          "source_row": 18,
+          "full_name": "MILOT RASHICA",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 19,
+          "full_name": "ONYINYE WILFRED NDIDI",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 20,
+          "full_name": "ORKUN KÖKÇÜ",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 21,
+          "full_name": "RIDVAN YILMAZ",
+          "shirt_number": 33
+        },
+        {
+          "source_row": 22,
+          "full_name": "SALİH ÖZCAN",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 23,
+          "full_name": "SEMİH KILIÇSOY",
+          "shirt_number": 90
+        },
+        {
+          "source_row": 24,
+          "full_name": "TAYLAN BULUT",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 25,
+          "full_name": "TIAGO EMANUEL EMBALO DJALO",
+          "shirt_number": 35
+        },
+        {
+          "source_row": 26,
+          "full_name": "ÜMİT AKDAĞ",
+          "shirt_number": 50
+        },
+        {
+          "source_row": 27,
+          "full_name": "VACLAV CERNY",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 28,
+          "full_name": "YASİN ÖZCAN",
+          "shirt_number": 58
+        }
+      ]
+    },
+    {
+      "club_code": "COR",
+      "club_name": "Arca Çorum FK",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/8f9b80fb5fa54da4b2dde9120beaa1fc.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "AHMED ILDIZ",
+          "shirt_number": 30
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALEXANDRE MANUEL PENETRA CORREIRA",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 3,
+          "full_name": "ALEXANDROS KYZIRIDIS",
+          "shirt_number": 89
+        },
+        {
+          "source_row": 4,
+          "full_name": "ALFREDO KULEMBE RIBEIRO",
+          "shirt_number": 16
+        },
+        {
+          "source_row": 5,
+          "full_name": "ARDA HİLMİ ŞENGÜL",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 6,
+          "full_name": "ARİF ŞİMŞİR",
+          "shirt_number": 54
+        },
+        {
+          "source_row": 7,
+          "full_name": "ATAKAN AKKAYNAK",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 8,
+          "full_name": "BERAT AYBERK ÖZDEMİR",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 9,
+          "full_name": "CEMALİ SERTEL",
+          "shirt_number": 88
+        },
+        {
+          "source_row": 10,
+          "full_name": "CENGİZ ÜNDER",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 11,
+          "full_name": "ÇAĞLAR SÖYÜNCÜ",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 12,
+          "full_name": "EMİRCAN GÜRLÜK",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 13,
+          "full_name": "ERHAN ERENTÜRK",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 14,
+          "full_name": "ERMIN MAHMIC",
+          "shirt_number": 26
+        },
+        {
+          "source_row": 15,
+          "full_name": "GÖKHAN SAZDAĞI",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 16,
+          "full_name": "GÖKTAN GÜRPÜZ",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 17,
+          "full_name": "HRVOJE SMOLCIC",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 18,
+          "full_name": "HÜSEYİN BULUT",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 19,
+          "full_name": "JESUS ANDRES RAMIREZ DIAZ",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 20,
+          "full_name": "MARCOS FELIPE DE FREITAS MONTEIRO",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 21,
+          "full_name": "MARKUS SEEHUSEN KARLSBAKK",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 22,
+          "full_name": "MOHAMED DIOMANDE",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 23,
+          "full_name": "SEBASTIAN ANDREI BORZA",
+          "shirt_number": 24
+        },
+        {
+          "source_row": 24,
+          "full_name": "SERDAR SAATÇI",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 25,
+          "full_name": "THIAM MAME BABA",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 26,
+          "full_name": "UTHMAN SHINA OLAYANJU",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 27,
+          "full_name": "YLBER RAMADANI",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 28,
+          "full_name": "YOUSSOUFA MOUKOKO",
+          "shirt_number": 14
+        }
+      ]
+    },
+    {
+      "club_code": "ERZ",
+      "club_name": "Erzurumspor FK",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/6886ebbdde5d4eb3ba6be03ebb12f458.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "AMAR GERXHALIU",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 2,
+          "full_name": "BRANDON BAIYE",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 3,
+          "full_name": "CENGİZHAN BAYRAK",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 4,
+          "full_name": "ELISHA OWUSU",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 5,
+          "full_name": "EMİRHAN ACAR",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 6,
+          "full_name": "EMRE ERDEM",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 7,
+          "full_name": "EREN TOZLU",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 8,
+          "full_name": "ERKAN ANAPA",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 9,
+          "full_name": "FESTY OSEIWE EBOSELE",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 10,
+          "full_name": "GURAM GIORBELIDZE",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 11,
+          "full_name": "GYRANO EMELIO KERK",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 12,
+          "full_name": "IBRAHIM YALATIF DIABATE",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 13,
+          "full_name": "LAWRENCE AGYEKUM",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 14,
+          "full_name": "MAHMUT ERTUĞRUL TAŞKIRAN",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 15,
+          "full_name": "MAMADOU BA",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 16,
+          "full_name": "MARTİN VLAMIDIR RODRİGUEZ TORREJON",
+          "shirt_number": 65
+        },
+        {
+          "source_row": 17,
+          "full_name": "MATIJA ORBANIC",
+          "shirt_number": 31
+        },
+        {
+          "source_row": 18,
+          "full_name": "MIGUEL FILIPE NUNES CARDOSO",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 19,
+          "full_name": "MUSTAFA FETTAHOĞLU",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 20,
+          "full_name": "MUSTAFA YUMLU",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 21,
+          "full_name": "NARIMAN AKHUNDZADA",
+          "shirt_number": 90
+        },
+        {
+          "source_row": 22,
+          "full_name": "NIHAD MUJAKIC",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 23,
+          "full_name": "ORHAN OVACIKLI",
+          "shirt_number": 53
+        },
+        {
+          "source_row": 24,
+          "full_name": "ÖMER ARDA KARA",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 25,
+          "full_name": "SEFA AKGÜN",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 26,
+          "full_name": "TAHA İBRAHİM RENÇBER",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 27,
+          "full_name": "YAKUP KIRTAY",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 28,
+          "full_name": "YİĞİT BARAN KARAOĞLAN",
+          "shirt_number": 0
+        }
+      ]
+    },
+    {
+      "club_code": "EYP",
+      "club_name": "Eyüpspor",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/e485ec09ca624b3b9e36c5a32208cc38.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ABDELHAMID SABIRI",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 2,
+          "full_name": "ABDOU KHADRE SY",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 3,
+          "full_name": "AHMED ABDULLAHI",
+          "shirt_number": 29
+        },
+        {
+          "source_row": 4,
+          "full_name": "ARDA YAVUZ",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 5,
+          "full_name": "BERHAN KUTLAY ŞATLI",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 6,
+          "full_name": "BILAL BOUTOBBA",
+          "shirt_number": 98
+        },
+        {
+          "source_row": 7,
+          "full_name": "BURAK IŞIK",
+          "shirt_number": 85
+        },
+        {
+          "source_row": 8,
+          "full_name": "CHANDREL GERAUD MASSANGA MATONDO",
+          "shirt_number": 88
+        },
+        {
+          "source_row": 9,
+          "full_name": "CHARLES ANDRE RAUX YAO",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 10,
+          "full_name": "CHRIST OTINIEL SADIA",
+          "shirt_number": 84
+        },
+        {
+          "source_row": 11,
+          "full_name": "DAVID JOSE SOARES OLIVEIRA FURTADO DA COSTA",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 12,
+          "full_name": "EMRE BİLGİN",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 13,
+          "full_name": "HAMZA YİĞİT AKMAN",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 14,
+          "full_name": "HORATIU ALEXANDRU MOLDOVAN",
+          "shirt_number": 31
+        },
+        {
+          "source_row": 15,
+          "full_name": "JAWAD EL YAMIQ",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 16,
+          "full_name": "KONRAD HUBERT MICHALAK",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 17,
+          "full_name": "LENNY JEAN PIERRE PINTOR",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 18,
+          "full_name": "METE KAAN DEMİR",
+          "shirt_number": 70
+        },
+        {
+          "source_row": 19,
+          "full_name": "MUSA EREN KARAKAŞ",
+          "shirt_number": 53
+        },
+        {
+          "source_row": 20,
+          "full_name": "ÖMER AHMET CEYHAN",
+          "shirt_number": 44
+        },
+        {
+          "source_row": 21,
+          "full_name": "SEYFETTİN ANIL YAŞAR",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 22,
+          "full_name": "SIMONE GIORDANO",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 23,
+          "full_name": "TALHA ÜLVAN",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 24,
+          "full_name": "TAŞKIN İLTER",
+          "shirt_number": 28
+        },
+        {
+          "source_row": 25,
+          "full_name": "UMUT KESECİ",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 26,
+          "full_name": "YİĞİT DEMİR",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 27,
+          "full_name": "YUSUF BARASI",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 28,
+          "full_name": "ZAK KENNEDY JULES",
+          "shirt_number": 33
+        }
+      ]
+    },
+    {
+      "club_code": "FB",
+      "club_name": "Fenerbahçe A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/d6f41c8a0af64b0e9241cdec291a46b5.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ALAETTİN EKİCİ",
+          "shirt_number": 54
+        },
+        {
+          "source_row": 2,
+          "full_name": "ARCHIBALD NORMAN BROWN",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 3,
+          "full_name": "BARTUĞ ELMAZ",
+          "shirt_number": 28
+        },
+        {
+          "source_row": 4,
+          "full_name": "ÇAĞRI HAKAN BALTA",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 5,
+          "full_name": "DORGELES NENE",
+          "shirt_number": 45
+        },
+        {
+          "source_row": 6,
+          "full_name": "EDERSON SANTANA DE MORAES",
+          "shirt_number": 31
+        },
+        {
+          "source_row": 7,
+          "full_name": "FEHMİ MERT GÜNOK",
+          "shirt_number": 34
+        },
+        {
+          "source_row": 8,
+          "full_name": "İRFAN CAN KAHVECİ",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 9,
+          "full_name": "İSMAİL YÜKSEK",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 10,
+          "full_name": "KOJO PEPRAH OPPONG",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 11,
+          "full_name": "MARCO ASENSIO WILLEMSEN",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 12,
+          "full_name": "MASON WILL JOHN GREENWOOD",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 13,
+          "full_name": "MATTEO ELIAS KENZO GUENDOUZI OLIE",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 14,
+          "full_name": "MERT HAKAN YANDAŞ",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 15,
+          "full_name": "MERT MÜLDÜR",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 16,
+          "full_name": "MILAN SKRINIAR",
+          "shirt_number": 37
+        },
+        {
+          "source_row": 17,
+          "full_name": "MUHAMMED KEREM AKTÜRKOĞLU",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 18,
+          "full_name": "MÜNİR LEVENT MERCAN",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 19,
+          "full_name": "NATHAN BENJAMIN AKE",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 20,
+          "full_name": "NELSON CABRAL SEMEDO",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 21,
+          "full_name": "N'GOLO KANTE",
+          "shirt_number": 91
+        },
+        {
+          "source_row": 22,
+          "full_name": "OGNJEN MIMOVIC",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 23,
+          "full_name": "OĞUZ AYDIN",
+          "shirt_number": 70
+        },
+        {
+          "source_row": 24,
+          "full_name": "ÖMER YİĞİT TİRYAKİGİL",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 25,
+          "full_name": "ROMELU LUKAKU BOLINGOLI",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 26,
+          "full_name": "TARIK ÇETİN",
+          "shirt_number": 13
+        },
+        {
+          "source_row": 27,
+          "full_name": "VEDAT MURIÇ",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 28,
+          "full_name": "YİĞİT EFE DEMİR",
+          "shirt_number": 14
+        }
+      ]
+    },
+    {
+      "club_code": "GEN",
+      "club_name": "Gençlerbirliği",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/97c440620d87410bb46cf0348084cc22.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ABDURRAHİM DURSUN",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 2,
+          "full_name": "ADAMA TRAORE",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 3,
+          "full_name": "ARDA ÇAĞAN ÇELİK",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 4,
+          "full_name": "BERK DENİZ ÇUKURCU",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 5,
+          "full_name": "CHEIKH AHMET TIDIANE NIASSE",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 6,
+          "full_name": "DIMITRIOS GOUTAS",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 7,
+          "full_name": "FIRATCAN ÜZÜM",
+          "shirt_number": 88
+        },
+        {
+          "source_row": 8,
+          "full_name": "FRANCO DARYL TONGYA HEUBANG",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 9,
+          "full_name": "FURKAN AYAZ ÖZCAN",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 10,
+          "full_name": "GÖKHAN AKKAN",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 11,
+          "full_name": "İRFAN CAN EĞRİBAYAT",
+          "shirt_number": 70
+        },
+        {
+          "source_row": 12,
+          "full_name": "KEVIN MANUEL RODRIGUES",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 13,
+          "full_name": "METEHAN BALTACI",
+          "shirt_number": 90
+        },
+        {
+          "source_row": 14,
+          "full_name": "MUHAMMET ENSAR ÇAVUŞOĞLU",
+          "shirt_number": 53
+        },
+        {
+          "source_row": 15,
+          "full_name": "OĞULCAN ÜLGÜN",
+          "shirt_number": 35
+        },
+        {
+          "source_row": 16,
+          "full_name": "OUSMANE DIABATE",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 17,
+          "full_name": "PEDRO MANUEL LOBO PEIXOTO MINEIRO MENDES",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 18,
+          "full_name": "PEDRO MIGUEL DE ALMEIDA LOPES PEREIRA",
+          "shirt_number": 13
+        },
+        {
+          "source_row": 19,
+          "full_name": "PRINCE MARTOR",
+          "shirt_number": 45
+        },
+        {
+          "source_row": 20,
+          "full_name": "RAFAEL FILIPE GONÇALVES SOARES LUIS",
+          "shirt_number": 83
+        },
+        {
+          "source_row": 21,
+          "full_name": "SALİH UÇAN",
+          "shirt_number": 48
+        },
+        {
+          "source_row": 22,
+          "full_name": "SEKOU KOITA",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 23,
+          "full_name": "SEYFİ TOPRAK KISKANÇ",
+          "shirt_number": 30
+        },
+        {
+          "source_row": 24,
+          "full_name": "THALISSON KELVEN DA SILVA",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 25,
+          "full_name": "TIAGO MARIA ANTUNES GOUVEIA",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 26,
+          "full_name": "VICTOR IKECHUKWU JONATHAN ORAKPO",
+          "shirt_number": 12
+        },
+        {
+          "source_row": 27,
+          "full_name": "YİĞİT HAMZA AYDAR",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 28,
+          "full_name": "ZAFER GÖKTUĞ ERDEM",
+          "shirt_number": 52
+        }
+      ]
+    },
+    {
+      "club_code": "GFK",
+      "club_name": "Gaziantep Futbol Kulübü A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/e5e0ea3b3115440db7293ddd633353f3.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ALEXANDRU IULIAN MAXIM",
+          "shirt_number": 44
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALİ OSMAN KALIN",
+          "shirt_number": 46
+        },
+        {
+          "source_row": 3,
+          "full_name": "ARDA KIZILDAĞ",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 4,
+          "full_name": "DEIAN CRISTIAN SORESCU",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 5,
+          "full_name": "DRISSA CAMARA",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 6,
+          "full_name": "EFE SARIKAYA",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 7,
+          "full_name": "FUAT BAVUK",
+          "shirt_number": 97
+        },
+        {
+          "source_row": 8,
+          "full_name": "HALİL İBRAHİM DERVİŞOĞLU",
+          "shirt_number": 28
+        },
+        {
+          "source_row": 9,
+          "full_name": "İBRAHİM KAĞAN ALKIŞ",
+          "shirt_number": 95
+        },
+        {
+          "source_row": 10,
+          "full_name": "JUNINHO GRACIELO BACUNA",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 11,
+          "full_name": "KACPER SZYMON KOZLOWSKI",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 12,
+          "full_name": "KACPER TOBIASZ",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 13,
+          "full_name": "KARAMBA GASSAMA",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 14,
+          "full_name": "KERİM ÇALHANOĞLU",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 15,
+          "full_name": "LEO MYENTY JANNA ABENA",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 16,
+          "full_name": "LOUBADHE ABAKAR SYLLA",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 17,
+          "full_name": "LUIS JESUS PEREZ MAQUEDA",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 18,
+          "full_name": "MEHMET ATABERK DADAKDENİZ",
+          "shirt_number": 35
+        },
+        {
+          "source_row": 19,
+          "full_name": "MEHMET SAMET KALKAN",
+          "shirt_number": 88
+        },
+        {
+          "source_row": 20,
+          "full_name": "MISJONNE JUNIFFER NAIGELINO HANSEN",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 21,
+          "full_name": "MİRZA CİHAN",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 22,
+          "full_name": "NAZIM SANGARE",
+          "shirt_number": 30
+        },
+        {
+          "source_row": 23,
+          "full_name": "OGÜN ÖZÇİÇEK",
+          "shirt_number": 61
+        },
+        {
+          "source_row": 24,
+          "full_name": "SABAHATTİN DESTİCİ",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 25,
+          "full_name": "SERDAR DURSUN",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 26,
+          "full_name": "TRIVANTE VINCENT STEWART",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 27,
+          "full_name": "ULRICH SIDOINE MELEKE",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 28,
+          "full_name": "VICTOR NTINO-EMO GIDADO",
+          "shirt_number": 8
+        }
+      ]
+    },
+    {
+      "club_code": "GOZ",
+      "club_name": "Göztepe A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/f5ede1999719449892b15f57f90a5d98.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ALEX OJAHN MATOS",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALEXIS ANTUNES GOMEZ",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 3,
+          "full_name": "ALLAN GODOI SANTOS",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 4,
+          "full_name": "ANDRE HENRIQUE DA SILVA MARTINS",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 5,
+          "full_name": "ARDA OKAN KURTULAN",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 6,
+          "full_name": "ARDA ÖZÇİMEN",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 7,
+          "full_name": "BEKİR TURAÇ BÖKE",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 8,
+          "full_name": "BERKE SARIGÜL",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 9,
+          "full_name": "BORAN ELİGÜZEL",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 10,
+          "full_name": "DENİZ ŞEKER",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 11,
+          "full_name": "EFKAN BEKİROĞLU",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 12,
+          "full_name": "EGE YILDIRIM",
+          "shirt_number": 13
+        },
+        {
+          "source_row": 13,
+          "full_name": "FAUSTINO ADEBOLA RASHEED ANJORIN",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 14,
+          "full_name": "FURKAN BAYIR",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 15,
+          "full_name": "GÖKDENİZ BAYRAKDAR",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 16,
+          "full_name": "JANDERSON DE CARVALHO COSTA",
+          "shirt_number": 39
+        },
+        {
+          "source_row": 17,
+          "full_name": "JUAN SANTOS DA SILVA",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 18,
+          "full_name": "LUKA GUGESHASHVILI",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 19,
+          "full_name": "MALCOM NARCISSE BOKELE MPUTU",
+          "shirt_number": 26
+        },
+        {
+          "source_row": 20,
+          "full_name": "MEHMET ŞAMİL ÖZTÜRK",
+          "shirt_number": 33
+        },
+        {
+          "source_row": 21,
+          "full_name": "NOAH KEMESENG SONKO SUNDBERG",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 22,
+          "full_name": "NOVATUS DISMAS MIROSHI",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 23,
+          "full_name": "OGÜN BAYRAK",
+          "shirt_number": 16
+        },
+        {
+          "source_row": 24,
+          "full_name": "RHALDNEY NORBERTO SIMIAO GOMES",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 25,
+          "full_name": "RICHARD AKONNOR",
+          "shirt_number": 12
+        },
+        {
+          "source_row": 26,
+          "full_name": "SINCLAIR NTOMUCHUKWU ARMSTRONG",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 27,
+          "full_name": "TAHA ALTIKARDEŞ",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 28,
+          "full_name": "YUSUF ALİ ŞİRİN",
+          "shirt_number": 66
+        }
+      ]
+    },
+    {
+      "club_code": "GS",
+      "club_name": "Galatasaray A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/c75b855b82a34e7f849da2e90da51cd8.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ABDÜLKERİM BARDAKCI",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALEKSEI BATRAKOV",
+          "shirt_number": 83
+        },
+        {
+          "source_row": 3,
+          "full_name": "ARDA ÜNYAY",
+          "shirt_number": 91
+        },
+        {
+          "source_row": 4,
+          "full_name": "BARIŞ ALPER YILMAZ",
+          "shirt_number": 53
+        },
+        {
+          "source_row": 5,
+          "full_name": "BERAT LUŞ",
+          "shirt_number": 73
+        },
+        {
+          "source_row": 6,
+          "full_name": "DAVINSON SANCHEZ MINA",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 7,
+          "full_name": "DENİZ DANİEL GÜL",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 8,
+          "full_name": "EL CHADAILLE BITSHIABU KATSHIBUYI-NDENGA NGANA",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 9,
+          "full_name": "EVREN EREN ELMALI",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 10,
+          "full_name": "EYÜP AYDIN",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 11,
+          "full_name": "GABRIEL DAVI GOMES SARA",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 12,
+          "full_name": "GÜNAY GÜVENÇ",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 13,
+          "full_name": "ISMAIL JOSHUA JAKOBS",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 14,
+          "full_name": "İLKAY GÜNDOĞAN",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 15,
+          "full_name": "JANKAT YILMAZ",
+          "shirt_number": 24
+        },
+        {
+          "source_row": 16,
+          "full_name": "KAAN AYHAN",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 17,
+          "full_name": "KAZIMCAN KARATAŞ",
+          "shirt_number": 88
+        },
+        {
+          "source_row": 18,
+          "full_name": "LEROY AZIZ SANE",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 19,
+          "full_name": "LESLEY CHIMUANYA UGOCHUKWU",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 20,
+          "full_name": "LUCAS SEBASTIAN TORREIRA DI PASCUA",
+          "shirt_number": 34
+        },
+        {
+          "source_row": 21,
+          "full_name": "MARIO RENE JUNIOR LEMINA",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 22,
+          "full_name": "RAFAEL ALEXANDRE DA CONCEIÇÃO LEÃO",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 23,
+          "full_name": "RENATO SAM-NA NHAGA",
+          "shirt_number": 74
+        },
+        {
+          "source_row": 24,
+          "full_name": "ROLAND SALLAI",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 25,
+          "full_name": "UĞURCAN ÇAKIR",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 26,
+          "full_name": "VICTOR JAMES OSIMHEN",
+          "shirt_number": 45
+        },
+        {
+          "source_row": 27,
+          "full_name": "WILFRIED STEPHANE SINGO",
+          "shirt_number": 90
+        },
+        {
+          "source_row": 28,
+          "full_name": "YUNUS AKGÜN",
+          "shirt_number": 11
+        }
+      ]
+    },
+    {
+      "club_code": "IBFK",
+      "club_name": "İstanbul Başakşehir FK",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/344c142c229d4de1b4786e615dbda656.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ABBOSBEK FAYZULLAYEV",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALBERT AJUA GOMEZ",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 3,
+          "full_name": "ANDREAS SKOV OLSEN",
+          "shirt_number": 70
+        },
+        {
+          "source_row": 4,
+          "full_name": "BERKAY ÖZCAN",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 5,
+          "full_name": "BERTUĞ ÖZGÜR YILDIRIM",
+          "shirt_number": 91
+        },
+        {
+          "source_row": 6,
+          "full_name": "CHRİSTOPHER TEA DOMORAUD OPERI",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 7,
+          "full_name": "DAVIE SELKE",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 8,
+          "full_name": "DENİZ DİLMEN",
+          "shirt_number": 98
+        },
+        {
+          "source_row": 9,
+          "full_name": "EDIN VISCA",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 10,
+          "full_name": "ELDOR SHOMURODOV",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 11,
+          "full_name": "EMİN BAYRAM",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 12,
+          "full_name": "GÜVEN ATALAY",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 13,
+          "full_name": "HAMZA GÜRELER",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 14,
+          "full_name": "IVAN BRNIC",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 15,
+          "full_name": "JAKUB KALUZINSKI",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 16,
+          "full_name": "JEROME OPOKU",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 17,
+          "full_name": "MICHAL KARBOWNIK",
+          "shirt_number": 33
+        },
+        {
+          "source_row": 18,
+          "full_name": "MUHAMMED ŞENGEZER",
+          "shirt_number": 16
+        },
+        {
+          "source_row": 19,
+          "full_name": "OLIVER MICHEL KEMEN",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 20,
+          "full_name": "ONUR BULUT",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 21,
+          "full_name": "ONUR ERGÜN",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 22,
+          "full_name": "OUSSEYNOU BA",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 23,
+          "full_name": "ÖMER ALİ ŞAHİNER",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 24,
+          "full_name": "SABA KHAREBASHVILI",
+          "shirt_number": 38
+        },
+        {
+          "source_row": 25,
+          "full_name": "UMUT DİLAN BOZOK",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 26,
+          "full_name": "UMUT GÜNEŞ",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 27,
+          "full_name": "VOLKAN BABACAN",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 28,
+          "full_name": "YUSUF SARI",
+          "shirt_number": 7
+        }
+      ]
+    },
+    {
+      "club_code": "KAS",
+      "club_name": "Kasımpaşa A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/be93cea387634ad582d80cc3f4c9f3a3.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ADAM AROUS",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 2,
+          "full_name": "ADRIAN DAWID BENEDYCZAK",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 3,
+          "full_name": "AHMET TAHA DAĞBAŞI",
+          "shirt_number": 30
+        },
+        {
+          "source_row": 4,
+          "full_name": "ALİ EMRE YANAR",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 5,
+          "full_name": "ALİ YAVUZ KOL",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 6,
+          "full_name": "ANDREAS GIANNIOTIS",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 7,
+          "full_name": "ANDRI FANNAR BALDURSSON",
+          "shirt_number": 16
+        },
+        {
+          "source_row": 8,
+          "full_name": "ATAKAN MÜJDE",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 9,
+          "full_name": "AYBERK KARAPO",
+          "shirt_number": 45
+        },
+        {
+          "source_row": 10,
+          "full_name": "CLAUDIO WINCK NETO",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 11,
+          "full_name": "EGE ALBAYRAK",
+          "shirt_number": 61
+        },
+        {
+          "source_row": 12,
+          "full_name": "ELSON MENDES DA SILVA",
+          "shirt_number": 51
+        },
+        {
+          "source_row": 13,
+          "full_name": "EMİRHAN BOZ",
+          "shirt_number": 66
+        },
+        {
+          "source_row": 14,
+          "full_name": "EMİRHAN YİĞİT",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 15,
+          "full_name": "GÜVEN YALÇIN",
+          "shirt_number": 50
+        },
+        {
+          "source_row": 16,
+          "full_name": "HARIS HAJRADINOVIC",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 17,
+          "full_name": "JAKOP VESTERGAARD JESSEN",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 18,
+          "full_name": "JESURUN RAK-SAKYI",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 19,
+          "full_name": "KAMİL AHMET ÇÖREKÇİ",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 20,
+          "full_name": "KEREM DEMİRBAY",
+          "shirt_number": 26
+        },
+        {
+          "source_row": 21,
+          "full_name": "KEVIN CAMRON MOUANGA",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 22,
+          "full_name": "MARCUS ALBIN JOHN RAFFERTY",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 23,
+          "full_name": "MATEI CHRISTIAN ILIE",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 24,
+          "full_name": "MECİT SERCAN DENİZ",
+          "shirt_number": 35
+        },
+        {
+          "source_row": 25,
+          "full_name": "MUHAMMED EMİN BEKTAŞ",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 26,
+          "full_name": "ÖMER BAYRAM",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 27,
+          "full_name": "SİNAN ALKAŞ",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 28,
+          "full_name": "THIEMOKO DIARRA",
+          "shirt_number": 11
+        }
+      ]
+    },
+    {
+      "club_code": "KOC",
+      "club_name": "Kocaelispor",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/a3835d0e0d3a49eba5263bc574b45e40.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ALEKSANDAR JOVANOVIC",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 2,
+          "full_name": "ANFERNEE JAMAL DIJKSTEEL",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 3,
+          "full_name": "ARDA ÖZYAR",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 4,
+          "full_name": "BANHIE XAVIER TANGUY ZOUKROU",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 5,
+          "full_name": "BEDİRHAN YILDIZ",
+          "shirt_number": 89
+        },
+        {
+          "source_row": 6,
+          "full_name": "BERKAN İSMAİL KUTLU",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 7,
+          "full_name": "BRUNO PETKOVIC",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 8,
+          "full_name": "DANIEL EBENEZER KWASI AGYEI",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 9,
+          "full_name": "EMİR ORTAKAYA",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 10,
+          "full_name": "FLORIAN AYE",
+          "shirt_number": 97
+        },
+        {
+          "source_row": 11,
+          "full_name": "GONÇALO SANTOS SOUSA",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 12,
+          "full_name": "HAYDAR KARATAŞ",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 13,
+          "full_name": "HULİSİ DESTİCİ",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 14,
+          "full_name": "MAHAMADOU SUSOHO SISSOHO",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 15,
+          "full_name": "MAKANA BAKU",
+          "shirt_number": 32
+        },
+        {
+          "source_row": 16,
+          "full_name": "MANUEL LUIS DA SILVA CAFUMANA",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 17,
+          "full_name": "MASSADIO HAIDARA",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 18,
+          "full_name": "MATEJ MAGLICA",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 19,
+          "full_name": "METEHAN ALTUNBAŞ",
+          "shirt_number": 26
+        },
+        {
+          "source_row": 20,
+          "full_name": "MUHARREM CİNAN",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 21,
+          "full_name": "MUSTAFA EGE BİLİM",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 22,
+          "full_name": "ONUR ÖZTONGA",
+          "shirt_number": 41
+        },
+        {
+          "source_row": 23,
+          "full_name": "ONURCAN PİRİ",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 24,
+          "full_name": "RIGOBERTO MANUEL RIVAS VINDEL",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 25,
+          "full_name": "SERHAT ÖZTAŞDELEN",
+          "shirt_number": 83
+        },
+        {
+          "source_row": 26,
+          "full_name": "TAYFUR BİNGÖL",
+          "shirt_number": 75
+        },
+        {
+          "source_row": 27,
+          "full_name": "TOBIAS FJELD GULLIKSEN",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 28,
+          "full_name": "UĞUR KAAN YILDIZ",
+          "shirt_number": 22
+        }
+      ]
+    },
+    {
+      "club_code": "KON",
+      "club_name": "Tümosan Konyaspor",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/e79b1b1c961640de871bb8c00497fcc7.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ADİL DEMİRBAĞ",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 2,
+          "full_name": "AHMET OĞUZ",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 3,
+          "full_name": "ALPHA KABINET FOFANA",
+          "shirt_number": 88
+        },
+        {
+          "source_row": 4,
+          "full_name": "ARİF BOŞLUK",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 5,
+          "full_name": "ATA YANIK",
+          "shirt_number": 16
+        },
+        {
+          "source_row": 6,
+          "full_name": "BAHADIR HAN GÜNGÖRDÜ",
+          "shirt_number": 13
+        },
+        {
+          "source_row": 7,
+          "full_name": "CHIDOZIE COLLINS AWAZIEM",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 8,
+          "full_name": "DENİZ ERTAŞ",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 9,
+          "full_name": "DENİZ TÜRÜÇ",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 10,
+          "full_name": "DIOGO ANTONIO CUPIDO GONÇALVES",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 11,
+          "full_name": "EBRIMA COLLEY",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 12,
+          "full_name": "EGEMEN AYDIN",
+          "shirt_number": 29
+        },
+        {
+          "source_row": 13,
+          "full_name": "EMİR BARS",
+          "shirt_number": 45
+        },
+        {
+          "source_row": 14,
+          "full_name": "ENIS BARDHI",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 15,
+          "full_name": "ENİS DESTAN",
+          "shirt_number": 94
+        },
+        {
+          "source_row": 16,
+          "full_name": "FUKA ARTHUR MASUAKU KAWELA",
+          "shirt_number": 26
+        },
+        {
+          "source_row": 17,
+          "full_name": "JACKSON KYANVUBU MULEKA",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 18,
+          "full_name": "JEAN-LUC DOMPE",
+          "shirt_number": 91
+        },
+        {
+          "source_row": 19,
+          "full_name": "JOAO PEDRO DO NASCIMENTO DA MATA",
+          "shirt_number": 41
+        },
+        {
+          "source_row": 20,
+          "full_name": "MARKO JEVTOVIC",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 21,
+          "full_name": "MELİH İBRAHİMOĞLU",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 22,
+          "full_name": "MOSTAFA MOHAMED AHMED ABDALLA",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 23,
+          "full_name": "MÜCAHİT İBRAHİMOĞLU",
+          "shirt_number": 24
+        },
+        {
+          "source_row": 24,
+          "full_name": "ÖMER ÇOBANOĞLU",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 25,
+          "full_name": "RAJMUND TOTH",
+          "shirt_number": 66
+        },
+        {
+          "source_row": 26,
+          "full_name": "RAYYAN BANİYA",
+          "shirt_number": 22
+        },
+        {
+          "source_row": 27,
+          "full_name": "UĞURCAN YAZĞILI",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 28,
+          "full_name": "YHOAN MANY ANDZOUANA",
+          "shirt_number": 17
+        }
+      ]
+    },
+    {
+      "club_code": "RIZ",
+      "club_name": "Çaykur Rizespor A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/c53e6b6905134e79a1298978f9c5c6cf.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "ADEDIRE EMMANUEL OLUWATOFUNMI AWOKOYA-MEBUDE",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 2,
+          "full_name": "AHMED KUTUCU",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 3,
+          "full_name": "ALBERT-IUSTIN DOICARU",
+          "shirt_number": 79
+        },
+        {
+          "source_row": 4,
+          "full_name": "ALI SOWE",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 5,
+          "full_name": "ATTILA MOCSI",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 6,
+          "full_name": "CAN BOZDOĞAN",
+          "shirt_number": 70
+        },
+        {
+          "source_row": 7,
+          "full_name": "DAL VARESANOVIC",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 8,
+          "full_name": "EFE DOĞAN",
+          "shirt_number": 97
+        },
+        {
+          "source_row": 9,
+          "full_name": "EMİRHAN YILMAZ",
+          "shirt_number": 47
+        },
+        {
+          "source_row": 10,
+          "full_name": "EMRECAN BULUT",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 11,
+          "full_name": "GENNARO BORRELLI",
+          "shirt_number": 29
+        },
+        {
+          "source_row": 12,
+          "full_name": "KHUSNIDDIN ALIKULOV",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 13,
+          "full_name": "MIHAI-VALENTIN MIHAILA",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 14,
+          "full_name": "MİTHAT PALA",
+          "shirt_number": 54
+        },
+        {
+          "source_row": 15,
+          "full_name": "MODIBO SAGNAN",
+          "shirt_number": 93
+        },
+        {
+          "source_row": 16,
+          "full_name": "MOUSSA DIAKITE",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 17,
+          "full_name": "MUHAMMET TAHA ŞAHİN",
+          "shirt_number": 37
+        },
+        {
+          "source_row": 18,
+          "full_name": "MUSTAFA COŞKUN TOSUN",
+          "shirt_number": 80
+        },
+        {
+          "source_row": 19,
+          "full_name": "OLASUNKANMI IBRAHIM OLAWOYIN",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 20,
+          "full_name": "QAZIM LACI",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 21,
+          "full_name": "SIAKA BAKAYOKO",
+          "shirt_number": 21
+        },
+        {
+          "source_row": 22,
+          "full_name": "TAYLAN ANTALYALI",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 23,
+          "full_name": "TAYYİP TALHA SANUÇ",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 24,
+          "full_name": "UMUT ERDEM",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 25,
+          "full_name": "YAHIA FOFANA",
+          "shirt_number": 75
+        },
+        {
+          "source_row": 26,
+          "full_name": "YAKUP AYAN",
+          "shirt_number": 94
+        },
+        {
+          "source_row": 27,
+          "full_name": "ZAFER GÖRGEN",
+          "shirt_number": 30
+        },
+        {
+          "source_row": 28,
+          "full_name": "ZAKARIA ARISS",
+          "shirt_number": 17
+        }
+      ]
+    },
+    {
+      "club_code": "SAM",
+      "club_name": "Samsunspor A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/5ad2bc6cbca9457ba87806ac2107cc69.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 27,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "AFONSO GAMELAS DE PINHO SOUSA",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 2,
+          "full_name": "BEDİRHAN ÇETİN",
+          "shirt_number": 96
+        },
+        {
+          "source_row": 3,
+          "full_name": "BİLAL BAYAZIT",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 4,
+          "full_name": "CELİL YÜKSEL",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 5,
+          "full_name": "EFE YİĞİT ÜSTÜN",
+          "shirt_number": 13
+        },
+        {
+          "source_row": 6,
+          "full_name": "ELAYİS TAVSAN",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 7,
+          "full_name": "ELLIOT WILLIAM WATT",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 8,
+          "full_name": "EMRE KILINÇ",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 9,
+          "full_name": "ENES ALBAK",
+          "shirt_number": 23
+        },
+        {
+          "source_row": 10,
+          "full_name": "FATİH KAYA",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 11,
+          "full_name": "GABRIELE GUARINO",
+          "shirt_number": 34
+        },
+        {
+          "source_row": 12,
+          "full_name": "HALUK MUSTAFA TAN",
+          "shirt_number": 29
+        },
+        {
+          "source_row": 13,
+          "full_name": "IGOR WOJCIECH DRAPINSKI",
+          "shirt_number": 3
+        },
+        {
+          "source_row": 14,
+          "full_name": "JOSAFAT WOODING MENDES",
+          "shirt_number": 2
+        },
+        {
+          "source_row": 15,
+          "full_name": "KOUADOU JAURES ASSOUMOU",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 16,
+          "full_name": "LOGI TOMASSON",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 17,
+          "full_name": "MOHAMED LAMINE BAYO",
+          "shirt_number": 18
+        },
+        {
+          "source_row": 18,
+          "full_name": "MUHAMMET TALHA AKYÜZ",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 19,
+          "full_name": "OKAN KOCUK",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 20,
+          "full_name": "OSKAR SKOVBJERG OHLENSCHLAEGER",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 21,
+          "full_name": "SAIKUBA JARJU",
+          "shirt_number": 30
+        },
+        {
+          "source_row": 22,
+          "full_name": "SAMED ONUR",
+          "shirt_number": 8
+        },
+        {
+          "source_row": 23,
+          "full_name": "STRAHINJA ERAKOVIC",
+          "shirt_number": 16
+        },
+        {
+          "source_row": 24,
+          "full_name": "TANGUY BEMIN COULIBALY",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 25,
+          "full_name": "YALÇIN KAYAN",
+          "shirt_number": 20
+        },
+        {
+          "source_row": 26,
+          "full_name": "YIRIGUE FOUNGOGNAN SEKONGO",
+          "shirt_number": 42
+        },
+        {
+          "source_row": 27,
+          "full_name": "YUNUS EMRE ÇİFT",
+          "shirt_number": 22
+        }
+      ]
+    },
+    {
+      "club_code": "TRA",
+      "club_name": "Trabzonspor A.Ş.",
+      "source_url": "https://www.tff.org/Resources/TFF/Auto/6269a021e7464d8698541184f8e659b8.pdf",
+      "source_status": "transcribed_from_official_tff_pdf",
+      "player_count": 28,
+      "players": [
+        {
+          "source_row": 1,
+          "full_name": "AHMET DOĞAN YILDIRIM",
+          "shirt_number": 1
+        },
+        {
+          "source_row": 2,
+          "full_name": "ALİ HABEŞOĞLU",
+          "shirt_number": 99
+        },
+        {
+          "source_row": 3,
+          "full_name": "ANDRE ONANA ONANA",
+          "shirt_number": 24
+        },
+        {
+          "source_row": 4,
+          "full_name": "ARSENII BATAHOV",
+          "shirt_number": 44
+        },
+        {
+          "source_row": 5,
+          "full_name": "CENK ÖZKACAR",
+          "shirt_number": 39
+        },
+        {
+          "source_row": 6,
+          "full_name": "CHIBUIKE GODFREY NWAIWU",
+          "shirt_number": 27
+        },
+        {
+          "source_row": 7,
+          "full_name": "CİHAN ÇANAK",
+          "shirt_number": 0
+        },
+        {
+          "source_row": 8,
+          "full_name": "DOĞUHAN ARAL ŞİMŞİR",
+          "shirt_number": 58
+        },
+        {
+          "source_row": 9,
+          "full_name": "EBERE PAUL ONUACHU",
+          "shirt_number": 30
+        },
+        {
+          "source_row": 10,
+          "full_name": "ERNEST MUÇİ",
+          "shirt_number": 7
+        },
+        {
+          "source_row": 11,
+          "full_name": "FABIO HENRIQUE TAVARES",
+          "shirt_number": 6
+        },
+        {
+          "source_row": 12,
+          "full_name": "FRANCULINO GLUDA DJU",
+          "shirt_number": 9
+        },
+        {
+          "source_row": 13,
+          "full_name": "MEHMET UMUT NAYİR",
+          "shirt_number": 14
+        },
+        {
+          "source_row": 14,
+          "full_name": "MELİH KABASAKAL",
+          "shirt_number": 57
+        },
+        {
+          "source_row": 15,
+          "full_name": "METEHAN MİMAROĞLU",
+          "shirt_number": 77
+        },
+        {
+          "source_row": 16,
+          "full_name": "MOHAMED SALAH HAMED MAHROUS GHALY",
+          "shirt_number": 10
+        },
+        {
+          "source_row": 17,
+          "full_name": "MUSTAFA ESKİHELLAÇ",
+          "shirt_number": 19
+        },
+        {
+          "source_row": 18,
+          "full_name": "NOAH JOSE SAVIOLO",
+          "shirt_number": 70
+        },
+        {
+          "source_row": 19,
+          "full_name": "OĞUZHAN ERTEM",
+          "shirt_number": 90
+        },
+        {
+          "source_row": 20,
+          "full_name": "OKAY YOKUŞLU",
+          "shirt_number": 5
+        },
+        {
+          "source_row": 21,
+          "full_name": "ONURALP ÇEVİKKAN",
+          "shirt_number": 25
+        },
+        {
+          "source_row": 22,
+          "full_name": "OZAN TUFAN",
+          "shirt_number": 11
+        },
+        {
+          "source_row": 23,
+          "full_name": "RUSLAN MALİNOVSKYİ",
+          "shirt_number": 17
+        },
+        {
+          "source_row": 24,
+          "full_name": "SAMET AKAYDİN",
+          "shirt_number": 4
+        },
+        {
+          "source_row": 25,
+          "full_name": "SIDNY LOPES CABRAL",
+          "shirt_number": 55
+        },
+        {
+          "source_row": 26,
+          "full_name": "STEFAN SAVIC",
+          "shirt_number": 15
+        },
+        {
+          "source_row": 27,
+          "full_name": "TIM LUCA PACO JABOL - FOLCARELLI",
+          "shirt_number": 26
+        },
+        {
+          "source_row": 28,
+          "full_name": "WAGNER FABRICIO CARDOSO DE PINA",
+          "shirt_number": 20
+        }
+      ]
+    }
+  ],
+  "data_policy": [
+    "No se incluyen números de licencia TFF.",
+    "No se infieren posiciones, nacionalidades, edades ni estadísticas ausentes del PDF.",
+    "La lista acredita registro federativo en la fecha de publicación; verificar altas/bajas posteriores antes de fijar la plantilla de temporada.",
+    "No publicar ni redistribuir datos hasta revisar las condiciones y derechos de uso."
+  ],
+  "club_sources_transcribed": 18,
+  "total_players_transcribed": 501
+}
