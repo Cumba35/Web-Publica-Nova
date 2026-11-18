@@ -164,7 +164,34 @@ async function reportPost(postId) {
 async function blockUser(userId) {
   if (!confirm("¿Bloquear esta cuenta? Sus publicaciones y perfil dejarán de aparecerte.")) return;
   const { error } = await supabase.from("nova_social_blocks").insert({ blocker_id: state.user.id, blocked_id: userId });
-  if (error) return setStatus(error.message, "error"); await loadFeed(); await loadDiscover();
+  if (error) return setStatus(error.message, "error");
+  await Promise.all([
+    supabase.from("nova_social_follows").delete().eq("follower_id", state.user.id).eq("followed_id", userId),
+    supabase.from("nova_social_follows").delete().eq("follower_id", userId).eq("followed_id", state.user.id)
+  ]);
+  state.relationships.delete(userId);
+  await Promise.all([loadFeed(), loadDiscover(), loadBlockedUsers()]);
+}
+async function loadBlockedUsers() {
+  const { data, error } = await supabase.from("nova_social_blocks").select("blocked_id,created_at")
+    .eq("blocker_id", state.user.id).order("created_at", { ascending: false });
+  const list = $("#social-blocked-users");
+  list.replaceChildren();
+  if (error) { list.append(el("p", "inline-error", error.message)); return; }
+  if (!data?.length) { list.append(el("p", "muted", "No has bloqueado cuentas.")); return; }
+  data.forEach(item => {
+    const row = el("div", "person-row"), info = el("div", "person-info");
+    info.append(el("strong", "", "Cuenta bloqueada"), el("span", "", "ID " + item.blocked_id.slice(0, 8)));
+    row.append(info, button("Desbloquear", "social-secondary compact", () => unblockUser(item.blocked_id)));
+    list.append(row);
+  });
+}
+async function unblockUser(userId) {
+  const { error } = await supabase.from("nova_social_blocks").delete()
+    .eq("blocker_id", state.user.id).eq("blocked_id", userId);
+  if (error) return setStatus(error.message, "error");
+  setStatus("Cuenta desbloqueada.", "success");
+  await Promise.all([loadBlockedUsers(), loadDiscover(), loadFeed()]);
 }
 async function toggleComments(postId, article) {
   if (state.commentsOpen.has(postId)) { state.commentsOpen.delete(postId); article.querySelector(".comment-panel")?.remove(); return; }
@@ -274,7 +301,7 @@ async function startSession(user) {
   if (!user || state.user?.id === user.id) return; state.user = user;
   try {
     showSignedIn(); state.profile = await ensureProfile(user); state.preferences = await ensurePreferences(user); paintForms();
-    await loadRelationships(); await Promise.all([loadFeed(), loadDiscover(), loadFollowRequests()]);
+    await loadRelationships(); await Promise.all([loadFeed(), loadDiscover(), loadFollowRequests(), loadBlockedUsers()]);
   } catch (error) { console.error("NOVA Social init:", error); setStatus("No se pudo iniciar NOVA Social: " + (error.message || "error desconocido"), "error"); }
 }
 $("#social-sign-in").addEventListener("click", openAccountMenu);
