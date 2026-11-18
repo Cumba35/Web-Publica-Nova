@@ -16,29 +16,6 @@ import("/Web-Publica-Nova/assets/js/account.js").catch(error => console.error("N
   const current = [...nav.querySelectorAll('a')].find(a => !a.dataset.homeLink && new URL(a.href, location.href).pathname.replace(/\/$/, '') === path);
   if (current) current.setAttribute('aria-current', 'page');
   else if (path === '/Web-Publica-Nova' || path === '') home.setAttribute('aria-current', 'page');
-  const toggle = document.createElement('button');
-  toggle.className = 'menu-toggle';
-  toggle.type = 'button';
-  toggle.textContent = '☰ Menú';
-  toggle.setAttribute('aria-controls', nav.id);
-  toggle.setAttribute('aria-expanded', 'false');
-  toggle.setAttribute('aria-label', 'Abrir menú principal');
-  nav.parentElement.insertBefore(toggle, nav);
-  const closeMenu = () => {
-    nav.classList.remove('is-open');
-    toggle.setAttribute('aria-expanded', 'false');
-    toggle.setAttribute('aria-label', 'Abrir menú principal');
-    toggle.textContent = '☰ Menú';
-  };
-  toggle.addEventListener('click', () => {
-    const open = toggle.getAttribute('aria-expanded') !== 'true';
-    nav.classList.toggle('is-open', open);
-    toggle.setAttribute('aria-expanded', String(open));
-    toggle.setAttribute('aria-label', open ? 'Cerrar menú principal' : 'Abrir menú principal');
-    toggle.textContent = open ? '✕ Cerrar' : '☰ Menú';
-  });
-  nav.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
-  document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
   const candidates = [...main.querySelectorAll(':scope > section, :scope > .cols > section, :scope > .cols > aside')].filter(section => section.querySelector('h2'));
   const used = new Set();
   const entries = candidates.map(section => {
