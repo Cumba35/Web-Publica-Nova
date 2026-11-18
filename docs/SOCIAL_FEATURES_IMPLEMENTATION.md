@@ -72,6 +72,7 @@ Los archivos SQL del repositorio están versionados con los identificadores de p
 - `20261118211007_nova_social_notification_function_permissions`
 - `20261118211008_nova_social_comment_policy_fix`
 - `20261118211147_nova_social_notification_fk_indexes`
+- `20261118211549_nova_social_follow_status_column_guard`
 
 Las nueve etapas también se aplicaron en `NOVA-STAGING`. Supabase generó allí estas versiones remotas, en el mismo orden: `20261118210042`, `20261118210127`, `20261118210222`, `20261118210440`, `20261118210810`, `20261118210935`, `20261118210944`, `20261118210956` y `20261118211146`. La correspondencia se verificó leyendo el historial de migraciones de ambos proyectos.
 
@@ -79,13 +80,13 @@ Las nueve etapas también se aplicaron en `NOVA-STAGING`. Supabase generó allí
 
 En `NOVA-STAGING` se ejecutó `supabase/tests/nova_social_rls_test.sql` mediante una transacción que termina en `ROLLBACK`. Se comprobó:
 - Un perfil privado no expone publicaciones antes de aprobar un seguidor.
-- Un usuario no puede publicar en nombre de otra cuenta.
+- Un usuario no puede publicar en nombre de otra cuenta ni modificar el identificador del seguidor al aceptar solicitudes.
 - La aceptación de una solicitud permite ver las publicaciones reservadas a seguidores.
 - Las notificaciones de seguimiento, reacción y comentario se crean automáticamente; solo el destinatario puede leerlas y marcar su estado.
 - Un bloqueo oculta las publicaciones entre ambas cuentas.
 
 En producción se comprobó:
-- Las nueve tablas existen y tienen RLS activado.
+- Las diez tablas existen y tienen RLS activado.
 - `anon` no tiene privilegio de lectura.
 - `authenticated` tiene solo las operaciones previstas; `nova_social_reports` permite únicamente INSERT al cliente.
 - El asesor de salud no reportó problemas.
