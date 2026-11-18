@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "project": "futbol-nova",
+  "purpose": "Crear identidades ficticias originales inspiradas en el contexto deportivo, geográfico y cultural de clubes reales sin reutilizar ni imitar sus signos distintivos.",
+  "default_mode": "fictionalized_club_identity",
+  "coverage": {
+    "currently_verified_game_data": [
+      "CUB"
+    ],
+    "global_inventory_complete": false,
+    "rule": "No afirmar cobertura mundial ni generar equivalencias para clubes que no estén presentes en un inventario de fuentes verificables."
+  },
+  "identity_rules": {
+    "preserve": [
+      "ciudad, municipio o región de origen cuando sea pertinente",
+      "contexto geográfico y cultural público y no exclusivo",
+      "colores solo como referencia general cuando no creen una imitación confundible",
+      "tradición deportiva general, entorno, paisaje, industria o fauna local",
+      "rivalidades y jerarquías deportivas solo como estructura ficticia"
+    ],
+    "replace_or_redesign": [
+      "nombre oficial completo y abreviaturas distintivas",
+      "apodos, lemas y expresiones identificadoras cuando puedan funcionar como marca",
+      "escudo, monograma, mascota y símbolos",
+      "uniformes, patrones y combinaciones visuales reconocibles",
+      "estadio con nombre comercial o marca protegida",
+      "cánticos, himnos, tipografías y material gráfico"
+    ],
+    "prohibited_shortcuts": [
+      "cambiar solo una palabra del nombre oficial",
+      "traducir literalmente el nombre o apodo distintivo",
+      "añadir FC, CF, United, City, Real, Athletic o equivalente a un nombre protegido y tratarlo como suficiente",
+      "reutilizar escudos, mascotas, uniformes o diseños oficiales",
+      "usar nombres de jugadores reales como parte de la identidad ficticia"
+    ],
+    "name_generation": {
+      "method": "Combinar topónimo permitido con un concepto local independiente (geografía, fauna no exclusiva, patrimonio, industria o símbolo cultural de uso general), o crear una denominación evocativa nueva.",
+      "requirements": [
+        "nombre claramente distinguible del club real de referencia",
+        "sin similitud fonética o visual que sugiera afiliación",
+        "no depender del apodo registrado del club original",
+        "guardar la relación de referencia solo en metadatos internos no mostrados al jugador",
+        "revisión de homónimos en fútbol actual e histórico y en bases de marcas antes de publicar"
+      ]
+    },
+    "visual_identity": {
+      "crest": "Diseño desde cero; no calcar silueta, composición, animales, coronas, monogramas ni escudos oficiales.",
+      "kits": "Crear patrones propios; evitar réplicas de camisetas históricas o actuales, patrocinadores, fabricantes y combinaciones inmediatamente identificables.",
+      "colors": "La paleta puede inspirarse en la localidad, pero debe diferenciarse del conjunto comercial reconocible del club de referencia.",
+      "stadiums": "Usar nombres ficticios o topónimos genéricos revisados; no copiar nombres comerciales protegidos."
+    }
+  },
+  "trademark_review": {
+    "scope_per_club": [
+      "nombre exacto y variantes",
+      "apodo y lema",
+      "escudo y elementos figurativos",
+      "colores y combinación visual",
+      "uniforme y mascota",
+      "estadio y denominaciones comerciales"
+    ],
+    "search_sources": [
+      "WIPO Global Brand Database",
+      "oficina nacional o regional de marcas del país del club",
+      "registros de asociaciones/federaciones cuando corresponda",
+      "fuentes oficiales del club para identificar titulares y activos"
+    ],
+    "nice_classes_to_consider": [
+      9,
+      16,
+      25,
+      28,
+      35,
+      38,
+      41
+    ],
+    "decision_states": [
+      "not_reviewed",
+      "research_required",
+      "potential_conflict",
+      "redesign_required",
+      "reviewed_no_obvious_conflict",
+      "licensed"
+    ],
+    "disclaimer": "Una búsqueda preliminar no equivale a dictamen jurídico ni garantiza disponibilidad mundial. La autorización/licencia del titular prevalece."
+  },
+  "data_model": {
+    "required_fields": [
+      "id",
+      "display_name",
+      "country_code",
+      "home_city",
+      "fictional",
+      "identity_type",
+      "inspiration_reference_id",
+      "inspiration_notes",
+      "trademark_review_status",
+      "name_reviewed_at",
+      "visual_assets_original"
+    ],
+    "privacy": "inspiration_reference_id y las notas de investigación son metadatos internos; no se muestran en la interfaz pública."
+  },
+  "release_gate": [
+    "inventario de clubes y fuentes documentado",
+    "nombre original y distintivo",
+    "búsqueda de marcas y variantes completada para territorios relevantes",
+    "escudo, equipaciones y activos gráficos originales",
+    "sin indicios de afiliación o patrocinio oficial",
+    "validación técnica y aprobación editorial"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "continental-leagues-ofc",
+  "module_type": "continental_league_catalog",
+  "name": "Confederación de Fútbol de Oceanía",
+  "confederation_code": "OFC",
+  "independent": true,
+  "season_policy": "Cada competición conserva temporada, identidad y estado de validación propios.",
+  "source_manifests": [
+    "data/global_league_selection_100.json",
+    "data/league_content_manifest.json",
+    "data/national_association_directory.json"
+  ],
+  "countries": [
+    {
+      "association_id": "FIFA-MA-004",
+      "name": "American Samoa",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-048",
+      "name": "Cook Islands",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-071",
+      "name": "Fiji",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-135",
+      "name": "New Caledonia",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-136",
+      "name": "New Zealand",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-147",
+      "name": "Papua New Guinea",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-159",
+      "name": "Samoa",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-171",
+      "name": "Solomon Islands",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-185",
+      "name": "Tahiti",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-192",
+      "name": "Tonga",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-205",
+      "name": "Vanuatu",
+      "confederation_code": "OFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    }
+  ],
+  "leagues": [],
+  "module_status": "catalogued_validation_pending"
+}

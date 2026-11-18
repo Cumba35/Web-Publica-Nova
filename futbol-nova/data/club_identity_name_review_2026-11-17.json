@@ -1,0 +1,4174 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-11-17",
+  "dataset_id": "futbol_nova_original_club_display_name_review",
+  "policy": {
+    "game_names_are_original_fictional_identities": true,
+    "source_reference_names_must_not_be_shown_in_game": true,
+    "source_reference_ids_preserved_for_membership_linkage": true,
+    "names_are_not_legal_trademark_clearance": true,
+    "crests_kits_sponsors_and_visual_identity_require_separate_review": true,
+    "no_club_or_player_ids_changed": true
+  },
+  "summary": {
+    "total_names_created": 519,
+    "six_country_provisional_clubs": 451,
+    "english_clubs_reviewed": 68,
+    "unique_display_names": 519,
+    "club_membership_or_roster_status_unchanged": true
+  },
+  "entries": [
+    {
+      "club_id": "FN-BRA-ATHLETICO-PARANAENSE",
+      "country_code": "BRA",
+      "display_name": "Atlético de Averadell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-ATHLETICO-PARANAENSE"
+    },
+    {
+      "club_id": "FN-BRA-ATLETICO-MINEIRO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Averenmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-ATLETICO-MINEIRO"
+    },
+    {
+      "club_id": "FN-BRA-BAHIA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Averunvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-BAHIA"
+    },
+    {
+      "club_id": "FN-BRA-BOTAFOGO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Averumholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-BOTAFOGO"
+    },
+    {
+      "club_id": "FN-BRA-CHAPECOENSE",
+      "country_code": "BRA",
+      "display_name": "Atlético de Belenmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-CHAPECOENSE"
+    },
+    {
+      "club_id": "FN-BRA-CORINTHIANS",
+      "country_code": "BRA",
+      "display_name": "Esportivo Belunselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-CORINTHIANS"
+    },
+    {
+      "club_id": "FN-BRA-CORITIBA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Belumdune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-CORITIBA"
+    },
+    {
+      "club_id": "FN-BRA-CRUZEIRO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Caldulune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-CRUZEIRO"
+    },
+    {
+      "club_id": "FN-BRA-FLAMENGO",
+      "country_code": "BRA",
+      "display_name": "Atlético de Calduncairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-FLAMENGO"
+    },
+    {
+      "club_id": "FN-BRA-FLUMINENSE",
+      "country_code": "BRA",
+      "display_name": "Esportivo Caldumwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-FLUMINENSE"
+    },
+    {
+      "club_id": "FN-BRA-GREMIO",
+      "country_code": "BRA",
+      "display_name": "Atlético de Dornuglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-GREMIO"
+    },
+    {
+      "club_id": "FN-BRA-INTERNACIONAL",
+      "country_code": "BRA",
+      "display_name": "Esportivo Dornorzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-INTERNACIONAL"
+    },
+    {
+      "club_id": "FN-BRA-MIRASSOL",
+      "country_code": "BRA",
+      "display_name": "Atlético de Dornumlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-MIRASSOL"
+    },
+    {
+      "club_id": "FN-BRA-PALMEIRAS",
+      "country_code": "BRA",
+      "display_name": "Esportivo Elduheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-PALMEIRAS"
+    },
+    {
+      "club_id": "FN-BRA-RED-BULL-BRAGANTINO",
+      "country_code": "BRA",
+      "display_name": "Atlético de Eldorhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-RED-BULL-BRAGANTINO"
+    },
+    {
+      "club_id": "FN-BRA-REMO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Eldumvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-REMO"
+    },
+    {
+      "club_id": "FN-BRA-SANTOS",
+      "country_code": "BRA",
+      "display_name": "Atlético de Farnuvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-SANTOS"
+    },
+    {
+      "club_id": "FN-BRA-SAO-PAULO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Farnormont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-SAO-PAULO"
+    },
+    {
+      "club_id": "FN-BRA-VASCO-DA-GAMA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Farnolbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-VASCO-DA-GAMA"
+    },
+    {
+      "club_id": "FN-BRA-VITORIA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Galdurien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L1-VITORIA"
+    },
+    {
+      "club_id": "FN-BRA-AMERICA-MINEIRO",
+      "country_code": "BRA",
+      "display_name": "Atlético de Galdorvarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-AMERICA-MINEIRO"
+    },
+    {
+      "club_id": "FN-BRA-ATHLETIC-CLUB",
+      "country_code": "BRA",
+      "display_name": "Esportivo Galdolcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-ATHLETIC-CLUB"
+    },
+    {
+      "club_id": "FN-BRA-ATLETICO-GOIANIENSE",
+      "country_code": "BRA",
+      "display_name": "Atlético de Helvotova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-ATLETICO-GOIANIENSE"
+    },
+    {
+      "club_id": "FN-BRA-AVAI",
+      "country_code": "BRA",
+      "display_name": "Esportivo Helvordorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-AVAI"
+    },
+    {
+      "club_id": "FN-BRA-BOTAFOGO-SP",
+      "country_code": "BRA",
+      "display_name": "Atlético de Helvolford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-BOTAFOGO-SP"
+    },
+    {
+      "club_id": "FN-BRA-CEARA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Iverorath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-CEARA"
+    },
+    {
+      "club_id": "FN-BRA-CRB",
+      "country_code": "BRA",
+      "display_name": "Atlético de Iverordell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-CRB"
+    },
+    {
+      "club_id": "FN-BRA-CRICIUMA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Iverolmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-CRICIUMA"
+    },
+    {
+      "club_id": "FN-BRA-CUIABA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Jorovale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-CUIABA"
+    },
+    {
+      "club_id": "FN-BRA-FORTALEZA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Jorirholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-FORTALEZA"
+    },
+    {
+      "club_id": "FN-BRA-GOIAS",
+      "country_code": "BRA",
+      "display_name": "Atlético de Jorolmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-GOIAS"
+    },
+    {
+      "club_id": "FN-BRA-JUVENTUDE",
+      "country_code": "BRA",
+      "display_name": "Esportivo Keldoselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-JUVENTUDE"
+    },
+    {
+      "club_id": "FN-BRA-LONDRINA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Keldirdune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-LONDRINA"
+    },
+    {
+      "club_id": "FN-BRA-NAUTICO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Keldislune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-NAUTICO"
+    },
+    {
+      "club_id": "FN-BRA-NOVORIZONTINO",
+      "country_code": "BRA",
+      "display_name": "Atlético de Lornocairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-NOVORIZONTINO"
+    },
+    {
+      "club_id": "FN-BRA-OPERARIO-PR",
+      "country_code": "BRA",
+      "display_name": "Esportivo Lornirwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-OPERARIO-PR"
+    },
+    {
+      "club_id": "FN-BRA-PONTE-PRETA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Lornisglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-PONTE-PRETA"
+    },
+    {
+      "club_id": "FN-BRA-SAO-BERNARDO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Marnizeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-SAO-BERNARDO"
+    },
+    {
+      "club_id": "FN-BRA-SPORT-RECIFE",
+      "country_code": "BRA",
+      "display_name": "Atlético de Marnirlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-SPORT-RECIFE"
+    },
+    {
+      "club_id": "FN-BRA-VILA-NOVA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Marnisheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L2-VILA-NOVA"
+    },
+    {
+      "club_id": "FN-BRA-AMAZONAS-FC",
+      "country_code": "BRA",
+      "display_name": "Atlético de Norvihurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-AMAZONAS-FC"
+    },
+    {
+      "club_id": "FN-BRA-ANAPOLIS",
+      "country_code": "BRA",
+      "display_name": "Esportivo Norvirvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-ANAPOLIS"
+    },
+    {
+      "club_id": "FN-BRA-BARRA-SC",
+      "country_code": "BRA",
+      "display_name": "Atlético de Norvisvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-BARRA-SC"
+    },
+    {
+      "club_id": "FN-BRA-BOTAFOGO-PB",
+      "country_code": "BRA",
+      "display_name": "Esportivo Ordelimont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-BOTAFOGO-PB"
+    },
+    {
+      "club_id": "FN-BRA-BRUSQUE",
+      "country_code": "BRA",
+      "display_name": "Atlético de Ordelelbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-BRUSQUE"
+    },
+    {
+      "club_id": "FN-BRA-CAXIAS",
+      "country_code": "BRA",
+      "display_name": "Esportivo Ordelisrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-CAXIAS"
+    },
+    {
+      "club_id": "FN-BRA-CONFIANCA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Pavivarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-CONFIANCA"
+    },
+    {
+      "club_id": "FN-BRA-FERROVIARIA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Pavelcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-FERROVIARIA"
+    },
+    {
+      "club_id": "FN-BRA-FIGUEIRENSE",
+      "country_code": "BRA",
+      "display_name": "Atlético de Pavertova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-FIGUEIRENSE"
+    },
+    {
+      "club_id": "FN-BRA-FLORESTA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Quenidorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-FLORESTA"
+    },
+    {
+      "club_id": "FN-BRA-GUARANI",
+      "country_code": "BRA",
+      "display_name": "Atlético de Quenelford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-GUARANI"
+    },
+    {
+      "club_id": "FN-BRA-INTER-DE-LIMEIRA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Quenerrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-INTER-DE-LIMEIRA"
+    },
+    {
+      "club_id": "FN-BRA-ITABAIANA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Ravidell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-ITABAIANA"
+    },
+    {
+      "club_id": "FN-BRA-ITUANO",
+      "country_code": "BRA",
+      "display_name": "Esportivo Ravelmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-ITUANO"
+    },
+    {
+      "club_id": "FN-BRA-MARANHAO",
+      "country_code": "BRA",
+      "display_name": "Atlético de Ravervale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-MARANHAO"
+    },
+    {
+      "club_id": "FN-BRA-MARINGA",
+      "country_code": "BRA",
+      "display_name": "Esportivo Seldeholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-MARINGA"
+    },
+    {
+      "club_id": "FN-BRA-PAYSANDU",
+      "country_code": "BRA",
+      "display_name": "Atlético de Seldelmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-PAYSANDU"
+    },
+    {
+      "club_id": "FN-BRA-SANTA-CRUZ",
+      "country_code": "BRA",
+      "display_name": "Esportivo Selderselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-SANTA-CRUZ"
+    },
+    {
+      "club_id": "FN-BRA-VOLTA-REDONDA",
+      "country_code": "BRA",
+      "display_name": "Atlético de Tarnedune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-VOLTA-REDONDA"
+    },
+    {
+      "club_id": "FN-BRA-YPIRANGA-RS",
+      "country_code": "BRA",
+      "display_name": "Esportivo Tarnarlune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "BRA-2026-L3-YPIRANGA-RS"
+    },
+    {
+      "club_id": "FN-ITA-AC-FIORENTINA",
+      "country_code": "ITA",
+      "display_name": "Calcio Averirath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-AC-FIORENTINA"
+    },
+    {
+      "club_id": "FN-ITA-AC-MILAN",
+      "country_code": "ITA",
+      "display_name": "Virtus Averirdell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-AC-MILAN"
+    },
+    {
+      "club_id": "FN-ITA-AC-MONZA",
+      "country_code": "ITA",
+      "display_name": "Calcio Averismere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-AC-MONZA"
+    },
+    {
+      "club_id": "FN-ITA-AS-ROMA",
+      "country_code": "ITA",
+      "display_name": "Virtus Belivale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-AS-ROMA"
+    },
+    {
+      "club_id": "FN-ITA-ATALANTA-BERGAMO",
+      "country_code": "ITA",
+      "display_name": "Calcio Belelholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-ATALANTA-BERGAMO"
+    },
+    {
+      "club_id": "FN-ITA-BOLOGNA-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Belismora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-BOLOGNA-FC"
+    },
+    {
+      "club_id": "FN-ITA-CAGLIARI-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Caldiselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-CAGLIARI-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-COMO-1907",
+      "country_code": "ITA",
+      "display_name": "Virtus Caldeldune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-COMO-1907"
+    },
+    {
+      "club_id": "FN-ITA-FROSINONE-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Calderlune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-FROSINONE-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-GENOA-CFC",
+      "country_code": "ITA",
+      "display_name": "Virtus Dornicairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-GENOA-CFC"
+    },
+    {
+      "club_id": "FN-ITA-INTER-MILANO",
+      "country_code": "ITA",
+      "display_name": "Calcio Dornelwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-INTER-MILANO"
+    },
+    {
+      "club_id": "FN-ITA-JUVENTUS-TORINO",
+      "country_code": "ITA",
+      "display_name": "Virtus Dornerglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-JUVENTUS-TORINO"
+    },
+    {
+      "club_id": "FN-ITA-LAZIO-ROMA",
+      "country_code": "ITA",
+      "display_name": "Calcio Eldezeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-LAZIO-ROMA"
+    },
+    {
+      "club_id": "FN-ITA-PARMA-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Eldellith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-PARMA-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-SSC-NAPOLI",
+      "country_code": "ITA",
+      "display_name": "Calcio Elderheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-SSC-NAPOLI"
+    },
+    {
+      "club_id": "FN-ITA-TORINO-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Farnehurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-TORINO-FC"
+    },
+    {
+      "club_id": "FN-ITA-UDINESE-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Farnelvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-UDINESE-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-US-LECCE",
+      "country_code": "ITA",
+      "display_name": "Virtus Farnervold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-US-LECCE"
+    },
+    {
+      "club_id": "FN-ITA-US-SASSUOLO",
+      "country_code": "ITA",
+      "display_name": "Calcio Galdemont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-US-SASSUOLO"
+    },
+    {
+      "club_id": "FN-ITA-VENEZIA-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Galdarbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L1-VENEZIA-FC"
+    },
+    {
+      "club_id": "FN-ITA-ASCOLI-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Galderrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-ASCOLI-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-BENEVENTO-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Helvevarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-BENEVENTO-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-CALCIO-PADOVA",
+      "country_code": "ITA",
+      "display_name": "Calcio Helvarcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-CALCIO-PADOVA"
+    },
+    {
+      "club_id": "FN-ITA-CARRARESE-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Helvavtova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-CARRARESE-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-CESENA-FC",
+      "country_code": "ITA",
+      "display_name": "Calcio Iveredorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-CESENA-FC"
+    },
+    {
+      "club_id": "FN-ITA-EMPOLI-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Iverarford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-EMPOLI-FC"
+    },
+    {
+      "club_id": "FN-ITA-FC-SUDTIROL-ALTO-ADIGE",
+      "country_code": "ITA",
+      "display_name": "Calcio Iveravrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-FC-SUDTIROL-ALTO-ADIGE"
+    },
+    {
+      "club_id": "FN-ITA-HELLAS-VERONA",
+      "country_code": "ITA",
+      "display_name": "Virtus Joredell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-HELLAS-VERONA"
+    },
+    {
+      "club_id": "FN-ITA-JUVE-STABIA",
+      "country_code": "ITA",
+      "display_name": "Calcio Jorarmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-JUVE-STABIA"
+    },
+    {
+      "club_id": "FN-ITA-LR-VICENZA",
+      "country_code": "ITA",
+      "display_name": "Virtus Joravvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-LR-VICENZA"
+    },
+    {
+      "club_id": "FN-ITA-MANTOVA-1911",
+      "country_code": "ITA",
+      "display_name": "Calcio Keldaholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-MANTOVA-1911"
+    },
+    {
+      "club_id": "FN-ITA-MODENA-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Keldarmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-MODENA-FC"
+    },
+    {
+      "club_id": "FN-ITA-PALERMO-FC",
+      "country_code": "ITA",
+      "display_name": "Calcio Keldavselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-PALERMO-FC"
+    },
+    {
+      "club_id": "FN-ITA-PISA-SC",
+      "country_code": "ITA",
+      "display_name": "Virtus Lornadune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-PISA-SC"
+    },
+    {
+      "club_id": "FN-ITA-SAMPDORIA-GENOVA",
+      "country_code": "ITA",
+      "display_name": "Calcio Lornenlune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-SAMPDORIA-GENOVA"
+    },
+    {
+      "club_id": "FN-ITA-SS-AREZZO",
+      "country_code": "ITA",
+      "display_name": "Virtus Lornavcairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-SS-AREZZO"
+    },
+    {
+      "club_id": "FN-ITA-US-AVELLINO",
+      "country_code": "ITA",
+      "display_name": "Calcio Marnawick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-US-AVELLINO"
+    },
+    {
+      "club_id": "FN-ITA-US-CATANZARO",
+      "country_code": "ITA",
+      "display_name": "Virtus Marnenglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-US-CATANZARO"
+    },
+    {
+      "club_id": "FN-ITA-US-CREMONESE",
+      "country_code": "ITA",
+      "display_name": "Calcio Marnunzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-US-CREMONESE"
+    },
+    {
+      "club_id": "FN-ITA-VIRTUS-ENTELLA-CHIAVARI",
+      "country_code": "ITA",
+      "display_name": "Virtus Norvalith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L2-VIRTUS-ENTELLA-CHIAVARI"
+    },
+    {
+      "club_id": "FN-ITA-AC-CARPI",
+      "country_code": "ITA",
+      "display_name": "Calcio Norvenheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AC-CARPI"
+    },
+    {
+      "club_id": "FN-ITA-AC-OSPITALETTO",
+      "country_code": "ITA",
+      "display_name": "Virtus Norvunhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AC-OSPITALETTO"
+    },
+    {
+      "club_id": "FN-ITA-AC-RENATE",
+      "country_code": "ITA",
+      "display_name": "Calcio Ordelavane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AC-RENATE"
+    },
+    {
+      "club_id": "FN-ITA-AC-TRENTO",
+      "country_code": "ITA",
+      "display_name": "Virtus Ordelenvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AC-TRENTO"
+    },
+    {
+      "club_id": "FN-ITA-ALCIONE-MILANO",
+      "country_code": "ITA",
+      "display_name": "Calcio Ordelunmont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-ALCIONE-MILANO"
+    },
+    {
+      "club_id": "FN-ITA-ARZIGNANO-VALCHIAMPO",
+      "country_code": "ITA",
+      "display_name": "Virtus Ordelumbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-ARZIGNANO-VALCHIAMPO"
+    },
+    {
+      "club_id": "FN-ITA-AS-CITTADELLA",
+      "country_code": "ITA",
+      "display_name": "Calcio Pavenrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AS-CITTADELLA"
+    },
+    {
+      "club_id": "FN-ITA-DESENZANO-CALVINA",
+      "country_code": "ITA",
+      "display_name": "Virtus Pavunvarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-DESENZANO-CALVINA"
+    },
+    {
+      "club_id": "FN-ITA-DOLOMITI-BELLUNESI",
+      "country_code": "ITA",
+      "display_name": "Calcio Pavumcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-DOLOMITI-BELLUNESI"
+    },
+    {
+      "club_id": "FN-ITA-FC-LUMEZZANE",
+      "country_code": "ITA",
+      "display_name": "Virtus Quenutova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-FC-LUMEZZANE"
+    },
+    {
+      "club_id": "FN-ITA-GIANA-ERMINIO-GORGONZOLA",
+      "country_code": "ITA",
+      "display_name": "Calcio Quenundorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-GIANA-ERMINIO-GORGONZOLA"
+    },
+    {
+      "club_id": "FN-ITA-JUVENTUS-NEXT-GEN-TORINO",
+      "country_code": "ITA",
+      "display_name": "Virtus Quenumford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-JUVENTUS-NEXT-GEN-TORINO"
+    },
+    {
+      "club_id": "FN-ITA-LECCO-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Ravurath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-LECCO-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-NOVARA-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Ravundell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-NOVARA-FC"
+    },
+    {
+      "club_id": "FN-ITA-PRO-VERCELLI",
+      "country_code": "ITA",
+      "display_name": "Calcio Ravummere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-PRO-VERCELLI"
+    },
+    {
+      "club_id": "FN-ITA-TREVISO-FBC",
+      "country_code": "ITA",
+      "display_name": "Virtus Selduvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-TREVISO-FBC"
+    },
+    {
+      "club_id": "FN-ITA-UC-ALBINOLEFFE",
+      "country_code": "ITA",
+      "display_name": "Calcio Seldorholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-UC-ALBINOLEFFE"
+    },
+    {
+      "club_id": "FN-ITA-UNION-BRESCIA",
+      "country_code": "ITA",
+      "display_name": "Virtus Seldummora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-UNION-BRESCIA"
+    },
+    {
+      "club_id": "FN-ITA-US-FOLGORE-CARATESE",
+      "country_code": "ITA",
+      "display_name": "Calcio Tarnuselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-US-FOLGORE-CARATESE"
+    },
+    {
+      "club_id": "FN-ITA-US-PERGOLETTESE",
+      "country_code": "ITA",
+      "display_name": "Virtus Tarnordune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-US-PERGOLETTESE"
+    },
+    {
+      "club_id": "FN-ITA-AC-PERUGIA",
+      "country_code": "ITA",
+      "display_name": "Calcio Tarnollune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AC-PERUGIA"
+    },
+    {
+      "club_id": "FN-ITA-AC-REGGIANA",
+      "country_code": "ITA",
+      "display_name": "Virtus Ulvenucairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AC-REGGIANA"
+    },
+    {
+      "club_id": "FN-ITA-AS-GUBBIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Ulvenorwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AS-GUBBIO"
+    },
+    {
+      "club_id": "FN-ITA-ATALANTA-BC-U23",
+      "country_code": "ITA",
+      "display_name": "Virtus Ulvenolglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-ATALANTA-BC-U23"
+    },
+    {
+      "club_id": "FN-ITA-CAMPOBASSO-FC",
+      "country_code": "ITA",
+      "display_name": "Calcio Vardozeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-CAMPOBASSO-FC"
+    },
+    {
+      "club_id": "FN-ITA-FORLI-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Vardorlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-FORLI-FC"
+    },
+    {
+      "club_id": "FN-ITA-GUIDONIA-MONTECELIO-FC",
+      "country_code": "ITA",
+      "display_name": "Calcio Vardolheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-GUIDONIA-MONTECELIO-FC"
+    },
+    {
+      "club_id": "FN-ITA-LATINA-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Weldohurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-LATINA-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-OSTIA-MARE-LIDO-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Weldorvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-OSTIA-MARE-LIDO-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-PESCARA-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Weldolvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-PESCARA-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-PINETO-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Xandomont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-PINETO-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-RAVENNA-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Xandirbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-RAVENNA-FC"
+    },
+    {
+      "club_id": "FN-ITA-SPEZIA-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Xandolrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-SPEZIA-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-TORRES-SASSARI",
+      "country_code": "ITA",
+      "display_name": "Virtus Yorovarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-TORRES-SASSARI"
+    },
+    {
+      "club_id": "FN-ITA-US-GROSSETO",
+      "country_code": "ITA",
+      "display_name": "Calcio Yorircove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-US-GROSSETO"
+    },
+    {
+      "club_id": "FN-ITA-US-LIVORNO",
+      "country_code": "ITA",
+      "display_name": "Virtus Yoristova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-US-LIVORNO"
+    },
+    {
+      "club_id": "FN-ITA-US-PIANESE",
+      "country_code": "ITA",
+      "display_name": "Calcio Zelmodorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-US-PIANESE"
+    },
+    {
+      "club_id": "FN-ITA-US-SAMBENEDETTESE",
+      "country_code": "ITA",
+      "display_name": "Virtus Zelmirford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-US-SAMBENEDETTESE"
+    },
+    {
+      "club_id": "FN-ITA-VADO-FC",
+      "country_code": "ITA",
+      "display_name": "Calcio Zelmisrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-VADO-FC"
+    },
+    {
+      "club_id": "FN-ITA-VIS-PESARO",
+      "country_code": "ITA",
+      "display_name": "Virtus Bravodell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-VIS-PESARO"
+    },
+    {
+      "club_id": "FN-ITA-ASD-BARLETTA-1922",
+      "country_code": "ITA",
+      "display_name": "Calcio Bravirmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-ASD-BARLETTA-1922"
+    },
+    {
+      "club_id": "FN-ITA-AUDACE-CERIGNOLA",
+      "country_code": "ITA",
+      "display_name": "Virtus Bravisvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AUDACE-CERIGNOLA"
+    },
+    {
+      "club_id": "FN-ITA-AZ-PICERNO",
+      "country_code": "ITA",
+      "display_name": "Calcio Cerviholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-AZ-PICERNO"
+    },
+    {
+      "club_id": "FN-ITA-CASARANO-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Cervirmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-CASARANO-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-CASERTANA-FC",
+      "country_code": "ITA",
+      "display_name": "Calcio Cervisselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-CASERTANA-FC"
+    },
+    {
+      "club_id": "FN-ITA-CATANIA-FC",
+      "country_code": "ITA",
+      "display_name": "Virtus Dalmidune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-CATANIA-FC"
+    },
+    {
+      "club_id": "FN-ITA-CAVESE-1919",
+      "country_code": "ITA",
+      "display_name": "Calcio Dalmellune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-CAVESE-1919"
+    },
+    {
+      "club_id": "FN-ITA-COSENZA-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Dalmiscairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-COSENZA-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-FC-CROTONE",
+      "country_code": "ITA",
+      "display_name": "Calcio Estiwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-FC-CROTONE"
+    },
+    {
+      "club_id": "FN-ITA-FOGGIA-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Estelglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-FOGGIA-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-GIUGLIANO-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Esterzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-GIUGLIANO-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-INTER-MILANO-U23",
+      "country_code": "ITA",
+      "display_name": "Virtus Fjorilith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-INTER-MILANO-U23"
+    },
+    {
+      "club_id": "FN-ITA-POTENZA-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Calcio Fjorelheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-POTENZA-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-SAVOIA-TORRE-ANNUNZIATA",
+      "country_code": "ITA",
+      "display_name": "Virtus Fjorerhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-SAVOIA-TORRE-ANNUNZIATA"
+    },
+    {
+      "club_id": "FN-ITA-SCAFATESE-FC",
+      "country_code": "ITA",
+      "display_name": "Calcio Grevivane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-SCAFATESE-FC"
+    },
+    {
+      "club_id": "FN-ITA-SORRENTO-CALCIO",
+      "country_code": "ITA",
+      "display_name": "Virtus Grevelvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-SORRENTO-CALCIO"
+    },
+    {
+      "club_id": "FN-ITA-SS-MONOPOLI",
+      "country_code": "ITA",
+      "display_name": "Calcio Grevermont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-SS-MONOPOLI"
+    },
+    {
+      "club_id": "FN-ITA-SSC-BARI",
+      "country_code": "ITA",
+      "display_name": "Virtus Haldebria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-SSC-BARI"
+    },
+    {
+      "club_id": "FN-ITA-TEAM-ALTAMURA",
+      "country_code": "ITA",
+      "display_name": "Calcio Haldelrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-TEAM-ALTAMURA"
+    },
+    {
+      "club_id": "FN-ITA-US-SALERNITANA",
+      "country_code": "ITA",
+      "display_name": "Virtus Haldervarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ITA-2026-27-L3-US-SALERNITANA"
+    },
+    {
+      "club_id": "FN-GER-1-FC-KOLN",
+      "country_code": "GER",
+      "display_name": "SV Averenford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-1-FC-KOLN"
+    },
+    {
+      "club_id": "FN-GER-1-FSV-MAINZ-05",
+      "country_code": "GER",
+      "display_name": "VfR Averunrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-1-FSV-MAINZ-05"
+    },
+    {
+      "club_id": "FN-GER-BAYER-04-LEVERKUSEN",
+      "country_code": "GER",
+      "display_name": "SV Beladell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-BAYER-04-LEVERKUSEN"
+    },
+    {
+      "club_id": "FN-GER-BAYERN-MUNCHEN",
+      "country_code": "GER",
+      "display_name": "VfR Belenmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-BAYERN-MUNCHEN"
+    },
+    {
+      "club_id": "FN-GER-BORUSSIA-DORTMUND",
+      "country_code": "GER",
+      "display_name": "SV Belunvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-BORUSSIA-DORTMUND"
+    },
+    {
+      "club_id": "FN-GER-BORUSSIA-MONCHENGLADBACH",
+      "country_code": "GER",
+      "display_name": "VfR Belumholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-BORUSSIA-MONCHENGLADBACH"
+    },
+    {
+      "club_id": "FN-GER-EINTRACHT-FRANKFURT",
+      "country_code": "GER",
+      "display_name": "SV Caldenmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-EINTRACHT-FRANKFURT"
+    },
+    {
+      "club_id": "FN-GER-FC-AUGSBURG",
+      "country_code": "GER",
+      "display_name": "VfR Caldunselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-FC-AUGSBURG"
+    },
+    {
+      "club_id": "FN-GER-HAMBURGER-SV",
+      "country_code": "GER",
+      "display_name": "SV Caldumdune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-HAMBURGER-SV"
+    },
+    {
+      "club_id": "FN-GER-RB-LEIPZIG",
+      "country_code": "GER",
+      "display_name": "VfR Dornulune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-RB-LEIPZIG"
+    },
+    {
+      "club_id": "FN-GER-SC-FREIBURG",
+      "country_code": "GER",
+      "display_name": "SV Dornuncairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-SC-FREIBURG"
+    },
+    {
+      "club_id": "FN-GER-SC-PADERBORN-07",
+      "country_code": "GER",
+      "display_name": "VfR Dornumwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-SC-PADERBORN-07"
+    },
+    {
+      "club_id": "FN-GER-SCHALKE-04-GELSENKIRCHEN",
+      "country_code": "GER",
+      "display_name": "SV Elduglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-SCHALKE-04-GELSENKIRCHEN"
+    },
+    {
+      "club_id": "FN-GER-SV-07-ELVERSBERG",
+      "country_code": "GER",
+      "display_name": "VfR Eldorzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-SV-07-ELVERSBERG"
+    },
+    {
+      "club_id": "FN-GER-TSG-HOFFENHEIM",
+      "country_code": "GER",
+      "display_name": "SV Eldumlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-TSG-HOFFENHEIM"
+    },
+    {
+      "club_id": "FN-GER-UNION-BERLIN",
+      "country_code": "GER",
+      "display_name": "VfR Farnuheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-UNION-BERLIN"
+    },
+    {
+      "club_id": "FN-GER-VFB-STUTTGART",
+      "country_code": "GER",
+      "display_name": "SV Farnorhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-VFB-STUTTGART"
+    },
+    {
+      "club_id": "FN-GER-WERDER-BREMEN",
+      "country_code": "GER",
+      "display_name": "VfR Farnumvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L1-WERDER-BREMEN"
+    },
+    {
+      "club_id": "FN-GER-1-FC-HEIDENHEIM",
+      "country_code": "GER",
+      "display_name": "SV Galduvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-1-FC-HEIDENHEIM"
+    },
+    {
+      "club_id": "FN-GER-1-FC-KAISERSLAUTERN",
+      "country_code": "GER",
+      "display_name": "VfR Galdormont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-1-FC-KAISERSLAUTERN"
+    },
+    {
+      "club_id": "FN-GER-1-FC-MAGDEBURG",
+      "country_code": "GER",
+      "display_name": "SV Galdolbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-1-FC-MAGDEBURG"
+    },
+    {
+      "club_id": "FN-GER-1-FC-NURNBERG",
+      "country_code": "GER",
+      "display_name": "VfR Helvurien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-1-FC-NURNBERG"
+    },
+    {
+      "club_id": "FN-GER-ARMINIA-BIELEFELD",
+      "country_code": "GER",
+      "display_name": "SV Helvorvarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-ARMINIA-BIELEFELD"
+    },
+    {
+      "club_id": "FN-GER-DYNAMO-DRESDEN",
+      "country_code": "GER",
+      "display_name": "VfR Helvolcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-DYNAMO-DRESDEN"
+    },
+    {
+      "club_id": "FN-GER-EINTRACHT-BRAUNSCHWEIG",
+      "country_code": "GER",
+      "display_name": "SV Iverotova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-EINTRACHT-BRAUNSCHWEIG"
+    },
+    {
+      "club_id": "FN-GER-ENERGIE-COTTBUS",
+      "country_code": "GER",
+      "display_name": "VfR Iverordorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-ENERGIE-COTTBUS"
+    },
+    {
+      "club_id": "FN-GER-FC-ST-PAULI",
+      "country_code": "GER",
+      "display_name": "SV Iverolford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-FC-ST-PAULI"
+    },
+    {
+      "club_id": "FN-GER-HANNOVER-96",
+      "country_code": "GER",
+      "display_name": "VfR Jororath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-HANNOVER-96"
+    },
+    {
+      "club_id": "FN-GER-HERTHA-BSC-BERLIN",
+      "country_code": "GER",
+      "display_name": "SV Jorordell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-HERTHA-BSC-BERLIN"
+    },
+    {
+      "club_id": "FN-GER-HOLSTEIN-KIEL",
+      "country_code": "GER",
+      "display_name": "VfR Jorolmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-HOLSTEIN-KIEL"
+    },
+    {
+      "club_id": "FN-GER-KARLSRUHER-SC",
+      "country_code": "GER",
+      "display_name": "SV Keldovale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-KARLSRUHER-SC"
+    },
+    {
+      "club_id": "FN-GER-SPVGG-GREUTHER-FURTH",
+      "country_code": "GER",
+      "display_name": "VfR Keldirholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-SPVGG-GREUTHER-FURTH"
+    },
+    {
+      "club_id": "FN-GER-SV-DARMSTADT-98",
+      "country_code": "GER",
+      "display_name": "SV Keldolmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-SV-DARMSTADT-98"
+    },
+    {
+      "club_id": "FN-GER-VFL-BOCHUM",
+      "country_code": "GER",
+      "display_name": "VfR Lornoselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-VFL-BOCHUM"
+    },
+    {
+      "club_id": "FN-GER-VFL-OSNABRUCK",
+      "country_code": "GER",
+      "display_name": "SV Lornirdune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-VFL-OSNABRUCK"
+    },
+    {
+      "club_id": "FN-GER-VFL-WOLFSBURG",
+      "country_code": "GER",
+      "display_name": "VfR Lornislune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L2-VFL-WOLFSBURG"
+    },
+    {
+      "club_id": "FN-GER-1-FC-SAARBRUCKEN",
+      "country_code": "GER",
+      "display_name": "SV Marnocairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-1-FC-SAARBRUCKEN"
+    },
+    {
+      "club_id": "FN-GER-ALEMANNIA-AACHEN",
+      "country_code": "GER",
+      "display_name": "VfR Marnirwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-ALEMANNIA-AACHEN"
+    },
+    {
+      "club_id": "FN-GER-FC-INGOLSTADT-04",
+      "country_code": "GER",
+      "display_name": "SV Marnisglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-FC-INGOLSTADT-04"
+    },
+    {
+      "club_id": "FN-GER-FORTUNA-DUSSELDORF",
+      "country_code": "GER",
+      "display_name": "VfR Norvizeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-FORTUNA-DUSSELDORF"
+    },
+    {
+      "club_id": "FN-GER-FORTUNA-KOLN",
+      "country_code": "GER",
+      "display_name": "SV Norvirlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-FORTUNA-KOLN"
+    },
+    {
+      "club_id": "FN-GER-HANSA-ROSTOCK",
+      "country_code": "GER",
+      "display_name": "VfR Norvisheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-HANSA-ROSTOCK"
+    },
+    {
+      "club_id": "FN-GER-MSV-DUISBURG",
+      "country_code": "GER",
+      "display_name": "SV Ordelihurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-MSV-DUISBURG"
+    },
+    {
+      "club_id": "FN-GER-PREUSSEN-MUNSTER",
+      "country_code": "GER",
+      "display_name": "VfR Ordelirvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-PREUSSEN-MUNSTER"
+    },
+    {
+      "club_id": "FN-GER-ROT-WEISS-ESSEN",
+      "country_code": "GER",
+      "display_name": "SV Ordelisvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-ROT-WEISS-ESSEN"
+    },
+    {
+      "club_id": "FN-GER-SC-VERL",
+      "country_code": "GER",
+      "display_name": "VfR Pavimont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-SC-VERL"
+    },
+    {
+      "club_id": "FN-GER-SG-SONNENHOF-GROSSASPACH",
+      "country_code": "GER",
+      "display_name": "SV Pavelbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-SG-SONNENHOF-GROSSASPACH"
+    },
+    {
+      "club_id": "FN-GER-SSV-JAHN-REGENSBURG",
+      "country_code": "GER",
+      "display_name": "VfR Pavisrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-SSV-JAHN-REGENSBURG"
+    },
+    {
+      "club_id": "FN-GER-SV-MEPPEN",
+      "country_code": "GER",
+      "display_name": "SV Quenivarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-SV-MEPPEN"
+    },
+    {
+      "club_id": "FN-GER-SV-WEHEN",
+      "country_code": "GER",
+      "display_name": "VfR Quenelcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-SV-WEHEN"
+    },
+    {
+      "club_id": "FN-GER-TSG-HOFFENHEIM-II",
+      "country_code": "GER",
+      "display_name": "SV Quenertova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-TSG-HOFFENHEIM-II"
+    },
+    {
+      "club_id": "FN-GER-TSV-HAVELSE",
+      "country_code": "GER",
+      "display_name": "VfR Ravidorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-TSV-HAVELSE"
+    },
+    {
+      "club_id": "FN-GER-VFB-STUTTGART-II",
+      "country_code": "GER",
+      "display_name": "SV Ravelford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-VFB-STUTTGART-II"
+    },
+    {
+      "club_id": "FN-GER-VIKTORIA-KOLN",
+      "country_code": "GER",
+      "display_name": "VfR Raverrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-VIKTORIA-KOLN"
+    },
+    {
+      "club_id": "FN-GER-WALDHOF-MANNHEIM",
+      "country_code": "GER",
+      "display_name": "SV Seldidell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-WALDHOF-MANNHEIM"
+    },
+    {
+      "club_id": "FN-GER-WURZBURGER-KICKERS",
+      "country_code": "GER",
+      "display_name": "VfR Seldelmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "GER-2026-27-L3-WURZBURGER-KICKERS"
+    },
+    {
+      "club_id": "FN-FRA-PARIS-SAINT-GERMAIN",
+      "country_code": "FRA",
+      "display_name": "AS Averirdorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-PARIS-SAINT-GERMAIN"
+    },
+    {
+      "club_id": "FN-FRA-RC-LENS",
+      "country_code": "FRA",
+      "display_name": "FC Averisford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-RC-LENS"
+    },
+    {
+      "club_id": "FN-FRA-LOSC-LILLE",
+      "country_code": "FRA",
+      "display_name": "AS Belirath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-LOSC-LILLE"
+    },
+    {
+      "club_id": "FN-FRA-OLYMPIQUE-LYONNAIS",
+      "country_code": "FRA",
+      "display_name": "FC Belirdell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-OLYMPIQUE-LYONNAIS"
+    },
+    {
+      "club_id": "FN-FRA-OLYMPIQUE-DE-MARSEILLE",
+      "country_code": "FRA",
+      "display_name": "AS Belismere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-OLYMPIQUE-DE-MARSEILLE"
+    },
+    {
+      "club_id": "FN-FRA-STADE-RENNAIS",
+      "country_code": "FRA",
+      "display_name": "FC Caldivale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-STADE-RENNAIS"
+    },
+    {
+      "club_id": "FN-FRA-AS-MONACO",
+      "country_code": "FRA",
+      "display_name": "AS Caldelholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-AS-MONACO"
+    },
+    {
+      "club_id": "FN-FRA-RC-STRASBOURG",
+      "country_code": "FRA",
+      "display_name": "FC Caldismora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-RC-STRASBOURG"
+    },
+    {
+      "club_id": "FN-FRA-TOULOUSE-FC",
+      "country_code": "FRA",
+      "display_name": "AS Dorniselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-TOULOUSE-FC"
+    },
+    {
+      "club_id": "FN-FRA-FC-LORIENT",
+      "country_code": "FRA",
+      "display_name": "FC Dorneldune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-FC-LORIENT"
+    },
+    {
+      "club_id": "FN-FRA-PARIS-FC",
+      "country_code": "FRA",
+      "display_name": "AS Dornerlune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-PARIS-FC"
+    },
+    {
+      "club_id": "FN-FRA-STADE-BRESTOIS-29",
+      "country_code": "FRA",
+      "display_name": "FC Eldicairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-STADE-BRESTOIS-29"
+    },
+    {
+      "club_id": "FN-FRA-ANGERS-SCO",
+      "country_code": "FRA",
+      "display_name": "AS Eldelwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-ANGERS-SCO"
+    },
+    {
+      "club_id": "FN-FRA-LE-HAVRE-AC",
+      "country_code": "FRA",
+      "display_name": "FC Elderglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-LE-HAVRE-AC"
+    },
+    {
+      "club_id": "FN-FRA-AJ-AUXERRE",
+      "country_code": "FRA",
+      "display_name": "AS Farnezeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-AJ-AUXERRE"
+    },
+    {
+      "club_id": "FN-FRA-OGC-NICE",
+      "country_code": "FRA",
+      "display_name": "FC Farnellith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-OGC-NICE"
+    },
+    {
+      "club_id": "FN-FRA-ESTAC-TROYES",
+      "country_code": "FRA",
+      "display_name": "AS Farnerheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-ESTAC-TROYES"
+    },
+    {
+      "club_id": "FN-FRA-LE-MANS-FC",
+      "country_code": "FRA",
+      "display_name": "FC Galdehurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L1-LE-MANS-FC"
+    },
+    {
+      "club_id": "FN-FRA-AS-SAINT-ETIENNE",
+      "country_code": "FRA",
+      "display_name": "AS Galdelvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-AS-SAINT-ETIENNE"
+    },
+    {
+      "club_id": "FN-FRA-RED-STAR",
+      "country_code": "FRA",
+      "display_name": "FC Galdervold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-RED-STAR"
+    },
+    {
+      "club_id": "FN-FRA-STADE-DE-REIMS",
+      "country_code": "FRA",
+      "display_name": "AS Helvemont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-STADE-DE-REIMS"
+    },
+    {
+      "club_id": "FN-FRA-MONTPELLIER-HSC",
+      "country_code": "FRA",
+      "display_name": "FC Helvarbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-MONTPELLIER-HSC"
+    },
+    {
+      "club_id": "FN-FRA-FC-METZ",
+      "country_code": "FRA",
+      "display_name": "AS Helverrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-FC-METZ"
+    },
+    {
+      "club_id": "FN-FRA-AS-NANCY-LORRAINE",
+      "country_code": "FRA",
+      "display_name": "FC Iverevarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-AS-NANCY-LORRAINE"
+    },
+    {
+      "club_id": "FN-FRA-FC-ANNECY",
+      "country_code": "FRA",
+      "display_name": "AS Iverarcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-FC-ANNECY"
+    },
+    {
+      "club_id": "FN-FRA-FC-SOCHAUX-MONTBELIARD",
+      "country_code": "FRA",
+      "display_name": "FC Iveravtova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-FC-SOCHAUX-MONTBELIARD"
+    },
+    {
+      "club_id": "FN-FRA-DIJON-FCO",
+      "country_code": "FRA",
+      "display_name": "AS Joredorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-DIJON-FCO"
+    },
+    {
+      "club_id": "FN-FRA-PAU-FC",
+      "country_code": "FRA",
+      "display_name": "FC Jorarford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-PAU-FC"
+    },
+    {
+      "club_id": "FN-FRA-EA-GUINGAMP",
+      "country_code": "FRA",
+      "display_name": "AS Joravrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-EA-GUINGAMP"
+    },
+    {
+      "club_id": "FN-FRA-GRENOBLE-FOOT-38",
+      "country_code": "FRA",
+      "display_name": "FC Keldedell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-GRENOBLE-FOOT-38"
+    },
+    {
+      "club_id": "FN-FRA-CLERMONT-FOOT-63",
+      "country_code": "FRA",
+      "display_name": "AS Keldarmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-CLERMONT-FOOT-63"
+    },
+    {
+      "club_id": "FN-FRA-USL-DUNKERQUE",
+      "country_code": "FRA",
+      "display_name": "FC Keldavvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-USL-DUNKERQUE"
+    },
+    {
+      "club_id": "FN-FRA-US-BOULOGNE",
+      "country_code": "FRA",
+      "display_name": "AS Lornaholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-US-BOULOGNE"
+    },
+    {
+      "club_id": "FN-FRA-STADE-LAVALLOIS",
+      "country_code": "FRA",
+      "display_name": "FC Lornarmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-STADE-LAVALLOIS"
+    },
+    {
+      "club_id": "FN-FRA-FC-NANTES",
+      "country_code": "FRA",
+      "display_name": "AS Lornavselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-FC-NANTES"
+    },
+    {
+      "club_id": "FN-FRA-RODEZ-AF",
+      "country_code": "FRA",
+      "display_name": "FC Marnadune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L2-RODEZ-AF"
+    },
+    {
+      "club_id": "FN-FRA-AMIENS-SC",
+      "country_code": "FRA",
+      "display_name": "AS Marnenlune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-AMIENS-SC"
+    },
+    {
+      "club_id": "FN-FRA-SC-AUBAGNE-AIR-BEL",
+      "country_code": "FRA",
+      "display_name": "FC Marnavcairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-SC-AUBAGNE-AIR-BEL"
+    },
+    {
+      "club_id": "FN-FRA-SC-BASTIA",
+      "country_code": "FRA",
+      "display_name": "AS Norvawick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-SC-BASTIA"
+    },
+    {
+      "club_id": "FN-FRA-FBBP-01",
+      "country_code": "FRA",
+      "display_name": "FC Norvenglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-FBBP-01"
+    },
+    {
+      "club_id": "FN-FRA-SM-CAEN",
+      "country_code": "FRA",
+      "display_name": "AS Norvunzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-SM-CAEN"
+    },
+    {
+      "club_id": "FN-FRA-AS-CANNES",
+      "country_code": "FRA",
+      "display_name": "FC Ordelalith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-AS-CANNES"
+    },
+    {
+      "club_id": "FN-FRA-US-CONCARNEAU",
+      "country_code": "FRA",
+      "display_name": "AS Ordelenheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-US-CONCARNEAU"
+    },
+    {
+      "club_id": "FN-FRA-FC-FLEURY-91",
+      "country_code": "FRA",
+      "display_name": "FC Ordelunhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-FC-FLEURY-91"
+    },
+    {
+      "club_id": "FN-FRA-VFC-LA-ROCHE-SUR-YON",
+      "country_code": "FRA",
+      "display_name": "AS Pavavane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-VFC-LA-ROCHE-SUR-YON"
+    },
+    {
+      "club_id": "FN-FRA-LE-PUY-EN-VELAY-FC",
+      "country_code": "FRA",
+      "display_name": "FC Pavenvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-LE-PUY-EN-VELAY-FC"
+    },
+    {
+      "club_id": "FN-FRA-US-ORLEANS",
+      "country_code": "FRA",
+      "display_name": "AS Pavunmont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-US-ORLEANS"
+    },
+    {
+      "club_id": "FN-FRA-PARIS-13-ATLETICO",
+      "country_code": "FRA",
+      "display_name": "FC Pavumbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-PARIS-13-ATLETICO"
+    },
+    {
+      "club_id": "FN-FRA-QUEVILLY-ROUEN-METROPOLE",
+      "country_code": "FRA",
+      "display_name": "AS Quenenrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-QUEVILLY-ROUEN-METROPOLE"
+    },
+    {
+      "club_id": "FN-FRA-FC-ROUEN-1899",
+      "country_code": "FRA",
+      "display_name": "FC Quenunvarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-FC-ROUEN-1899"
+    },
+    {
+      "club_id": "FN-FRA-US-THIONVILLE-LUSITANOS",
+      "country_code": "FRA",
+      "display_name": "AS Quenumcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-US-THIONVILLE-LUSITANOS"
+    },
+    {
+      "club_id": "FN-FRA-VALENCIENNES-FC",
+      "country_code": "FRA",
+      "display_name": "FC Ravutova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-VALENCIENNES-FC"
+    },
+    {
+      "club_id": "FN-FRA-FC-VERSAILLES-78",
+      "country_code": "FRA",
+      "display_name": "AS Ravundorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-FC-VERSAILLES-78"
+    },
+    {
+      "club_id": "FN-FRA-FC-VILLEFRANCHE-BEAUJOLAIS",
+      "country_code": "FRA",
+      "display_name": "FC Ravumford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "FRA-2026-27-L3-FC-VILLEFRANCHE-BEAUJOLAIS"
+    },
+    {
+      "club_id": "FN-POR-AVS-FUTEBOL-SAD",
+      "country_code": "POR",
+      "display_name": "União Desportiva Averuntova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-AVS-FUTEBOL-SAD"
+    },
+    {
+      "club_id": "FN-POR-BENFICA-LISBOA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Beladorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-BENFICA-LISBOA"
+    },
+    {
+      "club_id": "FN-POR-CASA-PIA-AC",
+      "country_code": "POR",
+      "display_name": "União Desportiva Belenford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-CASA-PIA-AC"
+    },
+    {
+      "club_id": "FN-POR-CD-SANTA-CLARA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Belunrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-CD-SANTA-CLARA"
+    },
+    {
+      "club_id": "FN-POR-CD-TONDELA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Caldadell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-CD-TONDELA"
+    },
+    {
+      "club_id": "FN-POR-ESTORIL-PRAIA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Caldenmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-ESTORIL-PRAIA"
+    },
+    {
+      "club_id": "FN-POR-ESTRELA-AMADORA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Caldunvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-ESTRELA-AMADORA"
+    },
+    {
+      "club_id": "FN-POR-FC-ALVERCA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Caldumholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-FC-ALVERCA"
+    },
+    {
+      "club_id": "FN-POR-FC-AROUCA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Dornenmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-FC-AROUCA"
+    },
+    {
+      "club_id": "FN-POR-FC-FAMALICAO",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Dornunselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-FC-FAMALICAO"
+    },
+    {
+      "club_id": "FN-POR-FC-PORTO",
+      "country_code": "POR",
+      "display_name": "União Desportiva Dornumdune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-FC-PORTO"
+    },
+    {
+      "club_id": "FN-POR-GIL-VICENTE-BARCELOS",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Eldulune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-GIL-VICENTE-BARCELOS"
+    },
+    {
+      "club_id": "FN-POR-MOREIRENSE-FC",
+      "country_code": "POR",
+      "display_name": "União Desportiva Elduncairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-MOREIRENSE-FC"
+    },
+    {
+      "club_id": "FN-POR-NACIONAL-FUNCHAL",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Eldumwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-NACIONAL-FUNCHAL"
+    },
+    {
+      "club_id": "FN-POR-RIO-AVE-FC",
+      "country_code": "POR",
+      "display_name": "União Desportiva Farnuglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-RIO-AVE-FC"
+    },
+    {
+      "club_id": "FN-POR-SPORTING-BRAGA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Farnorzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-SPORTING-BRAGA"
+    },
+    {
+      "club_id": "FN-POR-SPORTING-CP-LISBOA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Farnumlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-SPORTING-CP-LISBOA"
+    },
+    {
+      "club_id": "FN-POR-VITORIA-GUIMARAES",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Galduheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L1-VITORIA-GUIMARAES"
+    },
+    {
+      "club_id": "FN-POR-ACADEMICO-VISEU",
+      "country_code": "POR",
+      "display_name": "União Desportiva Galdorhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-ACADEMICO-VISEU"
+    },
+    {
+      "club_id": "FN-POR-BENFICA-LISBOA-B",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Galdumvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-BENFICA-LISBOA-B"
+    },
+    {
+      "club_id": "FN-POR-CD-FEIRENSE",
+      "country_code": "POR",
+      "display_name": "União Desportiva Helvuvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-CD-FEIRENSE"
+    },
+    {
+      "club_id": "FN-POR-FC-FELGUEIRAS-1932",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Helvormont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-FC-FELGUEIRAS-1932"
+    },
+    {
+      "club_id": "FN-POR-FC-PACOS-DE-FERREIRA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Helvolbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-FC-PACOS-DE-FERREIRA"
+    },
+    {
+      "club_id": "FN-POR-FC-PENAFIEL",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Iverurien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-FC-PENAFIEL"
+    },
+    {
+      "club_id": "FN-POR-FC-PORTO-B",
+      "country_code": "POR",
+      "display_name": "União Desportiva Iverorvarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-FC-PORTO-B"
+    },
+    {
+      "club_id": "FN-POR-FC-VIZELA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Iverolcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-FC-VIZELA"
+    },
+    {
+      "club_id": "FN-POR-GD-CHAVES",
+      "country_code": "POR",
+      "display_name": "União Desportiva Jorotova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-GD-CHAVES"
+    },
+    {
+      "club_id": "FN-POR-LEIXOES-SC",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Jorordorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-LEIXOES-SC"
+    },
+    {
+      "club_id": "FN-POR-LUSITANIA-LOUROSA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Jorolford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-LUSITANIA-LOUROSA"
+    },
+    {
+      "club_id": "FN-POR-MARITIMO-FUNCHAL",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Keldorath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-MARITIMO-FUNCHAL"
+    },
+    {
+      "club_id": "FN-POR-PORTIMONENSE-SC",
+      "country_code": "POR",
+      "display_name": "União Desportiva Keldordell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-PORTIMONENSE-SC"
+    },
+    {
+      "club_id": "FN-POR-SC-FARENSE",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Keldolmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-SC-FARENSE"
+    },
+    {
+      "club_id": "FN-POR-SCU-TORREENSE",
+      "country_code": "POR",
+      "display_name": "União Desportiva Lornovale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-SCU-TORREENSE"
+    },
+    {
+      "club_id": "FN-POR-SPORTING-LISBOA-B",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Lornirholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-SPORTING-LISBOA-B"
+    },
+    {
+      "club_id": "FN-POR-UD-OLIVEIRENSE",
+      "country_code": "POR",
+      "display_name": "União Desportiva Lornolmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-UD-OLIVEIRENSE"
+    },
+    {
+      "club_id": "FN-POR-UNIAO-LEIRIA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Marnoselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L2-UNIAO-LEIRIA"
+    },
+    {
+      "club_id": "FN-POR-1-DEZEMBRO-SINTRA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Marnirdune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-1-DEZEMBRO-SINTRA"
+    },
+    {
+      "club_id": "FN-POR-ACADEMICA-COIMBRA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Marnislune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-ACADEMICA-COIMBRA"
+    },
+    {
+      "club_id": "FN-POR-AD-FAFE",
+      "country_code": "POR",
+      "display_name": "União Desportiva Norvocairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-AD-FAFE"
+    },
+    {
+      "club_id": "FN-POR-AD-MARCO-09",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Norvirwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-AD-MARCO-09"
+    },
+    {
+      "club_id": "FN-POR-AD-SANJOANENSE",
+      "country_code": "POR",
+      "display_name": "União Desportiva Norvisglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-AD-SANJOANENSE"
+    },
+    {
+      "club_id": "FN-POR-AMARANTE-FC",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Ordelizeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-AMARANTE-FC"
+    },
+    {
+      "club_id": "FN-POR-AMORA-FC",
+      "country_code": "POR",
+      "display_name": "União Desportiva Ordelirlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-AMORA-FC"
+    },
+    {
+      "club_id": "FN-POR-ATLETICO-CP-LISBOA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Ordelisheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-ATLETICO-CP-LISBOA"
+    },
+    {
+      "club_id": "FN-POR-CALDAS-SC",
+      "country_code": "POR",
+      "display_name": "União Desportiva Pavihurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-CALDAS-SC"
+    },
+    {
+      "club_id": "FN-POR-CD-MAFRA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Pavirvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-CD-MAFRA"
+    },
+    {
+      "club_id": "FN-POR-CD-TROFENSE",
+      "country_code": "POR",
+      "display_name": "União Desportiva Pavisvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-CD-TROFENSE"
+    },
+    {
+      "club_id": "FN-POR-CF-OS-BELENENSES",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Quenimont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-CF-OS-BELENENSES"
+    },
+    {
+      "club_id": "FN-POR-LUSITANO-EVORA",
+      "country_code": "POR",
+      "display_name": "União Desportiva Quenelbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-LUSITANO-EVORA"
+    },
+    {
+      "club_id": "FN-POR-SC-SAO-JOAO-DE-VER",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Quenisrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-SC-SAO-JOAO-DE-VER"
+    },
+    {
+      "club_id": "FN-POR-SPORTING-BRAGA-B",
+      "country_code": "POR",
+      "display_name": "União Desportiva Ravivarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-SPORTING-BRAGA-B"
+    },
+    {
+      "club_id": "FN-POR-SPORTING-COVILHA",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Ravelcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-SPORTING-COVILHA"
+    },
+    {
+      "club_id": "FN-POR-UD-SANTAREM",
+      "country_code": "POR",
+      "display_name": "União Desportiva Ravertova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-UD-SANTAREM"
+    },
+    {
+      "club_id": "FN-POR-USC-PAREDES",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Seldidorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-USC-PAREDES"
+    },
+    {
+      "club_id": "FN-POR-VARZIM-SC",
+      "country_code": "POR",
+      "display_name": "União Desportiva Seldelford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-VARZIM-SC"
+    },
+    {
+      "club_id": "FN-POR-VITORIA-GUIMARAES-B",
+      "country_code": "POR",
+      "display_name": "Futebol Clube Selderrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "POR-2026-27-L3-VITORIA-GUIMARAES-B"
+    },
+    {
+      "club_id": "FN-ARG-ALDOSIVI",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Averiscove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-ALDOSIVI"
+    },
+    {
+      "club_id": "FN-ARG-ARGENTINOS-JUNIORS",
+      "country_code": "ARG",
+      "display_name": "Racing de Belitova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-ARGENTINOS-JUNIORS"
+    },
+    {
+      "club_id": "FN-ARG-ATLETICO-TUCUMAN",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Belirdorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-ATLETICO-TUCUMAN"
+    },
+    {
+      "club_id": "FN-ARG-BARRACAS-CENTRAL",
+      "country_code": "ARG",
+      "display_name": "Racing de Belisford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-BARRACAS-CENTRAL"
+    },
+    {
+      "club_id": "FN-ARG-BELGRANO-CORDOBA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Caldirath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-BELGRANO-CORDOBA"
+    },
+    {
+      "club_id": "FN-ARG-BANFIELD",
+      "country_code": "ARG",
+      "display_name": "Racing de Caldirdell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-BANFIELD"
+    },
+    {
+      "club_id": "FN-ARG-BOCA-JUNIORS",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Caldismere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-BOCA-JUNIORS"
+    },
+    {
+      "club_id": "FN-ARG-LANUS",
+      "country_code": "ARG",
+      "display_name": "Racing de Dornivale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-LANUS"
+    },
+    {
+      "club_id": "FN-ARG-TIGRE",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Dornelholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-TIGRE"
+    },
+    {
+      "club_id": "FN-ARG-VELEZ-SARSFIELD",
+      "country_code": "ARG",
+      "display_name": "Racing de Dornismora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-VELEZ-SARSFIELD"
+    },
+    {
+      "club_id": "FN-ARG-CENTRAL-CORDOBA-SANTIAGO-DEL-ESTERO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Eldiselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-CENTRAL-CORDOBA-SANTIAGO-DEL-ESTERO"
+    },
+    {
+      "club_id": "FN-ARG-DEFENSA-Y-JUSTICIA",
+      "country_code": "ARG",
+      "display_name": "Racing de Eldeldune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-DEFENSA-Y-JUSTICIA"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-RIESTRA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Elderlune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-DEPORTIVO-RIESTRA"
+    },
+    {
+      "club_id": "FN-ARG-ESTUDIANTES-LA-PLATA",
+      "country_code": "ARG",
+      "display_name": "Racing de Farnicairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-ESTUDIANTES-LA-PLATA"
+    },
+    {
+      "club_id": "FN-ARG-ESTUDIANTES-RIO-CUARTO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Farnelwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-ESTUDIANTES-RIO-CUARTO"
+    },
+    {
+      "club_id": "FN-ARG-GIMNASIA-Y-ESGRIMA-LA-PLATA",
+      "country_code": "ARG",
+      "display_name": "Racing de Farnerglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-GIMNASIA-Y-ESGRIMA-LA-PLATA"
+    },
+    {
+      "club_id": "FN-ARG-GIMNASIA-Y-ESGRIMA-MENDOZA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Galdezeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-GIMNASIA-Y-ESGRIMA-MENDOZA"
+    },
+    {
+      "club_id": "FN-ARG-HURACAN",
+      "country_code": "ARG",
+      "display_name": "Racing de Galdellith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-HURACAN"
+    },
+    {
+      "club_id": "FN-ARG-INDEPENDIENTE",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Galderheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-INDEPENDIENTE"
+    },
+    {
+      "club_id": "FN-ARG-INDEPENDIENTE-RIVADAVIA",
+      "country_code": "ARG",
+      "display_name": "Racing de Helvehurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-INDEPENDIENTE-RIVADAVIA"
+    },
+    {
+      "club_id": "FN-ARG-INSTITUTO-CORDOBA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Helvelvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-INSTITUTO-CORDOBA"
+    },
+    {
+      "club_id": "FN-ARG-NEWELL-S-OLD-BOYS",
+      "country_code": "ARG",
+      "display_name": "Racing de Helvervold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-NEWELL-S-OLD-BOYS"
+    },
+    {
+      "club_id": "FN-ARG-PLATENSE",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Iveremont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-PLATENSE"
+    },
+    {
+      "club_id": "FN-ARG-RACING-CLUB",
+      "country_code": "ARG",
+      "display_name": "Racing de Iverarbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-RACING-CLUB"
+    },
+    {
+      "club_id": "FN-ARG-RIVER-PLATE",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ivererrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-RIVER-PLATE"
+    },
+    {
+      "club_id": "FN-ARG-ROSARIO-CENTRAL",
+      "country_code": "ARG",
+      "display_name": "Racing de Jorevarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-ROSARIO-CENTRAL"
+    },
+    {
+      "club_id": "FN-ARG-SAN-LORENZO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Jorarcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-SAN-LORENZO"
+    },
+    {
+      "club_id": "FN-ARG-SARMIENTO-JUNIN",
+      "country_code": "ARG",
+      "display_name": "Racing de Joravtova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-SARMIENTO-JUNIN"
+    },
+    {
+      "club_id": "FN-ARG-TALLERES-CORDOBA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Keldedorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-TALLERES-CORDOBA"
+    },
+    {
+      "club_id": "FN-ARG-UNION-SANTA-FE",
+      "country_code": "ARG",
+      "display_name": "Racing de Keldarford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L1-UNION-SANTA-FE"
+    },
+    {
+      "club_id": "FN-ARG-ALL-BOYS",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Keldavrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-ALL-BOYS"
+    },
+    {
+      "club_id": "FN-ARG-ALMIRANTE-BROWN",
+      "country_code": "ARG",
+      "display_name": "Racing de Lornedell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-ALMIRANTE-BROWN"
+    },
+    {
+      "club_id": "FN-ARG-ACASSUSO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Lornarmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-ACASSUSO"
+    },
+    {
+      "club_id": "FN-ARG-CIUDAD-DE-BOLIVAR",
+      "country_code": "ARG",
+      "display_name": "Racing de Lornavvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-CIUDAD-DE-BOLIVAR"
+    },
+    {
+      "club_id": "FN-ARG-SAN-MIGUEL",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Marnaholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-SAN-MIGUEL"
+    },
+    {
+      "club_id": "FN-ARG-CENTRAL-NORTE-SALTA",
+      "country_code": "ARG",
+      "display_name": "Racing de Marnarmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-CENTRAL-NORTE-SALTA"
+    },
+    {
+      "club_id": "FN-ARG-CHACO-FOR-EVER",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Marnavselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-CHACO-FOR-EVER"
+    },
+    {
+      "club_id": "FN-ARG-COLON-SANTA-FE",
+      "country_code": "ARG",
+      "display_name": "Racing de Norvadune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-COLON-SANTA-FE"
+    },
+    {
+      "club_id": "FN-ARG-DEFENSORES-DE-BELGRANO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Norvenlune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-DEFENSORES-DE-BELGRANO"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-MADRYN",
+      "country_code": "ARG",
+      "display_name": "Racing de Norvavcairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-DEPORTIVO-MADRYN"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-MORON",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ordelawick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-DEPORTIVO-MORON"
+    },
+    {
+      "club_id": "FN-ARG-ESTUDIANTES-BUENOS-AIRES",
+      "country_code": "ARG",
+      "display_name": "Racing de Ordelenglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-ESTUDIANTES-BUENOS-AIRES"
+    },
+    {
+      "club_id": "FN-ARG-FERRO-CARRIL-OESTE",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ordelunzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-FERRO-CARRIL-OESTE"
+    },
+    {
+      "club_id": "FN-ARG-GODOY-CRUZ",
+      "country_code": "ARG",
+      "display_name": "Racing de Pavalith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-GODOY-CRUZ"
+    },
+    {
+      "club_id": "FN-ARG-LOS-ANDES",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Pavenheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-LOS-ANDES"
+    },
+    {
+      "club_id": "FN-ARG-MITRE-SANTIAGO-DEL-ESTERO",
+      "country_code": "ARG",
+      "display_name": "Racing de Pavunhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-MITRE-SANTIAGO-DEL-ESTERO"
+    },
+    {
+      "club_id": "FN-ARG-RACING-CORDOBA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Quenavane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-RACING-CORDOBA"
+    },
+    {
+      "club_id": "FN-ARG-SAN-TELMO",
+      "country_code": "ARG",
+      "display_name": "Racing de Quenenvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-SAN-TELMO"
+    },
+    {
+      "club_id": "FN-ARG-AGROPECUARIO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Quenunmont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-AGROPECUARIO"
+    },
+    {
+      "club_id": "FN-ARG-ALMAGRO",
+      "country_code": "ARG",
+      "display_name": "Racing de Quenumbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-ALMAGRO"
+    },
+    {
+      "club_id": "FN-ARG-ATLANTA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ravenrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-ATLANTA"
+    },
+    {
+      "club_id": "FN-ARG-ATLETICO-RAFAELA",
+      "country_code": "ARG",
+      "display_name": "Racing de Ravunvarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-ATLETICO-RAFAELA"
+    },
+    {
+      "club_id": "FN-ARG-COLEGIALES",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ravumcove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-COLEGIALES"
+    },
+    {
+      "club_id": "FN-ARG-NUEVA-CHICAGO",
+      "country_code": "ARG",
+      "display_name": "Racing de Seldutova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-NUEVA-CHICAGO"
+    },
+    {
+      "club_id": "FN-ARG-TEMPERLEY",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Seldundorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-TEMPERLEY"
+    },
+    {
+      "club_id": "FN-ARG-CHACARITA-JUNIORS",
+      "country_code": "ARG",
+      "display_name": "Racing de Seldumford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-CHACARITA-JUNIORS"
+    },
+    {
+      "club_id": "FN-ARG-TRISTAN-SUAREZ",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Tarnurath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-TRISTAN-SUAREZ"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-MAIPU",
+      "country_code": "ARG",
+      "display_name": "Racing de Tarnundell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-DEPORTIVO-MAIPU"
+    },
+    {
+      "club_id": "FN-ARG-FERROCARRIL-MIDLAND",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Tarnummere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-FERROCARRIL-MIDLAND"
+    },
+    {
+      "club_id": "FN-ARG-GIMNASIA-Y-ESGRIMA-JUJUY",
+      "country_code": "ARG",
+      "display_name": "Racing de Ulvenuvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-GIMNASIA-Y-ESGRIMA-JUJUY"
+    },
+    {
+      "club_id": "FN-ARG-GIMNASIA-Y-TIRO-SALTA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ulvenorholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-GIMNASIA-Y-TIRO-SALTA"
+    },
+    {
+      "club_id": "FN-ARG-GUEMES",
+      "country_code": "ARG",
+      "display_name": "Racing de Ulvenummora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-GUEMES"
+    },
+    {
+      "club_id": "FN-ARG-PATRONATO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Varduselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-PATRONATO"
+    },
+    {
+      "club_id": "FN-ARG-QUILMES",
+      "country_code": "ARG",
+      "display_name": "Racing de Vardordune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-QUILMES"
+    },
+    {
+      "club_id": "FN-ARG-SAN-MARTIN-SAN-JUAN",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Vardollune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-SAN-MARTIN-SAN-JUAN"
+    },
+    {
+      "club_id": "FN-ARG-SAN-MARTIN-TUCUMAN",
+      "country_code": "ARG",
+      "display_name": "Racing de Welducairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L2-SAN-MARTIN-TUCUMAN"
+    },
+    {
+      "club_id": "FN-ARG-9-DE-JULIO-RAFAELA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Weldorwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-9-DE-JULIO-RAFAELA"
+    },
+    {
+      "club_id": "FN-ARG-ATLETICO-ESCOBAR",
+      "country_code": "ARG",
+      "display_name": "Racing de Weldolglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-ATLETICO-ESCOBAR"
+    },
+    {
+      "club_id": "FN-ARG-DEFENSORES-DE-BELGRANO-VILLA-RAMALLO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Xandozeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEFENSORES-DE-BELGRANO-VILLA-RAMALLO"
+    },
+    {
+      "club_id": "FN-ARG-DOUGLAS-HAIG",
+      "country_code": "ARG",
+      "display_name": "Racing de Xandorlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DOUGLAS-HAIG"
+    },
+    {
+      "club_id": "FN-ARG-EL-LINQUENO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Xandolheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-EL-LINQUENO"
+    },
+    {
+      "club_id": "FN-ARG-GIMNASIA-CHIVILCOY",
+      "country_code": "ARG",
+      "display_name": "Racing de Yorohurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-GIMNASIA-CHIVILCOY"
+    },
+    {
+      "club_id": "FN-ARG-GIMNASIA-CONCEPCION-DEL-URUGUAY",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Yororvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-GIMNASIA-CONCEPCION-DEL-URUGUAY"
+    },
+    {
+      "club_id": "FN-ARG-INDEPENDIENTE-CHIVILCOY",
+      "country_code": "ARG",
+      "display_name": "Racing de Yorolvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-INDEPENDIENTE-CHIVILCOY"
+    },
+    {
+      "club_id": "FN-ARG-SPORTIVO-BELGRANO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Zelmomont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SPORTIVO-BELGRANO"
+    },
+    {
+      "club_id": "FN-ARG-SPORTIVO-LAS-PAREJAS",
+      "country_code": "ARG",
+      "display_name": "Racing de Zelmirbria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SPORTIVO-LAS-PAREJAS"
+    },
+    {
+      "club_id": "FN-ARG-JUVENTUD-ANTONIANA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Zelmolrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-JUVENTUD-ANTONIANA"
+    },
+    {
+      "club_id": "FN-ARG-TUCUMAN-CENTRAL",
+      "country_code": "ARG",
+      "display_name": "Racing de Bravovarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-TUCUMAN-CENTRAL"
+    },
+    {
+      "club_id": "FN-ARG-SAN-MARTIN-FORMOSA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Bravircove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SAN-MARTIN-FORMOSA"
+    },
+    {
+      "club_id": "FN-ARG-SOL-DE-AMERICA-FORMOSA",
+      "country_code": "ARG",
+      "display_name": "Racing de Bravistova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SOL-DE-AMERICA-FORMOSA"
+    },
+    {
+      "club_id": "FN-ARG-SARMIENTO-RESISTENCIA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Cervodorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SARMIENTO-RESISTENCIA"
+    },
+    {
+      "club_id": "FN-ARG-DEFENSORES-DE-VILELAS",
+      "country_code": "ARG",
+      "display_name": "Racing de Cervirford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEFENSORES-DE-VILELAS"
+    },
+    {
+      "club_id": "FN-ARG-SARMIENTO-DE-LA-BANDA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Cervisrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SARMIENTO-DE-LA-BANDA"
+    },
+    {
+      "club_id": "FN-ARG-BARTOLOME-MITRE-POSADAS",
+      "country_code": "ARG",
+      "display_name": "Racing de Dalmodell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-BARTOLOME-MITRE-POSADAS"
+    },
+    {
+      "club_id": "FN-ARG-BOCA-UNIDOS",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Dalmirmere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-BOCA-UNIDOS"
+    },
+    {
+      "club_id": "FN-ARG-CIPOLLETTI",
+      "country_code": "ARG",
+      "display_name": "Racing de Dalmisvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-CIPOLLETTI"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-RINCON",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Estiholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEPORTIVO-RINCON"
+    },
+    {
+      "club_id": "FN-ARG-HURACAN-LAS-HERAS",
+      "country_code": "ARG",
+      "display_name": "Racing de Estirmora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-HURACAN-LAS-HERAS"
+    },
+    {
+      "club_id": "FN-ARG-SAN-MARTIN-MENDOZA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Estisselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SAN-MARTIN-MENDOZA"
+    },
+    {
+      "club_id": "FN-ARG-FADEP",
+      "country_code": "ARG",
+      "display_name": "Racing de Fjoridune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-FADEP"
+    },
+    {
+      "club_id": "FN-ARG-JUVENTUD-UNIDA-UNIVERSITARIO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Fjorellune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-JUVENTUD-UNIDA-UNIVERSITARIO"
+    },
+    {
+      "club_id": "FN-ARG-COSTA-BRAVA",
+      "country_code": "ARG",
+      "display_name": "Racing de Fjoriscairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-COSTA-BRAVA"
+    },
+    {
+      "club_id": "FN-ARG-ATENAS-DE-RIO-CUARTO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Greviwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-ATENAS-DE-RIO-CUARTO"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-ARGENTINO-MONTE-MAIZ",
+      "country_code": "ARG",
+      "display_name": "Racing de Grevelglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEPORTIVO-ARGENTINO-MONTE-MAIZ"
+    },
+    {
+      "club_id": "FN-ARG-GERMINAL-DE-RAWSON",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Greverzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-GERMINAL-DE-RAWSON"
+    },
+    {
+      "club_id": "FN-ARG-GUILLERMO-BROWN",
+      "country_code": "ARG",
+      "display_name": "Racing de Haldilith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-GUILLERMO-BROWN"
+    },
+    {
+      "club_id": "FN-ARG-SOL-DE-MAYO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Haldelheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SOL-DE-MAYO"
+    },
+    {
+      "club_id": "FN-ARG-OLIMPO",
+      "country_code": "ARG",
+      "display_name": "Racing de Halderhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-OLIMPO"
+    },
+    {
+      "club_id": "FN-ARG-VILLA-MITRE",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Isenivane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-VILLA-MITRE"
+    },
+    {
+      "club_id": "FN-ARG-SANTAMARINA",
+      "country_code": "ARG",
+      "display_name": "Racing de Isenelvold",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SANTAMARINA"
+    },
+    {
+      "club_id": "FN-ARG-CIRCULO-DEPORTIVO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Isenermont",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-CIRCULO-DEPORTIVO"
+    },
+    {
+      "club_id": "FN-ARG-ALVARADO",
+      "country_code": "ARG",
+      "display_name": "Racing de Javebria",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-ALVARADO"
+    },
+    {
+      "club_id": "FN-ARG-KIMBERLEY-MAR-DEL-PLATA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Javelrien",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-KIMBERLEY-MAR-DEL-PLATA"
+    },
+    {
+      "club_id": "FN-ARG-ARGENTINO-DE-QUILMES",
+      "country_code": "ARG",
+      "display_name": "Racing de Javervarn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-ARGENTINO-DE-QUILMES"
+    },
+    {
+      "club_id": "FN-ARG-ARGENTINO-DE-MERLO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Korinecove",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-ARGENTINO-DE-MERLO"
+    },
+    {
+      "club_id": "FN-ARG-ARSENAL-SARANDI",
+      "country_code": "ARG",
+      "display_name": "Racing de Korinartova",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-ARSENAL-SARANDI"
+    },
+    {
+      "club_id": "FN-ARG-BROWN-DE-ADROGUE",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Korinerdorn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-BROWN-DE-ADROGUE"
+    },
+    {
+      "club_id": "FN-ARG-COMUNICACIONES",
+      "country_code": "ARG",
+      "display_name": "Racing de Lazeford",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-COMUNICACIONES"
+    },
+    {
+      "club_id": "FN-ARG-DEFENSORES-UNIDOS",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Lazarrath",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEFENSORES-UNIDOS"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-ARMENIO",
+      "country_code": "ARG",
+      "display_name": "Racing de Lazerdell",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEPORTIVO-ARMENIO"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-CAMIONEROS",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Mervemere",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEPORTIVO-CAMIONEROS"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-LAFERRERE",
+      "country_code": "ARG",
+      "display_name": "Racing de Mervarvale",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEPORTIVO-LAFERRERE"
+    },
+    {
+      "club_id": "FN-ARG-DEPORTIVO-MERLO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Mervavholm",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DEPORTIVO-MERLO"
+    },
+    {
+      "club_id": "FN-ARG-DOCK-SUD",
+      "country_code": "ARG",
+      "display_name": "Racing de Neralemora",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-DOCK-SUD"
+    },
+    {
+      "club_id": "FN-ARG-EXCURSIONISTAS",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Neralarselle",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-EXCURSIONISTAS"
+    },
+    {
+      "club_id": "FN-ARG-FLANDRIA",
+      "country_code": "ARG",
+      "display_name": "Racing de Neralavdune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-FLANDRIA"
+    },
+    {
+      "club_id": "FN-ARG-ITUZAINGO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ostralune",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-ITUZAINGO"
+    },
+    {
+      "club_id": "FN-ARG-LINIERS",
+      "country_code": "ARG",
+      "display_name": "Racing de Ostrarcairn",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-LINIERS"
+    },
+    {
+      "club_id": "FN-ARG-REAL-PILAR",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Ostravwick",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-REAL-PILAR"
+    },
+    {
+      "club_id": "FN-ARG-SAN-MARTIN-BURZACO",
+      "country_code": "ARG",
+      "display_name": "Racing de Pryaglen",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SAN-MARTIN-BURZACO"
+    },
+    {
+      "club_id": "FN-ARG-SPORTIVO-ITALIANO",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Pryenzeth",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-SPORTIVO-ITALIANO"
+    },
+    {
+      "club_id": "FN-ARG-TALLERES-REMEDIOS-DE-ESCALADA",
+      "country_code": "ARG",
+      "display_name": "Racing de Pryavlith",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-TALLERES-REMEDIOS-DE-ESCALADA"
+    },
+    {
+      "club_id": "FN-ARG-UAI-URQUIZA",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Reldaheim",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-UAI-URQUIZA"
+    },
+    {
+      "club_id": "FN-ARG-VILLA-DALMINE",
+      "country_code": "ARG",
+      "display_name": "Racing de Reldenhurst",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-VILLA-DALMINE"
+    },
+    {
+      "club_id": "FN-ARG-VILLA-SAN-CARLOS",
+      "country_code": "ARG",
+      "display_name": "Club Atlético Reldavvane",
+      "name_status": "original_name_created",
+      "approval_scope": "name_created_not_identity_approved",
+      "source_reference_id": "ARG-2026-L3-VILLA-SAN-CARLOS"
+    },
+    {
+      "club_id": "FN-ENG-AFC-BOURNEMOUTH",
+      "country_code": "ENG",
+      "display_name": "AFC Belavarn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-afc-bournemouth"
+    },
+    {
+      "club_id": "FN-ENG-ARSENAL",
+      "country_code": "ENG",
+      "display_name": "United of Belencove",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-arsenal"
+    },
+    {
+      "club_id": "FN-ENG-ASTON-VILLA",
+      "country_code": "ENG",
+      "display_name": "AFC Beluntova",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-aston-villa"
+    },
+    {
+      "club_id": "FN-ENG-BRENTFORD",
+      "country_code": "ENG",
+      "display_name": "United of Caldadorn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-brentford"
+    },
+    {
+      "club_id": "FN-ENG-BRIGHTON-HOVE-ALBION",
+      "country_code": "ENG",
+      "display_name": "AFC Caldenford",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-brighton-hove-albion"
+    },
+    {
+      "club_id": "FN-ENG-CHELSEA",
+      "country_code": "ENG",
+      "display_name": "United of Caldunrath",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-chelsea"
+    },
+    {
+      "club_id": "FN-ENG-COVENTRY-CITY",
+      "country_code": "ENG",
+      "display_name": "AFC Dornadell",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-coventry-city"
+    },
+    {
+      "club_id": "FN-ENG-CRYSTAL-PALACE",
+      "country_code": "ENG",
+      "display_name": "United of Dornenmere",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-crystal-palace"
+    },
+    {
+      "club_id": "FN-ENG-EVERTON",
+      "country_code": "ENG",
+      "display_name": "AFC Dornunvale",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-everton"
+    },
+    {
+      "club_id": "FN-ENG-FULHAM",
+      "country_code": "ENG",
+      "display_name": "United of Dornumholm",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-fulham"
+    },
+    {
+      "club_id": "FN-ENG-HULL-CITY",
+      "country_code": "ENG",
+      "display_name": "AFC Eldenmora",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-hull-city"
+    },
+    {
+      "club_id": "FN-ENG-IPSWICH-TOWN",
+      "country_code": "ENG",
+      "display_name": "United of Eldunselle",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-ipswich-town"
+    },
+    {
+      "club_id": "FN-ENG-LEEDS-UNITED",
+      "country_code": "ENG",
+      "display_name": "AFC Eldumdune",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-leeds-united"
+    },
+    {
+      "club_id": "FN-ENG-LIVERPOOL",
+      "country_code": "ENG",
+      "display_name": "United of Farnulune",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-liverpool"
+    },
+    {
+      "club_id": "FN-ENG-MANCHESTER-CITY",
+      "country_code": "ENG",
+      "display_name": "AFC Farnuncairn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-manchester-city"
+    },
+    {
+      "club_id": "FN-ENG-MANCHESTER-UNITED",
+      "country_code": "ENG",
+      "display_name": "United of Farnumwick",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-manchester-united"
+    },
+    {
+      "club_id": "FN-ENG-NEWCASTLE-UNITED",
+      "country_code": "ENG",
+      "display_name": "AFC Galduglen",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-newcastle-united"
+    },
+    {
+      "club_id": "FN-ENG-NOTTINGHAM-FOREST",
+      "country_code": "ENG",
+      "display_name": "United of Galdorzeth",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-nottingham-forest"
+    },
+    {
+      "club_id": "FN-ENG-SUNDERLAND",
+      "country_code": "ENG",
+      "display_name": "AFC Galdumlith",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-sunderland"
+    },
+    {
+      "club_id": "FN-ENG-TOTTENHAM-HOTSPUR",
+      "country_code": "ENG",
+      "display_name": "United of Helvuheim",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L1-tottenham-hotspur"
+    },
+    {
+      "club_id": "FN-ENG-BIRMINGHAM-CITY",
+      "country_code": "ENG",
+      "display_name": "AFC Helvorhurst",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-birmingham-city"
+    },
+    {
+      "club_id": "FN-ENG-BLACKBURN-ROVERS",
+      "country_code": "ENG",
+      "display_name": "United of Helvumvane",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-blackburn-rovers"
+    },
+    {
+      "club_id": "FN-ENG-BOLTON-WANDERERS",
+      "country_code": "ENG",
+      "display_name": "AFC Iveruvold",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-bolton-wanderers"
+    },
+    {
+      "club_id": "FN-ENG-BRISTOL-CITY",
+      "country_code": "ENG",
+      "display_name": "United of Iverormont",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-bristol-city"
+    },
+    {
+      "club_id": "FN-ENG-BURNLEY",
+      "country_code": "ENG",
+      "display_name": "AFC Iverolbria",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-burnley"
+    },
+    {
+      "club_id": "FN-ENG-CARDIFF-CITY",
+      "country_code": "ENG",
+      "display_name": "United of Jorurien",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-cardiff-city"
+    },
+    {
+      "club_id": "FN-ENG-CHARLTON-ATHLETIC",
+      "country_code": "ENG",
+      "display_name": "AFC Jororvarn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-charlton-athletic"
+    },
+    {
+      "club_id": "FN-ENG-DERBY-COUNTY",
+      "country_code": "ENG",
+      "display_name": "United of Jorolcove",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-derby-county"
+    },
+    {
+      "club_id": "FN-ENG-LINCOLN-CITY",
+      "country_code": "ENG",
+      "display_name": "AFC Keldotova",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-lincoln-city"
+    },
+    {
+      "club_id": "FN-ENG-MIDDLESBROUGH",
+      "country_code": "ENG",
+      "display_name": "United of Keldordorn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-middlesbrough"
+    },
+    {
+      "club_id": "FN-ENG-MILLWALL",
+      "country_code": "ENG",
+      "display_name": "AFC Keldolford",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-millwall"
+    },
+    {
+      "club_id": "FN-ENG-NORWICH-CITY",
+      "country_code": "ENG",
+      "display_name": "United of Lornorath",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-norwich-city"
+    },
+    {
+      "club_id": "FN-ENG-PORTSMOUTH",
+      "country_code": "ENG",
+      "display_name": "AFC Lornordell",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-portsmouth"
+    },
+    {
+      "club_id": "FN-ENG-PRESTON-NORTH-END",
+      "country_code": "ENG",
+      "display_name": "United of Lornolmere",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-preston-north-end"
+    },
+    {
+      "club_id": "FN-ENG-QUEENS-PARK-RANGERS",
+      "country_code": "ENG",
+      "display_name": "AFC Marnovale",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-queens-park-rangers"
+    },
+    {
+      "club_id": "FN-ENG-SHEFFIELD-UNITED",
+      "country_code": "ENG",
+      "display_name": "United of Marnirholm",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-sheffield-united"
+    },
+    {
+      "club_id": "FN-ENG-SOUTHAMPTON",
+      "country_code": "ENG",
+      "display_name": "AFC Marnolmora",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-southampton"
+    },
+    {
+      "club_id": "FN-ENG-STOKE-CITY",
+      "country_code": "ENG",
+      "display_name": "United of Norvoselle",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-stoke-city"
+    },
+    {
+      "club_id": "FN-ENG-SWANSEA-CITY",
+      "country_code": "ENG",
+      "display_name": "AFC Norvirdune",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-swansea-city"
+    },
+    {
+      "club_id": "FN-ENG-WATFORD",
+      "country_code": "ENG",
+      "display_name": "United of Norvislune",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-watford"
+    },
+    {
+      "club_id": "FN-ENG-WEST-BROMWICH-ALBION",
+      "country_code": "ENG",
+      "display_name": "AFC Ordelocairn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-west-bromwich-albion"
+    },
+    {
+      "club_id": "FN-ENG-WEST-HAM-UNITED",
+      "country_code": "ENG",
+      "display_name": "United of Ordelirwick",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-west-ham-united"
+    },
+    {
+      "club_id": "FN-ENG-WOLVERHAMPTON-WANDERERS",
+      "country_code": "ENG",
+      "display_name": "AFC Ordelisglen",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-wolverhampton-wanderers"
+    },
+    {
+      "club_id": "FN-ENG-WREXHAM",
+      "country_code": "ENG",
+      "display_name": "United of Pavizeth",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L2-wrexham"
+    },
+    {
+      "club_id": "FN-ENG-AFC-WIMBLEDON",
+      "country_code": "ENG",
+      "display_name": "AFC Pavirlith",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-afc-wimbledon"
+    },
+    {
+      "club_id": "FN-ENG-BARNSLEY",
+      "country_code": "ENG",
+      "display_name": "United of Pavisheim",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-barnsley"
+    },
+    {
+      "club_id": "FN-ENG-BLACKPOOL",
+      "country_code": "ENG",
+      "display_name": "AFC Quenihurst",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-blackpool"
+    },
+    {
+      "club_id": "FN-ENG-BRADFORD-CITY",
+      "country_code": "ENG",
+      "display_name": "United of Quenirvane",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-bradford-city"
+    },
+    {
+      "club_id": "FN-ENG-BROMLEY",
+      "country_code": "ENG",
+      "display_name": "AFC Quenisvold",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-bromley"
+    },
+    {
+      "club_id": "FN-ENG-BURTON-ALBION",
+      "country_code": "ENG",
+      "display_name": "United of Ravimont",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-burton-albion"
+    },
+    {
+      "club_id": "FN-ENG-CAMBRIDGE-UNITED",
+      "country_code": "ENG",
+      "display_name": "AFC Ravelbria",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-cambridge-united"
+    },
+    {
+      "club_id": "FN-ENG-DONCASTER-ROVERS",
+      "country_code": "ENG",
+      "display_name": "United of Ravisrien",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-doncaster-rovers"
+    },
+    {
+      "club_id": "FN-ENG-HUDDERSFIELD-TOWN",
+      "country_code": "ENG",
+      "display_name": "AFC Seldivarn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-huddersfield-town"
+    },
+    {
+      "club_id": "FN-ENG-LEICESTER-CITY",
+      "country_code": "ENG",
+      "display_name": "United of Seldelcove",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-leicester-city"
+    },
+    {
+      "club_id": "FN-ENG-LEYTON-ORIENT",
+      "country_code": "ENG",
+      "display_name": "AFC Seldertova",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-leyton-orient"
+    },
+    {
+      "club_id": "FN-ENG-LUTON-TOWN",
+      "country_code": "ENG",
+      "display_name": "United of Tarnidorn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-luton-town"
+    },
+    {
+      "club_id": "FN-ENG-MANSFIELD-TOWN",
+      "country_code": "ENG",
+      "display_name": "AFC Tarnelford",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-mansfield-town"
+    },
+    {
+      "club_id": "FN-ENG-MILTON-KEYNES-DONS",
+      "country_code": "ENG",
+      "display_name": "United of Tarnerrath",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-milton-keynes-dons"
+    },
+    {
+      "club_id": "FN-ENG-NOTTS-COUNTY",
+      "country_code": "ENG",
+      "display_name": "AFC Ulvenidell",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-notts-county"
+    },
+    {
+      "club_id": "FN-ENG-OXFORD-UNITED",
+      "country_code": "ENG",
+      "display_name": "United of Ulvenelmere",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-oxford-united"
+    },
+    {
+      "club_id": "FN-ENG-PETERBOROUGH-UNITED",
+      "country_code": "ENG",
+      "display_name": "AFC Ulvenervale",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-peterborough-united"
+    },
+    {
+      "club_id": "FN-ENG-PLYMOUTH-ARGYLE",
+      "country_code": "ENG",
+      "display_name": "United of Vardeholm",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-plymouth-argyle"
+    },
+    {
+      "club_id": "FN-ENG-READING",
+      "country_code": "ENG",
+      "display_name": "AFC Vardelmora",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-reading"
+    },
+    {
+      "club_id": "FN-ENG-SHEFFIELD-WEDNESDAY",
+      "country_code": "ENG",
+      "display_name": "United of Varderselle",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-sheffield-wednesday"
+    },
+    {
+      "club_id": "FN-ENG-STEVENAGE",
+      "country_code": "ENG",
+      "display_name": "AFC Weldedune",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-stevenage"
+    },
+    {
+      "club_id": "FN-ENG-STOCKPORT-COUNTY",
+      "country_code": "ENG",
+      "display_name": "United of Weldarlune",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-stockport-county"
+    },
+    {
+      "club_id": "FN-ENG-WIGAN-ATHLETIC",
+      "country_code": "ENG",
+      "display_name": "AFC Weldercairn",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-wigan-athletic"
+    },
+    {
+      "club_id": "FN-ENG-WYCOMBE-WANDERERS",
+      "country_code": "ENG",
+      "display_name": "United of Xandewick",
+      "name_status": "original_display_name_reviewed",
+      "approval_scope": "fictional_display_name_only",
+      "source_reference_id": "ENG-2026-27-L3-wycombe-wanderers"
+    }
+  ]
+}

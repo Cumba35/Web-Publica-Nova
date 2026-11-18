@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0.0",
+  "currency": "EUR",
+  "valuation_policy": {
+    "reference": "Transfermarkt market-value framework",
+    "reference_url": "https://www.transfermarkt.com/marktwertdefinition/",
+    "use": "Calibrate fictional player market values and transfer-market behavior; do not copy or claim Transfermarkt valuations for fictional players.",
+    "distinction": {
+      "market_value": "Estimated medium-term player value under normal market conditions.",
+      "transfer_fee": "Negotiated transaction price; affected by contract, seller/buyer finances, demand, clauses and timing.",
+      "wage": "Recurring employment cost, not player market value."
+    },
+    "factors": [
+      "age",
+      "position",
+      "overall_ability",
+      "potential",
+      "recent_performance",
+      "minutes_played",
+      "injury_record",
+      "league_level",
+      "club_strength",
+      "international_reputation",
+      "contract_years_remaining",
+      "market_demand",
+      "buyer_seller_finances"
+    ],
+    "update_cycle": "At season end and mid-season; event-driven updates for breakout form, long injury, transfer or contract change.",
+    "confidence": "Generated fictional player values are game estimates, not real-world appraisals."
+  },
+  "game_asset_categories": {
+    "players": {
+      "method": "player_market_value_model",
+      "unit": "EUR"
+    },
+    "clubs": {
+      "method": "club_financial_model",
+      "unit": "EUR"
+    },
+    "coaches_and_staff": {
+      "method": "salary_and_reputation_model",
+      "unit": "EUR_per_year"
+    },
+    "stadiums": {
+      "method": "replacement_cost_and_capacity_model",
+      "unit": "EUR"
+    },
+    "sponsorships": {
+      "method": "audience_reach_performance_and_competition_model",
+      "unit": "EUR_per_season"
+    },
+    "kits": {
+      "method": "manufacturing_cost_and_commercial_license_model",
+      "unit": "EUR"
+    },
+    "tickets": {
+      "method": "local_demand_capacity_and_income_model",
+      "unit": "EUR"
+    },
+    "facilities": {
+      "method": "construction_cost_upkeep_and_level_model",
+      "unit": "EUR"
+    },
+    "youth_academy": {
+      "method": "investment_and_development_return_model",
+      "unit": "EUR_per_season"
+    },
+    "transfers": {
+      "method": "player_market_value_plus_negotiation_context",
+      "unit": "EUR"
+    }
+  },
+  "player_value_model": {
+    "overall_rating_range": [
+      1,
+      99
+    ],
+    "age_bands": [
+      {
+        "max_age": 20,
+        "multiplier": 1.22
+      },
+      {
+        "max_age": 23,
+        "multiplier": 1.15
+      },
+      {
+        "max_age": 27,
+        "multiplier": 1
+      },
+      {
+        "max_age": 30,
+        "multiplier": 0.88
+      },
+      {
+        "max_age": 33,
+        "multiplier": 0.68
+      },
+      {
+        "max_age": 99,
+        "multiplier": 0.42
+      }
+    ],
+    "potential_premium_per_point": 0.012,
+    "position_adjustments": {
+      "POR": 0.92,
+      "DFC": 0.96,
+      "LI": 0.94,
+      "LD": 0.94,
+      "CAI": 0.95,
+      "CAD": 0.95,
+      "MCD": 1,
+      "MC": 1.02,
+      "MCO": 1.06,
+      "MI": 1.02,
+      "MD": 1.02,
+      "EI": 1.08,
+      "ED": 1.08,
+      "SD": 1.04,
+      "DC": 1.1
+    },
+    "division_multiplier": {
+      "1": 1,
+      "2": 0.42,
+      "3": 0.18
+    },
+    "overall_base_eur": 1200,
+    "overall_exponent": 2.75,
+    "minimum_value_eur": 500,
+    "maximum_generated_value_eur": 200000000,
+    "transfer_fee_context_range": [
+      0.65,
+      1.65
+    ],
+    "note": "Starting tuning parameters only; calibrate against licensed or publicly documented comparable market data, then validate gameplay economy."
+  },
+  "commercial_contracts": {
+    "third_kit": {
+      "eligible_competition_level": 1,
+      "requires_active_commercial_contract": true,
+      "requires_approved_original_design": true,
+      "requires_sponsor_logo_rights": true,
+      "requires_league_registration_if_applicable": true,
+      "contract_fields": [
+        "contract_id",
+        "partner_id",
+        "start_season",
+        "end_season",
+        "annual_value_eur",
+        "production_budget_eur",
+        "design_rights",
+        "sponsor_mark_rights",
+        "status"
+      ],
+      "activation": "A third kit is unlocked only when the first-division club has an active contract covering the current season and all design/brand rights are cleared.",
+      "expiration": "Lock the third kit for new selections after contract expiry; preserve historical kit records for archived seasons.",
+      "no_contract": "Only home, away and goalkeeper kits are selectable; third-kit slot remains visibly locked."
+    }
+  },
+  "data_provenance": {
+    "real_player_values": "Only import Transfermarkt values if permitted by applicable terms/licensing; store source, retrieval date, currency and attribution.",
+    "fictional_player_values": "Generated internally using the documented model; never label them as Transfermarkt data.",
+    "other_assets": "Transfermarkt is not a source for stadium construction costs, sponsor deals, ticket prices, kit manufacturing costs or club enterprise values; use separate documented assumptions and game balancing."
+  }
+}

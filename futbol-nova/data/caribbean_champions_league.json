@@ -1,0 +1,562 @@
+{
+  "schema_version": "1.0.0",
+  "id": "caribbean_champions_league_nova",
+  "name": "Liga de Campeones del Caribe",
+  "region": "caribbean_cfu",
+  "competition_type": "international_club",
+  "status": "engine_integrated_qualification_slots_and_runtime_validation_pending",
+  "season_id_required": true,
+  "participants": {
+    "total_clubs": 48,
+    "eligible_clubs": "Solo clubes de la Primera División de cada asociación CFU.",
+    "qualification_basis": "Clasificación final de la Primera División nacional y plazas asignadas a cada asociación.",
+    "currently_assigned_slots": 48,
+    "unallocated_slots": 0,
+    "previous_slot_distribution_for_46": {
+      "Cuba": 3,
+      "Jamaica": 3,
+      "Curazao": 3,
+      "Puerto Rico": 3,
+      "República Dominicana": 3,
+      "Haití": 2,
+      "Trinidad y Tobago": 2,
+      "Surinam": 2,
+      "Guyana": 2,
+      "San Cristóbal y Nieves": 2,
+      "other_21_cfu_associations": 1
+    },
+    "note": "Distribución basada en el orden del ranking de asociaciones: los puestos 1.º a 3.º reciben 3 plazas cada uno; los puestos 4.º a 14.º reciben 2 plazas cada uno; y los puestos 15.º a 31.º reciben 1 plaza cada uno. Total: 48 plazas exactas. La clasificación FIFA se usa solo para ordenar asociaciones; la elegibilidad de clubes sigue limitada a la Primera División de cada asociación CFU.",
+    "assigned_slots_by_association": {
+      "Jamaica": 3,
+      "Curazao": 3,
+      "Haití": 3,
+      "Trinidad y Tobago": 2,
+      "Surinam": 2,
+      "República Dominicana": 2,
+      "Guyana": 2,
+      "San Cristóbal y Nieves": 2,
+      "Puerto Rico": 2,
+      "Antigua y Barbuda": 2,
+      "Cuba": 2,
+      "Santa Lucía": 2,
+      "San Vicente y las Granadinas": 2,
+      "Granada": 2,
+      "Bermudas": 1,
+      "Montserrat": 1,
+      "Barbados": 1,
+      "Aruba": 1,
+      "Dominica": 1,
+      "Islas Caimán": 1,
+      "Islas Turcas y Caicos": 1,
+      "Islas Vírgenes de Estados Unidos": 1,
+      "Bahamas": 1,
+      "Islas Vírgenes Británicas": 1,
+      "Anguila": 1,
+      "Bonaire": 1,
+      "Guayana Francesa": 1,
+      "Guadalupe": 1,
+      "Martinica": 1,
+      "San Martín": 1,
+      "Sint Maarten": 1
+    },
+    "ranking_reference": {
+      "ranking_type": "FIFA men's world ranking",
+      "official_reference_date": "2026-10-07",
+      "note": "Orden de asociaciones por puesto FIFA. Las asociaciones territoriales sin selección nacional en el ranking FIFA aparecen al final sin puesto. La asignación de plazas sigue siendo la indicada en assigned_slots_by_association."
+    },
+    "associations_in_ranking_order": [
+      {
+        "association": "Jamaica",
+        "fifa_rank": 69,
+        "slots": 3
+      },
+      {
+        "association": "Curazao",
+        "fifa_rank": 80,
+        "slots": 3
+      },
+      {
+        "association": "Haití",
+        "fifa_rank": 84,
+        "slots": 3
+      },
+      {
+        "association": "Trinidad y Tobago",
+        "fifa_rank": 105,
+        "slots": 2
+      },
+      {
+        "association": "Surinam",
+        "fifa_rank": 128,
+        "slots": 2
+      },
+      {
+        "association": "República Dominicana",
+        "fifa_rank": 135,
+        "slots": 2
+      },
+      {
+        "association": "Guyana",
+        "fifa_rank": 142,
+        "slots": 2
+      },
+      {
+        "association": "San Cristóbal y Nieves",
+        "fifa_rank": 151,
+        "slots": 2
+      },
+      {
+        "association": "Puerto Rico",
+        "fifa_rank": 155,
+        "slots": 2
+      },
+      {
+        "association": "Antigua y Barbuda",
+        "fifa_rank": 162,
+        "slots": 2
+      },
+      {
+        "association": "Cuba",
+        "fifa_rank": 163,
+        "slots": 2
+      },
+      {
+        "association": "Santa Lucía",
+        "fifa_rank": 165,
+        "slots": 2
+      },
+      {
+        "association": "San Vicente y las Granadinas",
+        "fifa_rank": 166,
+        "slots": 2
+      },
+      {
+        "association": "Granada",
+        "fifa_rank": 169,
+        "slots": 2
+      },
+      {
+        "association": "Bermudas",
+        "fifa_rank": 171,
+        "slots": 1
+      },
+      {
+        "association": "Montserrat",
+        "fifa_rank": 172,
+        "slots": 1
+      },
+      {
+        "association": "Barbados",
+        "fifa_rank": 174,
+        "slots": 1
+      },
+      {
+        "association": "Aruba",
+        "fifa_rank": 185,
+        "slots": 1
+      },
+      {
+        "association": "Dominica",
+        "fifa_rank": 186,
+        "slots": 1
+      },
+      {
+        "association": "Islas Caimán",
+        "fifa_rank": 198,
+        "slots": 1
+      },
+      {
+        "association": "Islas Turcas y Caicos",
+        "fifa_rank": 204,
+        "slots": 1
+      },
+      {
+        "association": "Islas Vírgenes de Estados Unidos",
+        "fifa_rank": 206,
+        "slots": 1
+      },
+      {
+        "association": "Bahamas",
+        "fifa_rank": 208,
+        "slots": 1
+      },
+      {
+        "association": "Islas Vírgenes Británicas",
+        "fifa_rank": 209,
+        "slots": 1
+      },
+      {
+        "association": "Anguila",
+        "fifa_rank": 210,
+        "slots": 1
+      },
+      {
+        "association": "Bonaire",
+        "fifa_rank": null,
+        "slots": 1
+      },
+      {
+        "association": "Guayana Francesa",
+        "fifa_rank": null,
+        "slots": 1
+      },
+      {
+        "association": "Guadalupe",
+        "fifa_rank": null,
+        "slots": 1
+      },
+      {
+        "association": "Martinica",
+        "fifa_rank": null,
+        "slots": 1
+      },
+      {
+        "association": "San Martín",
+        "fifa_rank": null,
+        "slots": 1
+      },
+      {
+        "association": "Sint Maarten",
+        "fifa_rank": null,
+        "slots": 1
+      }
+    ],
+    "slot_allocation_rule": {
+      "ranking_positions_1_to_3": 3,
+      "ranking_positions_4_to_14": 2,
+      "ranking_positions_15_to_31": 1,
+      "total_associations": 31,
+      "total_slots": 48
+    }
+  },
+  "format": {
+    "type": "four_groups_single_round_robin_then_knockout",
+    "league_phase": {
+      "groups": 4,
+      "teams_per_group": 12,
+      "total_teams": 48,
+      "match_system": "single_round_robin",
+      "home_away": false,
+      "matches_per_team": 11,
+      "matches_per_group": 66,
+      "total_matches": 264,
+      "direct_qualification": "Los tres primeros de cada grupo avanzan directamente a octavos de final.",
+      "group_draw_rule": "Los clubes de una misma asociación CFU deben quedar en grupos diferentes. Cada grupo puede contener como máximo un club de cada asociación."
+    },
+    "playoff": {
+      "name": "Repesca intergrupal",
+      "teams": "Los equipos que terminen en cuarto y quinto lugar de cada grupo.",
+      "legs": 2,
+      "pairings": [
+        [
+          "A4",
+          "B5"
+        ],
+        [
+          "B4",
+          "A5"
+        ],
+        [
+          "C4",
+          "D5"
+        ],
+        [
+          "D4",
+          "C5"
+        ]
+      ],
+      "winners_qualify": 4,
+      "aggregate_tie_break": "Definir en las reglas generales de desempate de la competición; no se presume regla de gol visitante."
+    },
+    "round_of_16": {
+      "participants": 16,
+      "composition": "12 clasificados directos más los 4 ganadores de la repesca."
+    },
+    "knockout_phase": {
+      "legs": 2,
+      "rounds": [
+        "round_of_16",
+        "quarterfinals",
+        "semifinals"
+      ],
+      "final": {
+        "legs": 1,
+        "match_system": "single_match",
+        "venue": "neutral_venue",
+        "venue_selection": "La sede neutral debe definirse y registrarse antes del inicio del torneo.",
+        "venue_must_be_confirmed_before_competition_start": true
+      },
+      "note": "Octavos, cuartos y semifinales se disputan a doble partido. Los perdedores de semifinales disputan un partido único por el tercer puesto en la sede neutral. La final se juega a partido único en esa sede.",
+      "third_place": {
+        "match_system": "single_match",
+        "participants": "Los dos equipos eliminados en semifinales.",
+        "venue": "neutral_venue",
+        "venue_selection": "Se utiliza la sede neutral confirmada para la final.",
+        "match_timing": "Antes de la final.",
+        "tie_resolution": "Prórroga y penaltis si persiste el empate."
+      }
+    }
+  },
+  "qualification_rules": {
+    "league_phase_points": {
+      "win": 3,
+      "draw": 1,
+      "loss": 0
+    },
+    "group_standings_tiebreakers": "Pendiente de fijar explícitamente; no implementar criterios no confirmados por el usuario."
+  },
+  "implementation_requirements": [
+    "Cargar clubes y asociaciones desde el registro global de clubes.",
+    "Validar que cada participante pertenece a la Primera División de su asociación.",
+    "No duplicar clubes en una misma edición.",
+    "Generar calendario de una vuelta para los cuatro grupos.",
+    "Generar los cuatro cruces de repesca intergrupal a ida y vuelta.",
+    "Generar cuadro eliminatorio de 16 clubes y validar los clasificados.",
+    "Persistir tablas, resultados, agregados y clasificaciones en el sistema de guardado de temporada.",
+    "Añadir pruebas automáticas para 48 participantes, 4 grupos de 12, 11 partidos por club, 264 partidos de fase de liga, cruces y clasificación.",
+    "Exigir sede neutral confirmada y guardada antes del inicio del torneo; la final se disputa a partido único.",
+    "Validar que la distribución de plazas por ranking suma exactamente 48 antes de generar los participantes."
+  ],
+  "implementation": {
+    "engine": "scripts/simulation/caribbean_champions_league_engine.gd",
+    "service": "scripts/data/football_data_service.gd",
+    "automated_tests": "tests/test_caribbean_champions_league.gd",
+    "implemented": [
+      "Validación de 48 participantes únicos de Primera División presentes en el catálogo jugable.",
+      "Generación determinista con semilla de cuatro grupos de 12 y 264 partidos a una vuelta.",
+      "Clasificaciones y registro persistente de resultados de fase de grupos.",
+      "Generación de repesca intergrupal a doble partido cuando finalizan los grupos.",
+      "Resolución de eliminatorias por marcador global sin gol de visitante; requiere decisión explícita si el agregado queda empatado.",
+      "Validación de clasificados para octavos y progresión de ganadores a cuartos, semifinales y final.",
+      "Final a partido único en sede neutral confirmada antes del inicio.",
+      "Persistencia de edición y progreso en el guardado de temporada.",
+      "Bloqueo de clasificaciones cuando hay empates no resueltos que afectan a las plazas de clasificación.",
+      "Sorteo restringido por asociación: los clubes de una misma asociación CFU se distribuyen en grupos distintos; cada grupo admite como máximo uno de esa asociación.",
+      "Partido único por el tercer puesto entre los dos perdedores de semifinales, en sede neutral."
+    ],
+    "pending": [
+      "Incorporar los 48 clubes de Primera División al catálogo jugable con datos verificables.",
+      "Ejecutar pruebas en Godot 4 y validar la interfaz de usuario.",
+      "Aprobar criterios generales de desempate; hasta entonces, el motor bloquea clasificaciones afectadas y exige registrar el ganador de penaltis tras un empate global.",
+      "Incorporar los 48 clubes de Primera División al catálogo jugable con datos verificables."
+    ],
+    "runtime_validation": "pending_godot_4_execution"
+  },
+  "calendar": {
+    "season_id": "2026-2027",
+    "status": "regional_dates_aligned_2026_2027_external_domestic_audit_pending",
+    "timezone": "venue_local_time",
+    "competition_start": "2026-10-10",
+    "competition_end": "2027-06-21",
+    "format_style": "Champions League-inspired distributed matchdays with breaks between match windows",
+    "group_stage": {
+      "matchdays": [
+        {
+          "number": 1,
+          "date": "2026-10-10",
+          "window_end": "2026-10-13"
+        },
+        {
+          "number": 2,
+          "date": "2026-10-24",
+          "window_end": "2026-10-27"
+        },
+        {
+          "number": 3,
+          "date": "2026-11-07",
+          "window_end": "2026-11-10"
+        },
+        {
+          "number": 4,
+          "date": "2026-11-21",
+          "window_end": "2026-11-24"
+        },
+        {
+          "number": 5,
+          "date": "2026-12-05",
+          "window_end": "2026-12-08"
+        },
+        {
+          "number": 6,
+          "date": "2026-12-19",
+          "window_end": "2026-12-22"
+        },
+        {
+          "number": 7,
+          "date": "2027-01-16",
+          "window_end": "2027-01-19"
+        },
+        {
+          "number": 8,
+          "date": "2027-01-30",
+          "window_end": "2027-02-02"
+        },
+        {
+          "number": 9,
+          "date": "2027-02-13",
+          "window_end": "2027-02-16"
+        },
+        {
+          "number": 10,
+          "date": "2027-02-27",
+          "window_end": "2027-03-02"
+        },
+        {
+          "number": 11,
+          "date": "2027-03-12",
+          "window_end": "2027-03-15"
+        }
+      ],
+      "matches_per_matchday": 24,
+      "matches_per_group_per_matchday": 6,
+      "total_matchdays": 11,
+      "total_matches": 264,
+      "note": "La fecha indicada es el inicio de la ventana de jornada; los partidos se distribuyen dentro de la ventana, priorizando martes y miércoles cuando sea viable. La jornada 1 abrió el 10 de octubre de 2026. La temporada está en curso al 16 de noviembre de 2026."
+    },
+    "playoff": {
+      "first_leg": "2027-04-03",
+      "second_leg": "2027-04-17"
+    },
+    "round_of_16": {
+      "first_leg": "2027-04-23",
+      "second_leg": "2027-04-30"
+    },
+    "quarterfinals": {
+      "first_leg": "2027-05-07",
+      "second_leg": "2027-05-14"
+    },
+    "semifinals": {
+      "first_leg": "2027-05-21",
+      "second_leg": "2027-05-28"
+    },
+    "buffer_window": {
+      "from": "2027-05-29",
+      "to": "2027-06-16",
+      "purpose": "Recuperación de partidos aplazados, preparación logística y organización de los encuentros finales; respetar ventana internacional FIFA 7-15 junio 2027."
+    },
+    "final": {
+      "date": "2027-06-21",
+      "legs": 1,
+      "venue": "pending_confirmation"
+    },
+    "notes": [
+      "Formato de calendario inspirado en la Champions League: jornadas en ventanas espaciadas, no once miércoles consecutivos.",
+      "Al 16 de noviembre de 2026, las tres primeras ventanas de jornada ya han transcurrido; la siguiente ventana programada es la jornada 4 (21–24 de noviembre de 2026). Las fechas son ventanas de planificación, no resultados confirmados.",
+      "Las fechas deben asignarse a cada fixture individual y validarse contra los calendarios de selecciones y ligas nacionales.",
+      "El calendario no cambia el formato deportivo ni la cantidad de partidos.",
+      "Decisión común para las tres ligas regionales: temporada del 10 de octubre de 2026 al 21 de junio de 2027.",
+      "Calendario común de eliminatorias: repesca 3 y 17 abril; octavos 23 y 30 abril; cuartos 7 y 14 mayo; semifinales 21 y 28 mayo; tercer puesto 17 junio; final 21 junio de 2027.",
+      "Las fechas de tercer puesto y final quedan después de la ventana internacional masculina FIFA 7-15 junio de 2027. Las fechas siguen siendo planificación y requieren auditoría frente a calendarios nacionales y disponibilidad de sedes."
+    ],
+    "third_place": {
+      "date": "2027-06-17",
+      "legs": 1,
+      "venue": "same_neutral_venue_as_final"
+    }
+  },
+  "history": {
+    "established_on": "2020-10-10",
+    "current_edition_number": 7,
+    "historical_seasons": [
+      {
+        "season_id": "2020-2021",
+        "edition": 1,
+        "champion_status": "pending_historical_data"
+      },
+      {
+        "season_id": "2021-2022",
+        "edition": 2,
+        "champion_status": "pending_historical_data",
+        "anier_cumba_final_position": 11
+      },
+      {
+        "season_id": "2022-2023",
+        "edition": 3,
+        "champion_status": "pending_historical_data",
+        "anier_cumba_final_position": 6
+      },
+      {
+        "season_id": "2023-2024",
+        "edition": 4,
+        "champion_status": "owner_confirmed_game_canon",
+        "champion_club": "Santiago de Cuba",
+        "champion_player_id": "NOVA-PLAYER-0035",
+        "champion_player_name": "Anier Cumbá"
+      },
+      {
+        "season_id": "2024-2025",
+        "edition": 5,
+        "champion_status": "owner_confirmed_game_canon",
+        "champion_club": "Santiago de Cuba",
+        "champion_player_id": "NOVA-PLAYER-0035",
+        "champion_player_name": "Anier Cumbá"
+      },
+      {
+        "season_id": "2025-2026",
+        "edition": 6,
+        "champion_status": "pending_historical_data"
+      }
+    ],
+    "notes": [
+      "La competición fue fundada el 10 de octubre de 2020. La temporada actual 2026-2027 es su séptima edición; cumple seis años al inicio de esta temporada y alcanzará siete años de funcionamiento el 10 de octubre de 2027.",
+      "Anier Cumbá ganó dos ediciones consecutivas como jugador de Santiago de Cuba: 2023-2024 (final del 10 de junio de 2024) y 2024-2025 (final del 10 de junio de 2025).",
+      "El campeón de 2025-2026 y los campeones de las tres primeras ediciones permanecen pendientes de documentación; no se inventan clubes campeones.",
+      "Anier Cumbá participó en cuatro ediciones consecutivas de la competición: 2021-2022, 2022-2023, 2023-2024 y 2024-2025. Su último partido fue la final del 10 de junio de 2025, ganada con Santiago de Cuba. No se registra participación suya en partidos por el tercer puesto."
+    ],
+    "years_in_operation_at_2026_10_10": 6,
+    "completed_seasons_before_2026_2027": 6,
+    "years_in_operation_at_2027_10_10": 7
+  },
+  "player_story_links": {
+    "NOVA-PLAYER-0035": {
+      "player_name": "Anier Cumbá",
+      "consecutive_titles": [
+        {
+          "season_id": "2023-2024",
+          "club_name": "Santiago de Cuba",
+          "final_date": "2024-06-10"
+        },
+        {
+          "season_id": "2024-2025",
+          "club_name": "Santiago de Cuba",
+          "final_date": "2025-06-10"
+        }
+      ],
+      "real_madrid_transfer_date": "2025-06-23",
+      "days_after_second_title": 13,
+      "consecutive_participations": [
+        {
+          "season_id": "2021-2022",
+          "participation_status": "owner_confirmed_game_canon",
+          "last_match_date": "2022-06-10",
+          "achievement": "participated",
+          "final_position": 11
+        },
+        {
+          "season_id": "2022-2023",
+          "participation_status": "owner_confirmed_game_canon",
+          "last_match_date": "2023-06-10",
+          "achievement": "participated",
+          "final_position": 6
+        },
+        {
+          "season_id": "2023-2024",
+          "participation_status": "owner_confirmed_game_canon",
+          "last_match_date": "2024-06-10",
+          "achievement": "champion",
+          "club_name": "Santiago de Cuba"
+        },
+        {
+          "season_id": "2024-2025",
+          "participation_status": "owner_confirmed_game_canon",
+          "last_match_date": "2025-06-10",
+          "achievement": "champion",
+          "club_name": "Santiago de Cuba"
+        }
+      ],
+      "participation_summary": "Cuatro ediciones consecutivas, desde 2021-2022 hasta 2024-2025. Puestos finales: 11.º en 2021-2022 y 6.º en 2022-2023; campeón con Santiago de Cuba en 2023-2024 y 2024-2025. Su último partido fue la final del 10 de junio de 2025."
+    }
+  },
+  "founding_year": 2020,
+  "founding_status": "user_confirmed"
+}

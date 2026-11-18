@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "product": "Fútbol Nova",
+  "module_system": "independent_confederation_catalogs",
+  "confederation_count": 6,
+  "league_count": 100,
+  "country_record_count": 212,
+  "source_association_directory_count": 211,
+  "notes": [
+    "Cada confederación mantiene su propio archivo y su propio catálogo de países y ligas.",
+    "La cifra de países incluye un registro de Estados Unidos añadido desde el catálogo de ligas existente porque no aparece en el directorio nacional actual; reconciliar ese directorio antes de declarar cobertura FIFA definitiva.",
+    "Los registros de ligas son un catálogo de selección/investigación; no equivalen a ligas jugables ni a paquetes descargables publicados.",
+    "OFC existe como módulo independiente, pero todavía no contiene ligas domésticas catalogadas.",
+    "Los registros duplicados entre el ranking mundial y el manifiesto de contenido se consolidaron por asociación y competición; se conservaron los identificadores y referencias de paquete de la entrada canónica.",
+    "La selección de las diez ligas base es una decisión propia del proyecto (incluye Cuba y Estados Unidos); no debe confundirse con los puestos 1-10 del ranking IFFHS."
+  ],
+  "modules": [
+    {
+      "code": "AFC",
+      "name": "Asia",
+      "file": "afc.json",
+      "countries": 46,
+      "leagues": 15,
+      "module_id": "continental-leagues-afc",
+      "path": "res://data/continental_leagues/afc.json",
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "CAF",
+      "name": "África",
+      "file": "caf.json",
+      "countries": 54,
+      "leagues": 9,
+      "module_id": "continental-leagues-caf",
+      "path": "res://data/continental_leagues/caf.json",
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "CONCACAF",
+      "name": "Norteamérica, Centroamérica y Caribe",
+      "file": "concacaf.json",
+      "countries": 36,
+      "leagues": 12,
+      "module_id": "continental-leagues-concacaf",
+      "path": "res://data/continental_leagues/concacaf.json",
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "CONMEBOL",
+      "name": "Sudamérica",
+      "file": "conmebol.json",
+      "countries": 10,
+      "leagues": 10,
+      "module_id": "continental-leagues-conmebol",
+      "path": "res://data/continental_leagues/conmebol.json",
+      "status": "catalogued_validation_pending"
+    },
+    {
+      "code": "OFC",
+      "name": "Oceanía",
+      "file": "ofc.json",
+      "countries": 11,
+      "leagues": 0,
+      "module_id": "continental-leagues-ofc",
+      "path": "res://data/continental_leagues/ofc.json",
+      "status": "catalogue_ready_waiting_for_league_import"
+    },
+    {
+      "code": "UEFA",
+      "name": "Europa",
+      "file": "uefa.json",
+      "countries": 55,
+      "leagues": 54,
+      "module_id": "continental-leagues-uefa",
+      "path": "res://data/continental_leagues/uefa.json",
+      "status": "catalogued_validation_pending"
+    }
+  ],
+  "base_selection_source": "data/league_content_manifest.json",
+  "ranking_reference": "data/global_league_tiers.json"
+}

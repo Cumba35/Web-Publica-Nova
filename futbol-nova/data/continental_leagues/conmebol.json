@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "continental-leagues-conmebol",
+  "module_type": "continental_league_catalog",
+  "name": "Confederación Sudamericana de Fútbol",
+  "confederation_code": "CONMEBOL",
+  "independent": true,
+  "season_policy": "Cada competición conserva temporada, identidad y estado de validación propios.",
+  "source_manifests": [
+    "data/global_league_selection_100.json",
+    "data/league_content_manifest.json",
+    "data/national_association_directory.json"
+  ],
+  "countries": [
+    {
+      "association_id": "FIFA-MA-009",
+      "name": "Argentina",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-025",
+      "name": "Bolivia",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-028",
+      "name": "Brazil",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-041",
+      "name": "Chile",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-044",
+      "name": "Colombia",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-061",
+      "name": "Ecuador",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-148",
+      "name": "Paraguay",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-149",
+      "name": "Peru",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-201",
+      "name": "Uruguay",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-206",
+      "name": "Venezuela",
+      "confederation_code": "CONMEBOL",
+      "confederation_status": "verified_official_confederation_member_list"
+    }
+  ],
+  "leagues": [
+    {
+      "id": "global100-007-brazil-seriea",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 7,
+      "country": "Brasil",
+      "association_id": "FIFA-MA-028",
+      "league_name": "Brasileirão Série A",
+      "counts_as_existing_base": true,
+      "creation_status": "fictional_rosters_saved_engine_validation_pending",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america",
+      "package_id": "league.BRA.brasileir-o-s-rie-a.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "Serie A"
+      ],
+      "source_ranks": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": "global100-019-argentina-ligaprofesionalargentina",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 19,
+      "country": "Argentina",
+      "association_id": "FIFA-MA-009",
+      "league_name": "Liga Profesional",
+      "counts_as_existing_base": true,
+      "creation_status": "fictional_rosters_saved_engine_validation_pending",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america",
+      "package_id": "league.ARG.liga-profesional.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "Liga Profesional Argentina"
+      ],
+      "source_ranks": [
+        8,
+        19
+      ]
+    },
+    {
+      "id": "global100-032-ecuador-ligapro",
+      "source": "global_league_selection_100",
+      "source_rank": 32,
+      "country": "Ecuador",
+      "association_id": "FIFA-MA-061",
+      "league_name": "Liga Pro",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "package_id": "league.ECU.ligapro.2026-27",
+      "downloadable": false,
+      "region_id": "south_america",
+      "confederation_code": "CONMEBOL"
+    },
+    {
+      "id": "global100-043-colombia-primeraa",
+      "source": "global_league_selection_100",
+      "source_rank": 43,
+      "country": "Colombia",
+      "association_id": "FIFA-MA-044",
+      "league_name": "Primera A",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_optional_future_league_not_part_of_base_top_10",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america"
+    },
+    {
+      "id": "global100-047-uruguay-primeradivisionapertura",
+      "source": "global_league_selection_100",
+      "source_rank": 47,
+      "country": "Uruguay",
+      "association_id": "FIFA-MA-201",
+      "league_name": "Primera División - Apertura",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america"
+    },
+    {
+      "id": "global100-051-paraguay-divisionprofesionalapertura",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 51,
+      "country": "Paraguay",
+      "association_id": "FIFA-MA-148",
+      "league_name": "Primera División",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america",
+      "package_id": "league.PAR.primera-divisi-n.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "Division Profesional - Apertura"
+      ],
+      "source_ranks": [
+        19,
+        51
+      ]
+    },
+    {
+      "id": "global100-054-chile-primeradivision",
+      "source": "global_league_selection_100",
+      "source_rank": 54,
+      "country": "Chile",
+      "association_id": "FIFA-MA-041",
+      "league_name": "Primera División",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america"
+    },
+    {
+      "id": "global100-055-brazil-serieb",
+      "source": "global_league_selection_100",
+      "source_rank": 55,
+      "country": "Brazil",
+      "association_id": "FIFA-MA-028",
+      "league_name": "Serie B",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america"
+    },
+    {
+      "id": "global100-064-argentina-primeranacional",
+      "source": "global_league_selection_100",
+      "source_rank": 64,
+      "country": "Argentina",
+      "association_id": "FIFA-MA-009",
+      "league_name": "Primera Nacional",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america"
+    },
+    {
+      "id": "global100-082-chile-primerab",
+      "source": "global_league_selection_100",
+      "source_rank": 82,
+      "country": "Chile",
+      "association_id": "FIFA-MA-041",
+      "league_name": "Primera B",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "CONMEBOL",
+      "region_id": "south_america"
+    }
+  ],
+  "module_status": "catalogued_validation_pending"
+}

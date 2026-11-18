@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "continental-leagues-afc",
+  "module_type": "continental_league_catalog",
+  "name": "Confederación Asiática de Fútbol",
+  "confederation_code": "AFC",
+  "independent": true,
+  "season_policy": "Cada competición conserva temporada, identidad y estado de validación propios.",
+  "source_manifests": [
+    "data/global_league_selection_100.json",
+    "data/league_content_manifest.json",
+    "data/national_association_directory.json"
+  ],
+  "countries": [
+    {
+      "association_id": "FIFA-MA-001",
+      "name": "Afghanistan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-012",
+      "name": "Australia",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-016",
+      "name": "Bahrain",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-017",
+      "name": "Bangladesh",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-024",
+      "name": "Bhutan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-030",
+      "name": "Brunei Darussalam",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-035",
+      "name": "Cambodia",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-042",
+      "name": "China PR",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-043",
+      "name": "Chinese Taipei",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-060",
+      "name": "DPR Korea",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-081",
+      "name": "Guam",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-088",
+      "name": "Hong Kong, China",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-091",
+      "name": "India",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-092",
+      "name": "Indonesia",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-093",
+      "name": "IR Iran",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-094",
+      "name": "Iraq",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-098",
+      "name": "Japan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-099",
+      "name": "Jordan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-102",
+      "name": "Korea Republic",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-104",
+      "name": "Kuwait",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-105",
+      "name": "Kyrgyz Republic",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-106",
+      "name": "Laos",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-108",
+      "name": "Lebanon",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-115",
+      "name": "Macau, China",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-118",
+      "name": "Malaysia",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-119",
+      "name": "Maldives",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-126",
+      "name": "Mongolia",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-131",
+      "name": "Myanmar",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-133",
+      "name": "Nepal",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-143",
+      "name": "Oman",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-144",
+      "name": "Pakistan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-145",
+      "name": "Palestine",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-150",
+      "name": "Philippines",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-154",
+      "name": "Qatar",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-162",
+      "name": "Saudi Arabia",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-168",
+      "name": "Singapore",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-176",
+      "name": "Sri Lanka",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-184",
+      "name": "Syria",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-186",
+      "name": "Tajikistan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-188",
+      "name": "Thailand",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-190",
+      "name": "Timor-Leste",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-196",
+      "name": "Turkmenistan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-200",
+      "name": "United Arab Emirates",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-204",
+      "name": "Uzbekistan",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-207",
+      "name": "Vietnam",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-209",
+      "name": "Yemen",
+      "confederation_code": "AFC",
+      "confederation_status": "verified_official_confederation_member_list"
+    }
+  ],
+  "leagues": [
+    {
+      "id": "global100-017-japan-j1league",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 17,
+      "country": "Japón",
+      "association_id": "FIFA-MA-098",
+      "league_name": "J1 League",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "AFC",
+      "region_id": "asia",
+      "package_id": "league.JPN.j1-league.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [],
+      "source_ranks": [
+        17,
+        18
+      ]
+    },
+    {
+      "id": "global100-021-korearepublic-kleague1",
+      "source": "global_league_selection_100",
+      "source_rank": 21,
+      "country": "Korea Republic",
+      "association_id": "FIFA-MA-102",
+      "league_name": "K League 1",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-029-saudiarabia-proleague",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 29,
+      "country": "Arabia Saudita",
+      "association_id": "FIFA-MA-162",
+      "league_name": "Saudi Pro League",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "AFC",
+      "region_id": "asia",
+      "package_id": "league.KSA.saudi-pro-league.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "Pro League"
+      ],
+      "source_ranks": [
+        13,
+        29
+      ]
+    },
+    {
+      "id": "global100-041-iran-persiangulfproleague",
+      "source": "global_league_selection_100",
+      "source_rank": 41,
+      "country": "Iran",
+      "association_id": "FIFA-MA-093",
+      "league_name": "Persian Gulf Pro League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-050-australia-aleague",
+      "source": "global_league_selection_100",
+      "source_rank": 50,
+      "country": "Australia",
+      "association_id": "FIFA-MA-012",
+      "league_name": "A-League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-058-unitedarabemirates-proleague",
+      "source": "global_league_selection_100",
+      "source_rank": 58,
+      "country": "United Arab Emirates",
+      "association_id": "FIFA-MA-200",
+      "league_name": "Pro League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-069-japan-j2league",
+      "source": "global_league_selection_100",
+      "source_rank": 69,
+      "country": "Japan",
+      "association_id": "FIFA-MA-098",
+      "league_name": "J2 League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-074-iran-azadeganleague",
+      "source": "global_league_selection_100",
+      "source_rank": 74,
+      "country": "Iran",
+      "association_id": "FIFA-MA-093",
+      "league_name": "Azadegan League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-075-qatar-starsleague",
+      "source": "global_league_selection_100",
+      "source_rank": 75,
+      "country": "Qatar",
+      "association_id": "FIFA-MA-154",
+      "league_name": "Stars League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-078-iraq-iraqileague",
+      "source": "global_league_selection_100",
+      "source_rank": 78,
+      "country": "Iraq",
+      "association_id": "FIFA-MA-094",
+      "league_name": "Iraqi League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-079-korearepublic-kleague2",
+      "source": "global_league_selection_100",
+      "source_rank": 79,
+      "country": "Korea Republic",
+      "association_id": "FIFA-MA-102",
+      "league_name": "K League 2",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-086-bahrain-premierleague",
+      "source": "global_league_selection_100",
+      "source_rank": 86,
+      "country": "Bahrain",
+      "association_id": "FIFA-MA-016",
+      "league_name": "Premier League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-088-uzbekistan-superleague",
+      "source": "global_league_selection_100",
+      "source_rank": 88,
+      "country": "Uzbekistan",
+      "association_id": "FIFA-MA-204",
+      "league_name": "Super League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-091-kuwait-premierleague",
+      "source": "global_league_selection_100",
+      "source_rank": 91,
+      "country": "Kuwait",
+      "association_id": "FIFA-MA-104",
+      "league_name": "Premier League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    },
+    {
+      "id": "global100-099-oman-professionalleague",
+      "source": "global_league_selection_100",
+      "source_rank": 99,
+      "country": "Oman",
+      "association_id": "FIFA-MA-143",
+      "league_name": "Professional League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "AFC",
+      "region_id": "asia"
+    }
+  ],
+  "module_status": "catalogued_validation_pending"
+}

@@ -1,0 +1,1222 @@
+{
+  "schema_version": "1.0.0",
+  "module_id": "continental-leagues-uefa",
+  "module_type": "continental_league_catalog",
+  "name": "Unión de Asociaciones Europeas de Fútbol",
+  "confederation_code": "UEFA",
+  "independent": true,
+  "season_policy": "Cada competición conserva temporada, identidad y estado de validación propios.",
+  "source_manifests": [
+    "data/global_league_selection_100.json",
+    "data/league_content_manifest.json",
+    "data/national_association_directory.json"
+  ],
+  "countries": [
+    {
+      "association_id": "FIFA-MA-002",
+      "name": "Albania",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-005",
+      "name": "Andorra",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-010",
+      "name": "Armenia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-013",
+      "name": "Austria",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-014",
+      "name": "Azerbaijan",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-019",
+      "name": "Belarus",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-020",
+      "name": "Belgium",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-026",
+      "name": "Bosnia and Herzegovina",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-031",
+      "name": "Bulgaria",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-051",
+      "name": "Croatia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-054",
+      "name": "Cyprus",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-055",
+      "name": "Czechia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-056",
+      "name": "Denmark",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-064",
+      "name": "England",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-067",
+      "name": "Estonia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-070",
+      "name": "Faroe Islands",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-072",
+      "name": "Finland",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-073",
+      "name": "France",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-075",
+      "name": "Georgia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-076",
+      "name": "Germany",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-078",
+      "name": "Gibraltar",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-079",
+      "name": "Greece",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-089",
+      "name": "Hungary",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-090",
+      "name": "Iceland",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-095",
+      "name": "Israel",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-096",
+      "name": "Italy",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-100",
+      "name": "Kazakhstan",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-103",
+      "name": "Kosovo",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-107",
+      "name": "Latvia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-112",
+      "name": "Liechtenstein",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-113",
+      "name": "Lithuania",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-114",
+      "name": "Luxembourg",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-121",
+      "name": "Malta",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-125",
+      "name": "Moldova",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-127",
+      "name": "Montenegro",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-134",
+      "name": "Netherlands",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-140",
+      "name": "North Macedonia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-141",
+      "name": "Northern Ireland",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-142",
+      "name": "Norway",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-151",
+      "name": "Poland",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-152",
+      "name": "Portugal",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-155",
+      "name": "Republic of Ireland",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-156",
+      "name": "Romania",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-157",
+      "name": "Russia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-160",
+      "name": "San Marino",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-163",
+      "name": "Scotland",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-165",
+      "name": "Serbia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-169",
+      "name": "Slovakia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-170",
+      "name": "Slovenia",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-175",
+      "name": "Spain",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-182",
+      "name": "Sweden",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-183",
+      "name": "Switzerland",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-195",
+      "name": "Türkiye",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-199",
+      "name": "Ukraine",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    },
+    {
+      "association_id": "FIFA-MA-208",
+      "name": "Wales",
+      "confederation_code": "UEFA",
+      "confederation_status": "verified_official_confederation_member_list"
+    }
+  ],
+  "leagues": [
+    {
+      "id": "global100-001-england-premierleague",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 1,
+      "country": "Inglaterra",
+      "association_id": "FIFA-MA-064",
+      "league_name": "Premier League",
+      "counts_as_existing_base": true,
+      "creation_status": "fictional_rosters_saved_engine_validation_pending",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.ENG.premier-league.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [],
+      "source_ranks": [
+        1
+      ]
+    },
+    {
+      "id": "global100-002-spain-laliga",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 2,
+      "country": "España",
+      "association_id": "FIFA-MA-175",
+      "league_name": "LaLiga",
+      "counts_as_existing_base": true,
+      "creation_status": "fictional_rosters_saved_engine_validation_pending",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.ESP.laliga.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "La Liga"
+      ],
+      "source_ranks": [
+        2
+      ]
+    },
+    {
+      "id": "global100-003-germany-bundesliga",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 3,
+      "country": "Alemania",
+      "association_id": "FIFA-MA-076",
+      "league_name": "Bundesliga",
+      "counts_as_existing_base": true,
+      "creation_status": "fictional_rosters_saved_engine_validation_pending",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.GER.bundesliga.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [],
+      "source_ranks": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "global100-004-italy-seriea",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 4,
+      "country": "Italia",
+      "association_id": "FIFA-MA-096",
+      "league_name": "Serie A",
+      "counts_as_existing_base": true,
+      "creation_status": "fictional_rosters_saved_engine_validation_pending",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.ITA.serie-a.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [],
+      "source_ranks": [
+        4
+      ]
+    },
+    {
+      "id": "global100-005-france-ligue1",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 5,
+      "country": "Francia",
+      "association_id": "FIFA-MA-073",
+      "league_name": "Ligue 1",
+      "counts_as_existing_base": true,
+      "creation_status": "fictional_rosters_saved_engine_validation_pending",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.FRA.ligue-1.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [],
+      "source_ranks": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "global100-008-portugal-primeiraliga",
+      "source": "global_league_selection_100",
+      "source_rank": 8,
+      "country": "Portugal",
+      "association_id": "FIFA-MA-152",
+      "league_name": "Primeira Liga",
+      "counts_as_existing_base": true,
+      "creation_status": "existing_base_requires_audit",
+      "playable": false,
+      "content_status": "fictional_rosters_saved_engine_validation_pending",
+      "package_id": "league.POR.primeira-liga.2026-27",
+      "downloadable": false,
+      "region_id": "europe",
+      "confederation_code": "UEFA"
+    },
+    {
+      "id": "global100-010-russia-premierleague",
+      "source": "global_league_selection_100",
+      "source_rank": 10,
+      "country": "Russia",
+      "association_id": "FIFA-MA-157",
+      "league_name": "Premier League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-011-germany-2bundesliga",
+      "source": "global_league_selection_100",
+      "source_rank": 11,
+      "country": "Germany",
+      "association_id": "FIFA-MA-076",
+      "league_name": "2. Bundesliga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-012-netherlands-eredivisie",
+      "source": "global_league_selection_100",
+      "source_rank": 12,
+      "country": "Netherlands",
+      "association_id": "FIFA-MA-134",
+      "league_name": "Eredivisie",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_optional_future_league_not_part_of_base_top_10",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-013-denmark-superliga",
+      "source": "global_league_selection_100",
+      "source_rank": 13,
+      "country": "Denmark",
+      "association_id": "FIFA-MA-056",
+      "league_name": "Superliga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-014-belgium-jupilerproleague",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 14,
+      "country": "Bélgica",
+      "association_id": "FIFA-MA-020",
+      "league_name": "Jupiler Pro League",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.BEL.jupiler-pro-league.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [],
+      "source_ranks": [
+        12,
+        14
+      ]
+    },
+    {
+      "id": "global100-015-switzerland-superleague",
+      "source": "global_league_selection_100",
+      "source_rank": 15,
+      "country": "Switzerland",
+      "association_id": "FIFA-MA-183",
+      "league_name": "Super League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-016-england-championship",
+      "source": "global_league_selection_100",
+      "source_rank": 16,
+      "country": "England",
+      "association_id": "FIFA-MA-064",
+      "league_name": "Championship",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-018-croatia-hnl",
+      "source": "global_league_selection_100",
+      "source_rank": 18,
+      "country": "Croatia",
+      "association_id": "FIFA-MA-051",
+      "league_name": "HNL",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-020-turkey-superlig",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 20,
+      "country": "Turquía",
+      "association_id": "FIFA-MA-195",
+      "league_name": "Süper Lig",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.TUR.s-per-lig.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [],
+      "source_ranks": [
+        11,
+        20
+      ]
+    },
+    {
+      "id": "global100-022-austria-bundesliga",
+      "source": "global_league_selection_100",
+      "source_rank": 22,
+      "country": "Austria",
+      "association_id": "FIFA-MA-013",
+      "league_name": "Bundesliga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-023-spain-segundadivision",
+      "source": "global_league_selection_100",
+      "source_rank": 23,
+      "country": "Spain",
+      "association_id": "FIFA-MA-175",
+      "league_name": "Segunda División",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-024-czechia-czechliga",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 24,
+      "country": "Chequia",
+      "association_id": "FIFA-MA-055",
+      "league_name": "First League",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.CZE.first-league.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "Czech Liga"
+      ],
+      "source_ranks": [
+        17,
+        24
+      ]
+    },
+    {
+      "id": "global100-025-norway-eliteserien",
+      "source": "global_league_selection_100",
+      "source_rank": 25,
+      "country": "Norway",
+      "association_id": "FIFA-MA-142",
+      "league_name": "Eliteserien",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-026-greece-superleague1",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 26,
+      "country": "Grecia",
+      "association_id": "FIFA-MA-079",
+      "league_name": "Super League",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.GRE.super-league.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "Super League 1"
+      ],
+      "source_ranks": [
+        15,
+        26
+      ]
+    },
+    {
+      "id": "global100-027-poland-ekstraklasa",
+      "source": "global_league_selection_100",
+      "source_rank": 27,
+      "country": "Poland",
+      "association_id": "FIFA-MA-151",
+      "league_name": "Ekstraklasa",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-030-sweden-allsvenskan",
+      "source": "global_league_selection_100",
+      "source_rank": 30,
+      "country": "Sweden",
+      "association_id": "FIFA-MA-182",
+      "league_name": "Allsvenskan",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-033-hungary-nbi",
+      "source": "global_league_selection_100",
+      "source_rank": 33,
+      "country": "Hungary",
+      "association_id": "FIFA-MA-089",
+      "league_name": "NB I",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-035-romania-ligai",
+      "source": "global_league_selection_100",
+      "source_rank": 35,
+      "country": "Romania",
+      "association_id": "FIFA-MA-156",
+      "league_name": "Liga I",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-036-cyprus-1division",
+      "source": "global_league_selection_100+league_content_manifest",
+      "source_rank": 36,
+      "country": "Chipre",
+      "association_id": "FIFA-MA-054",
+      "league_name": "First Division",
+      "counts_as_existing_base": false,
+      "creation_status": "membership_catalogued_players_pending",
+      "playable": false,
+      "content_status": "membership_catalogued_players_pending",
+      "confederation_code": "UEFA",
+      "region_id": "europe",
+      "package_id": "league.CYP.first-division.2026-27",
+      "downloadable": false,
+      "source_manifests": [
+        "data/global_league_selection_100.json",
+        "data/league_content_manifest.json"
+      ],
+      "alternative_names": [
+        "1. Division"
+      ],
+      "source_ranks": [
+        20,
+        36
+      ]
+    },
+    {
+      "id": "global100-037-italy-serieb",
+      "source": "global_league_selection_100",
+      "source_rank": 37,
+      "country": "Italy",
+      "association_id": "FIFA-MA-096",
+      "league_name": "Serie B",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-038-israel-ligathaal",
+      "source": "global_league_selection_100",
+      "source_rank": 38,
+      "country": "Israel",
+      "association_id": "FIFA-MA-095",
+      "league_name": "Ligat Ha'al",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-039-scotland-premiership",
+      "source": "global_league_selection_100",
+      "source_rank": 39,
+      "country": "Scotland",
+      "association_id": "FIFA-MA-163",
+      "league_name": "Premiership",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-042-ukraine-premierleague",
+      "source": "global_league_selection_100",
+      "source_rank": 42,
+      "country": "Ukraine",
+      "association_id": "FIFA-MA-199",
+      "league_name": "Premier League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-046-bulgaria-firstleague",
+      "source": "global_league_selection_100",
+      "source_rank": 46,
+      "country": "Bulgaria",
+      "association_id": "FIFA-MA-031",
+      "league_name": "First League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-052-serbia-superliga",
+      "source": "global_league_selection_100",
+      "source_rank": 52,
+      "country": "Serbia",
+      "association_id": "FIFA-MA-165",
+      "league_name": "Super Liga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-053-france-ligue2",
+      "source": "global_league_selection_100",
+      "source_rank": 53,
+      "country": "France",
+      "association_id": "FIFA-MA-073",
+      "league_name": "Ligue 2",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-056-slovenia-1snl",
+      "source": "global_league_selection_100",
+      "source_rank": 56,
+      "country": "Slovenia",
+      "association_id": "FIFA-MA-170",
+      "league_name": "1. SNL",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-059-belgium-challengerproleague",
+      "source": "global_league_selection_100",
+      "source_rank": 59,
+      "country": "Belgium",
+      "association_id": "FIFA-MA-020",
+      "league_name": "Challenger Pro League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-060-slovakia-superliga",
+      "source": "global_league_selection_100",
+      "source_rank": 60,
+      "country": "Slovakia",
+      "association_id": "FIFA-MA-169",
+      "league_name": "Super Liga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-061-portugal-segundaliga",
+      "source": "global_league_selection_100",
+      "source_rank": 61,
+      "country": "Portugal",
+      "association_id": "FIFA-MA-152",
+      "league_name": "Segunda Liga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-062-switzerland-challengeleague",
+      "source": "global_league_selection_100",
+      "source_rank": 62,
+      "country": "Switzerland",
+      "association_id": "FIFA-MA-183",
+      "league_name": "Challenge League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-063-netherlands-eerstedivisie",
+      "source": "global_league_selection_100",
+      "source_rank": 63,
+      "country": "Netherlands",
+      "association_id": "FIFA-MA-134",
+      "league_name": "Eerste Divisie",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-066-azerbaijan-premyerliqa",
+      "source": "global_league_selection_100",
+      "source_rank": 66,
+      "country": "Azerbaijan",
+      "association_id": "FIFA-MA-014",
+      "league_name": "Premyer Liqa",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-067-russia-firstleague",
+      "source": "global_league_selection_100",
+      "source_rank": 67,
+      "country": "Russia",
+      "association_id": "FIFA-MA-157",
+      "league_name": "First League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-070-france-national1",
+      "source": "global_league_selection_100",
+      "source_rank": 70,
+      "country": "France",
+      "association_id": "FIFA-MA-073",
+      "league_name": "National 1",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-071-germany-3liga",
+      "source": "global_league_selection_100",
+      "source_rank": 71,
+      "country": "Germany",
+      "association_id": "FIFA-MA-076",
+      "league_name": "3. Liga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-072-turkey-1lig",
+      "source": "global_league_selection_100",
+      "source_rank": 72,
+      "country": "Turkey",
+      "association_id": "FIFA-MA-195",
+      "league_name": "1. Lig",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-073-kosovo-superliga",
+      "source": "global_league_selection_100",
+      "source_rank": 73,
+      "country": "Kosovo",
+      "association_id": "FIFA-MA-103",
+      "league_name": "Superliga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-076-bosniaherzegovina-premijerliga",
+      "source": "global_league_selection_100",
+      "source_rank": 76,
+      "country": "Bosnia-Herzegovina",
+      "association_id": "FIFA-MA-026",
+      "league_name": "Premijer Liga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-081-norway-1division",
+      "source": "global_league_selection_100",
+      "source_rank": 81,
+      "country": "Norway",
+      "association_id": "FIFA-MA-142",
+      "league_name": "1. Division",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-084-kazakhstan-premierleague",
+      "source": "global_league_selection_100",
+      "source_rank": 84,
+      "country": "Kazakhstan",
+      "association_id": "FIFA-MA-100",
+      "league_name": "Premier League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-090-austria-2liga",
+      "source": "global_league_selection_100",
+      "source_rank": 90,
+      "country": "Austria",
+      "association_id": "FIFA-MA-013",
+      "league_name": "2. Liga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-093-albania-superliga",
+      "source": "global_league_selection_100",
+      "source_rank": 93,
+      "country": "Albania",
+      "association_id": "FIFA-MA-002",
+      "league_name": "Superliga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-094-georgia-erovnuliliga",
+      "source": "global_league_selection_100",
+      "source_rank": 94,
+      "country": "Georgia",
+      "association_id": "FIFA-MA-075",
+      "league_name": "Erovnuli Liga",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-095-belarus-premierleague",
+      "source": "global_league_selection_100",
+      "source_rank": 95,
+      "country": "Belarus",
+      "association_id": "FIFA-MA-019",
+      "league_name": "Premier League",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-096-england-leagueone",
+      "source": "global_league_selection_100",
+      "source_rank": 96,
+      "country": "England",
+      "association_id": "FIFA-MA-064",
+      "league_name": "League One",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-097-denmark-1division",
+      "source": "global_league_selection_100",
+      "source_rank": 97,
+      "country": "Denmark",
+      "association_id": "FIFA-MA-056",
+      "league_name": "1. Division",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    },
+    {
+      "id": "global100-098-croatia-firstnl",
+      "source": "global_league_selection_100",
+      "source_rank": 98,
+      "country": "Croatia",
+      "association_id": "FIFA-MA-051",
+      "league_name": "First NL",
+      "counts_as_existing_base": false,
+      "creation_status": "selected_pending_verified_membership_clubs_rosters_rights_and_tests",
+      "playable": false,
+      "content_status": "catalogued_not_yet_engine_validated",
+      "confederation_code": "UEFA",
+      "region_id": "europe"
+    }
+  ],
+  "module_status": "catalogued_validation_pending"
+}
