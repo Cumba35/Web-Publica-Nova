@@ -36,3 +36,12 @@ Los archivos se copiaron desde `proyectos/juegos/futbol-nova/data/` del reposito
 Antes de redistribuir o comercializar el juego, revisar las fuentes, licencias y derechos de los datos de membresía de clubes y competiciones. Los nombres y referencias de fuentes conservados en los JSON permiten rastrear parte de esa procedencia.
 
 No añadir aquí claves, contraseñas, tokens, archivos de configuración privada ni información personal.
+
+
+## Auditoría de espejo público — 2026-11-18
+
+- Fuente canónica: `Cumba35/Nova-Workspace`, rama `main`, commit `250af727fb2dccfae1571c29d08290416426f0ef`.
+- Se compararon los hashes Git de los **23 archivos** publicados en `data/`; todos coinciden exactamente con `proyectos/juegos/futbol-nova/data/`.
+- No hay archivos públicos de este paquete ausentes ni desactualizados respecto a la fuente.
+- El inventario verificable está en [SOURCE-MIRROR.json](SOURCE-MIRROR.json).
+- Se mantiene el alcance seleccionado: datos de las diez ligas base. No se copia el código Godot, scripts, pruebas, documentación interna, perfiles/imágenes personales ni secretos. El proyecto maestro continúa privado.
