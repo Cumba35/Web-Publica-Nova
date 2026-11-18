@@ -78,3 +78,12 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - La interfaz incluye conexión/desconexión de Dropbox y Google Drive, selección de archivos, carga, descarga, listado y sincronización, según las rutas disponibles en la API.
 - La API aplica autenticación y aislamiento por usuario; no se publican tokens OAuth ni credenciales privadas en este repositorio.
 - Estado: código guardado y verificado en GitHub. El despliegue queda sujeto a las validaciones de GitHub Actions; todavía no se declara probada una sesión real ni una transferencia real de archivos.
+
+
+### Despliegue del panel Multimedia Nova — 2026-11-18
+
+- Commit de publicación: `5db5e4e8f8aee22f18d536cacfcdcd57b67338e9`.
+- GitHub Actions: [Deploy Web Publica Nova — run 44355817460](https://github.com/Cumba35/Web-Publica-Nova/actions/runs/44355817460) terminó correctamente.
+- Validaciones estructurales, espejo público de Fútbol Nova y escaneo de secretos: correctos.
+- Verificación HTTPS automatizada de las diez rutas públicas: correcta.
+- El panel Multimedia Nova ya está incluido en el artefacto publicado. Pendiente: prueba interactiva con una cuenta NOVA real, autorización OAuth de Dropbox y transferencia real de un archivo.
