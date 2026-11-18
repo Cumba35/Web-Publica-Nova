@@ -222,6 +222,9 @@ migration_files = (
     "20261118210224_nova_social_profile_block_visibility.sql",
     "20261118210441_nova_social_visibility_and_reports.sql",
     "20261118210812_nova_social_follow_block_guard.sql",
+    "20261118210938_nova_social_notifications.sql",
+    "20261118211007_nova_social_notification_function_permissions.sql",
+    "20261118211008_nova_social_comment_policy_fix.sql",
 )
 for filename in migration_files:
     if not (ROOT / "supabase" / "migrations" / filename).is_file():
