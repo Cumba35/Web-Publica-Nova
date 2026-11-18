@@ -1,6 +1,6 @@
 extends SceneTree
 
-const Engine = preload("res://scripts/simulation/caribbean_champions_league_engine.gd")
+const CaribbeanEngine = preload("res://scripts/simulation/caribbean_champions_league_engine.gd")
 const CompetitionConfig = "res://data/caribbean_champions_league.json"
 
 func _initialize() -> void:
@@ -40,7 +40,7 @@ func _test_slot_distribution(failures: PackedStringArray) -> void:
 					found_caribbean = true
 		if not found_caribbean:
 			failures.append("La Liga de Campeones del Caribe no está registrada en el catálogo internacional.")
-	var invalid_distribution := Engine.validate_slot_distribution({"association_1": 46})
+	var invalid_distribution := CaribbeanEngine.validate_slot_distribution({"association_1": 46})
 	if bool(invalid_distribution.get("ok", true)):
 		failures.append("El motor permitió iniciar una distribución de solo 46 plazas.")
 
@@ -60,10 +60,10 @@ func _test_edition_and_group_calendars(failures: PackedStringArray) -> void:
 				"division_level": 1
 			})
 			team_number += 1
-	var missing_venue := Engine.create_edition("2027", participants, "")
+	var missing_venue := CaribbeanEngine.create_edition("2027", participants, "")
 	if bool(missing_venue.get("ok", false)):
 		failures.append("El motor permitió crear la edición sin sede neutral confirmada.")
-	var edition: Dictionary = Engine.create_edition("2027", participants, "Estadio Neutral de Prueba", 2027)
+	var edition: Dictionary = CaribbeanEngine.create_edition("2027", participants, "Estadio Neutral de Prueba", 2027)
 	if not bool(edition.get("ok", false)):
 		failures.append("No se pudo crear una edición válida: " + str(edition.get("errors", [])))
 		return
@@ -99,14 +99,14 @@ func _test_edition_and_group_calendars(failures: PackedStringArray) -> void:
 		failures.append("La fase de grupos debe generar 264 partidos, no %d." % total_fixtures)
 	var duplicate_participants := participants.duplicate(true)
 	duplicate_participants[47] = duplicate_participants[0].duplicate(true)
-	if bool(Engine.create_edition("2027-duplicate", duplicate_participants, "Sede neutral").get("ok", false)):
+	if bool(CaribbeanEngine.create_edition("2027-duplicate", duplicate_participants, "Sede neutral").get("ok", false)):
 		failures.append("El motor permitió un club duplicado.")
 
 func _test_playoff_and_final(failures: PackedStringArray) -> void:
 	var participants: Array = []
 	for index in range(48):
 		participants.append({"team_id": "CLUB-%02d" % (index + 1), "association_id": "ASSOC-%02d" % (index + 1), "division_level": 1})
-	var edition: Dictionary = Engine.create_edition("2027-playoff", participants, "Sede Neutral")
+	var edition: Dictionary = CaribbeanEngine.create_edition("2027-playoff", participants, "Sede Neutral")
 	if not bool(edition.get("ok", false)):
 		failures.append("No se pudo preparar la edición para probar la repesca.")
 		return
@@ -114,7 +114,7 @@ func _test_playoff_and_final(failures: PackedStringArray) -> void:
 		for fixture in edition.fixtures_by_group[group_id]:
 			fixture["status"] = "finished"
 		edition.fixtures_by_group[group_id] = edition.fixtures_by_group[group_id]
-	var unresolved_playoff: Dictionary = Engine.build_playoff(edition)
+	var unresolved_playoff: Dictionary = CaribbeanEngine.build_playoff(edition)
 	if bool(unresolved_playoff.get("ok", false)):
 		failures.append("El motor clasificó clubes con empates sin criterio de desempate aprobado.")
 	for group_id in ["A", "B", "C", "D"]:
@@ -126,7 +126,7 @@ func _test_playoff_and_final(failures: PackedStringArray) -> void:
 			table[team_id] = row
 			rank_index += 1
 		edition.standings_by_group[group_id] = table
-	var playoff: Dictionary = Engine.build_playoff(edition)
+	var playoff: Dictionary = CaribbeanEngine.build_playoff(edition)
 	if not bool(playoff.get("ok", false)):
 		failures.append("No se generó la repesca con posiciones sin empate: " + str(playoff.get("errors", [])))
 	elif playoff.get("fixtures", []).size() != 8 or playoff.get("direct_qualifiers", []).size() != 12:
@@ -143,40 +143,40 @@ func _test_playoff_and_final(failures: PackedStringArray) -> void:
 		playoff_fixtures[second_index]["away_goals"] = 0
 		var tie_id := str(playoff_fixtures[first_index].tie_id)
 		var winner_id := str(playoff_fixtures[first_index].home_team_id)
-		var decision := Engine.set_knockout_tie_decision(playoff_fixtures, tie_id, winner_id)
+		var decision := CaribbeanEngine.set_knockout_tie_decision(playoff_fixtures, tie_id, winner_id)
 		if not bool(decision.get("ok", false)):
 			failures.append("No se pudo registrar la decisión de penaltis sin aplicar gol visitante.")
 		else:
 			playoff_fixtures = decision.fixtures
 		edition["playoff_fixtures"] = playoff_fixtures
-	var resolved := Engine.resolve_two_leg_tie(playoff_fixtures, str(playoff_fixtures[0].tie_id))
+	var resolved := CaribbeanEngine.resolve_two_leg_tie(playoff_fixtures, str(playoff_fixtures[0].tie_id))
 	if str(resolved.get("winner_team_id", "")) != str(playoff_fixtures[0].home_team_id):
 		failures.append("La eliminatoria empatada no respetó la decisión explícita de penaltis.")
 	edition["playoff_fixtures"] = playoff_fixtures
 	var qualified: Array = playoff.get("direct_qualifiers", []).duplicate()
 	for pairing in edition.playoff_pairings:
 		var tie_id := "playoff_%s_%s" % [str(pairing[0]), str(pairing[1])]
-		var tie_result := Engine.resolve_two_leg_tie(playoff_fixtures, tie_id)
+		var tie_result := CaribbeanEngine.resolve_two_leg_tie(playoff_fixtures, tie_id)
 		if str(tie_result.get("status", "")) == "decided":
 			qualified.append(str(tie_result.winner_team_id))
 	var round_of_16_pairs: Array = []
 	for index in range(0, qualified.size(), 2):
 		round_of_16_pairs.append([str(qualified[index]), str(qualified[index + 1])])
-	var draw: Dictionary = Engine.set_round_of_16_draw(edition, round_of_16_pairs)
+	var draw: Dictionary = CaribbeanEngine.set_round_of_16_draw(edition, round_of_16_pairs)
 	if not bool(draw.get("ok", false)):
 		failures.append("El sorteo de octavos no aceptó los 16 clasificados válidos: " + str(draw.get("errors", [])))
-	var round_of_16: Dictionary = Engine.set_knockout_round(edition, "round_of_16", round_of_16_pairs)
+	var round_of_16: Dictionary = CaribbeanEngine.set_knockout_round(edition, "round_of_16", round_of_16_pairs)
 	if not bool(round_of_16.get("ok", false)) or round_of_16.get("fixtures", []).size() != 16:
 		failures.append("No se generaron los 16 partidos de octavos a doble partido.")
-	var final_ok: Dictionary = Engine.build_final("2027-playoff", "FINAL-A", "FINAL-B", "Sede Neutral", true)
+	var final_ok: Dictionary = CaribbeanEngine.build_final("2027-playoff", "FINAL-A", "FINAL-B", "Sede Neutral", true)
 	if not bool(final_ok.get("ok", false)) or not bool(final_ok.get("fixture", {}).get("neutral_venue", false)) or int(final_ok.get("fixture", {}).get("leg", 0)) != 1:
 		failures.append("La final no se generó como partido único en sede neutral.")
-	var final_without_confirmation := Engine.build_final("2027-playoff", "FINAL-A", "FINAL-B", "Sede Neutral", false)
+	var final_without_confirmation := CaribbeanEngine.build_final("2027-playoff", "FINAL-A", "FINAL-B", "Sede Neutral", false)
 	if bool(final_without_confirmation.get("ok", false)):
 		failures.append("El motor permitió una final sin sede confirmada antes del torneo.")
-	var third_place_ok: Dictionary = Engine.build_third_place("2026-2027", "SEMI-LOSER-A", "SEMI-LOSER-B", "Sede Neutral", true)
+	var third_place_ok: Dictionary = CaribbeanEngine.build_third_place("2026-2027", "SEMI-LOSER-A", "SEMI-LOSER-B", "Sede Neutral", true)
 	if not bool(third_place_ok.get("ok", false)) or str(third_place_ok.get("fixture", {}).get("round", "")) != "third_place" or not bool(third_place_ok.get("fixture", {}).get("neutral_venue", false)):
 		failures.append("El partido por el tercer puesto no se generó como partido único en sede neutral.")
-	var third_place_without_venue := Engine.build_third_place("2026-2027", "SEMI-LOSER-A", "SEMI-LOSER-B", "", false)
+	var third_place_without_venue := CaribbeanEngine.build_third_place("2026-2027", "SEMI-LOSER-A", "SEMI-LOSER-B", "", false)
 	if bool(third_place_without_venue.get("ok", false)):
 		failures.append("El motor permitió el partido por el tercer puesto sin sede neutral confirmada.")

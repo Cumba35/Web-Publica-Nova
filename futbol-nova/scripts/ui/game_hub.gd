@@ -1132,7 +1132,7 @@ func _start_selected_legend_catalog_player() -> void:
 		var lines := PackedStringArray()
 		for error in errors:
 			lines.append(str(error))
-		_add_info_card("NO SE PUDO INICIAR LA CARRERA", lines.join("\n") if not lines.is_empty() else str(result.get("error", "No se pudo guardar la carrera.")))
+		_add_info_card("NO SE PUDO INICIAR LA CARRERA", "\n".join(lines) if not lines.is_empty() else str(result.get("error", "No se pudo guardar la carrera.")))
 
 func _add_legend_back_button() -> void:
 	var back := _nav_button("VOLVER")
@@ -1239,7 +1239,7 @@ func _create_legend_player(name_input: LineEdit, nationality: LineEdit, age: Spi
 		var error_lines := PackedStringArray()
 		for item in errors:
 			error_lines.append(str(item))
-		_add_info_card("NO SE PUDO CREAR", error_lines.join("\n") if not error_lines.is_empty() else str(result.get("error", "No se pudo guardar la carrera.")))
+		_add_info_card("NO SE PUDO CREAR", "\n".join(error_lines) if not error_lines.is_empty() else str(result.get("error", "No se pudo guardar la carrera.")))
 
 func _show_legend_dashboard() -> void:
 	_clear_content()
@@ -1545,7 +1545,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			touch_started_on_control = hovered_control != null and hovered_control != root
 		else:
 			if touch_tracking:
-				var delta := event.position - touch_start
+				var delta: Vector2 = event.position - touch_start
 				touch_tracking = false
 				if not touch_started_on_control and absf(delta.x) > 100.0 and absf(delta.x) > absf(delta.y) * 1.25 and current_subpage == "":
 					_cycle_main_page(1 if delta.x < 0.0 else -1)

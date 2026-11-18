@@ -83,7 +83,7 @@ static func create_edition(competition_id: String, season_id: String, participan
 	var fixtures_by_group := {}
 	var standings_by_group := {}
 	for group_id in GROUP_IDS:
-		var stage_id := competition_id + "_" + group_id
+		var stage_id: String = competition_id + "_" + str(group_id)
 		var fixtures: Array = SCHEDULER.create_fixtures(groups[group_id], stage_id, season_id, false)
 		if fixtures.size() != 45:
 			return {"ok": false, "errors": ["Calendario incompleto en el grupo " + group_id + "."]}

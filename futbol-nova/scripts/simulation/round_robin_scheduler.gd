@@ -21,18 +21,18 @@ static func create_fixtures(team_ids: Array, competition_id: String, season_id: 
 	var match_number := 1
 	for round_index in range(rounds):
 		for pair_index in range(half):
-			var first := rotation[pair_index]
-			var second := rotation[count - 1 - pair_index]
+			var first: String = str(rotation[pair_index])
+			var second: String = str(rotation[count - 1 - pair_index])
 			if first == "__BYE__" or second == "__BYE__":
 				continue
-			var home_id := first
-			var away_id := second
+			var home_id: String = first
+			var away_id: String = second
 			if (round_index + pair_index) % 2 == 1:
 				home_id = second
 				away_id = first
 			fixtures.append(_fixture(competition_id, season_id, match_number, round_index + 1, home_id, away_id, 1))
 			match_number += 1
-		var fixed := rotation[0]
+		var fixed: String = str(rotation[0])
 		var tail: Array = rotation.slice(1)
 		tail.push_front(tail.pop_back())
 		rotation = [fixed]

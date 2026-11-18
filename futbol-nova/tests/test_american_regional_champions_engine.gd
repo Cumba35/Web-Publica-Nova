@@ -1,6 +1,6 @@
 extends SceneTree
 
-const Engine = preload("res://scripts/simulation/american_regional_champions_engine.gd")
+const RegionalEngine = preload("res://scripts/simulation/american_regional_champions_engine.gd")
 
 func _initialize() -> void:
 	var associations := ["ARG", "BOL", "BRA", "CHI", "COL", "ECU", "PAR", "PER", "URU", "VEN"]
@@ -8,7 +8,7 @@ func _initialize() -> void:
 	for association in associations:
 		for index in range(4):
 			participants.append({"team_id": "%s_%02d" % [association, index + 1], "association_id": association, "division_level": 1})
-	var validation := Engine.validate_participants(participants, associations)
+	var validation := RegionalEngine.validate_participants(participants, associations)
 	if not bool(validation.ok):
 		failures_exit(validation.errors)
 		return
@@ -23,7 +23,7 @@ func _initialize() -> void:
 		{"date": "2027-01-30", "window_end": "2027-02-02"},
 		{"date": "2027-02-13", "window_end": "2027-02-16"}
 	]
-	var edition := Engine.create_edition("south_america_champions_league_nova", "2026-2027", participants, associations, windows, 1234)
+	var edition := RegionalEngine.create_edition("south_america_champions_league_nova", "2026-2027", participants, associations, windows, 1234)
 	if not bool(edition.get("ok", false)):
 		failures_exit(edition.get("errors", []))
 		return
@@ -59,7 +59,7 @@ func _initialize() -> void:
 		return
 	var duplicate := participants.duplicate(true)
 	duplicate[0].team_id = duplicate[1].team_id
-	if bool(Engine.validate_participants(duplicate, associations).ok):
+	if bool(RegionalEngine.validate_participants(duplicate, associations).ok):
 		failures_exit(["Se aceptó un club duplicado."])
 		return
 	print("FUTBOL_NOVA_AMERICAN_REGIONAL_ENGINE_TESTS: PASS")

@@ -180,7 +180,7 @@ func _refresh_list() -> void:
 			continue
 		var is_ready := bool(league.get("downloadable", false)) and str(league.get("content_status", "")) == "published"
 		var package_id := str(league.get("package_id", ""))
-		var installed := not package_id.is_empty() and _manager.is_package_installed(package_id)
+		var installed: bool = not package_id.is_empty() and _manager.is_package_installed(package_id)
 		var rank := int(league.get("rank", league.get("source_rank", 0)))
 		var country_code := str(league.get("country_code", ""))
 		var club_count := int(_club_counts_by_country.get(country_code, int(league.get("club_count", 0))))

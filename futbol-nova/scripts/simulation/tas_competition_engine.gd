@@ -72,7 +72,7 @@ static func create_edition(season_id: String, qualifiers: Dictionary, draw_seed:
 	var fixtures_by_stage := {}
 	var standings_by_stage := {}
 	for group_id in GROUP_IDS:
-		var stage_id := "first_phase_group_" + group_id
+		var stage_id: String = "first_phase_group_" + str(group_id)
 		var fixtures: Array = SCHEDULER.create_fixtures(groups[group_id], stage_id, season_id, false)
 		if fixtures.size() != 3:
 			return {"ok": false, "errors": ["El grupo %s no generó sus tres partidos a partido único." % group_id]}
@@ -153,7 +153,7 @@ static func advance_after_first_phase(edition: Dictionary) -> Dictionary:
 	var updated_ordered: Dictionary = edition.get("ordered_standings_by_stage", {}).duplicate(true)
 	var updated_draws: Dictionary = edition.get("tiebreak_draws_by_stage", {}).duplicate(true)
 	for group_id in GROUP_IDS:
-		var stage_id := "first_phase_group_" + group_id
+		var stage_id: String = "first_phase_group_" + str(group_id)
 		if not _stage_is_finished(edition, stage_id):
 			return {"ok": false, "error": "Todavía hay partidos pendientes en el grupo " + group_id + "."}
 		var table: Dictionary = edition.get("standings_by_stage", {}).get(stage_id, {})

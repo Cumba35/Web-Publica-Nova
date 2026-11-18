@@ -166,7 +166,7 @@ static func _draw_groups_by_association(participants: Array, rng: RandomNumberGe
 		)
 		var team_ids: Array = teams_by_association[association_id]
 		for index in range(team_ids.size()):
-			var minimum_load := groups[available_groups[0]].size()
+			var minimum_load: int = groups[available_groups[0]].size()
 			var tied_groups: Array = []
 			for group_id in available_groups:
 				if groups[group_id].size() == minimum_load:
@@ -293,6 +293,22 @@ static func build_final(season_id: String, team_a: String, team_b: String, venue
 		return {"ok": false, "error": "Los finalistas no son válidos."}
 	if venue.strip_edges().is_empty() or not venue_confirmed_before_start:
 		return {"ok": false, "error": "La final requiere sede neutral confirmada antes del inicio del torneo."}
+	return {"ok": true, "fixture": {
+		"fixture_id": "%s_%s_final" % [COMPETITION_ID, season_id],
+		"competition_id": COMPETITION_ID,
+		"season_id": season_id,
+		"tie_id": "final",
+		"round": "final",
+		"leg": 1,
+		"home_team_id": team_a,
+		"away_team_id": team_b,
+		"neutral_venue": true,
+		"venue": venue.strip_edges(),
+		"status": "scheduled",
+		"extra_time_if_draw": true,
+		"penalties_if_still_draw": true
+	}}
+
 static func build_third_place(season_id: String, team_a: String, team_b: String, venue: String, venue_confirmed_before_start: bool) -> Dictionary:
 	if team_a.is_empty() or team_b.is_empty() or team_a == team_b:
 		return {"ok": false, "error": "Los participantes del partido por el tercer puesto no son válidos."}
@@ -304,22 +320,6 @@ static func build_third_place(season_id: String, team_a: String, team_b: String,
 		"season_id": season_id,
 		"tie_id": "third_place",
 		"round": "third_place",
-		"leg": 1,
-		"home_team_id": team_a,
-		"away_team_id": team_b,
-		"neutral_venue": true,
-		"venue": venue.strip_edges(),
-		"status": "scheduled",
-		"extra_time_if_draw": true,
-		"penalties_if_still_draw": true
-	}}
-
-	return {"ok": true, "fixture": {
-		"fixture_id": "%s_%s_final" % [COMPETITION_ID, season_id],
-		"competition_id": COMPETITION_ID,
-		"season_id": season_id,
-		"tie_id": "final",
-		"round": "final",
 		"leg": 1,
 		"home_team_id": team_a,
 		"away_team_id": team_b,
