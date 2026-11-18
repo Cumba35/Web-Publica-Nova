@@ -71,8 +71,9 @@ Los siguientes nombres/identificadores coinciden con el historial de migraciones
 - `20261118210938_nova_social_notifications`
 - `20261118211007_nova_social_notification_function_permissions`
 - `20261118211008_nova_social_comment_policy_fix`
+- `20261118211147_nova_social_notification_fk_indexes`
 
-Las mismas ocho etapas se aplicaron en `NOVA-STAGING`; el sistema remoto generó allí identificadores de versión propios. El contenido SQL se conserva en este repositorio para reproducibilidad.
+Las mismas nueve etapas se aplicaron en `NOVA-STAGING`; el sistema remoto generó allí identificadores de versión propios. El contenido SQL se conserva en este repositorio para reproducibilidad.
 
 ## Verificación realizada
 
