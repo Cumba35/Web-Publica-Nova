@@ -8,6 +8,7 @@
 <meta name="description" content="Panel privado de Multimedia Nova para conectar proveedores autorizados y administrar archivos propios.">
 <title>Multimedia Nova · NOVA</title>
 <link rel="stylesheet" href="../assets/css/site.css">
+<script type="module" src="../assets/js/account.js"></script>
 <style>
 :root{color-scheme:dark}body{background:#0d1428;color:#eef4ff}.mm-wrap{width:min(1100px,calc(100% - 28px));margin:0 auto;padding:22px 0 48px}.mm-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.mm-top a{color:#91e9ff}.mm-hero,.mm-card{background:#151f39;border:1px solid #2d4168;border-radius:18px;padding:18px;margin:16px 0}.mm-hero h1{margin:0 0 8px}.muted{color:#a9b9d8}.mm-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}.provider{background:#101a31;border:1px solid #31466f;border-radius:14px;padding:14px}.provider h3{margin:0 0 6px}.mm-btn,button{cursor:pointer;border:0;border-radius:10px;padding:10px 14px;background:#2468a8;color:white;font-weight:700}.mm-btn.secondary{background:#253957;border:1px solid #49638c}.mm-btn:disabled{opacity:.5;cursor:not-allowed}.mm-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.mm-row{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid #2b3a58}.mm-row:last-child{border:0}.mm-row strong{overflow-wrap:anywhere}.mm-row small{display:block;color:#a9b9d8}.mm-file{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.mm-file input,.mm-file select{max-width:100%;padding:9px;background:#0d1428;color:#eef4ff;border:1px solid #49638c;border-radius:9px}.status{padding:10px;border-radius:10px;background:#102b40;color:#bceeff;white-space:pre-wrap}.status.error{background:#421e2a;color:#ffd6df}#mm-login{display:none}.mm-footer{color:#a9b9d8;text-align:center;font-size:.9rem;padding:20px}
 </style>
@@ -19,7 +20,7 @@
 </header>
 
 <main class="mm-wrap">
-<header class="mm-top"><a href="../nova-apps/">← Nova Apps</a><strong>Multimedia Nova</strong><a href="../nova-apps/">Mi cuenta</a><a href="../nova-bank/">Nova Bank</a></header>
+<header class="mm-top"><a href="../nova-apps/">← Nova Apps</a><strong>Multimedia Nova</strong><a href="../nova-bank/">Nova Bank</a></header>
 <section class="mm-hero">
 <p class="muted">CENTRO DE ARCHIVOS DEL ECOSISTEMA NOVA</p>
 <h1>Almacenamiento multimedia</h1>
@@ -57,19 +58,7 @@
 <footer class="wrap" style="padding:20px 0;color:#a9b9d8">NOVA · Multimedia Nova · <a href="https://github.com/Cumba35/Web-Publica-Nova">Portal público</a></footer>
 <script type="module">
 
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
-const supabase = createClient(
-  "https://suirbghmnuxixktzkrze.supabase.co",
-  "sb_publishable_1ZmYJ5J-A8hGDIcUIOiY3g_dYOKdnIp",
-  { auth: { persistSession:true, autoRefreshToken:true, detectSessionInUrl:true, flowType:"pkce" } }
-);
-async function iniciarSesionGoogle() {
-  const { error } = await supabase.auth.signInWithOAuth({
-    provider:"google",
-    options:{ redirectTo:"https://cumba35.github.io/Web-Publica-Nova/multimedia-nova/" }
-  });
-  if (error) throw error;
-}
+import { supabase } from "../assets/js/supabase-client.js";
 const API="https://multimedia-nova-api-live-production.up.railway.app";
 const $=id=>document.getElementById(id);
 let session=null, connected=new Set(), preferredTargetSet=false;
@@ -158,7 +147,7 @@ async function upload(){
 }
 async function listExternal(provider){const data=await api("/api/providers/"+provider+"/files");const root=$("mm-external-list");root.replaceChildren();const entries=data.files||data.entries||[];if(!entries.length){root.textContent="No hay archivos visibles en esta página.";return;}for(const f of entries){if(f[".tag"]==="folder")continue;const row=document.createElement("div");row.className="mm-row";const label=document.createElement("strong");label.textContent=f.name;const meta=document.createElement("small");meta.textContent=provider+" · "+(f.mimeType||f.size||"archivo");row.append(label,meta);root.append(row);}}
 async function sync(provider){const data=await api("/api/providers/"+provider+"/sync",{method:"POST"});status("Sincronización terminada: "+data.synced+" archivos indexados.");await loadAssets();}
-async function init(){try{await getSession();if(!session){status("Necesitas iniciar sesión en Nova Apps para utilizar tu almacenamiento.");$("mm-login").style.display="flex";return;}const q=new URLSearchParams(location.search);if(q.get("connect")==="dropbox"){
+async function init(){try{await getSession();if(!session){status("Inicia sesión desde el icono de usuario de la esquina superior derecha. Al regresar, tu sesión se detectará aquí sin salir de esta página.");$("mm-login").style.display="none";return;}const q=new URLSearchParams(location.search);if(q.get("connect")==="dropbox"){
   history.replaceState({},document.title,location.pathname);
   const providerData=await api("/api/providers");
   const dropboxProvider=(providerData.providers||[]).find(p=>p.id==="dropbox");
@@ -171,7 +160,7 @@ async function init(){try{await getSession();if(!session){status("Necesitas inic
   await connect("dropbox");
   return;
 }const provider=q.get("oauth_provider"),code=q.get("oauth_code"),state=q.get("oauth_state");if(provider&&code&&state){history.replaceState({},document.title,location.pathname);status("Finalizando autorización de "+provider+"…");await api("/api/oauth/"+provider+"/complete",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({code,state})});status(provider+" quedó conectado a tu cuenta NOVA.");}else if(q.has("oauth_error")){status("El proveedor rechazó la autorización: "+q.get("oauth_error"),true);history.replaceState({},document.title,location.pathname);}else status("Sesión NOVA verificada.");await loadProviders();await loadAssets();}catch(e){status(e.message,true);}}
-$("mm-login-btn").addEventListener("click",()=>iniciarSesionGoogle().catch(e=>status(e.message,true)));
+
 $("mm-upload").addEventListener("click",()=>upload().catch(e=>status(e.message,true)));
 $("mm-refresh").addEventListener("click",()=>Promise.all([loadProviders(),loadAssets()]).catch(e=>status(e.message,true)));
 $("mm-list-google").addEventListener("click",()=>listExternal("google-drive").catch(e=>status(e.message,true)));
@@ -180,5 +169,5 @@ $("mm-sync-google").addEventListener("click",()=>sync("google-drive").catch(e=>s
 $("mm-sync-dropbox").addEventListener("click",()=>sync("dropbox").catch(e=>status(e.message,true)));
 init();
 </script>
-<script type="module" src="../assets/js/account.js"></script>
+
 </body></html>
