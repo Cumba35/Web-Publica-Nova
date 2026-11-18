@@ -237,11 +237,27 @@ async function loadDiscover() {
   if (term) query = query.ilike("username", term + "%");
   const { data, error } = await query; if (error) return setStatus("No se pudieron buscar usuarios: " + error.message, "error");
   const list = $("#social-people"); list.replaceChildren();
-  const people = (data || []).filter(person => !state.relationships.has(person.user_id) || state.relationships.get(person.user_id) === "rejected");
+  let people = (data || []).filter(person => !state.relationships.has(person.user_id) || state.relationships.get(person.user_id) === "rejected");
+  const interests = new Set((state.preferences.interests || []).map(tag => tag.toLowerCase()));
+  const scores = new Map(people.map(person => [person.user_id, 0]));
+  if (people.length && interests.size && !term) {
+    const ids = people.map(person => person.user_id);
+    const posts = await supabase.from("nova_social_posts").select("author_id,tags,created_at")
+      .in("author_id", ids).eq("status", "published").order("created_at", { ascending: false }).limit(150);
+    if (!posts.error) {
+      for (const post of posts.data || []) {
+        const matches = (post.tags || []).filter(tag => interests.has(String(tag).toLowerCase())).length;
+        if (matches) scores.set(post.author_id, (scores.get(post.author_id) || 0) + matches);
+      }
+    }
+  }
+  people = people.sort((a, b) => (scores.get(b.user_id) || 0) - (scores.get(a.user_id) || 0)
+    || new Date(b.created_at) - new Date(a.created_at));
   if (!people.length) list.append(el("p", "muted", term ? "No se encontraron cuentas con ese nombre." : "No hay más cuentas sugeridas por ahora."));
   people.forEach(person => {
     const row = el("div", "person-row"), info = el("div", "person-info"); row.append(avatar(person, "small"));
-    info.append(el("strong", "", profileName(person)), el("span", "", "@" + person.username + (person.is_private ? " · Privada" : "")));
+    const reason = scores.get(person.user_id) ? "Coincide con temas que elegiste" : (person.is_private ? "Cuenta privada" : "Cuenta de la comunidad");
+    info.append(el("strong", "", profileName(person)), el("span", "", "@" + person.username + " · " + reason));
     row.append(info, button(person.is_private ? "Solicitar" : "Seguir", "social-secondary", () => followPerson(person))); list.append(row);
   });
 }
@@ -295,6 +311,32 @@ async function cancelFollowRequest(userId) {
   if (error) return setStatus(error.message, "error");
   await loadRelationships(); await Promise.all([loadOutgoingRequests(), loadDiscover()]);
 }
+async function loadNotifications() {
+  const { data, error } = await supabase.from("nova_social_notifications")
+    .select("id,notification_type,created_at,read_at,actor_id,post_id,nova_social_profiles!nova_social_notifications_actor_id_fkey(username,display_name)")
+    .eq("recipient_id", state.user.id).order("created_at", { ascending: false }).limit(30);
+  const list = $("#social-notifications"); list.replaceChildren();
+  if (error) { list.append(el("p", "inline-error", error.message)); return; }
+  const unread = (data || []).filter(item => !item.read_at).length;
+  $("#social-unread-count").textContent = unread ? String(unread) : "";
+  if (!data?.length) { list.append(el("p", "muted", "No tienes notificaciones todavía.")); return; }
+  const labels = { follow_request: "te envió una solicitud de seguimiento", follow: "comenzó a seguirte", follow_accepted: "aceptó tu solicitud", reaction: "reaccionó a tu publicación", comment: "comentó tu publicación" };
+  data.forEach(item => {
+    const actor = normaliseProfileRelation(item.nova_social_profiles) || {};
+    const row = el("div", item.read_at ? "notification-row read" : "notification-row");
+    const text = el("div", "notification-copy");
+    text.append(el("strong", "", profileName(actor)), el("span", "", labels[item.notification_type] || "interactuó contigo"), el("small", "", timeLabel(item.created_at)));
+    row.append(text);
+    if (!item.read_at) row.append(button("Marcar leída", "social-secondary compact", () => markNotificationRead(item.id)));
+    list.append(row);
+  });
+}
+async function markNotificationRead(id) {
+  const { error } = await supabase.from("nova_social_notifications").update({ read_at: new Date().toISOString() })
+    .eq("id", id).eq("recipient_id", state.user.id);
+  if (error) return setStatus(error.message, "error");
+  await loadNotifications();
+}
 async function loadFollowRequests() {
   const { data, error } = await supabase.from("nova_social_follows")
     .select("follower_id,created_at,nova_social_profiles!nova_social_follows_follower_id_fkey(user_id,username,display_name,avatar_url)")
@@ -345,7 +387,7 @@ async function startSession(user) {
   if (!user || state.user?.id === user.id) return; state.user = user;
   try {
     showSignedIn(); state.profile = await ensureProfile(user); state.preferences = await ensurePreferences(user); paintForms();
-    await loadRelationships(); await Promise.all([loadFeed(), loadDiscover(), loadFollowRequests(), loadBlockedUsers(), loadFollowingList(), loadOutgoingRequests()]);
+    await loadRelationships(); await Promise.all([loadFeed(), loadDiscover(), loadFollowRequests(), loadBlockedUsers(), loadFollowingList(), loadOutgoingRequests(), loadNotifications()]);
   } catch (error) { console.error("NOVA Social init:", error); setStatus("No se pudo iniciar NOVA Social: " + (error.message || "error desconocido"), "error"); }
 }
 $("#social-sign-in").addEventListener("click", openAccountMenu);
@@ -354,6 +396,7 @@ $("#social-profile-form").addEventListener("submit", saveProfile);
 $("#social-preferences-form").addEventListener("submit", savePreferences);
 $("#social-search-form").addEventListener("submit", event => { event.preventDefault(); loadDiscover(); });
 $("#social-discover-refresh").addEventListener("click", loadDiscover);
+$("#social-notifications-refresh").addEventListener("click", loadNotifications);
 $("#social-feed-refresh").addEventListener("click", loadFeed);
 document.querySelectorAll("[data-feed-mode]").forEach(node => node.addEventListener("click", async () => {
   const mode = node.dataset.feedMode; state.preferences = { ...state.preferences, feed_mode: mode }; $("#social-feed-mode").value = mode;
