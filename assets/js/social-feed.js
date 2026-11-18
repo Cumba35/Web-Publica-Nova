@@ -246,10 +246,54 @@ async function loadDiscover() {
   });
 }
 async function followPerson(person) {
+  if (state.relationships.get(person.user_id) === "rejected") {
+    await supabase.from("nova_social_follows").delete().eq("follower_id", state.user.id).eq("followed_id", person.user_id);
+  }
   const { error } = await supabase.from("nova_social_follows").insert({ follower_id: state.user.id, followed_id: person.user_id, status: person.is_private ? "pending" : "accepted" });
   if (error) return setStatus(error.message, "error");
   setStatus(person.is_private ? "Solicitud enviada." : "Ahora sigues a @" + person.username + ".", "success");
-  await loadRelationships(); await loadDiscover(); await loadFeed();
+  await loadRelationships(); await Promise.all([loadDiscover(), loadFeed(), loadFollowingList(), loadOutgoingRequests()]);
+}
+async function loadFollowingList() {
+  const { data, error } = await supabase.from("nova_social_follows")
+    .select("followed_id,created_at,nova_social_profiles!nova_social_follows_followed_id_fkey(user_id,username,display_name,avatar_url)")
+    .eq("follower_id", state.user.id).eq("status", "accepted").order("created_at", { ascending: false }).limit(100);
+  const list = $("#social-following-list"); list.replaceChildren();
+  if (error) { list.append(el("p", "inline-error", error.message)); return; }
+  if (!data?.length) { list.append(el("p", "muted", "Todavía no sigues a nadie.")); return; }
+  data.forEach(item => {
+    const person = normaliseProfileRelation(item.nova_social_profiles) || {}, row = el("div", "person-row"), info = el("div", "person-info");
+    row.append(avatar(person, "small"));
+    info.append(el("strong", "", profileName(person)), el("span", "", person.username ? "@" + person.username : "Cuenta no disponible"));
+    row.append(info, button("Dejar de seguir", "social-secondary compact", () => unfollowUser(item.followed_id)));
+    list.append(row);
+  });
+}
+async function unfollowUser(userId) {
+  const { error } = await supabase.from("nova_social_follows").delete().eq("follower_id", state.user.id).eq("followed_id", userId);
+  if (error) return setStatus(error.message, "error");
+  setStatus("Has dejado de seguir esa cuenta.", "success");
+  await loadRelationships(); await Promise.all([loadFollowingList(), loadDiscover(), loadFeed()]);
+}
+async function loadOutgoingRequests() {
+  const { data, error } = await supabase.from("nova_social_follows")
+    .select("followed_id,created_at,nova_social_profiles!nova_social_follows_followed_id_fkey(user_id,username,display_name,avatar_url)")
+    .eq("follower_id", state.user.id).eq("status", "pending").order("created_at", { ascending: false }).limit(50);
+  const list = $("#social-outgoing-requests"); list.replaceChildren();
+  if (error) { list.append(el("p", "inline-error", error.message)); return; }
+  if (!data?.length) { list.append(el("p", "muted", "No tienes solicitudes enviadas pendientes.")); return; }
+  data.forEach(item => {
+    const person = normaliseProfileRelation(item.nova_social_profiles) || {}, row = el("div", "person-row"), info = el("div", "person-info");
+    row.append(avatar(person, "small"));
+    info.append(el("strong", "", profileName(person)), el("span", "", person.username ? "@" + person.username : "Cuenta privada"));
+    row.append(info, button("Cancelar", "social-secondary compact", () => cancelFollowRequest(item.followed_id)));
+    list.append(row);
+  });
+}
+async function cancelFollowRequest(userId) {
+  const { error } = await supabase.from("nova_social_follows").delete().eq("follower_id", state.user.id).eq("followed_id", userId).eq("status", "pending");
+  if (error) return setStatus(error.message, "error");
+  await loadRelationships(); await Promise.all([loadOutgoingRequests(), loadDiscover()]);
 }
 async function loadFollowRequests() {
   const { data, error } = await supabase.from("nova_social_follows")
@@ -301,7 +345,7 @@ async function startSession(user) {
   if (!user || state.user?.id === user.id) return; state.user = user;
   try {
     showSignedIn(); state.profile = await ensureProfile(user); state.preferences = await ensurePreferences(user); paintForms();
-    await loadRelationships(); await Promise.all([loadFeed(), loadDiscover(), loadFollowRequests(), loadBlockedUsers()]);
+    await loadRelationships(); await Promise.all([loadFeed(), loadDiscover(), loadFollowRequests(), loadBlockedUsers(), loadFollowingList(), loadOutgoingRequests()]);
   } catch (error) { console.error("NOVA Social init:", error); setStatus("No se pudo iniciar NOVA Social: " + (error.message || "error desconocido"), "error"); }
 }
 $("#social-sign-in").addEventListener("click", openAccountMenu);
