@@ -6,6 +6,7 @@ const pages = [
   ["Nova Novels","/Web-Publica-Nova/nova-novels/"],["Nova Nexus","/Web-Publica-Nova/nova-nexus/"],
   ["Noticias Nova","/Web-Publica-Nova/noticias-nova/"],["Nova Chat","/Web-Publica-Nova/nova-chat/"],
   ["Multimedia Nova","/Web-Publica-Nova/multimedia-nova/"],["Nova IA","/Web-Publica-Nova/nova-ia/"],
+  ["Nova Social","/Web-Publica-Nova/nova-social/"],
   ["Fútbol Nova","/Web-Publica-Nova/futbol-nova/"]
 ];
 const style=document.createElement("style");
