@@ -55,7 +55,7 @@ Estas páginas son superficies públicas informativas y enlaces de acceso; no su
 - Nova Nexus presenta el proyecto sin publicar paneles ni documentación interna.
 - Noticias Nova no muestra titulares ficticios ni activa un feed hasta disponer de un flujo editorial verificado.
 - Nova Chat permanece en desarrollo; no se presenta como mensajería operativa.
-- Multimedia Nova enlaza al panel autenticado de Nova Apps; quedan pendientes pruebas reales de carga/descarga y configuración OAuth de proveedores.
+- Multimedia Nova publica un panel autenticado en `multimedia-nova/`; la API permanece en Railway y las conexiones Dropbox/Google requieren autorización individual. Las pruebas reales de carga/descarga siguen pendientes.
 - NOVA IA es informativa; el backend administrativo no está aprobado para exposición pública hasta completar autenticación multiusuario y controles de seguridad.
 
 No publicar repositorios fuente completos, archivos `.env`, claves, tokens, datos de usuarios, bases de datos, paneles administrativos ni documentación interna.
@@ -68,3 +68,13 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - Nova Apps, E-commerce, Bank y el panel web de Multimedia conservan avisos explícitos hasta que exista un despliegue público seguro y verificado. Nova Bank seguirá requiriendo acceso autenticado y permisos.
 - Se añadió `sitemap.xml` y `robots.txt`; el validador comprueba que el sitemap contenga las diez rutas y rechaza enlaces hacia el despliegue no publicado de Nova Apps.
 - Antes de publicar funciones interactivas, deben probarse autenticación, RLS, permisos por rol, configuración de dominios, formularios, API y flujos reales sin datos de producción.
+
+
+## Multimedia Nova — panel público autenticado (2026-11-18)
+
+- La ruta pública `multimedia-nova/` ahora contiene el panel de archivos integrado desde la versión funcional de `Cumba35/Nova-APPS`.
+- Reutiliza el proyecto Supabase existente mediante su clave publishable (no es una clave secreta) y exige una sesión NOVA para consultar proveedores, archivos y realizar operaciones.
+- El inicio de sesión con Google se redirige al sitio principal de Nova Apps para conservar el flujo OAuth ya establecido; después de iniciar sesión, se puede regresar al panel público.
+- La interfaz incluye conexión/desconexión de Dropbox y Google Drive, selección de archivos, carga, descarga, listado y sincronización, según las rutas disponibles en la API.
+- La API aplica autenticación y aislamiento por usuario; no se publican tokens OAuth ni credenciales privadas en este repositorio.
+- Estado: código guardado y verificado en GitHub. El despliegue queda sujeto a las validaciones de GitHub Actions; todavía no se declara probada una sesión real ni una transferencia real de archivos.
