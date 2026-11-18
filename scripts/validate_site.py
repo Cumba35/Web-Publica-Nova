@@ -192,3 +192,32 @@ if errors:
         print(" - " + error)
     sys.exit(1)
 print(f"NOVA public site validation passed: {len(pages)} HTML page(s), all local links/assets and basic accessibility checks OK.")
+
+# NOVA Social: guard the first usable social experience and its shared data contract.
+social_page = ROOT / "nova-social" / "index.html"
+social_js = ROOT / "assets" / "js" / "social-feed.js"
+social_css = ROOT / "assets" / "css" / "social.css"
+for required_file in (social_page, social_js, social_css):
+    if not required_file.is_file():
+        errors.append(f"Missing NOVA Social asset: {required_file.relative_to(ROOT)}")
+if social_page.is_file():
+    social_html = social_page.read_text(encoding="utf-8")
+    if 'type="module" src="../assets/js/social-feed.js"' not in social_html:
+        errors.append("nova-social/index.html: missing social-feed module.")
+    if '../assets/css/social.css' not in social_html:
+        errors.append("nova-social/index.html: missing social stylesheet.")
+if social_js.is_file():
+    social_js_text = social_js.read_text(encoding="utf-8")
+    for token, label in (
+        ("nova_social_posts", "social publications"),
+        ("nova_social_follows", "following relationships"),
+        ("nova_social_reactions", "post reactions"),
+        ("nova_social_comments", "comments"),
+        ("nova_social_bookmarks", "saved posts"),
+        ("nova_social_reports", "report submission"),
+        ("nova_social_blocks", "blocking"),
+        ("rankPosts", "transparent recommendation ranking"),
+        ("personalized_feed_enabled", "personalization preference"),
+    ):
+        if token not in social_js_text:
+            errors.append(f"assets/js/social-feed.js: missing {label} integration.")
