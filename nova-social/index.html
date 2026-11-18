@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08111f">
+<meta name="description" content="NOVA Social: comunidad del ecosistema NOVA para publicar, descubrir personas y compartir intereses.">
+<meta property="og:title" content="NOVA Social"><meta property="og:description" content="Conecta con la comunidad NOVA.">
+<title>NOVA Social · Comunidad NOVA</title>
+<link rel="stylesheet" href="../assets/css/site.css"><link rel="stylesheet" href="../assets/css/social.css">
+<link rel="icon" href="../assets/icons/nova-social.svg" type="image/svg+xml">
+</head>
+<body data-site="social">
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header><div class="wrap bar">
+<a class="brand" href="/Web-Publica-Nova/"><span class="mark">NS</span><span>NOVA · SOCIAL</span></a>
+<nav class="nav" aria-label="Proyectos">
+<a href="/Web-Publica-Nova/nova-apps/">Nova Apps</a><a href="/Web-Publica-Nova/nova-ecommerce/">Nova E-commerce</a><a href="/Web-Publica-Nova/nova-bank/">Nova Bank</a><a href="/Web-Publica-Nova/nova-novels/">Nova Novels</a><a href="/Web-Publica-Nova/nova-nexus/">Nova Nexus</a><a href="/Web-Publica-Nova/noticias-nova/">Noticias Nova</a><a href="/Web-Publica-Nova/nova-chat/">Nova Chat</a><a href="/Web-Publica-Nova/multimedia-nova/">Multimedia Nova</a><a href="/Web-Publica-Nova/nova-ia/">Nova IA</a><a class="donate-link" href="/Web-Publica-Nova/#donaciones">Donaciones</a>
+</nav></div></header>
+<main id="contenido" class="wrap social-main">
+<section class="social-hero"><div><p class="eyebrow">COMUNIDAD NOVA</p><h1>Conecta. Comparte. <span>Descubre.</span></h1><p class="lead">Un espacio para compartir ideas, seguir proyectos y descubrir personas de la comunidad NOVA.</p></div><div class="social-hero-mark" aria-hidden="true">N<span>+</span></div></section>
+<div id="social-status" class="social-status" role="status" aria-live="polite"></div>
+<section id="social-auth-wall" class="social-auth-wall" hidden>
+<div class="social-panel auth-card"><div class="auth-mark">N</div><h2>Únete a NOVA Social</h2><p>Inicia sesión con tu cuenta NOVA para publicar, comentar, seguir personas y personalizar tus recomendaciones.</p><button id="social-sign-in" class="social-primary" type="button">Iniciar sesión / Abrir mi cuenta</button></div>
+</section>
+<section id="social-app" class="social-layout" hidden>
+<div class="social-main-column">
+<section class="social-panel composer">
+<div class="panel-heading"><div><p class="eyebrow">TU COMUNIDAD</p><h2>Crear publicación</h2></div><span class="composer-dot">●</span></div>
+<form id="social-compose-form">
+<label for="social-compose-body">¿Qué quieres compartir?</label>
+<textarea id="social-compose-body" maxlength="5000" rows="4" placeholder="Comparte una idea, una novedad o algo interesante…"></textarea>
+<div class="composer-grid">
+<div><label for="social-compose-link">Enlace (opcional, HTTPS)</label><input id="social-compose-link" class="social-input" type="url" placeholder="https://…"></div>
+<div><label for="social-compose-tags">Temas separados por coma</label><input id="social-compose-tags" class="social-input" type="text" placeholder="tecnología, NOVA, música"></div>
+</div>
+<div class="composer-footer"><label for="social-compose-visibility">Quién puede verlo</label><select id="social-compose-visibility" class="social-input"><option value="public">Público en NOVA</option><option value="followers">Solo seguidores</option><option value="private">Solo yo</option></select><button class="social-primary" type="submit">Publicar</button></div>
+</form></section>
+<section class="social-feed-section">
+<div class="feed-heading"><div><p class="eyebrow">ACTIVIDAD</p><h2>Tu feed</h2></div><button id="social-feed-refresh" class="social-secondary" type="button">Actualizar</button></div>
+<div class="feed-tabs" role="group" aria-label="Tipo de feed"><button type="button" data-feed-mode="for_you" aria-pressed="true">Para ti</button><button type="button" data-feed-mode="following" aria-pressed="false">Siguiendo</button><button type="button" data-feed-mode="chronological" aria-pressed="false">Más recientes</button></div>
+<div class="recommendation-note"><strong>Recomendaciones transparentes:</strong> el orden usa tus temas elegidos, cuentas que sigues, actualidad y diversidad de autores. No usa mensajes privados ni datos de otras aplicaciones.</div>
+<div id="social-feed" class="social-feed"></div>
+</section>
+</div>
+<aside class="social-side-column">
+<section class="social-panel side-panel"><div class="side-heading"><h2>Descubrir personas</h2><button id="social-discover-refresh" class="icon-refresh" type="button" aria-label="Actualizar sugerencias">↻</button></div><form id="social-search-form" class="people-search"><input id="people-search" class="social-input" type="search" placeholder="Buscar por usuario…" aria-label="Buscar usuarios"><button class="social-primary" type="submit">Buscar</button></form><div id="social-people" class="social-people"></div></section>
+<section class="social-panel side-panel"><h2>Solicitudes de seguimiento</h2><div id="social-follow-requests" class="social-people"><p class="muted">Cargando…</p></div></section>
+<details class="social-panel side-panel"><summary>Editar mi perfil</summary><form id="social-profile-form" class="settings-form">
+<label for="social-profile-username">Nombre de usuario</label><input id="social-profile-username" class="social-input" maxlength="30" required>
+<label for="social-profile-name">Nombre visible</label><input id="social-profile-name" class="social-input" maxlength="80">
+<label for="social-profile-bio">Biografía</label><textarea id="social-profile-bio" class="social-input" rows="3" maxlength="280"></textarea>
+<label for="social-profile-avatar">Avatar HTTPS (opcional)</label><input id="social-profile-avatar" class="social-input" type="url" placeholder="https://…">
+<label class="check-line"><input id="social-profile-private" type="checkbox"> Cuenta privada (requiere aprobar seguidores)</label>
+<button class="social-primary" type="submit">Guardar perfil</button></form></details>
+<details class="social-panel side-panel"><summary>Preferencias del feed</summary><form id="social-preferences-form" class="settings-form">
+<label for="social-interests">Temas que te interesan (separados por coma)</label><input id="social-interests" class="social-input" placeholder="tecnología, lectura, fútbol">
+<label for="social-feed-mode">Feed predeterminado</label><select id="social-feed-mode" class="social-input"><option value="for_you">Para ti</option><option value="following">Siguiendo</option><option value="chronological">Más recientes</option></select>
+<label class="check-line"><input id="social-personalized" type="checkbox"> Activar recomendaciones personalizadas</label>
+<button class="social-primary" type="submit">Guardar preferencias</button></form></details>
+<div class="social-privacy-note">Bloqueos y privacidad se aplican en la base de datos. Los reportes se guardan para revisión; la moderación administrativa y las notificaciones se habilitarán en una siguiente fase.</div>
+</aside></section>
+</main>
+<footer><div class="wrap foot"><span>© NOVA · Comunidad</span><span><a href="https://github.com/Cumba35/Web-Publica-Nova">Código público</a> · <a href="../">Volver al portal</a></span></div></footer>
+<script src="../assets/js/site-navigation.js" defer></script>
+<script type="module" src="../assets/js/social-feed.js"></script>
+</body></html>
