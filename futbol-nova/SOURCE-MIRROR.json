@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "product": "Fútbol Nova",
+  "mirror_type": "curated_public_distribution_data",
+  "source": {
+    "repository": "Cumba35/Nova-Workspace",
+    "branch": "main",
+    "commit": "250af727fb2dccfae1571c29d08290416426f0ef",
+    "path": "proyectos/juegos/futbol-nova/data/"
+  },
+  "destination": {
+    "repository": "Cumba35/Web-Publica-Nova",
+    "branch": "main",
+    "path": "futbol-nova/"
+  },
+  "audit": {
+    "date": "2026-11-18",
+    "source_data_files": 75,
+    "public_data_files_verified": 23,
+    "matching_blob_hashes": 23,
+    "missing_or_outdated_public_files": 0,
+    "scope": "Datos seleccionados para las diez ligas base; no es una copia del código fuente completo."
+  },
+  "files": [
+    {
+      "path": "data/base_league_clubs_2026.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/base_league_clubs_2026.json",
+      "git_blob_sha": "ac449a3999a71d3966c9f7255820d5dc9380e4a1"
+    },
+    {
+      "path": "data/cuba_leagues.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/cuba_leagues.json",
+      "git_blob_sha": "f2c0884824a948619402377aa78a3c12e334e1c3"
+    },
+    {
+      "path": "data/cuba_players.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/cuba_players.json",
+      "git_blob_sha": "daeb14cc94f581da149c8ad039cc65f80e8842e1"
+    },
+    {
+      "path": "data/england_leagues.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/england_leagues.json",
+      "git_blob_sha": "5b95e50dd9549013b585d14158da49db5a957d97"
+    },
+    {
+      "path": "data/league_content_manifest.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/league_content_manifest.json",
+      "git_blob_sha": "0b3557c8d935d156ae5e6175dfb423c007597ae0"
+    },
+    {
+      "path": "data/players/README.md",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/README.md",
+      "git_blob_sha": "359444a1c8b1b7f65b43671db9a075c02e4db542"
+    },
+    {
+      "path": "data/players/arg_base_2026.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/arg_base_2026.json",
+      "git_blob_sha": "88aaf2f484fd46170c673a0590c8a6acdb573636"
+    },
+    {
+      "path": "data/players/bra_base_2026.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/bra_base_2026.json",
+      "git_blob_sha": "c216ce1f0ac6a1e90b8f1386f7f5fee9a60c43ae"
+    },
+    {
+      "path": "data/players/cuba_first_division.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/cuba_first_division.json",
+      "git_blob_sha": "43fdc69744d2a5c6761aede992635dd3336b16ce"
+    },
+    {
+      "path": "data/players/cuba_second_division.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/cuba_second_division.json",
+      "git_blob_sha": "1953e48494226c7ee2f9b898016dd44dd0de5c8f"
+    },
+    {
+      "path": "data/players/england_championship_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/england_championship_2026_27.json",
+      "git_blob_sha": "31e32f356762257ff8bc4792186e157c972c3d82"
+    },
+    {
+      "path": "data/players/england_league_one_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/england_league_one_2026_27.json",
+      "git_blob_sha": "c01ae9f25722df219360bcea314cf2e99ac3a863"
+    },
+    {
+      "path": "data/players/england_premier_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/england_premier_2026_27.json",
+      "git_blob_sha": "e91cfa35b97ebe247bef1996459cae11d2523bf9"
+    },
+    {
+      "path": "data/players/esp_base_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/esp_base_2026_27.json",
+      "git_blob_sha": "32c185bd18acd9973a8a5f86d341577f28e10772"
+    },
+    {
+      "path": "data/players/fra_base_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/fra_base_2026_27.json",
+      "git_blob_sha": "81b60de4597ddd6744d166240d33d97b4c4171f7"
+    },
+    {
+      "path": "data/players/ger_base_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/ger_base_2026_27.json",
+      "git_blob_sha": "9a625b8cbf63eb893910913115516b309777dc29"
+    },
+    {
+      "path": "data/players/ita_base_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/ita_base_2026_27.json",
+      "git_blob_sha": "0ec217f63535c687ac82cad025071c60e704adcc"
+    },
+    {
+      "path": "data/players/por_base_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/por_base_2026_27.json",
+      "git_blob_sha": "7f2c35159e0c7b8bb6d7142b5a464b2f893c64b0"
+    },
+    {
+      "path": "data/players/usa_base_2026.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/players/usa_base_2026.json",
+      "git_blob_sha": "932a54eaaf337fb9531221e067073251a51769d5"
+    },
+    {
+      "path": "data/spain_clubs_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/spain_clubs_2026_27.json",
+      "git_blob_sha": "f8b7826ff78b1012fc1ae6773e1d438b4c858d50"
+    },
+    {
+      "path": "data/spain_leagues_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/spain_leagues_2026_27.json",
+      "git_blob_sha": "921ff67a9b6c334fa6f39c1c6525382fbaee1a6f"
+    },
+    {
+      "path": "data/usa_clubs_2026.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/usa_clubs_2026.json",
+      "git_blob_sha": "bb4ecffaf85ac2816c05aae0a143296b7d978fbc"
+    },
+    {
+      "path": "data/usa_leagues_2026.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/usa_leagues_2026.json",
+      "git_blob_sha": "3f18cc319babc71cf0e5e6933cfcf5851ba81b47"
+    }
+  ],
+  "exclusions": [
+    "Código fuente Godot, escenas, scripts, pruebas y workflows internos",
+    "Documentación interna y notas administrativas",
+    "Perfiles personalizados e imágenes personales de jugadores",
+    "Partidas guardadas, datos privados, secretos, tokens y credenciales",
+    "Catálogos y datos internos no incluidos en el paquete público de las diez ligas base"
+  ],
+  "policy": "El repositorio privado Nova-Workspace sigue siendo la fuente canónica. Publicar únicamente datos deportivos seleccionados y revisados; no presentar el juego como terminado ni las ligas como jugables sin pruebas."
+}
