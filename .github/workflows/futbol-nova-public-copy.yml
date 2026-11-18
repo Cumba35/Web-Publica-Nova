@@ -1,0 +1,77 @@
+name: Fútbol Nova — pruebas de copia pública
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'futbol-nova/**'
+      - '.github/workflows/futbol-nova-public-copy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: futbol-nova
+    steps:
+      - name: Checkout public copy
+        uses: actions/checkout@v4
+      - name: Verify mirrored files, hashes and JSON/CSV
+        run: python3 tools/validate_public_copy.py
+      - name: Validate club identities and historical competitions
+        run: |
+          python3 tools/validate_club_identity_names.py
+          python3 tools/validate_historical_competitions.py
+      - name: Set up Godot 4.4.1
+        uses: chickensoft-games/setup-godot@v2
+        with:
+          version: 4.4.1
+          use-dotnet: false
+          include-templates: false
+      - name: Import Godot resources
+        run: godot --headless --editor --path . --import --quit
+      - name: Run core acceptance tests
+        run: |
+          set -e
+          godot --headless --path . --script res://tests/test_game_hub.gd
+          godot --headless --path . --script res://tests/test_match_11v11_foundation.gd
+          godot --headless --path . --script res://tests/test_friendly_match_runtime.gd
+          godot --headless --path . --script res://tests/test_maximo_padilla_profile.gd
+      - name: Run regression suite
+        run: |
+          set -e
+          for test in \
+            test_mens_scope.gd \
+            test_anier_cumba_profile.gd \
+            test_player_statistics_consistency.gd \
+            test_season_progression.gd \
+            test_base_league_data.gd \
+            test_ten_base_leagues_complete.gd \
+            test_legend_career.gd \
+            test_nova_owner_access.gd \
+            test_custom_player_roster.gd \
+            test_moments_service.gd \
+            test_controller_support.gd \
+            test_football_database.gd \
+            test_shared_foundation.gd \
+            test_continental_league_modules.gd \
+            test_tas_match_decision_engine.gd \
+            test_tas_competition_engine.gd \
+            test_competition_draw_ceremony.gd \
+            test_national_team_competition_catalog.gd \
+            test_caribbean_champions_league.gd \
+            test_american_regional_champions_engine.gd \
+            test_usa_league_data.gd \
+            test_pending_league_calendars.gd \
+            test_league_and_manager_systems.gd; do
+              godot --headless --path . --script "res://tests/$test"
+          done
+          godot --headless --path . --script res://scripts/tests/validate_download_catalog.gd
+          godot --headless --path . --script res://scripts/tests/validate_optional_modules.gd
+      - name: Smoke test main scene
+        run: godot --headless --path . --quit-after 5

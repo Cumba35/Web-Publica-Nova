@@ -1,12 +1,12 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "product": "Fútbol Nova",
-  "mirror_type": "curated_public_distribution_data",
+  "mirror_type": "complete_godot_project_text_mirror",
   "source": {
     "repository": "Cumba35/Nova-Workspace",
     "branch": "main",
-    "commit": "250af727fb2dccfae1571c29d08290416426f0ef",
-    "path": "proyectos/juegos/futbol-nova/data/"
+    "commit": "46d6a740c0bb12d0bb36cfac019143fbf5ed2615",
+    "path": "proyectos/juegos/futbol-nova/"
   },
   "destination": {
     "repository": "Cumba35/Web-Publica-Nova",
@@ -15,135 +15,1979 @@
   },
   "audit": {
     "date": "2026-11-18",
-    "source_data_files": 75,
-    "public_data_files_verified": 23,
-    "matching_blob_hashes": 23,
-    "missing_or_outdated_public_files": 0,
-    "scope": "Datos seleccionados para las diez ligas base; no es una copia del código fuente completo."
+    "source_project_files": 283,
+    "public_project_files": 277,
+    "exact_blob_matches": 277,
+    "files_with_publication_note": 0,
+    "excluded_files": 6,
+    "excluded_items": [
+      {
+        "source_path": "proyectos/juegos/futbol-nova/assets/players/maximo_padilla_reference.jpg",
+        "reason": "Referencia visual interna/de terceros; no es un recurso runtime necesario ni aprobado para redistribución."
+      },
+      {
+        "source_path": "proyectos/juegos/futbol-nova/assets/references/kit-selection-reference.jpg",
+        "reason": "Referencia visual interna/de terceros; no es un recurso runtime necesario ni aprobado para redistribución."
+      },
+      {
+        "source_path": "proyectos/juegos/futbol-nova/assets/references/legend-mode-home-reference.jpg",
+        "reason": "Referencia visual interna/de terceros; no es un recurso runtime necesario ni aprobado para redistribución."
+      },
+      {
+        "source_path": "proyectos/juegos/futbol-nova/assets/references/main-menu-settings-reference.jpg",
+        "reason": "Referencia visual interna/de terceros; no es un recurso runtime necesario ni aprobado para redistribución."
+      },
+      {
+        "source_path": "proyectos/juegos/futbol-nova/assets/references/pause-menu-reference.jpg",
+        "reason": "Referencia visual interna/de terceros; no es un recurso runtime necesario ni aprobado para redistribución."
+      },
+      {
+        "source_path": "proyectos/juegos/futbol-nova/assets/references/ultimate-team-main-menu-reference.jpg",
+        "reason": "Referencia visual interna/de terceros; no es un recurso runtime necesario ni aprobado para redistribución."
+      }
+    ],
+    "scope": "Copia pública del proyecto Godot 4.4.1: escenas, scripts, datos, módulos, herramientas, documentación y pruebas. Se excluyen únicamente seis JPG de referencia interna/de terceros."
   },
   "files": [
     {
-      "path": "data/base_league_clubs_2026.json",
+      "path": "futbol-nova/.gitignore",
+      "source_path": "proyectos/juegos/futbol-nova/.gitignore",
+      "source_blob_sha": "e51fa64b0c5bc017b39a045b52caeef25de2ed71",
+      "public_blob_sha": "e51fa64b0c5bc017b39a045b52caeef25de2ed71",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/GAME_README.md",
+      "source_path": "proyectos/juegos/futbol-nova/README.md",
+      "source_blob_sha": "2e8bf24eb1f9dd22380705f93cefd42dd438ae21",
+      "public_blob_sha": "2e8bf24eb1f9dd22380705f93cefd42dd438ae21",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/assets/references/README.md",
+      "source_path": "proyectos/juegos/futbol-nova/assets/references/README.md",
+      "source_blob_sha": "7cb330b14130a5e4693c2e8398a5c942730c1d8e",
+      "public_blob_sha": "7cb330b14130a5e4693c2e8398a5c942730c1d8e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/base_league_clubs_2026.json",
       "source_path": "proyectos/juegos/futbol-nova/data/base_league_clubs_2026.json",
-      "git_blob_sha": "ac449a3999a71d3966c9f7255820d5dc9380e4a1"
+      "source_blob_sha": "ac449a3999a71d3966c9f7255820d5dc9380e4a1",
+      "public_blob_sha": "ac449a3999a71d3966c9f7255820d5dc9380e4a1",
+      "status": "exact"
     },
     {
-      "path": "data/cuba_leagues.json",
+      "path": "futbol-nova/data/caribbean_champions_league.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/caribbean_champions_league.json",
+      "source_blob_sha": "3045b0751d183497943b1a75b521263c44b42e20",
+      "public_blob_sha": "3045b0751d183497943b1a75b521263c44b42e20",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/club_commercial_economy.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/club_commercial_economy.json",
+      "source_blob_sha": "1426f60a8178984d50a0a58ce4c5221e41afecf5",
+      "public_blob_sha": "1426f60a8178984d50a0a58ce4c5221e41afecf5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/club_identity_name_review_2026-11-17.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/club_identity_name_review_2026-11-17.json",
+      "source_blob_sha": "f6a03da5ee25198e8768f9739ce48d654977226c",
+      "public_blob_sha": "f6a03da5ee25198e8768f9739ce48d654977226c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/club_identity_policy.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/club_identity_policy.json",
+      "source_blob_sha": "005c210dc143f5a5e1883f1a1ab13b5dca2bfea0",
+      "public_blob_sha": "005c210dc143f5a5e1883f1a1ab13b5dca2bfea0",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/competition_historical_reference.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/competition_historical_reference.json",
+      "source_blob_sha": "294b83aa41a5dfebdbbf5b53b0a357ec86ac137e",
+      "public_blob_sha": "294b83aa41a5dfebdbbf5b53b0a357ec86ac137e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/README.md",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/README.md",
+      "source_blob_sha": "ee47e92e65f1f585fd2f4d63fa56b75627aefe91",
+      "public_blob_sha": "ee47e92e65f1f585fd2f4d63fa56b75627aefe91",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/afc.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/afc.json",
+      "source_blob_sha": "733a605b9a0b8542001f0ecde76fcc1f33100b6f",
+      "public_blob_sha": "733a605b9a0b8542001f0ecde76fcc1f33100b6f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/caf.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/caf.json",
+      "source_blob_sha": "aa62fdf246941b30a54e1b79cf07c5b29384ee99",
+      "public_blob_sha": "aa62fdf246941b30a54e1b79cf07c5b29384ee99",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/concacaf.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/concacaf.json",
+      "source_blob_sha": "1565aa7cfc3cfee28d9cf5389be1025f707924a7",
+      "public_blob_sha": "1565aa7cfc3cfee28d9cf5389be1025f707924a7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/conmebol.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/conmebol.json",
+      "source_blob_sha": "b1c412e81e48f3cdb97b73e9ce28866175d22776",
+      "public_blob_sha": "b1c412e81e48f3cdb97b73e9ce28866175d22776",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/manifest.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/manifest.json",
+      "source_blob_sha": "bb749f10e0329573644c14a39c763ae87e42b8d6",
+      "public_blob_sha": "bb749f10e0329573644c14a39c763ae87e42b8d6",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/ofc.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/ofc.json",
+      "source_blob_sha": "662255b7aff1807d4715be85fd19b445a7707d3a",
+      "public_blob_sha": "662255b7aff1807d4715be85fd19b445a7707d3a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/continental_leagues/uefa.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/continental_leagues/uefa.json",
+      "source_blob_sha": "82736f91c2c22312d73e57bc65a9a4229c7b3f38",
+      "public_blob_sha": "82736f91c2c22312d73e57bc65a9a4229c7b3f38",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/controller_modules_catalog.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/controller_modules_catalog.json",
+      "source_blob_sha": "52271e10356872e17f0067e713a7788e758ecb88",
+      "public_blob_sha": "52271e10356872e17f0067e713a7788e758ecb88",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/cuba_leagues.json",
       "source_path": "proyectos/juegos/futbol-nova/data/cuba_leagues.json",
-      "git_blob_sha": "f2c0884824a948619402377aa78a3c12e334e1c3"
+      "source_blob_sha": "f2c0884824a948619402377aa78a3c12e334e1c3",
+      "public_blob_sha": "f2c0884824a948619402377aa78a3c12e334e1c3",
+      "status": "exact"
     },
     {
-      "path": "data/cuba_players.json",
+      "path": "futbol-nova/data/cuba_players.json",
       "source_path": "proyectos/juegos/futbol-nova/data/cuba_players.json",
-      "git_blob_sha": "daeb14cc94f581da149c8ad039cc65f80e8842e1"
+      "source_blob_sha": "daeb14cc94f581da149c8ad039cc65f80e8842e1",
+      "public_blob_sha": "daeb14cc94f581da149c8ad039cc65f80e8842e1",
+      "status": "exact"
     },
     {
-      "path": "data/england_leagues.json",
+      "path": "futbol-nova/data/cuban_competition_rules.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/cuban_competition_rules.json",
+      "source_blob_sha": "d462c23f5ab98091432f3957dd296b37804d756f",
+      "public_blob_sha": "d462c23f5ab98091432f3957dd296b37804d756f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/custom_players.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/custom_players.json",
+      "source_blob_sha": "2c641fb66f8c300aef5da4e9c02e15b2c18a8d38",
+      "public_blob_sha": "2c641fb66f8c300aef5da4e9c02e15b2c18a8d38",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/daily_training_challenges.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/daily_training_challenges.json",
+      "source_blob_sha": "a133a2f90bb3051e7de14cdd8ac84a3ba0480c8d",
+      "public_blob_sha": "a133a2f90bb3051e7de14cdd8ac84a3ba0480c8d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/downloaded_package_schema_v1.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/downloaded_package_schema_v1.json",
+      "source_blob_sha": "e503902d1b78b79e764eae143a1e9cc6c19d929c",
+      "public_blob_sha": "e503902d1b78b79e764eae143a1e9cc6c19d929c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/england_leagues.json",
       "source_path": "proyectos/juegos/futbol-nova/data/england_leagues.json",
-      "git_blob_sha": "5b95e50dd9549013b585d14158da49db5a957d97"
+      "source_blob_sha": "5b95e50dd9549013b585d14158da49db5a957d97",
+      "public_blob_sha": "5b95e50dd9549013b585d14158da49db5a957d97",
+      "status": "exact"
     },
     {
-      "path": "data/league_content_manifest.json",
+      "path": "futbol-nova/data/football_strength_sources.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/football_strength_sources.json",
+      "source_blob_sha": "d27d2693353ea4050adeab19772b6416ea783d6b",
+      "public_blob_sha": "d27d2693353ea4050adeab19772b6416ea783d6b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/game_modules_manifest.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/game_modules_manifest.json",
+      "source_blob_sha": "96f7aa6e53539f54833b74fe61ab3806bc847ebc",
+      "public_blob_sha": "96f7aa6e53539f54833b74fe61ab3806bc847ebc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/global_club_sources_and_coverage.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/global_club_sources_and_coverage.json",
+      "source_blob_sha": "55dfe8d96e97256a6024cee9315b9e3e9f991c5b",
+      "public_blob_sha": "55dfe8d96e97256a6024cee9315b9e3e9f991c5b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/global_clubs.generated.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/global_clubs.generated.json",
+      "source_blob_sha": "1e1b0b9e4a07eaef2adafe50da2d9cf4d0ad9dd5",
+      "public_blob_sha": "1e1b0b9e4a07eaef2adafe50da2d9cf4d0ad9dd5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/global_database_import_status.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/global_database_import_status.json",
+      "source_blob_sha": "65a847e205302c49a212a3362c687545ab897ec5",
+      "public_blob_sha": "65a847e205302c49a212a3362c687545ab897ec5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/global_league_selection_100.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/global_league_selection_100.json",
+      "source_blob_sha": "9a19fa21ea5f512adb7fda4c50bee47de5990341",
+      "public_blob_sha": "9a19fa21ea5f512adb7fda4c50bee47de5990341",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/global_league_tiers.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/global_league_tiers.json",
+      "source_blob_sha": "7547b7b311908292540b590137a399f6b4f9998b",
+      "public_blob_sha": "7547b7b311908292540b590137a399f6b4f9998b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/global_players.generated.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/global_players.generated.json",
+      "source_blob_sha": "b378c04ea6d38553ff482d03209591fe3fb89a2d",
+      "public_blob_sha": "b378c04ea6d38553ff482d03209591fe3fb89a2d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/global_schema_v1.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/global_schema_v1.json",
+      "source_blob_sha": "96a9c3785fc046fbe047c194f046d6d86519e316",
+      "public_blob_sha": "96a9c3785fc046fbe047c194f046d6d86519e316",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/historical_completion_audit_2026-11-17.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/historical_completion_audit_2026-11-17.json",
+      "source_blob_sha": "817f1939f868d4e38eddcc8db26aa2baf51232aa",
+      "public_blob_sha": "817f1939f868d4e38eddcc8db26aa2baf51232aa",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/additional_league_club_membership_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/additional_league_club_membership_2026_27.json",
+      "source_blob_sha": "49c2628a29d2d3f7780a743dcb1901864bcaa31c",
+      "public_blob_sha": "49c2628a29d2d3f7780a743dcb1901864bcaa31c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/belgium_jupiler_pro_league_rosters_2026_27_partial.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/belgium_jupiler_pro_league_rosters_2026_27_partial.json",
+      "source_blob_sha": "8eb4d77484b6dbef2d3929007672d793def8e6d8",
+      "public_blob_sha": "8eb4d77484b6dbef2d3929007672d793def8e6d8",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/club_roster_source_inventory_belgium_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/club_roster_source_inventory_belgium_2026_27.json",
+      "source_blob_sha": "6055e6a66b06ff631a18cc746b46230ff930d052",
+      "public_blob_sha": "6055e6a66b06ff631a18cc746b46230ff930d052",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/club_roster_source_inventory_turkey_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/club_roster_source_inventory_turkey_2026_27.json",
+      "source_blob_sha": "c6b7d507886da13387a5e9014a581e4d82605048",
+      "public_blob_sha": "c6b7d507886da13387a5e9014a581e4d82605048",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/spain_2026_27_club_membership.csv",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/spain_2026_27_club_membership.csv",
+      "source_blob_sha": "cdbff474bf895f1a3fd04b0d9ef6282feb3035d4",
+      "public_blob_sha": "cdbff474bf895f1a3fd04b0d9ef6282feb3035d4",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/turkey_super_lig_rosters_2026_27.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/turkey_super_lig_rosters_2026_27.json",
+      "source_blob_sha": "1384ec265360e9c5e4cca211dfd47d9b06a901b1",
+      "public_blob_sha": "1384ec265360e9c5e4cca211dfd47d9b06a901b1",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/verified_club_membership.csv",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/verified_club_membership.csv",
+      "source_blob_sha": "bfc50475d68e49a7767878d24275bb4a2926c57e",
+      "public_blob_sha": "bfc50475d68e49a7767878d24275bb4a2926c57e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/imports/verified_player_squads.csv",
+      "source_path": "proyectos/juegos/futbol-nova/data/imports/verified_player_squads.csv",
+      "source_blob_sha": "c9f9f5f25782fb17a2540d68314f2a6583103833",
+      "public_blob_sha": "c9f9f5f25782fb17a2540d68314f2a6583103833",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/international_club_competitions.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/international_club_competitions.json",
+      "source_blob_sha": "e8dd7c81cb976e19151b57ecf383c978625a69e9",
+      "public_blob_sha": "e8dd7c81cb976e19151b57ecf383c978625a69e9",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/international_national_team_competitions.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/international_national_team_competitions.json",
+      "source_blob_sha": "15a06e9eb142b72bd1e4da1fc08564d09980784a",
+      "public_blob_sha": "15a06e9eb142b72bd1e4da1fc08564d09980784a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/league_content_manifest.json",
       "source_path": "proyectos/juegos/futbol-nova/data/league_content_manifest.json",
-      "git_blob_sha": "0b3557c8d935d156ae5e6175dfb423c007597ae0"
+      "source_blob_sha": "0b3557c8d935d156ae5e6175dfb423c007597ae0",
+      "public_blob_sha": "0b3557c8d935d156ae5e6175dfb423c007597ae0",
+      "status": "exact"
     },
     {
-      "path": "data/players/README.md",
+      "path": "futbol-nova/data/league_official_balls.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/league_official_balls.json",
+      "source_blob_sha": "fe6edef90e0174d3feec6ac6b444efcb778c1bcb",
+      "public_blob_sha": "fe6edef90e0174d3feec6ac6b444efcb778c1bcb",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/league_regions.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/league_regions.json",
+      "source_blob_sha": "ce5eefe337ca9394c567cb9d808f5c78999bd467",
+      "public_blob_sha": "ce5eefe337ca9394c567cb9d808f5c78999bd467",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/modules/realism/realism_profile.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/modules/realism/realism_profile.json",
+      "source_blob_sha": "342a5ad4548bdd1ba4e136fd4804d00f44222a74",
+      "public_blob_sha": "342a5ad4548bdd1ba4e136fd4804d00f44222a74",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/national_association_directory.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/national_association_directory.json",
+      "source_blob_sha": "35261891179162e8691ed096205f62a5f7f386b0",
+      "public_blob_sha": "35261891179162e8691ed096205f62a5f7f386b0",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/national_teams_manifest.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/national_teams_manifest.json",
+      "source_blob_sha": "5519b65c011652d69fe1ba1f354e42f865129984",
+      "public_blob_sha": "5519b65c011652d69fe1ba1f354e42f865129984",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/national_teams_package_schema_v1.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/national_teams_package_schema_v1.json",
+      "source_blob_sha": "7db9dfaecfad73659e51c38318e4fb0160733b32",
+      "public_blob_sha": "7db9dfaecfad73659e51c38318e4fb0160733b32",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/north_central_america_champions_league.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/north_central_america_champions_league.json",
+      "source_blob_sha": "38978dc73475edc16afdda43ae12de65b44968dc",
+      "public_blob_sha": "38978dc73475edc16afdda43ae12de65b44968dc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/optional_modules_catalog.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/optional_modules_catalog.json",
+      "source_blob_sha": "ec3acf073dedc69884d5eb0ee709cbd350e2f0c7",
+      "public_blob_sha": "ec3acf073dedc69884d5eb0ee709cbd350e2f0c7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/player_statistics_schema.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/player_statistics_schema.json",
+      "source_blob_sha": "d30ce3e756f4e183050becb9c674a2ebe99ec518",
+      "public_blob_sha": "d30ce3e756f4e183050becb9c674a2ebe99ec518",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/players/README.md",
       "source_path": "proyectos/juegos/futbol-nova/data/players/README.md",
-      "git_blob_sha": "359444a1c8b1b7f65b43671db9a075c02e4db542"
+      "source_blob_sha": "359444a1c8b1b7f65b43671db9a075c02e4db542",
+      "public_blob_sha": "359444a1c8b1b7f65b43671db9a075c02e4db542",
+      "status": "exact"
     },
     {
-      "path": "data/players/arg_base_2026.json",
+      "path": "futbol-nova/data/players/arg_base_2026.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/arg_base_2026.json",
-      "git_blob_sha": "88aaf2f484fd46170c673a0590c8a6acdb573636"
+      "source_blob_sha": "88aaf2f484fd46170c673a0590c8a6acdb573636",
+      "public_blob_sha": "88aaf2f484fd46170c673a0590c8a6acdb573636",
+      "status": "exact"
     },
     {
-      "path": "data/players/bra_base_2026.json",
+      "path": "futbol-nova/data/players/bra_base_2026.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/bra_base_2026.json",
-      "git_blob_sha": "c216ce1f0ac6a1e90b8f1386f7f5fee9a60c43ae"
+      "source_blob_sha": "c216ce1f0ac6a1e90b8f1386f7f5fee9a60c43ae",
+      "public_blob_sha": "c216ce1f0ac6a1e90b8f1386f7f5fee9a60c43ae",
+      "status": "exact"
     },
     {
-      "path": "data/players/cuba_first_division.json",
+      "path": "futbol-nova/data/players/cuba_first_division.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/cuba_first_division.json",
-      "git_blob_sha": "43fdc69744d2a5c6761aede992635dd3336b16ce"
+      "source_blob_sha": "43fdc69744d2a5c6761aede992635dd3336b16ce",
+      "public_blob_sha": "43fdc69744d2a5c6761aede992635dd3336b16ce",
+      "status": "exact"
     },
     {
-      "path": "data/players/cuba_second_division.json",
+      "path": "futbol-nova/data/players/cuba_second_division.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/cuba_second_division.json",
-      "git_blob_sha": "1953e48494226c7ee2f9b898016dd44dd0de5c8f"
+      "source_blob_sha": "1953e48494226c7ee2f9b898016dd44dd0de5c8f",
+      "public_blob_sha": "1953e48494226c7ee2f9b898016dd44dd0de5c8f",
+      "status": "exact"
     },
     {
-      "path": "data/players/england_championship_2026_27.json",
+      "path": "futbol-nova/data/players/england_championship_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/england_championship_2026_27.json",
-      "git_blob_sha": "31e32f356762257ff8bc4792186e157c972c3d82"
+      "source_blob_sha": "31e32f356762257ff8bc4792186e157c972c3d82",
+      "public_blob_sha": "31e32f356762257ff8bc4792186e157c972c3d82",
+      "status": "exact"
     },
     {
-      "path": "data/players/england_league_one_2026_27.json",
+      "path": "futbol-nova/data/players/england_league_one_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/england_league_one_2026_27.json",
-      "git_blob_sha": "c01ae9f25722df219360bcea314cf2e99ac3a863"
+      "source_blob_sha": "c01ae9f25722df219360bcea314cf2e99ac3a863",
+      "public_blob_sha": "c01ae9f25722df219360bcea314cf2e99ac3a863",
+      "status": "exact"
     },
     {
-      "path": "data/players/england_premier_2026_27.json",
+      "path": "futbol-nova/data/players/england_premier_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/england_premier_2026_27.json",
-      "git_blob_sha": "e91cfa35b97ebe247bef1996459cae11d2523bf9"
+      "source_blob_sha": "e91cfa35b97ebe247bef1996459cae11d2523bf9",
+      "public_blob_sha": "e91cfa35b97ebe247bef1996459cae11d2523bf9",
+      "status": "exact"
     },
     {
-      "path": "data/players/esp_base_2026_27.json",
+      "path": "futbol-nova/data/players/esp_base_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/esp_base_2026_27.json",
-      "git_blob_sha": "32c185bd18acd9973a8a5f86d341577f28e10772"
+      "source_blob_sha": "32c185bd18acd9973a8a5f86d341577f28e10772",
+      "public_blob_sha": "32c185bd18acd9973a8a5f86d341577f28e10772",
+      "status": "exact"
     },
     {
-      "path": "data/players/fra_base_2026_27.json",
+      "path": "futbol-nova/data/players/fra_base_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/fra_base_2026_27.json",
-      "git_blob_sha": "81b60de4597ddd6744d166240d33d97b4c4171f7"
+      "source_blob_sha": "81b60de4597ddd6744d166240d33d97b4c4171f7",
+      "public_blob_sha": "81b60de4597ddd6744d166240d33d97b4c4171f7",
+      "status": "exact"
     },
     {
-      "path": "data/players/ger_base_2026_27.json",
+      "path": "futbol-nova/data/players/ger_base_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/ger_base_2026_27.json",
-      "git_blob_sha": "9a625b8cbf63eb893910913115516b309777dc29"
+      "source_blob_sha": "9a625b8cbf63eb893910913115516b309777dc29",
+      "public_blob_sha": "9a625b8cbf63eb893910913115516b309777dc29",
+      "status": "exact"
     },
     {
-      "path": "data/players/ita_base_2026_27.json",
+      "path": "futbol-nova/data/players/ita_base_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/ita_base_2026_27.json",
-      "git_blob_sha": "0ec217f63535c687ac82cad025071c60e704adcc"
+      "source_blob_sha": "0ec217f63535c687ac82cad025071c60e704adcc",
+      "public_blob_sha": "0ec217f63535c687ac82cad025071c60e704adcc",
+      "status": "exact"
     },
     {
-      "path": "data/players/por_base_2026_27.json",
+      "path": "futbol-nova/data/players/por_base_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/por_base_2026_27.json",
-      "git_blob_sha": "7f2c35159e0c7b8bb6d7142b5a464b2f893c64b0"
+      "source_blob_sha": "7f2c35159e0c7b8bb6d7142b5a464b2f893c64b0",
+      "public_blob_sha": "7f2c35159e0c7b8bb6d7142b5a464b2f893c64b0",
+      "status": "exact"
     },
     {
-      "path": "data/players/usa_base_2026.json",
+      "path": "futbol-nova/data/players/usa_base_2026.json",
       "source_path": "proyectos/juegos/futbol-nova/data/players/usa_base_2026.json",
-      "git_blob_sha": "932a54eaaf337fb9531221e067073251a51769d5"
+      "source_blob_sha": "932a54eaaf337fb9531221e067073251a51769d5",
+      "public_blob_sha": "932a54eaaf337fb9531221e067073251a51769d5",
+      "status": "exact"
     },
     {
-      "path": "data/spain_clubs_2026_27.json",
+      "path": "futbol-nova/data/runtime_database_schema_v1.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/runtime_database_schema_v1.json",
+      "source_blob_sha": "8e8030e72be299cafda8c34b91cea2c2ec54195e",
+      "public_blob_sha": "8e8030e72be299cafda8c34b91cea2c2ec54195e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/skills/common_gesture_techniques.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/skills/common_gesture_techniques.json",
+      "source_blob_sha": "26a1e8ed1898af43909e0d8d75164a751325686f",
+      "public_blob_sha": "26a1e8ed1898af43909e0d8d75164a751325686f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/skills/skill_catalog.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/skills/skill_catalog.json",
+      "source_blob_sha": "137a967e26732a8648eebab23bcfbbc32f006d9a",
+      "public_blob_sha": "137a967e26732a8648eebab23bcfbbc32f006d9a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/south_america_champions_league.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/south_america_champions_league.json",
+      "source_blob_sha": "e6fc5ead5ac00cdba36ce4d5be8f4cc05ad54b6d",
+      "public_blob_sha": "e6fc5ead5ac00cdba36ce4d5be8f4cc05ad54b6d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/spain_clubs_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/spain_clubs_2026_27.json",
-      "git_blob_sha": "f8b7826ff78b1012fc1ae6773e1d438b4c858d50"
+      "source_blob_sha": "f8b7826ff78b1012fc1ae6773e1d438b4c858d50",
+      "public_blob_sha": "f8b7826ff78b1012fc1ae6773e1d438b4c858d50",
+      "status": "exact"
     },
     {
-      "path": "data/spain_leagues_2026_27.json",
+      "path": "futbol-nova/data/spain_leagues_2026_27.json",
       "source_path": "proyectos/juegos/futbol-nova/data/spain_leagues_2026_27.json",
-      "git_blob_sha": "921ff67a9b6c334fa6f39c1c6525382fbaee1a6f"
+      "source_blob_sha": "921ff67a9b6c334fa6f39c1c6525382fbaee1a6f",
+      "public_blob_sha": "921ff67a9b6c334fa6f39c1c6525382fbaee1a6f",
+      "status": "exact"
     },
     {
-      "path": "data/usa_clubs_2026.json",
+      "path": "futbol-nova/data/usa_clubs_2026.json",
       "source_path": "proyectos/juegos/futbol-nova/data/usa_clubs_2026.json",
-      "git_blob_sha": "bb4ecffaf85ac2816c05aae0a143296b7d978fbc"
+      "source_blob_sha": "bb4ecffaf85ac2816c05aae0a143296b7d978fbc",
+      "public_blob_sha": "bb4ecffaf85ac2816c05aae0a143296b7d978fbc",
+      "status": "exact"
     },
     {
-      "path": "data/usa_leagues_2026.json",
+      "path": "futbol-nova/data/usa_leagues_2026.json",
       "source_path": "proyectos/juegos/futbol-nova/data/usa_leagues_2026.json",
-      "git_blob_sha": "3f18cc319babc71cf0e5e6933cfcf5851ba81b47"
+      "source_blob_sha": "3f18cc319babc71cf0e5e6933cfcf5851ba81b47",
+      "public_blob_sha": "3f18cc319babc71cf0e5e6933cfcf5851ba81b47",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/data/youth_academy_rules.json",
+      "source_path": "proyectos/juegos/futbol-nova/data/youth_academy_rules.json",
+      "source_blob_sha": "96f8c7f1c4764dcb20ec9e9f8aab581f94ebb06b",
+      "public_blob_sha": "96f8c7f1c4764dcb20ec9e9f8aab581f94ebb06b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/AMERICAN_REGIONAL_CLUB_COMPETITIONS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/AMERICAN_REGIONAL_CLUB_COMPETITIONS.md",
+      "source_blob_sha": "20cb38b7a64ffdbcdae49f21287bab9151805227",
+      "public_blob_sha": "20cb38b7a64ffdbcdae49f21287bab9151805227",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/ANDROID_GODOT_EDITOR.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/ANDROID_GODOT_EDITOR.md",
+      "source_blob_sha": "19e1ba7166504c8288eca56c51e18599f2463af7",
+      "public_blob_sha": "19e1ba7166504c8288eca56c51e18599f2463af7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/ANDROID_TEST_BUILD.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/ANDROID_TEST_BUILD.md",
+      "source_blob_sha": "5c3d668b9fdd2d2f22688f71517bdda13deda761",
+      "public_blob_sha": "5c3d668b9fdd2d2f22688f71517bdda13deda761",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/ANIER_CUMBA_PLAYER_IMPLEMENTATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/ANIER_CUMBA_PLAYER_IMPLEMENTATION.md",
+      "source_blob_sha": "afc1a9a68d4e103c482b312cb3110948a460cfa2",
+      "public_blob_sha": "afc1a9a68d4e103c482b312cb3110948a460cfa2",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/AUDIT_HISTORICAL_DATA_AND_CLUB_IDENTITIES_2026-11-17.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/AUDIT_HISTORICAL_DATA_AND_CLUB_IDENTITIES_2026-11-17.md",
+      "source_blob_sha": "9ea492e016c84a73b6ad93e718dafbcab183393e",
+      "public_blob_sha": "9ea492e016c84a73b6ad93e718dafbcab183393e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/BASE_GAME_TEST_PREPARATION_AND_NAVIGATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/BASE_GAME_TEST_PREPARATION_AND_NAVIGATION.md",
+      "source_blob_sha": "7b3189833bc6a73936ea4aee07cc7cf6edbbdf98",
+      "public_blob_sha": "7b3189833bc6a73936ea4aee07cc7cf6edbbdf98",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/BOARD_OBJECTIVES_AND_MANAGER_EVALUATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/BOARD_OBJECTIVES_AND_MANAGER_EVALUATION.md",
+      "source_blob_sha": "c08d623eddbc67dfa690ff22880cdd8b37378608",
+      "public_blob_sha": "c08d623eddbc67dfa690ff22880cdd8b37378608",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CARIBBEAN_CHAMPIONS_LEAGUE_IMPLEMENTATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CARIBBEAN_CHAMPIONS_LEAGUE_IMPLEMENTATION.md",
+      "source_blob_sha": "bb9deed0c54b84b17513a85f59aee3916053ab17",
+      "public_blob_sha": "bb9deed0c54b84b17513a85f59aee3916053ab17",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CLUB_ECONOMY_AND_COMMERCIAL_KITS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CLUB_ECONOMY_AND_COMMERCIAL_KITS.md",
+      "source_blob_sha": "57eb9ddc6c2f7473bcefccd89f5e151caafda5b4",
+      "public_blob_sha": "57eb9ddc6c2f7473bcefccd89f5e151caafda5b4",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CLUB_IDENTITY_AND_RENAMING.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CLUB_IDENTITY_AND_RENAMING.md",
+      "source_blob_sha": "9af6f271923026aa447841b19e86d00dbf53cc9c",
+      "public_blob_sha": "9af6f271923026aa447841b19e86d00dbf53cc9c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/COMPETITION_DISPLAY_RULES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/COMPETITION_DISPLAY_RULES.md",
+      "source_blob_sha": "439d03c375ee7c6bef78b2235f2efbfda365d579",
+      "public_blob_sha": "439d03c375ee7c6bef78b2235f2efbfda365d579",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/COMPETITION_DRAW_CEREMONY.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/COMPETITION_DRAW_CEREMONY.md",
+      "source_blob_sha": "41920c8c22e96ea52746c4e2eb747f6345f32848",
+      "public_blob_sha": "41920c8c22e96ea52746c4e2eb747f6345f32848",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CONTEXTUAL_GAME_SETTINGS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CONTEXTUAL_GAME_SETTINGS.md",
+      "source_blob_sha": "888c01b328616433412d1bfb6a4a50f935e03eab",
+      "public_blob_sha": "888c01b328616433412d1bfb6a4a50f935e03eab",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CONTINENTAL_LEAGUE_MODULES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CONTINENTAL_LEAGUE_MODULES.md",
+      "source_blob_sha": "54c393ea93b06c21261d539327f7f1c05f9fc804",
+      "public_blob_sha": "54c393ea93b06c21261d539327f7f1c05f9fc804",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CONTROLLER_SUPPORT_MODULE.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CONTROLLER_SUPPORT_MODULE.md",
+      "source_blob_sha": "ab17663e03c747b8cda1a58230145acd292b14a0",
+      "public_blob_sha": "ab17663e03c747b8cda1a58230145acd292b14a0",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CUBAN_COMPETITIONS_SPANISH_RULES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CUBAN_COMPETITIONS_SPANISH_RULES.md",
+      "source_blob_sha": "aa0a103885c3459dc2fe5127783f8110f7a988e1",
+      "public_blob_sha": "aa0a103885c3459dc2fe5127783f8110f7a988e1",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/CUBA_LEAGUES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/CUBA_LEAGUES.md",
+      "source_blob_sha": "31419f815a5688637ba7246c96e104f38c864d5e",
+      "public_blob_sha": "31419f815a5688637ba7246c96e104f38c864d5e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/DATABASE_IMPLEMENTATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/DATABASE_IMPLEMENTATION.md",
+      "source_blob_sha": "9662015bcefec2ac4a0acf86ab29636ef55b0910",
+      "public_blob_sha": "9662015bcefec2ac4a0acf86ab29636ef55b0910",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/DOWNLOADABLE_LEAGUE_MODULES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/DOWNLOADABLE_LEAGUE_MODULES.md",
+      "source_blob_sha": "3ad599d2d4e403869c093811eafba1bbd7b32183",
+      "public_blob_sha": "3ad599d2d4e403869c093811eafba1bbd7b32183",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/ENGLAND_INITIAL_DATABASE_BATCH_2026-11-14.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/ENGLAND_INITIAL_DATABASE_BATCH_2026-11-14.md",
+      "source_blob_sha": "a2bdd6e03cdf1582a739022b5bb0bc8b93b0ab80",
+      "public_blob_sha": "a2bdd6e03cdf1582a739022b5bb0bc8b93b0ab80",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/FREEKICK_ADAPTATION_AND_SET_PIECES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/FREEKICK_ADAPTATION_AND_SET_PIECES.md",
+      "source_blob_sha": "8900dd9b4dca8d6115ed5446722fbdca701b063f",
+      "public_blob_sha": "8900dd9b4dca8d6115ed5446722fbdca701b063f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/GAME_DESIGN.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/GAME_DESIGN.md",
+      "source_blob_sha": "360bd1b8dcaf6e8983e65f06b4e7480d25b91605",
+      "public_blob_sha": "360bd1b8dcaf6e8983e65f06b4e7480d25b91605",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/GLOBAL_CLUB_AND_SQUAD_COMPLETION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/GLOBAL_CLUB_AND_SQUAD_COMPLETION.md",
+      "source_blob_sha": "e66220dcc16d81ce426ba45d0c1ec16ab8203884",
+      "public_blob_sha": "e66220dcc16d81ce426ba45d0c1ec16ab8203884",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/GLOBAL_CLUB_DATABASE_PIPELINE.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/GLOBAL_CLUB_DATABASE_PIPELINE.md",
+      "source_blob_sha": "e4e16d274d4e50edad58556d8c5a88ff7333068a",
+      "public_blob_sha": "e4e16d274d4e50edad58556d8c5a88ff7333068a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/GLOBAL_DATABASE_SCOPE_AND_PIPELINE.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/GLOBAL_DATABASE_SCOPE_AND_PIPELINE.md",
+      "source_blob_sha": "06c8314a5b178e39528908a8e2b6b5147778aa65",
+      "public_blob_sha": "06c8314a5b178e39528908a8e2b6b5147778aa65",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/GODOT_PROJECT_QUICK_START.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/GODOT_PROJECT_QUICK_START.md",
+      "source_blob_sha": "ddeed593f89c696fde31aaec9cba062b7c1d0fbc",
+      "public_blob_sha": "ddeed593f89c696fde31aaec9cba062b7c1d0fbc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/HISTORICAL_COMPETITION_DATA.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/HISTORICAL_COMPETITION_DATA.md",
+      "source_blob_sha": "e4904ce78f7cd34561284c59784d9dc36fb09238",
+      "public_blob_sha": "e4904ce78f7cd34561284c59784d9dc36fb09238",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/IMAGE_REFERENCE_AUDIT_2026-11-12.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/IMAGE_REFERENCE_AUDIT_2026-11-12.md",
+      "source_blob_sha": "877420f733e53aad0d2e4d20fe1cc17aadd1db36",
+      "public_blob_sha": "877420f733e53aad0d2e4d20fe1cc17aadd1db36",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/INTERNATIONAL_CLUB_COMPETITIONS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/INTERNATIONAL_CLUB_COMPETITIONS.md",
+      "source_blob_sha": "a4dc781f4d457a36b58c2e7de9164a5aa48333e8",
+      "public_blob_sha": "a4dc781f4d457a36b58c2e7de9164a5aa48333e8",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/IN_GAME_CONTROLS_GUIDE.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/IN_GAME_CONTROLS_GUIDE.md",
+      "source_blob_sha": "fc6c15fed56f52f695429615c55fca72b91e0cf0",
+      "public_blob_sha": "fc6c15fed56f52f695429615c55fca72b91e0cf0",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/KIT_SELECTION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/KIT_SELECTION.md",
+      "source_blob_sha": "830de8a758203cf141aa6fa0be0bb83679eb8153",
+      "public_blob_sha": "830de8a758203cf141aa6fa0be0bb83679eb8153",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/KIT_SELECTION_MENU.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/KIT_SELECTION_MENU.md",
+      "source_blob_sha": "381300237dc6458c8af52dae9493a92d3cb1d756",
+      "public_blob_sha": "381300237dc6458c8af52dae9493a92d3cb1d756",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/LEAGUE_BALLS_AND_YOUTH_ACADEMIES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/LEAGUE_BALLS_AND_YOUTH_ACADEMIES.md",
+      "source_blob_sha": "e1bf4e191dd1d05c13a1f26f64a49477a6331770",
+      "public_blob_sha": "e1bf4e191dd1d05c13a1f26f64a49477a6331770",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/LEGEND_MODE_HOME.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/LEGEND_MODE_HOME.md",
+      "source_blob_sha": "628ade7cdbcf12bf0d38143c2970152e6e5a506a",
+      "public_blob_sha": "628ade7cdbcf12bf0d38143c2970152e6e5a506a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/LIGHTWEIGHT_BASE_AND_OPTIONAL_MODULES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/LIGHTWEIGHT_BASE_AND_OPTIONAL_MODULES.md",
+      "source_blob_sha": "ba25f6c849bdfc6405c206d55ab2937ee22a91a9",
+      "public_blob_sha": "ba25f6c849bdfc6405c206d55ab2937ee22a91a9",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MAIN_MENU_FOUR_SCREENS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MAIN_MENU_FOUR_SCREENS.md",
+      "source_blob_sha": "fafd45373ed00a7c626b3bff498b445bd6d0b7be",
+      "public_blob_sha": "fafd45373ed00a7c626b3bff498b445bd6d0b7be",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MAIN_MENU_SETTINGS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MAIN_MENU_SETTINGS.md",
+      "source_blob_sha": "b48e8db68f4d9a9f3325c6d43bdf59cc39073e08",
+      "public_blob_sha": "b48e8db68f4d9a9f3325c6d43bdf59cc39073e08",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MAIN_MENU_THREE_SCREENS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MAIN_MENU_THREE_SCREENS.md",
+      "source_blob_sha": "b97d23b1b3b44f6e2bb8c69d92aff0f351ac911a",
+      "public_blob_sha": "b97d23b1b3b44f6e2bb8c69d92aff0f351ac911a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MANAGER_GOVERNANCE_AND_CLUB_CREATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MANAGER_GOVERNANCE_AND_CLUB_CREATION.md",
+      "source_blob_sha": "9023ed20abb14e8b7bebc7c0374d3bcb9d5aa822",
+      "public_blob_sha": "9023ed20abb14e8b7bebc7c0374d3bcb9d5aa822",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MANAGER_MODE_SEASON.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MANAGER_MODE_SEASON.md",
+      "source_blob_sha": "a0619d03fb7227966fb397e39e360fa6486b43b9",
+      "public_blob_sha": "a0619d03fb7227966fb397e39e360fa6486b43b9",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MATCH_ENGINE_COMPLETION_ROADMAP.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MATCH_ENGINE_COMPLETION_ROADMAP.md",
+      "source_blob_sha": "3ad3240345a1869f2169a549f070aa066a2711fe",
+      "public_blob_sha": "3ad3240345a1869f2169a549f070aa066a2711fe",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MATCH_RULES_IMPLEMENTATION_AUDIT.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MATCH_RULES_IMPLEMENTATION_AUDIT.md",
+      "source_blob_sha": "c1818344a088e956fb8ed70dc588942fa787ab88",
+      "public_blob_sha": "c1818344a088e956fb8ed70dc588942fa787ab88",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MATCH_SUBSTITUTIONS_IMPLEMENTATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MATCH_SUBSTITUTIONS_IMPLEMENTATION.md",
+      "source_blob_sha": "1df67b879d1af01dba0bdc712adc8f5a358afa12",
+      "public_blob_sha": "1df67b879d1af01dba0bdc712adc8f5a358afa12",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MAXIMO_PADILLA_PLAYER.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MAXIMO_PADILLA_PLAYER.md",
+      "source_blob_sha": "f4561bbcf1bea9d6065b3ca4e55e0dafd97895fb",
+      "public_blob_sha": "f4561bbcf1bea9d6065b3ca4e55e0dafd97895fb",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/MENS_FOOTBALL_ONLY_SCOPE.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/MENS_FOOTBALL_ONLY_SCOPE.md",
+      "source_blob_sha": "1cc2f69a47c7cae3f4a959bef8a7c4f744e71e2b",
+      "public_blob_sha": "1cc2f69a47c7cae3f4a959bef8a7c4f744e71e2b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/NATIONAL_TEAM_TOURNAMENTS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/NATIONAL_TEAM_TOURNAMENTS.md",
+      "source_blob_sha": "6bf90475d7e0b7f12f41351b05d108405a8f0fc7",
+      "public_blob_sha": "6bf90475d7e0b7f12f41351b05d108405a8f0fc7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/NEW_FEATURE_REQUIREMENTS_2026-11-14.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/NEW_FEATURE_REQUIREMENTS_2026-11-14.md",
+      "source_blob_sha": "dc2c5ea59b05e99c4456ff1d3b0bffe3e3a2a604",
+      "public_blob_sha": "dc2c5ea59b05e99c4456ff1d3b0bffe3e3a2a604",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/OPEN_SOURCE_RESEARCH_AND_ATTRIBUTION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/OPEN_SOURCE_RESEARCH_AND_ATTRIBUTION.md",
+      "source_blob_sha": "e87fa85281003b1d67f7cc7a88085d01a88fca71",
+      "public_blob_sha": "e87fa85281003b1d67f7cc7a88085d01a88fca71",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/PAUSE_MENU.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/PAUSE_MENU.md",
+      "source_blob_sha": "cbc31660b4bd7828b42014431ada435750635203",
+      "public_blob_sha": "cbc31660b4bd7828b42014431ada435750635203",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/PLAYER_APPEARANCE_UPDATE_2026-11-16.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/PLAYER_APPEARANCE_UPDATE_2026-11-16.md",
+      "source_blob_sha": "c7c67f84081de429aebc1b805cfc38da67ae1d16",
+      "public_blob_sha": "c7c67f84081de429aebc1b805cfc38da67ae1d16",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/PLAYER_GENERATION_AND_CALIBRATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/PLAYER_GENERATION_AND_CALIBRATION.md",
+      "source_blob_sha": "e266a51882a5e793f390d00148842ecce62691ee",
+      "public_blob_sha": "e266a51882a5e793f390d00148842ecce62691ee",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/PLAYER_MARKET_VALUE_METHODOLOGY.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/PLAYER_MARKET_VALUE_METHODOLOGY.md",
+      "source_blob_sha": "be4a2c8eed8402ed5905ebbd10e1f0570eb407e4",
+      "public_blob_sha": "be4a2c8eed8402ed5905ebbd10e1f0570eb407e4",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/PRE_MATCH_TEAM_SELECTION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/PRE_MATCH_TEAM_SELECTION.md",
+      "source_blob_sha": "52e4482ec5b9810ca3dc43c9bf8f4c59f4d7989c",
+      "public_blob_sha": "52e4482ec5b9810ca3dc43c9bf8f4c59f4d7989c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/PROTOTYPE_STATUS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/PROTOTYPE_STATUS.md",
+      "source_blob_sha": "33a958eed81c5fc173d8cbaf8777a280555c8331",
+      "public_blob_sha": "33a958eed81c5fc173d8cbaf8777a280555c8331",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/REALISM_MODULE_DESIGN.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/REALISM_MODULE_DESIGN.md",
+      "source_blob_sha": "3abef4262f038c52678ef30a31696c68613d3c41",
+      "public_blob_sha": "3abef4262f038c52678ef30a31696c68613d3c41",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/REAL_WORLD_STRENGTH_CALIBRATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/REAL_WORLD_STRENGTH_CALIBRATION.md",
+      "source_blob_sha": "fd0a6c3bd45551058a2cc3dc4e8444f7085c7d06",
+      "public_blob_sha": "fd0a6c3bd45551058a2cc3dc4e8444f7085c7d06",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/REFERENCE_GAME_DESIGN_EXPANSION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/REFERENCE_GAME_DESIGN_EXPANSION.md",
+      "source_blob_sha": "46b28305665eb3f36d0e759d146b08e4d3da5595",
+      "public_blob_sha": "46b28305665eb3f36d0e759d146b08e4d3da5595",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/ROADMAP.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/ROADMAP.md",
+      "source_blob_sha": "eb3b2ffb7fcc1b075d0e971738a01dc8f6e787fc",
+      "public_blob_sha": "eb3b2ffb7fcc1b075d0e971738a01dc8f6e787fc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/SAVE_SYSTEM.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/SAVE_SYSTEM.md",
+      "source_blob_sha": "93f4adda6dddec4365a37e6b3790f2c5262a9b04",
+      "public_blob_sha": "93f4adda6dddec4365a37e6b3790f2c5262a9b04",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/SCREEN_DATA_CATALOG.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/SCREEN_DATA_CATALOG.md",
+      "source_blob_sha": "8300ce91c0727b0df351cbce5d9db15a02b89b01",
+      "public_blob_sha": "8300ce91c0727b0df351cbce5d9db15a02b89b01",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/SET_PIECE_SWIPE_ACCEPTANCE.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/SET_PIECE_SWIPE_ACCEPTANCE.md",
+      "source_blob_sha": "529887d60e7288d87228b0cc8b1bbd30627e804c",
+      "public_blob_sha": "529887d60e7288d87228b0cc8b1bbd30627e804c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/SHARED_FOUNDATION_IMPLEMENTATION.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/SHARED_FOUNDATION_IMPLEMENTATION.md",
+      "source_blob_sha": "417e0d11a4774c52b9fb92b73f5c1a868208a749",
+      "public_blob_sha": "417e0d11a4774c52b9fb92b73f5c1a868208a749",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/SPAIN_DATABASE_2026_27.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/SPAIN_DATABASE_2026_27.md",
+      "source_blob_sha": "56281c07c0c5a91d0319a4b696525d38fa31e119",
+      "public_blob_sha": "56281c07c0c5a91d0319a4b696525d38fa31e119",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/SPORTS_DATA_MODEL.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/SPORTS_DATA_MODEL.md",
+      "source_blob_sha": "bbcf50fff48f6718904aa8ff1005928da47717f2",
+      "public_blob_sha": "bbcf50fff48f6718904aa8ff1005928da47717f2",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/TECHNICAL_ARCHITECTURE.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/TECHNICAL_ARCHITECTURE.md",
+      "source_blob_sha": "fd56a3733dbdd0439a2addabbf2f3b0a5da16672",
+      "public_blob_sha": "fd56a3733dbdd0439a2addabbf2f3b0a5da16672",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/TECHNIQUE_ATTRIBUTE_REQUIREMENTS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/TECHNIQUE_ATTRIBUTE_REQUIREMENTS.md",
+      "source_blob_sha": "5ded8061fa4883faacc3d71e0abbb3e6621ec5ce",
+      "public_blob_sha": "5ded8061fa4883faacc3d71e0abbb3e6621ec5ce",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/TOUCH_CONTROLS_AND_SKILLS.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/TOUCH_CONTROLS_AND_SKILLS.md",
+      "source_blob_sha": "d2e7f435a6af034d60afd36d305af836334b6958",
+      "public_blob_sha": "d2e7f435a6af034d60afd36d305af836334b6958",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/TRAINING_HUB_AND_DAILY_CHALLENGES.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/TRAINING_HUB_AND_DAILY_CHALLENGES.md",
+      "source_blob_sha": "cb57fb6ce27bd04b7ed060b6f452eddc227f1f45",
+      "public_blob_sha": "cb57fb6ce27bd04b7ed060b6f452eddc227f1f45",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/UI_SCREEN_IMPLEMENTATION_REGISTER.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/UI_SCREEN_IMPLEMENTATION_REGISTER.md",
+      "source_blob_sha": "6a6d2960db40a4ea1c9539d5546347592f730904",
+      "public_blob_sha": "6a6d2960db40a4ea1c9539d5546347592f730904",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/ULTIMATE_TEAM_MAIN_MENU.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/ULTIMATE_TEAM_MAIN_MENU.md",
+      "source_blob_sha": "22efdaec592cf6fc8e71b685e446858c02306d9b",
+      "public_blob_sha": "22efdaec592cf6fc8e71b685e446858c02306d9b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/docs/VISUAL_DESIGN_SYSTEM.md",
+      "source_path": "proyectos/juegos/futbol-nova/docs/VISUAL_DESIGN_SYSTEM.md",
+      "source_blob_sha": "7af05afbc76d4d676486da5c0eee1038e2d518bf",
+      "public_blob_sha": "7af05afbc76d4d676486da5c0eee1038e2d518bf",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/export_presets.cfg",
+      "source_path": "proyectos/juegos/futbol-nova/export_presets.cfg",
+      "source_blob_sha": "6ad4121c1e31ebc3e364708fe0eedb4eea19fb66",
+      "public_blob_sha": "6ad4121c1e31ebc3e364708fe0eedb4eea19fb66",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/african_club_competitions/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/african_club_competitions/module.json",
+      "source_blob_sha": "eb37d9edef4d80ca0afde69b5668fa30b2f5aa25",
+      "public_blob_sha": "eb37d9edef4d80ca0afde69b5668fa30b2f5aa25",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/american_super_champions_tas/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/american_super_champions_tas/module.json",
+      "source_blob_sha": "81280ba8b47f9247a5388ef641bbc5ca9776601d",
+      "public_blob_sha": "81280ba8b47f9247a5388ef641bbc5ca9776601d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/asian_club_competitions/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/asian_club_competitions/module.json",
+      "source_blob_sha": "c80463491205b1c2d8f3f2f4ee0c7ba9697178aa",
+      "public_blob_sha": "c80463491205b1c2d8f3f2f4ee0c7ba9697178aa",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/caribbean_champions_league/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/caribbean_champions_league/module.json",
+      "source_blob_sha": "738c44796f7d2c4bd2203b732d3776074126eb9d",
+      "public_blob_sha": "738c44796f7d2c4bd2203b732d3776074126eb9d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/european_club_competitions/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/european_club_competitions/module.json",
+      "source_blob_sha": "c6f2ca06714641f21389b0655e729152c7a10d66",
+      "public_blob_sha": "c6f2ca06714641f21389b0655e729152c7a10d66",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/global_club_competitions/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/global_club_competitions/module.json",
+      "source_blob_sha": "117880f4d727f3ac4956df53b55fd628c0e73f33",
+      "public_blob_sha": "117880f4d727f3ac4956df53b55fd628c0e73f33",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/module_registry.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/module_registry.json",
+      "source_blob_sha": "ac983073ab653814a6e32658a294ad76984438b3",
+      "public_blob_sha": "ac983073ab653814a6e32658a294ad76984438b3",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/north_central_america_champions_league/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/north_central_america_champions_league/module.json",
+      "source_blob_sha": "82d1dd8f96b23222db3c3be582047ac671e77525",
+      "public_blob_sha": "82d1dd8f96b23222db3c3be582047ac671e77525",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/oceania_club_competitions/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/oceania_club_competitions/module.json",
+      "source_blob_sha": "30b7c212cba61614061cd9e7a74947d0fe226cab",
+      "public_blob_sha": "30b7c212cba61614061cd9e7a74947d0fe226cab",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/continental_competitions/south_america_champions_league/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/continental_competitions/south_america_champions_league/module.json",
+      "source_blob_sha": "95f7c2e17e1e4116ff778603adc24eb95e0b6b37",
+      "public_blob_sha": "95f7c2e17e1e4116ff778603adc24eb95e0b6b37",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/controller_support/controller_profiles.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/controller_support/controller_profiles.json",
+      "source_blob_sha": "4f8e761ad880b43f00a31cb1c36a229bf5da2a5f",
+      "public_blob_sha": "4f8e761ad880b43f00a31cb1c36a229bf5da2a5f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/controller_support/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/controller_support/module.json",
+      "source_blob_sha": "4f37ed11e7c4aef85e464fc82f4757fcd4a4d39d",
+      "public_blob_sha": "4f37ed11e7c4aef85e464fc82f4757fcd4a4d39d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/graphics_enhancements/graphics_profiles.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/graphics_enhancements/graphics_profiles.json",
+      "source_blob_sha": "da73b0c4c878b55f1c3959b4bbc775810a745c22",
+      "public_blob_sha": "da73b0c4c878b55f1c3959b4bbc775810a745c22",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/graphics_enhancements/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/graphics_enhancements/module.json",
+      "source_blob_sha": "921272e55cf0c90e7bb80861cbd13da901f2e9f3",
+      "public_blob_sha": "921272e55cf0c90e7bb80861cbd13da901f2e9f3",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/national_team_competitions/module.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/national_team_competitions/module.json",
+      "source_blob_sha": "e19509efff0483599e6545304a95982724412b07",
+      "public_blob_sha": "e19509efff0483599e6545304a95982724412b07",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/national_team_competitions/module_registry.json",
+      "source_path": "proyectos/juegos/futbol-nova/modules/national_team_competitions/module_registry.json",
+      "source_blob_sha": "888599cf9f54381cf10ff2a0d80e5f6a804a14a4",
+      "public_blob_sha": "888599cf9f54381cf10ff2a0d80e5f6a804a14a4",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/modules/nova_3d_animation/nova_3d_animation.gd",
+      "source_path": "proyectos/juegos/futbol-nova/modules/nova_3d_animation/nova_3d_animation.gd",
+      "source_blob_sha": "0438439993ca1827e9523c83c5bfd8f0964d7ea5",
+      "public_blob_sha": "0438439993ca1827e9523c83c5bfd8f0964d7ea5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/project.godot",
+      "source_path": "proyectos/juegos/futbol-nova/project.godot",
+      "source_blob_sha": "778c89974fbe2d14d200398501b14fffd062041e",
+      "public_blob_sha": "778c89974fbe2d14d200398501b14fffd062041e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/research/REPOSITORY_INTEGRATION_PLAN_2026-11-14.md",
+      "source_path": "proyectos/juegos/futbol-nova/research/REPOSITORY_INTEGRATION_PLAN_2026-11-14.md",
+      "source_blob_sha": "0e1daa7a2951d7278e51d65e1bae8120cbfdd996",
+      "public_blob_sha": "0e1daa7a2951d7278e51d65e1bae8120cbfdd996",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/research/SOURCES.md",
+      "source_path": "proyectos/juegos/futbol-nova/research/SOURCES.md",
+      "source_blob_sha": "afad4e5bfe0c5cbdd44d8baf931d26487e4d82c8",
+      "public_blob_sha": "afad4e5bfe0c5cbdd44d8baf931d26487e4d82c8",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scenes/main.tscn",
+      "source_path": "proyectos/juegos/futbol-nova/scenes/main.tscn",
+      "source_blob_sha": "f216881d6a4c82c8b7e81d2d67f8927a6c5965d7",
+      "public_blob_sha": "f216881d6a4c82c8b7e81d2d67f8927a6c5965d7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scenes/players/anier_cumba.tscn",
+      "source_path": "proyectos/juegos/futbol-nova/scenes/players/anier_cumba.tscn",
+      "source_blob_sha": "44b826cdea217be6794d4899dd53c6b59e58fe86",
+      "public_blob_sha": "44b826cdea217be6794d4899dd53c6b59e58fe86",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scenes/players/maximo_padilla.tscn",
+      "source_path": "proyectos/juegos/futbol-nova/scenes/players/maximo_padilla.tscn",
+      "source_blob_sha": "7601120392b58d7d84064806f9f94c1ec1abe717",
+      "public_blob_sha": "7601120392b58d7d84064806f9f94c1ec1abe717",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/ball_flight_model.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/ball_flight_model.gd",
+      "source_blob_sha": "a3e7c59cf2f0fb4579716238a81f0ed111018208",
+      "public_blob_sha": "a3e7c59cf2f0fb4579716238a81f0ed111018208",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/competitions/league_ball_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/competitions/league_ball_service.gd",
+      "source_blob_sha": "4f222ba9202ce188b3bc85e117c14921ea47905f",
+      "public_blob_sha": "4f222ba9202ce188b3bc85e117c14921ea47905f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/controls_guide.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/controls_guide.gd",
+      "source_blob_sha": "08334fdb7e216a2c7d4a247b4ffea2443bccd513",
+      "public_blob_sha": "08334fdb7e216a2c7d4a247b4ffea2443bccd513",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/core/match_contract.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/core/match_contract.gd",
+      "source_blob_sha": "7891e7be8d4e76387dac6e2164a1c1839fc59a54",
+      "public_blob_sha": "7891e7be8d4e76387dac6e2164a1c1839fc59a54",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/base_league_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/base_league_importer.gd",
+      "source_blob_sha": "f09c5197cda07e412e298cda7d77c0f4e2fb04a5",
+      "public_blob_sha": "f09c5197cda07e412e298cda7d77c0f4e2fb04a5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/base_league_roster_generator.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/base_league_roster_generator.gd",
+      "source_blob_sha": "70e95d4ad9749acc00f69e6991de943875be35cc",
+      "public_blob_sha": "70e95d4ad9749acc00f69e6991de943875be35cc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/base_league_roster_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/base_league_roster_importer.gd",
+      "source_blob_sha": "e2f9a8681fdb4714c75b5c59dd8be9e5714c2f4a",
+      "public_blob_sha": "e2f9a8681fdb4714c75b5c59dd8be9e5714c2f4a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/content_package_manager.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/content_package_manager.gd",
+      "source_blob_sha": "f41cc42aa4520dfb10e9b4ba1686c3b97d96d019",
+      "public_blob_sha": "f41cc42aa4520dfb10e9b4ba1686c3b97d96d019",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/continental_league_module_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/continental_league_module_service.gd",
+      "source_blob_sha": "3d5d521aeea86356f471492bc40a6e5f45c011f5",
+      "public_blob_sha": "3d5d521aeea86356f471492bc40a6e5f45c011f5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/cuba_first_division_roster_generator.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/cuba_first_division_roster_generator.gd",
+      "source_blob_sha": "2cff97828141eab4c617ad9eeaf50efb5adc8251",
+      "public_blob_sha": "2cff97828141eab4c617ad9eeaf50efb5adc8251",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/cuba_league_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/cuba_league_importer.gd",
+      "source_blob_sha": "92ee2872589f1b47212c9295c17f36cee83294e3",
+      "public_blob_sha": "92ee2872589f1b47212c9295c17f36cee83294e3",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/cuba_roster_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/cuba_roster_importer.gd",
+      "source_blob_sha": "1052fe88359d3a991ab8e6c75b2a5dc76fa1eea2",
+      "public_blob_sha": "1052fe88359d3a991ab8e6c75b2a5dc76fa1eea2",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/custom_player_roster_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/custom_player_roster_service.gd",
+      "source_blob_sha": "9e0d8fc5ee570afc8be3213008b8471138b6abdc",
+      "public_blob_sha": "9e0d8fc5ee570afc8be3213008b8471138b6abdc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/download_recommendation_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/download_recommendation_service.gd",
+      "source_blob_sha": "5beebb435d4028a7c8180b045f8acde3e18cb5a7",
+      "public_blob_sha": "5beebb435d4028a7c8180b045f8acde3e18cb5a7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/downloaded_league_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/downloaded_league_importer.gd",
+      "source_blob_sha": "a68e0e2bb151a28b11335517eaa464f84e76d18f",
+      "public_blob_sha": "a68e0e2bb151a28b11335517eaa464f84e76d18f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/downloaded_national_teams_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/downloaded_national_teams_importer.gd",
+      "source_blob_sha": "6bfa46477581cd94d3b2818e48557f6d4c0ad20a",
+      "public_blob_sha": "6bfa46477581cd94d3b2818e48557f6d4c0ad20a",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/football_data_registry.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/football_data_registry.gd",
+      "source_blob_sha": "6102d6ad283981b1f53b23b433b5c81a87ff8f21",
+      "public_blob_sha": "6102d6ad283981b1f53b23b433b5c81a87ff8f21",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/football_data_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/football_data_service.gd",
+      "source_blob_sha": "53423d9d68b65a4b5e90fc62932c5c263a13a28e",
+      "public_blob_sha": "53423d9d68b65a4b5e90fc62932c5c263a13a28e",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/football_database_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/football_database_service.gd",
+      "source_blob_sha": "114da50d3a1d0940e662119acb7aca6b4107dea2",
+      "public_blob_sha": "114da50d3a1d0940e662119acb7aca6b4107dea2",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/global_league_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/global_league_importer.gd",
+      "source_blob_sha": "9306a9eb44bbef8a25494ec63f6facc66f70ce8c",
+      "public_blob_sha": "9306a9eb44bbef8a25494ec63f6facc66f70ce8c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/master_catalog_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/master_catalog_importer.gd",
+      "source_blob_sha": "f0babea5ec3193f747db07018c859ec04691cba7",
+      "public_blob_sha": "f0babea5ec3193f747db07018c859ec04691cba7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/national_team_competition_catalog_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/national_team_competition_catalog_service.gd",
+      "source_blob_sha": "874e243c72dcd0fe119ec2f74ec5c63b8377e820",
+      "public_blob_sha": "874e243c72dcd0fe119ec2f74ec5c63b8377e820",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/nova_owner_access_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/nova_owner_access_service.gd",
+      "source_blob_sha": "255eae1e4cc4069737f4165d7795115a351e5e3c",
+      "public_blob_sha": "255eae1e4cc4069737f4165d7795115a351e5e3c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/player_profile.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/player_profile.gd",
+      "source_blob_sha": "60493c2e4ff0d482c13f203f111b6f64c3c01ed2",
+      "public_blob_sha": "60493c2e4ff0d482c13f203f111b6f64c3c01ed2",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/player_statistics_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/player_statistics_service.gd",
+      "source_blob_sha": "b168c0a3aa39f0cfab06b08d17d52302c762de66",
+      "public_blob_sha": "b168c0a3aa39f0cfab06b08d17d52302c762de66",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/season_progression_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/season_progression_service.gd",
+      "source_blob_sha": "8f44ab122fed31eb501d2068f7aa3a68e170d7a2",
+      "public_blob_sha": "8f44ab122fed31eb501d2068f7aa3a68e170d7a2",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/team_profile.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/team_profile.gd",
+      "source_blob_sha": "b1a0f9fcf1bedeb7056f02618dcf10f245899652",
+      "public_blob_sha": "b1a0f9fcf1bedeb7056f02618dcf10f245899652",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/usa_league_importer.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/usa_league_importer.gd",
+      "source_blob_sha": "f493f3e3d63f830369348d224784a371e2815c81",
+      "public_blob_sha": "f493f3e3d63f830369348d224784a371e2815c81",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/data/usa_roster_generator.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/data/usa_roster_generator.gd",
+      "source_blob_sha": "5f6b9d780b8997e561c975cb7e483bce6d761b59",
+      "public_blob_sha": "5f6b9d780b8997e561c975cb7e483bce6d761b59",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/gameplay/match_11v11_controller.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/gameplay/match_11v11_controller.gd",
+      "source_blob_sha": "5a3034469e0a4bcef74b4b417b309728d764d6d7",
+      "public_blob_sha": "5a3034469e0a4bcef74b4b417b309728d764d6d7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/gameplay/match_clock_rules.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/gameplay/match_clock_rules.gd",
+      "source_blob_sha": "5c4edcd71db6a1d6fc167ac9bbe302d07f94f3a1",
+      "public_blob_sha": "5c4edcd71db6a1d6fc167ac9bbe302d07f94f3a1",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/gameplay/match_clock_state_machine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/gameplay/match_clock_state_machine.gd",
+      "source_blob_sha": "487b6e586dbd1a315680c82245d6f9fac195ed33",
+      "public_blob_sha": "487b6e586dbd1a315680c82245d6f9fac195ed33",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/gameplay/match_rules.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/gameplay/match_rules.gd",
+      "source_blob_sha": "d5ff0b6d05565fa789f404ca3bb2bbcc1a426a2b",
+      "public_blob_sha": "d5ff0b6d05565fa789f404ca3bb2bbcc1a426a2b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/gameplay/match_substitution_rules.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/gameplay/match_substitution_rules.gd",
+      "source_blob_sha": "31bfc721a4d2cffd27eefd6f4b0ab617ff15e1ca",
+      "public_blob_sha": "31bfc721a4d2cffd27eefd6f4b0ab617ff15e1ca",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/goalkeeper_reaction_model.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/goalkeeper_reaction_model.gd",
+      "source_blob_sha": "93aa8e09152d05752b1d0a7e718facbc0142b7f6",
+      "public_blob_sha": "93aa8e09152d05752b1d0a7e718facbc0142b7f6",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/graphics/graphics_enhancements_module.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/graphics/graphics_enhancements_module.gd",
+      "source_blob_sha": "8dd65f3c88aec1d76e76929351fd8ec225a0b193",
+      "public_blob_sha": "8dd65f3c88aec1d76e76929351fd8ec225a0b193",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/input/controller_support_module.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/input/controller_support_module.gd",
+      "source_blob_sha": "90e9a435002cf55989efd4191925f68c9d6caab1",
+      "public_blob_sha": "90e9a435002cf55989efd4191925f68c9d6caab1",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/input/touch_controls.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/input/touch_controls.gd",
+      "source_blob_sha": "4c966664fd719c08bf7837a4407cdb4087932ba8",
+      "public_blob_sha": "4c966664fd719c08bf7837a4407cdb4087932ba8",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/legend/legend_career_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/legend/legend_career_service.gd",
+      "source_blob_sha": "b1ac226f25a5b7c97ce8be3aa2f79f2581e02742",
+      "public_blob_sha": "b1ac226f25a5b7c97ce8be3aa2f79f2581e02742",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/main.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/main.gd",
+      "source_blob_sha": "4d350a384125e479ecbd09496c4706d59c953510",
+      "public_blob_sha": "4d350a384125e479ecbd09496c4706d59c953510",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/manager/board_objectives_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/manager/board_objectives_service.gd",
+      "source_blob_sha": "26a4247577afb847c2e2c91af0b7409777cde259",
+      "public_blob_sha": "26a4247577afb847c2e2c91af0b7409777cde259",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/manager/club_academy_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/manager/club_academy_service.gd",
+      "source_blob_sha": "3967b9eccf8e152852bacd3dc1f656cb7179e336",
+      "public_blob_sha": "3967b9eccf8e152852bacd3dc1f656cb7179e336",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/manager/club_commercial_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/manager/club_commercial_service.gd",
+      "source_blob_sha": "c8568dfa2147d2003b672942d9225be3513e4f2c",
+      "public_blob_sha": "c8568dfa2147d2003b672942d9225be3513e4f2c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/manager/manager_career_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/manager/manager_career_service.gd",
+      "source_blob_sha": "8db065eee20a36bf3c5df9caef5210c87d0386a3",
+      "public_blob_sha": "8db065eee20a36bf3c5df9caef5210c87d0386a3",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/modules/realism_module.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/modules/realism_module.gd",
+      "source_blob_sha": "dfb8880dcd1e87dbe9ac02c85d22a4cb035e3b0b",
+      "public_blob_sha": "dfb8880dcd1e87dbe9ac02c85d22a4cb035e3b0b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/moments/daily_moments_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/moments/daily_moments_service.gd",
+      "source_blob_sha": "c4a84040e8b34ab81611d7f61e2deae526144e1b",
+      "public_blob_sha": "c4a84040e8b34ab81611d7f61e2deae526144e1b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/player_controller.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/player_controller.gd",
+      "source_blob_sha": "927fd0b6f400bb3da2925bc1cb2c8f4a0ec99bf0",
+      "public_blob_sha": "927fd0b6f400bb3da2925bc1cb2c8f4a0ec99bf0",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/player_skill_system.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/player_skill_system.gd",
+      "source_blob_sha": "ef7a55e53fa0b1c287bee072db882ebb719860db",
+      "public_blob_sha": "ef7a55e53fa0b1c287bee072db882ebb719860db",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/players/anier_cumba.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/players/anier_cumba.gd",
+      "source_blob_sha": "b77c0cf09dcf8b1e22c83d18d2b8451f7601aede",
+      "public_blob_sha": "b77c0cf09dcf8b1e22c83d18d2b8451f7601aede",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/players/maximo_padilla.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/players/maximo_padilla.gd",
+      "source_blob_sha": "ec6a01fa99e633eb119a37d9e912b68ca397e22c",
+      "public_blob_sha": "ec6a01fa99e633eb119a37d9e912b68ca397e22c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/procedural_ik_solver.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/procedural_ik_solver.gd",
+      "source_blob_sha": "32bd4e0d025f29d0841bda6611f507f7829dd626",
+      "public_blob_sha": "32bd4e0d025f29d0841bda6611f507f7829dd626",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/replay_camera_rig.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/replay_camera_rig.gd",
+      "source_blob_sha": "5a589caba5fbd069f647e81b14acc7532c2ae091",
+      "public_blob_sha": "5a589caba5fbd069f647e81b14acc7532c2ae091",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/set_piece_defensive_setup.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/set_piece_defensive_setup.gd",
+      "source_blob_sha": "c804efc01b4ba42ced2f513bef81d75f7f1ff985",
+      "public_blob_sha": "c804efc01b4ba42ced2f513bef81d75f7f1ff985",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/set_piece_swipe_controller.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/set_piece_swipe_controller.gd",
+      "source_blob_sha": "eb0d340774ebac4dff2af7040e724352e468fe65",
+      "public_blob_sha": "eb0d340774ebac4dff2af7040e724352e468fe65",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/american_regional_champions_engine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/american_regional_champions_engine.gd",
+      "source_blob_sha": "9f8dfbcbb54e5047e7c88fdbc2b1a0235a642d54",
+      "public_blob_sha": "9f8dfbcbb54e5047e7c88fdbc2b1a0235a642d54",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/caribbean_champions_league_engine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/caribbean_champions_league_engine.gd",
+      "source_blob_sha": "0a0864bce9823b338d0b7ced09c549fbcba50abc",
+      "public_blob_sha": "0a0864bce9823b338d0b7ced09c549fbcba50abc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/competition_calendar_builder.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/competition_calendar_builder.gd",
+      "source_blob_sha": "ae20bed09e06d3d62e4f4059ea947cf93a52b97c",
+      "public_blob_sha": "ae20bed09e06d3d62e4f4059ea947cf93a52b97c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/competition_format_rules.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/competition_format_rules.gd",
+      "source_blob_sha": "c2fc2cde64135070bd0a3f32db042de5f0393221",
+      "public_blob_sha": "c2fc2cde64135070bd0a3f32db042de5f0393221",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/league_standings.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/league_standings.gd",
+      "source_blob_sha": "020d9c284991460b8b54711cf9bfcbe491edf96c",
+      "public_blob_sha": "020d9c284991460b8b54711cf9bfcbe491edf96c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/round_robin_scheduler.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/round_robin_scheduler.gd",
+      "source_blob_sha": "0a47080d0158cfbee3d5c07b7fe91e917cd43f53",
+      "public_blob_sha": "0a47080d0158cfbee3d5c07b7fe91e917cd43f53",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/season_match_simulator.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/season_match_simulator.gd",
+      "source_blob_sha": "a00d3c6f0f93971126cc12fdf6be8cfabfd6cdf2",
+      "public_blob_sha": "a00d3c6f0f93971126cc12fdf6be8cfabfd6cdf2",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/tas_competition_engine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/tas_competition_engine.gd",
+      "source_blob_sha": "5218ef2f44dd729e12b2cf0bcb0fede2695b6ce7",
+      "public_blob_sha": "5218ef2f44dd729e12b2cf0bcb0fede2695b6ce7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/simulation/tas_match_decision_engine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/tas_match_decision_engine.gd",
+      "source_blob_sha": "3bdd61cd547f7658ae05233af957cca590bf59b9",
+      "public_blob_sha": "3bdd61cd547f7658ae05233af957cca590bf59b9",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/skill_gesture_button.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/skill_gesture_button.gd",
+      "source_blob_sha": "5dcd4922afb81c2b20c4bde49b957c36a217e956",
+      "public_blob_sha": "5dcd4922afb81c2b20c4bde49b957c36a217e956",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/tests/validate_download_catalog.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/tests/validate_download_catalog.gd",
+      "source_blob_sha": "02774027242ca0ed8e221e3993e360e3e398d863",
+      "public_blob_sha": "02774027242ca0ed8e221e3993e360e3e398d863",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/tests/validate_optional_modules.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/tests/validate_optional_modules.gd",
+      "source_blob_sha": "edcd033ed18ce728ed9930a1af6cb982423bef14",
+      "public_blob_sha": "edcd033ed18ce728ed9930a1af6cb982423bef14",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/ui/competition_draw_ceremony.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/ui/competition_draw_ceremony.gd",
+      "source_blob_sha": "1c8cf8238304e7022faa999cdf369195725d587f",
+      "public_blob_sha": "1c8cf8238304e7022faa999cdf369195725d587f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/ui/game_hub.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/ui/game_hub.gd",
+      "source_blob_sha": "489c90ebca26e61289ebeb4adbe119116b65d552",
+      "public_blob_sha": "489c90ebca26e61289ebeb4adbe119116b65d552",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/ui/league_download_catalog.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/ui/league_download_catalog.gd",
+      "source_blob_sha": "641cf3c1ac944e0b78eb694022b5498cee0a1596",
+      "public_blob_sha": "641cf3c1ac944e0b78eb694022b5498cee0a1596",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/ui/loading_screen.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/ui/loading_screen.gd",
+      "source_blob_sha": "4865d12eda2a3dd584ad456f90e9c0dbc4e39863",
+      "public_blob_sha": "4865d12eda2a3dd584ad456f90e9c0dbc4e39863",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/ui/optional_modules_catalog.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/ui/optional_modules_catalog.gd",
+      "source_blob_sha": "20bb9129d066a8db25e110dff830779b04b8afdb",
+      "public_blob_sha": "20bb9129d066a8db25e110dff830779b04b8afdb",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/scripts/ui/pre_match_setup.gd",
+      "source_path": "proyectos/juegos/futbol-nova/scripts/ui/pre_match_setup.gd",
+      "source_blob_sha": "0bd0b6512007258c54522c0892856369eeb4aef4",
+      "public_blob_sha": "0bd0b6512007258c54522c0892856369eeb4aef4",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_american_regional_champions_engine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_american_regional_champions_engine.gd",
+      "source_blob_sha": "d52aaaa8d8ae27985bab0468df51295e9c3c5e1d",
+      "public_blob_sha": "d52aaaa8d8ae27985bab0468df51295e9c3c5e1d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_anier_cumba_profile.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_anier_cumba_profile.gd",
+      "source_blob_sha": "bda0dfc49509952ffd1b198f9f7be5b7963bd805",
+      "public_blob_sha": "bda0dfc49509952ffd1b198f9f7be5b7963bd805",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_base_league_data.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_base_league_data.gd",
+      "source_blob_sha": "197ac5e7a679e9dea5d40aeae1f5004be69c326c",
+      "public_blob_sha": "197ac5e7a679e9dea5d40aeae1f5004be69c326c",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_caribbean_champions_league.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_caribbean_champions_league.gd",
+      "source_blob_sha": "35b3a909435bf46fcf5975ca6c207ef0df9222a5",
+      "public_blob_sha": "35b3a909435bf46fcf5975ca6c207ef0df9222a5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_competition_draw_ceremony.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_competition_draw_ceremony.gd",
+      "source_blob_sha": "fbae4228d3b520724e6376ad9ef1849970c31e7b",
+      "public_blob_sha": "fbae4228d3b520724e6376ad9ef1849970c31e7b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_continental_league_modules.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_continental_league_modules.gd",
+      "source_blob_sha": "7327f86c847abff25204048d433864a68dd400f9",
+      "public_blob_sha": "7327f86c847abff25204048d433864a68dd400f9",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_controller_support.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_controller_support.gd",
+      "source_blob_sha": "94c023d269a4732b4988b870b3c28424a4f85581",
+      "public_blob_sha": "94c023d269a4732b4988b870b3c28424a4f85581",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_custom_player_roster.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_custom_player_roster.gd",
+      "source_blob_sha": "06d97ba9f4915aa39db7bfe944047b61290ce3f7",
+      "public_blob_sha": "06d97ba9f4915aa39db7bfe944047b61290ce3f7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_football_database.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_football_database.gd",
+      "source_blob_sha": "526bebeefbd8d3efcd58d14c075f6904d1cdcbe7",
+      "public_blob_sha": "526bebeefbd8d3efcd58d14c075f6904d1cdcbe7",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_friendly_match_runtime.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_friendly_match_runtime.gd",
+      "source_blob_sha": "050aa256cb9ac0ae22c92b3862f7d6294e36fa70",
+      "public_blob_sha": "050aa256cb9ac0ae22c92b3862f7d6294e36fa70",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_game_hub.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_game_hub.gd",
+      "source_blob_sha": "d7c24bd92b02c1bb6b3f0865f51bef596b925268",
+      "public_blob_sha": "d7c24bd92b02c1bb6b3f0865f51bef596b925268",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_league_and_manager_systems.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_league_and_manager_systems.gd",
+      "source_blob_sha": "7171f85a2c12df420eb05f1ce70d84a70a8188c6",
+      "public_blob_sha": "7171f85a2c12df420eb05f1ce70d84a70a8188c6",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_legend_career.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_legend_career.gd",
+      "source_blob_sha": "7183d0b41701ee2020c7165162a497e71e09b15b",
+      "public_blob_sha": "7183d0b41701ee2020c7165162a497e71e09b15b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_match_11v11_foundation.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_match_11v11_foundation.gd",
+      "source_blob_sha": "b9945d8c498212db1271aa1e9cad9c16771b311f",
+      "public_blob_sha": "b9945d8c498212db1271aa1e9cad9c16771b311f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_maximo_padilla_profile.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_maximo_padilla_profile.gd",
+      "source_blob_sha": "276413f9991360bb4c3c3f112a1c44058166889b",
+      "public_blob_sha": "276413f9991360bb4c3c3f112a1c44058166889b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_mens_scope.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_mens_scope.gd",
+      "source_blob_sha": "b5a40f6513bfcab61eab73ced089f37919a0a861",
+      "public_blob_sha": "b5a40f6513bfcab61eab73ced089f37919a0a861",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_moments_service.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_moments_service.gd",
+      "source_blob_sha": "d61c1e53912592c145c15b6a62b0478d3e630000",
+      "public_blob_sha": "d61c1e53912592c145c15b6a62b0478d3e630000",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_national_team_competition_catalog.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_national_team_competition_catalog.gd",
+      "source_blob_sha": "3bf7a094dc0091a2eb891ebda4c636cb39031302",
+      "public_blob_sha": "3bf7a094dc0091a2eb891ebda4c636cb39031302",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_nova_owner_access.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_nova_owner_access.gd",
+      "source_blob_sha": "677cf6de0582403e1fd620d9c9ce243b77cc5930",
+      "public_blob_sha": "677cf6de0582403e1fd620d9c9ce243b77cc5930",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_nova_resource_policy.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_nova_resource_policy.gd",
+      "source_blob_sha": "3120172501b072d9b608770ade5495913585e22f",
+      "public_blob_sha": "3120172501b072d9b608770ade5495913585e22f",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_pending_league_calendars.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_pending_league_calendars.gd",
+      "source_blob_sha": "0a247ab5a73e06482e10930c797881ef159fef24",
+      "public_blob_sha": "0a247ab5a73e06482e10930c797881ef159fef24",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_player_statistics_consistency.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_player_statistics_consistency.gd",
+      "source_blob_sha": "2d48acca7f0e3b8b634bf14eb9a816b8be35e65d",
+      "public_blob_sha": "2d48acca7f0e3b8b634bf14eb9a816b8be35e65d",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_season_progression.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_season_progression.gd",
+      "source_blob_sha": "05f781c9074d3c232a9eb3f7c5bfba4d31c65691",
+      "public_blob_sha": "05f781c9074d3c232a9eb3f7c5bfba4d31c65691",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_shared_foundation.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_shared_foundation.gd",
+      "source_blob_sha": "8460001cc87d9aa713c3bfab28ca758f24af3770",
+      "public_blob_sha": "8460001cc87d9aa713c3bfab28ca758f24af3770",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_tas_competition_engine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_tas_competition_engine.gd",
+      "source_blob_sha": "8ff2bc2f8cef4faf46fb4f913670731dbd625b2b",
+      "public_blob_sha": "8ff2bc2f8cef4faf46fb4f913670731dbd625b2b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_tas_match_decision_engine.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_tas_match_decision_engine.gd",
+      "source_blob_sha": "5bae738d4a537c8033f16153213b686894209b74",
+      "public_blob_sha": "5bae738d4a537c8033f16153213b686894209b74",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_ten_base_leagues_complete.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_ten_base_leagues_complete.gd",
+      "source_blob_sha": "9f8dddcfbecf029f177758e3df4a6096934093dc",
+      "public_blob_sha": "9f8dddcfbecf029f177758e3df4a6096934093dc",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tests/test_usa_league_data.gd",
+      "source_path": "proyectos/juegos/futbol-nova/tests/test_usa_league_data.gd",
+      "source_blob_sha": "0e740741e57cf2bfbee9e1f3325809ed7a955b24",
+      "public_blob_sha": "0e740741e57cf2bfbee9e1f3325809ed7a955b24",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tools/build_global_database.py",
+      "source_path": "proyectos/juegos/futbol-nova/tools/build_global_database.py",
+      "source_blob_sha": "afab985341112cf2b4f54946d007af1c23e152d5",
+      "public_blob_sha": "afab985341112cf2b4f54946d007af1c23e152d5",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tools/generate_fictional_clubs.py",
+      "source_path": "proyectos/juegos/futbol-nova/tools/generate_fictional_clubs.py",
+      "source_blob_sha": "f539018f95e48c7139011ea68b98811adfb0b2a6",
+      "public_blob_sha": "f539018f95e48c7139011ea68b98811adfb0b2a6",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tools/validate_club_identity_names.py",
+      "source_path": "proyectos/juegos/futbol-nova/tools/validate_club_identity_names.py",
+      "source_blob_sha": "89cdec857626314946e5fcfe19ac46fb92282e5b",
+      "public_blob_sha": "89cdec857626314946e5fcfe19ac46fb92282e5b",
+      "status": "exact"
+    },
+    {
+      "path": "futbol-nova/tools/validate_historical_competitions.py",
+      "source_path": "proyectos/juegos/futbol-nova/tools/validate_historical_competitions.py",
+      "source_blob_sha": "c8b67c98f234fbeffd99d256d879028a34ea3eaa",
+      "public_blob_sha": "c8b67c98f234fbeffd99d256d879028a34ea3eaa",
+      "status": "exact"
     }
   ],
-  "exclusions": [
-    "Código fuente Godot, escenas, scripts, pruebas y workflows internos",
-    "Documentación interna y notas administrativas",
-    "Perfiles personalizados e imágenes personales de jugadores",
-    "Partidas guardadas, datos privados, secretos, tokens y credenciales",
-    "Catálogos y datos internos no incluidos en el paquete público de las diez ligas base"
-  ],
-  "policy": "El repositorio privado Nova-Workspace sigue siendo la fuente canónica. Publicar únicamente datos deportivos seleccionados y revisados; no presentar el juego como terminado ni las ligas como jugables sin pruebas."
+  "policy": "Nova-Workspace sigue siendo la fuente canónica privada. Esta carpeta pública es una instantánea de distribución; mantener los datos sincronizados por hashes y no publicar secretos ni imágenes de referencia internas/de terceros."
 }

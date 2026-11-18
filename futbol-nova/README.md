@@ -1,47 +1,28 @@
-# Fútbol Nova — paquete público de datos base
+# Fútbol Nova — copia pública del proyecto
 
-Esta carpeta contiene una copia seleccionada de los datos deportivos necesarios para preparar la distribución de las diez ligas base de Fútbol Nova.
+Esta carpeta contiene una copia del proyecto de videojuego **Fútbol Nova**, desarrollado con Godot 4.4.1. Incluye el proyecto importable, escenas, scripts GDScript, datos deportivos, módulos, documentación, herramientas y pruebas automatizadas.
 
-## Alcance
+## Abrir el proyecto
 
-- Inglaterra
-- España
-- Brasil
-- Italia
-- Alemania
-- Francia
-- Portugal
-- Argentina
-- Cuba
-- Estados Unidos
+1. Descarga el repositorio público o abre esta carpeta desde GitHub.
+2. Instala Godot **4.4.1 Standard**.
+3. Importa la carpeta `futbol-nova/` seleccionando el archivo `project.godot`.
+4. Ejecuta la escena principal `scenes/main.tscn`.
 
-El paquete incluye catálogos de clubes y competiciones, manifiesto de contenido y plantillas ficticias de jugadores. Los archivos de plantillas identifican perfiles ficticios de Fútbol Nova; no deben presentarse como plantillas reales de clubes profesionales.
+La guía completa está en [GAME_README.md](GAME_README.md) y [docs/GODOT_PROJECT_QUICK_START.md](docs/GODOT_PROJECT_QUICK_START.md).
 
-## Qué no contiene
+## Pruebas
 
-Esta copia no incluye el código fuente del juego, scripts de compilación, credenciales, claves, secretos, partidas guardadas, datos privados de usuarios ni imágenes personales. El proyecto maestro permanece en el repositorio privado `Cumba35/Nova-Workspace`.
+- Integridad de los archivos, hashes Git, JSON y CSV: `python3 tools/validate_public_copy.py`.
+- Pruebas del motor Godot: workflow [Fútbol Nova — pruebas de copia pública](https://github.com/Cumba35/Web-Publica-Nova/actions/workflows/futbol-nova-public-copy.yml).
+- La página pública del proyecto está en [Fútbol Nova](index.html).
 
-## Estructura
+## Alcance y exclusiones
 
-- `data/base_league_clubs_2026.json`: membresía de clubes de las ligas base.
-- `data/*_leagues*.json`: catálogos de competiciones.
-- `data/*_clubs*.json`: catálogos específicos de clubes.
-- `data/players/`: perfiles ficticios por país/competición.
-- `data/league_content_manifest.json`: manifiesto de distribución del contenido base.
+Se copiaron todos los archivos de texto del proyecto maestro: código, escenas, datos, módulos, documentación, herramientas y pruebas. Se excluyen seis JPG de referencia visual interna/de terceros, porque no son recursos necesarios para iniciar el juego y no están aprobados para redistribución. La lista exacta está en [SOURCE-MIRROR.json](SOURCE-MIRROR.json).
 
-## Integridad y mantenimiento
+Esta copia no convierte en jugables las funciones que siguen en desarrollo. El README original documenta el estado real del proyecto: el partido completo 11 contra 11 y varias integraciones todavía requieren implementación y validación.
 
-Los archivos se copiaron desde `proyectos/juegos/futbol-nova/data/` del repositorio privado. Esta carpeta es una copia de distribución de datos, no sustituye al repositorio maestro ni demuestra que el juego o sus diez ligas ya hayan superado las pruebas de ejecución.
+## Fuente canónica
 
-Antes de redistribuir o comercializar el juego, revisar las fuentes, licencias y derechos de los datos de membresía de clubes y competiciones. Los nombres y referencias de fuentes conservados en los JSON permiten rastrear parte de esa procedencia.
-
-No añadir aquí claves, contraseñas, tokens, archivos de configuración privada ni información personal.
-
-
-## Auditoría de espejo público — 2026-11-18
-
-- Fuente canónica: `Cumba35/Nova-Workspace`, rama `main`, commit `250af727fb2dccfae1571c29d08290416426f0ef`.
-- Se compararon los hashes Git de los **23 archivos** publicados en `data/`; todos coinciden exactamente con `proyectos/juegos/futbol-nova/data/`.
-- No hay archivos públicos de este paquete ausentes ni desactualizados respecto a la fuente.
-- El inventario verificable está en [SOURCE-MIRROR.json](SOURCE-MIRROR.json).
-- Se mantiene el alcance seleccionado: datos de las diez ligas base. No se copia el código Godot, scripts, pruebas, documentación interna, perfiles/imágenes personales ni secretos. El proyecto maestro continúa privado.
+El desarrollo principal continúa en el repositorio privado [Cumba35/Nova-Workspace](https://github.com/Cumba35/Nova-Workspace), ruta `proyectos/juegos/futbol-nova/`. La copia pública es una instantánea y debe actualizarse desde esa fuente, nunca al revés.
