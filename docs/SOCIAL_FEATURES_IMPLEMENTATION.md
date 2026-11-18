@@ -62,7 +62,7 @@ No se duplicaron las tablas existentes de Nova Chat, reseñas de Nova Apps ni pe
 
 ## Migraciones aplicadas
 
-Los archivos SQL del repositorio conservan las versiones de migración del entorno `NOVA-STAGING`. En producción (`Nova-Nexus`) Supabase registró los mismos nombres con identificadores de versión distintos:
+Los archivos SQL del repositorio están versionados con los identificadores de producción de `Nova-Nexus`:
 - `20261118210209_nova_social_foundation`
 - `20261118210210_nova_social_fk_indexes`
 - `20261118210224_nova_social_profile_block_visibility`
@@ -73,7 +73,7 @@ Los archivos SQL del repositorio conservan las versiones de migración del entor
 - `20261118211008_nova_social_comment_policy_fix`
 - `20261118211147_nova_social_notification_fk_indexes`
 
-Las nueve etapas se aplicaron en ambos entornos. La correspondencia por nombre es: `nova_social_foundation` (staging `20261118210209`, producción `20261118210042`); `nova_social_fk_indexes` (`20261118210210` / `20261118210127`); `nova_social_profile_block_visibility` (`20261118210224` / `20261118210222`); `nova_social_visibility_and_reports` (`20261118210441` / `20261118210440`); `nova_social_follow_block_guard` (`20261118210812` / `20261118210810`); `nova_social_notifications` (`20261118210938` / `20261118210935`); `nova_social_notification_function_permissions` (`20261118211007` / `20261118210944`); `nova_social_comment_policy_fix` (`20261118211008` / `20261118210956`); `nova_social_notification_fk_indexes` (`20261118211147` / `20261118211146`). El SQL se conserva en GitHub para reproducibilidad.
+Las nueve etapas también se aplicaron en `NOVA-STAGING`. Supabase generó allí estas versiones remotas, en el mismo orden: `20261118210042`, `20261118210127`, `20261118210222`, `20261118210440`, `20261118210810`, `20261118210935`, `20261118210944`, `20261118210956` y `20261118211146`. La correspondencia se verificó leyendo el historial de migraciones de ambos proyectos.
 
 ## Verificación realizada
 
