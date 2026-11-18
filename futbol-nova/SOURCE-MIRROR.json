@@ -5,7 +5,7 @@
   "source": {
     "repository": "Cumba35/Nova-Workspace",
     "branch": "main",
-    "commit": "2ef53661c69bedf29b65c7afe20dfa5912c49b49",
+    "commit": "1966d273c656f4080df39fdc1b094e465eaf2f65",
     "path": "proyectos/juegos/futbol-nova/"
   },
   "destination": {
@@ -1837,8 +1837,8 @@
     {
       "path": "futbol-nova/tests/test_game_hub.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_game_hub.gd",
-      "source_blob_sha": "db76890bf4b0e2d6e6c5e88738ae62291a315870",
-      "public_blob_sha": "db76890bf4b0e2d6e6c5e88738ae62291a315870",
+      "source_blob_sha": "6445ec1c657a4a933066444545542ba79c2d5280",
+      "public_blob_sha": "6445ec1c657a4a933066444545542ba79c2d5280",
       "status": "exact"
     },
     {
