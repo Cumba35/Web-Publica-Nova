@@ -59,3 +59,10 @@ body[data-site="ia"]{--accent:#8b6cff;--cyan:#29d7f2}
   .section-nav-links a{font-size:.82rem}
   .back-to-top{right:12px;bottom:12px;width:40px;height:40px}
 }
+
+/* El icono de usuario concentra menú, cuenta y ajustes en todas las páginas. */
+header .bar > .nav, header > nav:not(.nova-menu-links){display:none!important}
+.menu-toggle{display:none!important}
+header .bar{justify-content:space-between}
+.nova-account{margin-left:auto}
+@media(max-width:850px){header .bar{flex-direction:row;align-items:center;flex-wrap:nowrap}.nova-account{margin-left:auto}.bar > .nav{display:none!important}}
