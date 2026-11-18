@@ -186,13 +186,6 @@ if not robots_file.is_file():
 elif "Sitemap: https://cumba35.github.io/Web-Publica-Nova/sitemap.xml" not in robots_file.read_text(encoding="utf-8"):
     errors.append("robots.txt must advertise the public sitemap.")
 
-if errors:
-    print("NOVA public site validation FAILED")
-    for error in errors:
-        print(" - " + error)
-    sys.exit(1)
-print(f"NOVA public site validation passed: {len(pages)} HTML page(s), all local links/assets and basic accessibility checks OK.")
-
 # NOVA Social: guard the first usable social experience and its shared data contract.
 social_page = ROOT / "nova-social" / "index.html"
 social_js = ROOT / "assets" / "js" / "social-feed.js"
@@ -221,3 +214,11 @@ if social_js.is_file():
     ):
         if token not in social_js_text:
             errors.append(f"assets/js/social-feed.js: missing {label} integration.")
+
+if errors:
+    print("NOVA public site validation FAILED")
+    for error in errors:
+        print(" - " + error)
+    sys.exit(1)
+print(f"NOVA public site validation passed: {len(pages)} HTML page(s), all local links/assets and basic accessibility checks OK.")
+
