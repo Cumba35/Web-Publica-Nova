@@ -141,3 +141,11 @@ La configuración de despliegue pública puede documentarse aquí, pero secretos
 - [ ] Pruebas funcionales reales y despliegue.
 
 No se han copiado archivos de terceros ni se ha activado una red social falsa. Esta documentación registra hallazgos y una ruta de integración segura.
+
+
+## Actualización de implementación — 2026-11-18
+
+- Se construyó el primer módulo NOVA Social en el portal estático y se conectó a las tablas sociales de Supabase.
+- Se desplegó el esquema en NOVA-STAGING y en Nova-Nexus (producción) tras verificar aislamiento entre usuarios, visibilidad pública/seguidores, aceptación de solicitudes y bloqueo mediante pruebas transaccionales en staging.
+- La moderación administrativa, notificaciones, adjuntos multimedia y conexiones federadas siguen fuera de esta primera entrega y no se presentan como funciones activas.
+- La migración de perfiles oculta de los resultados de descubrimiento a cuentas bloqueadas.
