@@ -5,7 +5,7 @@ Portal público de distribución del ecosistema NOVA.
 - **Repositorio:** https://github.com/Cumba35/Web-Publica-Nova
 - **Rama:** `main`
 - **URL pública:** https://cumba35.github.io/Web-Publica-Nova/
-- **Sitios:** portada + nueve micrositios.
+- **Sitios:** portada + diez micrositios.
 - **Repositorios fuente:** permanecen privados.
 
 ## Sitios publicados
@@ -19,6 +19,7 @@ Portal público de distribución del ecosistema NOVA.
 7. [Nova Chat](https://cumba35.github.io/Web-Publica-Nova/nova-chat/)
 8. [Multimedia Nova](https://cumba35.github.io/Web-Publica-Nova/multimedia-nova/)
 9. [NOVA IA](https://cumba35.github.io/Web-Publica-Nova/nova-ia/)
+10. [Fútbol Nova](https://cumba35.github.io/Web-Publica-Nova/futbol-nova/)
 
 Nova Workspace queda excluido del portal público.
 
@@ -94,3 +95,13 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - Se corrigió el parámetro `redirectTo` del acceso Google: ahora vuelve a la ruta pública `https://cumba35.github.io/Web-Publica-Nova/multimedia-nova/`, no a `https://cumba35.github.io/Nova-APPS/` (repositorio privado que no debe usarse como URL pública).
 - El cambio quedó en el archivo `multimedia-nova/index.html` mediante el commit `db403a2b8092e744a6c9bdd2410ae0c2576ba09a`.
 - Pendiente validar que la URL exacta esté permitida en Supabase Auth Redirect URLs y completar una prueba real de Google OAuth desde Android. No se declara completada la autenticación hasta esa prueba.
+
+
+## Menú global y cuenta — 2026-11-18
+
+- Todas las páginas HTML deben cargar exactamente una vez `assets/js/site-navigation.js`, que incorpora el controlador compartido de cuenta y menú.
+- El único control global para abrir el panel es el icono circular de usuario; la navegación antigua del encabezado permanece oculta para evitar controles duplicados.
+- El panel agrupa Cuenta de usuario, Ajustes de esta página, apariencia clara/oscura, Otras páginas NOVA y Donaciones.
+- El botón expone `aria-controls` y `aria-expanded`; Escape cierra el panel y devuelve el foco al botón.
+- El validador comprueba el cargador compartido y rechaza botones de menú antiguos. El despliegue verifica también la ruta pública de Fútbol Nova.
+- Límite de verificación: los workflows comprueban estructura, enlaces, despliegue HTTPS y secretos; no sustituyen una prueba interactiva con una cuenta real de Google/Supabase ni verifican cambios de perfil en producción.
