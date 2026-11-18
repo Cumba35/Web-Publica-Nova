@@ -136,6 +136,32 @@ for page in pages:
             except Exception as exc:
                 errors.append(f"{rel}: could not inspect anchor target {raw}: {exc}")
 
+# Guard the shared account/menu controller and its core interactions against regressions.
+account_file = ROOT / "assets/js/account.js"
+navigation_file = ROOT / "assets/js/site-navigation.js"
+if not account_file.is_file():
+    errors.append("Missing assets/js/account.js.")
+else:
+    account_js = account_file.read_text(encoding="utf-8")
+    for token, label in (
+        ("signInWithOAuth", "Google sign-in"),
+        ("updateUser", "profile editing"),
+        ("signOut", "sign-out"),
+        ("nova-theme", "theme persistence"),
+        ("Cambiar a modo claro", "light-mode action label"),
+        ("Cambiar a modo oscuro", "dark-mode action label"),
+        ('aria-expanded', "accessible menu state"),
+        ('addEventListener("keydown"', "Escape-key handling"),
+    ):
+        if token not in account_js:
+            errors.append(f"assets/js/account.js: missing {label} implementation.")
+if not navigation_file.is_file():
+    errors.append("Missing assets/js/site-navigation.js.")
+else:
+    navigation_js = navigation_file.read_text(encoding="utf-8")
+    if 'assets/js/account.js' not in navigation_js:
+        errors.append("assets/js/site-navigation.js: does not load the shared account/menu controller.")
+
 # The public sitemap must list every published HTML route, and robots.txt must expose it.
 sitemap_file = ROOT / "sitemap.xml"
 robots_file = ROOT / "robots.txt"
