@@ -60,3 +60,50 @@ begin
   end;
 end $rls$;
 rollback;
+
+
+-- Notification triggers and private notification access.
+begin;
+insert into auth.users (id,aud,role,email,created_at,updated_at) values
+('33333333-3333-4333-8333-333333333333','authenticated','authenticated','social-notify-a@example.invalid',now(),now()),
+('44444444-4444-4444-8444-444444444444','authenticated','authenticated','social-notify-b@example.invalid',now(),now());
+insert into public.nova_social_profiles (user_id,username,display_name,is_private,discoverable) values
+('33333333-3333-4333-8333-333333333333','social_notify_a','Notify A',false,true),
+('44444444-4444-4444-8444-444444444444','social_notify_b','Notify B',false,true);
+insert into public.nova_social_posts (author_id,body,visibility)
+values ('33333333-3333-4333-8333-333333333333','notification test post','public');
+set local role authenticated;
+select set_config('request.jwt.claim.sub','44444444-4444-4444-8444-444444444444',true);
+insert into public.nova_social_follows(follower_id,followed_id,status)
+values ('44444444-4444-4444-8444-444444444444','33333333-3333-4333-8333-333333333333','accepted');
+insert into public.nova_social_reactions(post_id,user_id,reaction_type)
+select id,'44444444-4444-4444-8444-444444444444','like'
+from public.nova_social_posts where body='notification test post';
+insert into public.nova_social_comments(post_id,author_id,body)
+select id,'44444444-4444-4444-8444-444444444444','A test comment'
+from public.nova_social_posts where body='notification test post';
+select set_config('request.jwt.claim.sub','33333333-3333-4333-8333-333333333333',true);
+do $notify$
+begin
+  if (select count(*) from public.nova_social_notifications) <> 3 then
+    raise exception 'notification trigger test failed: expected 3 notifications for owner';
+  end if;
+  if (select count(*) from public.nova_social_notifications where notification_type='reaction') <> 1 then
+    raise exception 'reaction notification missing';
+  end if;
+  if (select count(*) from public.nova_social_notifications where notification_type='comment') <> 1 then
+    raise exception 'comment notification missing';
+  end if;
+  update public.nova_social_notifications set read_at=now() where read_at is null;
+  if (select count(*) from public.nova_social_notifications where read_at is null) <> 0 then
+    raise exception 'notification read-state update failed';
+  end if;
+end $notify$;
+select set_config('request.jwt.claim.sub','44444444-4444-4444-8444-444444444444',true);
+do $notify$
+begin
+  if (select count(*) from public.nova_social_notifications) <> 0 then
+    raise exception 'RLS FAIL: other user can read notifications';
+  end if;
+end $notify$;
+rollback;
