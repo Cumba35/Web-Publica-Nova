@@ -147,5 +147,9 @@ No se han copiado archivos de terceros ni se ha activado una red social falsa. E
 
 - Se construyó el primer módulo NOVA Social en el portal estático y se conectó a las tablas sociales de Supabase.
 - Se desplegó el esquema en NOVA-STAGING y en Nova-Nexus (producción) tras verificar aislamiento entre usuarios, visibilidad pública/seguidores, aceptación de solicitudes y bloqueo mediante pruebas transaccionales en staging.
-- La moderación administrativa, notificaciones, adjuntos multimedia y conexiones federadas siguen fuera de esta primera entrega y no se presentan como funciones activas.
+- La moderación administrativa, notificaciones, adjuntos multimedia y conexiones federadas siguen fuera de esta primera entrega y no se presentan como funciones activas. Se añadió gestión de cuentas bloqueadas y desbloqueo.
 - La migración de perfiles oculta de los resultados de descubrimiento a cuentas bloqueadas.
+
+
+- Documentación de implementación y comprobaciones: [SOCIAL_FEATURES_IMPLEMENTATION.md](SOCIAL_FEATURES_IMPLEMENTATION.md).
+- Las migraciones de producción están versionadas en GitHub con los identificadores del historial de `Nova-Nexus`; el entorno de pruebas conserva los identificadores remotos que generó Supabase.
