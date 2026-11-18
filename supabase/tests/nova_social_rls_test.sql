@@ -36,7 +36,7 @@ update public.nova_social_follows set status='accepted'
 where follower_id='11111111-1111-4111-8111-111111111111'
   and followed_id='22222222-2222-4222-8222-222222222222';
 select set_config('request.jwt.claim.sub','11111111-1111-4111-8111-111111111111',true);
-do $
+do $approved$
 begin
   if (select count(*) from public.nova_social_posts) <> 3 then
     raise exception 'RLS FAIL: approved follower must see both public and follower posts from private profile';
@@ -44,7 +44,7 @@ begin
   if not exists (select 1 from public.nova_social_notifications where recipient_id='11111111-1111-4111-8111-111111111111' and notification_type='follow_accepted') then
     raise exception 'notification missing for accepted follow request';
   end if;
-end $;
+end $approved$;
 select set_config('request.jwt.claim.sub','22222222-2222-4222-8222-222222222222',true);
 do $notify$
 begin
