@@ -35,6 +35,16 @@ body.nova-light .card,body.nova-light .panel,body.nova-light .section-nav{backgr
 body.nova-light .nova-account-panel{background:#fff;color:#14243a;border-color:#cbd7e6}
 body.nova-light .nova-menu-links a,body.nova-light .nova-menu-action{background:#edf3fa;color:#14243a;border-color:#cbd7e6}
 body.nova-light .nova-account-panel input{background:#f6f8fc;color:#14243a;border-color:#cbd7e6}
+body.nova-light .nova-account-summary,body.nova-light .nova-account-panel label{color:#52647c}
+body.nova-light .mm-hero,body.nova-light .mm-card,body.nova-light .provider{background:#fff;color:#14243a;border-color:#cbd7e6}
+body.nova-light .mm-wrap,body.nova-light .mm-row{color:#14243a}
+body.nova-light .mm-row{border-color:#d8e1ec}
+body.nova-light .mm-file input,body.nova-light .mm-file select{background:#f6f8fc;color:#14243a;border-color:#cbd7e6}
+body.nova-light .status{background:#eaf4fb;color:#21445d}
+body.nova-light .status.error{background:#fff0f1;color:#8b2636}
+body.nova-light main{background:linear-gradient(145deg,#f7fbff,#e8f0f8);color:#14243a;border-color:#cbd7e6}
+body.nova-light main p{color:#52647c}
+body.nova-light main a{color:#2459a6}
 `;
 document.head.append(style);
 const host=document.createElement("div");host.className="nova-account";
