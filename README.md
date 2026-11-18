@@ -114,3 +114,10 @@ No publicar repositorios fuente completos, archivos `.env`, claves, tokens, dato
 - El modo claro incluye estilos específicos para Multimedia Nova y Fútbol Nova, además de los estilos generales del portal.
 - La validación estática comprueba que el controlador compartido contiene inicio de sesión Google, edición de perfil, cierre de sesión, persistencia de tema, accesibilidad y cierre con Escape.
 - Las pruebas de GitHub Actions no pueden sustituir una autorización OAuth real ni confirmar cambios de perfil en una cuenta del propietario; esa comprobación requiere una sesión interactiva autorizada.
+
+
+## Investigación de código abierto y evolución social — 2026-11-18
+
+- Se añadió el inventario de repositorios públicos revisados, estado de licencias, compatibilidad técnica, propuesta de red social estilo Facebook, recomendador transparente, arquitectura, privacidad y etapas de implementación: [docs/OPEN_SOURCE_RESEARCH_AND_SOCIAL_ROADMAP.md](docs/OPEN_SOURCE_RESEARCH_AND_SOCIAL_ROADMAP.md).
+- La documentación distingue referencias de código que podrían reutilizarse de proyectos cuya licencia todavía no se ha confirmado. No se copió código de terceros ni se habilitaron funciones sociales sin backend y controles de acceso.
+- Los datos personales, publicaciones, mensajes y actividad de usuarios deben permanecer en el backend protegido, nunca en este repositorio público.
