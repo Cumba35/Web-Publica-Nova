@@ -1,0 +1,20 @@
+extends SceneTree
+
+func _initialize() -> void:
+	var file := FileAccess.open("res://data/global_league_selection_100.json", FileAccess.READ)
+	assert(file != null, "100-league selection file must exist")
+	var data = JSON.parse_string(file.get_as_text())
+	assert(data is Dictionary, "League selection root must be a JSON object")
+	var scope: Dictionary = data.get("product_scope", {})
+	assert(str(scope.get("gender_scope", "")) == "mens_football_only", "Product scope must be men's football only")
+	assert(not bool(scope.get("include_womens_players", true)), "Women's players must be excluded")
+	assert(not bool(scope.get("include_womens_clubs", true)), "Women's clubs must be excluded")
+	assert(not bool(scope.get("include_womens_national_teams", true)), "Women's national teams must be excluded")
+	assert(bool(scope.get("exclude_womens_competitions", false)), "Women's competitions must be excluded")
+	assert(data.get("leagues", []).size() == 100, "Selected league list must preserve exactly 100 entries")
+	var ui := FileAccess.open("res://scripts/ui/game_hub.gd", FileAccess.READ)
+	assert(ui != null, "Game hub must exist")
+	var ui_text := ui.get_as_text()
+	assert(not ui_text.contains("FEMENINO") and not ui_text.contains("Femenino"), "No women's mode may appear in the game hub")
+	print("Men's football scope tests passed")
+	quit(0)
