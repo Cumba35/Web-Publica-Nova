@@ -16,6 +16,8 @@ Repositorio: https://github.com/Cumba35/Web-Publica-Nova
 - Solicitudes de seguimiento para perfiles privados, con aceptación/rechazo, cancelación de solicitudes enviadas y opción de dejar de seguir.
 - Bloqueo, eliminación recíproca del seguimiento, prevención de nuevas solicitudes entre cuentas bloqueadas y opción de desbloquear.
 - Envío de reportes de publicaciones.
+- Notificaciones internas por nuevos seguidores, solicitudes aceptadas, reacciones y comentarios; el usuario puede marcarlas como leídas.
+- Sugerencias de personas ordenadas por coincidencia con los temas que el usuario eligió, cuando hay publicaciones públicas etiquetadas.
 - Preferencias de temas y activación/desactivación de recomendaciones.
 
 ## Recomendador
@@ -40,6 +42,7 @@ Las tablas sociales dedicadas se encuentran en el esquema `public` de Supabase:
 - `nova_social_bookmarks`
 - `nova_social_preferences`
 - `nova_social_reports`
+- `nova_social_notifications`
 
 No se duplicaron las tablas existentes de Nova Chat, reseñas de Nova Apps ni perfiles del directorio NOVA. Los perfiles sociales son una capa independiente para evitar cambiar el contrato de esos módulos.
 
@@ -52,6 +55,7 @@ No se duplicaron las tablas existentes de Nova Chat, reseñas de Nova Apps ni pe
 - Los perfiles privados ocultan sus publicaciones a usuarios no aprobados.
 - Los bloqueos se aplican a publicaciones y resultados de descubrimiento.
 - Los reportes permiten insertar al usuario, pero no leer ni alterar la cola de moderación desde el cliente.
+- Las notificaciones solo permiten lectura por destinatario y actualización de `read_at`; una función de trigger en esquema privado las crea. Su `search_path` está fijado y se revocó EXECUTE a roles API.
 - Las relaciones entre usuarios no confían en campos editables de `user_metadata` para autorización.
 - No se han puesto claves secretas, tokens ni datos personales en GitHub.
 
@@ -63,6 +67,9 @@ Los siguientes nombres/identificadores coinciden con el historial de migraciones
 - `20261118210224_nova_social_profile_block_visibility`
 - `20261118210441_nova_social_visibility_and_reports`
 - `20261118210812_nova_social_follow_block_guard`
+- `20261118210938_nova_social_notifications`
+- `20261118211007_nova_social_notification_function_permissions`
+- `20261118211008_nova_social_comment_policy_fix`
 
 Las mismas cinco etapas se aplicaron en `NOVA-STAGING`; el sistema remoto generó allí identificadores de versión propios. El contenido SQL se conserva en este repositorio para reproducibilidad.
 
@@ -72,6 +79,7 @@ En `NOVA-STAGING` se ejecutó `supabase/tests/nova_social_rls_test.sql` mediante
 - Un perfil privado no expone publicaciones antes de aprobar un seguidor.
 - Un usuario no puede publicar en nombre de otra cuenta.
 - La aceptación de una solicitud permite ver las publicaciones reservadas a seguidores.
+- Las notificaciones de seguimiento, reacción y comentario se crean automáticamente; solo el destinatario puede leerlas y marcar su estado.
 - Un bloqueo oculta las publicaciones entre ambas cuentas.
 
 En producción se comprobó:
@@ -89,7 +97,7 @@ La validación de RLS no sustituye una prueba interactiva con dos cuentas reales
 1. Moderación administrativa: panel privado para revisar reportes, ocultar contenido, suspender cuentas y registrar decisiones.
 2. Notificaciones dentro de NOVA y notificaciones push con permisos.
 3. Adjuntos de imagen/vídeo, bucket de Storage, límites de tamaño y revisión de contenido.
-4. Edición de publicaciones/comentarios y herramientas avanzadas de privacidad.
+4. Edición de publicaciones/comentarios, respuestas anidadas y herramientas avanzadas de privacidad.
 5. Pruebas reales de Google OAuth, perfiles y publicaciones con dos cuentas de usuario.
 6. Pruebas visuales y de accesibilidad en Android y otros navegadores.
 7. Integraciones externas con Telegram, Instagram, Facebook y Discord: requieren registrar aplicaciones/bots, configurar callbacks y permisos OAuth, consentimiento de usuario y guardar secretos/tokens exclusivamente en el gestor seguro del backend. No se han activado ni se simulan.
