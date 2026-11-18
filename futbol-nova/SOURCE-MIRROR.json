@@ -5,7 +5,7 @@
   "source": {
     "repository": "Cumba35/Nova-Workspace",
     "branch": "main",
-    "commit": "92289a4fa251450fecf6ba86a7d6d8219cb16e21",
+    "commit": "ab67e24f90862fc4e589c1611f2d8abe9e72ac82",
     "path": "proyectos/juegos/futbol-nova/"
   },
   "destination": {
@@ -1298,8 +1298,8 @@
     {
       "path": "futbol-nova/scripts/data/base_league_roster_generator.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/data/base_league_roster_generator.gd",
-      "source_blob_sha": "70e95d4ad9749acc00f69e6991de943875be35cc",
-      "public_blob_sha": "70e95d4ad9749acc00f69e6991de943875be35cc",
+      "source_blob_sha": "bfb57edd6fcf552e555ba91fcefc1a09cb061967",
+      "public_blob_sha": "bfb57edd6fcf552e555ba91fcefc1a09cb061967",
       "status": "exact"
     },
     {
@@ -1333,8 +1333,8 @@
     {
       "path": "futbol-nova/scripts/data/cuba_league_importer.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/data/cuba_league_importer.gd",
-      "source_blob_sha": "92ee2872589f1b47212c9295c17f36cee83294e3",
-      "public_blob_sha": "92ee2872589f1b47212c9295c17f36cee83294e3",
+      "source_blob_sha": "3a558ba832e89a44bba936406fc90bf6c048861d",
+      "public_blob_sha": "3a558ba832e89a44bba936406fc90bf6c048861d",
       "status": "exact"
     },
     {
@@ -1361,8 +1361,8 @@
     {
       "path": "futbol-nova/scripts/data/downloaded_league_importer.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/data/downloaded_league_importer.gd",
-      "source_blob_sha": "a68e0e2bb151a28b11335517eaa464f84e76d18f",
-      "public_blob_sha": "a68e0e2bb151a28b11335517eaa464f84e76d18f",
+      "source_blob_sha": "bab668aaf2319e3533dff927c3b8c90318886e2a",
+      "public_blob_sha": "bab668aaf2319e3533dff927c3b8c90318886e2a",
       "status": "exact"
     },
     {
@@ -1389,8 +1389,8 @@
     {
       "path": "futbol-nova/scripts/data/football_database_service.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/data/football_database_service.gd",
-      "source_blob_sha": "114da50d3a1d0940e662119acb7aca6b4107dea2",
-      "public_blob_sha": "114da50d3a1d0940e662119acb7aca6b4107dea2",
+      "source_blob_sha": "c74d87945c105607b244e783d6c756d83d779b91",
+      "public_blob_sha": "c74d87945c105607b244e783d6c756d83d779b91",
       "status": "exact"
     },
     {
@@ -1431,8 +1431,8 @@
     {
       "path": "futbol-nova/scripts/data/player_statistics_service.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/data/player_statistics_service.gd",
-      "source_blob_sha": "b168c0a3aa39f0cfab06b08d17d52302c762de66",
-      "public_blob_sha": "b168c0a3aa39f0cfab06b08d17d52302c762de66",
+      "source_blob_sha": "48bd47194d81ac1827237a277e1f5888cf902326",
+      "public_blob_sha": "48bd47194d81ac1827237a277e1f5888cf902326",
       "status": "exact"
     },
     {
@@ -1459,8 +1459,8 @@
     {
       "path": "futbol-nova/scripts/data/usa_roster_generator.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/data/usa_roster_generator.gd",
-      "source_blob_sha": "5f6b9d780b8997e561c975cb7e483bce6d761b59",
-      "public_blob_sha": "5f6b9d780b8997e561c975cb7e483bce6d761b59",
+      "source_blob_sha": "4decbf8cbe930aaeb448f009af60de3b7d5ef9a3",
+      "public_blob_sha": "4decbf8cbe930aaeb448f009af60de3b7d5ef9a3",
       "status": "exact"
     },
     {
@@ -1487,8 +1487,8 @@
     {
       "path": "futbol-nova/scripts/gameplay/match_rules.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/gameplay/match_rules.gd",
-      "source_blob_sha": "d5ff0b6d05565fa789f404ca3bb2bbcc1a426a2b",
-      "public_blob_sha": "d5ff0b6d05565fa789f404ca3bb2bbcc1a426a2b",
+      "source_blob_sha": "8eba173654e2995d17679ad5067b63f9430d1f9d",
+      "public_blob_sha": "8eba173654e2995d17679ad5067b63f9430d1f9d",
       "status": "exact"
     },
     {
@@ -1543,8 +1543,8 @@
     {
       "path": "futbol-nova/scripts/manager/board_objectives_service.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/manager/board_objectives_service.gd",
-      "source_blob_sha": "26a4247577afb847c2e2c91af0b7409777cde259",
-      "public_blob_sha": "26a4247577afb847c2e2c91af0b7409777cde259",
+      "source_blob_sha": "8475dfe812ba149cdfb0599108e2f73cd56988a8",
+      "public_blob_sha": "8475dfe812ba149cdfb0599108e2f73cd56988a8",
       "status": "exact"
     },
     {
@@ -1641,15 +1641,15 @@
     {
       "path": "futbol-nova/scripts/simulation/american_regional_champions_engine.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/american_regional_champions_engine.gd",
-      "source_blob_sha": "9f8dfbcbb54e5047e7c88fdbc2b1a0235a642d54",
-      "public_blob_sha": "9f8dfbcbb54e5047e7c88fdbc2b1a0235a642d54",
+      "source_blob_sha": "753428f72d1029db203b393012aa48976bfb3b48",
+      "public_blob_sha": "753428f72d1029db203b393012aa48976bfb3b48",
       "status": "exact"
     },
     {
       "path": "futbol-nova/scripts/simulation/caribbean_champions_league_engine.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/caribbean_champions_league_engine.gd",
-      "source_blob_sha": "0a0864bce9823b338d0b7ced09c549fbcba50abc",
-      "public_blob_sha": "0a0864bce9823b338d0b7ced09c549fbcba50abc",
+      "source_blob_sha": "054ba7df99ba1c585840856ddacb2de3e0ebbab4",
+      "public_blob_sha": "054ba7df99ba1c585840856ddacb2de3e0ebbab4",
       "status": "exact"
     },
     {
@@ -1676,8 +1676,8 @@
     {
       "path": "futbol-nova/scripts/simulation/round_robin_scheduler.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/round_robin_scheduler.gd",
-      "source_blob_sha": "0a47080d0158cfbee3d5c07b7fe91e917cd43f53",
-      "public_blob_sha": "0a47080d0158cfbee3d5c07b7fe91e917cd43f53",
+      "source_blob_sha": "b2f428c3cfc5825d2b30c660cf3e5a3087956d62",
+      "public_blob_sha": "b2f428c3cfc5825d2b30c660cf3e5a3087956d62",
       "status": "exact"
     },
     {
@@ -1690,8 +1690,8 @@
     {
       "path": "futbol-nova/scripts/simulation/tas_competition_engine.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/simulation/tas_competition_engine.gd",
-      "source_blob_sha": "5218ef2f44dd729e12b2cf0bcb0fede2695b6ce7",
-      "public_blob_sha": "5218ef2f44dd729e12b2cf0bcb0fede2695b6ce7",
+      "source_blob_sha": "f97b4bd0828f1cc9c7f257b41f84219f27043099",
+      "public_blob_sha": "f97b4bd0828f1cc9c7f257b41f84219f27043099",
       "status": "exact"
     },
     {
@@ -1732,15 +1732,15 @@
     {
       "path": "futbol-nova/scripts/ui/game_hub.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/ui/game_hub.gd",
-      "source_blob_sha": "489c90ebca26e61289ebeb4adbe119116b65d552",
-      "public_blob_sha": "489c90ebca26e61289ebeb4adbe119116b65d552",
+      "source_blob_sha": "87b53b65cad78f71815984d99065a1fe84208858",
+      "public_blob_sha": "87b53b65cad78f71815984d99065a1fe84208858",
       "status": "exact"
     },
     {
       "path": "futbol-nova/scripts/ui/league_download_catalog.gd",
       "source_path": "proyectos/juegos/futbol-nova/scripts/ui/league_download_catalog.gd",
-      "source_blob_sha": "641cf3c1ac944e0b78eb694022b5498cee0a1596",
-      "public_blob_sha": "641cf3c1ac944e0b78eb694022b5498cee0a1596",
+      "source_blob_sha": "0e23a1780553af2c4bbf5b80008782b9c71f4fd4",
+      "public_blob_sha": "0e23a1780553af2c4bbf5b80008782b9c71f4fd4",
       "status": "exact"
     },
     {
@@ -1767,8 +1767,8 @@
     {
       "path": "futbol-nova/tests/test_american_regional_champions_engine.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_american_regional_champions_engine.gd",
-      "source_blob_sha": "d52aaaa8d8ae27985bab0468df51295e9c3c5e1d",
-      "public_blob_sha": "d52aaaa8d8ae27985bab0468df51295e9c3c5e1d",
+      "source_blob_sha": "78c8e9ebceffb0c9377841d4a171e8f3894726e0",
+      "public_blob_sha": "78c8e9ebceffb0c9377841d4a171e8f3894726e0",
       "status": "exact"
     },
     {
@@ -1788,8 +1788,8 @@
     {
       "path": "futbol-nova/tests/test_caribbean_champions_league.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_caribbean_champions_league.gd",
-      "source_blob_sha": "35b3a909435bf46fcf5975ca6c207ef0df9222a5",
-      "public_blob_sha": "35b3a909435bf46fcf5975ca6c207ef0df9222a5",
+      "source_blob_sha": "b1bd85426db2511967617e2b611ab4ad3d590438",
+      "public_blob_sha": "b1bd85426db2511967617e2b611ab4ad3d590438",
       "status": "exact"
     },
     {
@@ -1830,8 +1830,8 @@
     {
       "path": "futbol-nova/tests/test_friendly_match_runtime.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_friendly_match_runtime.gd",
-      "source_blob_sha": "050aa256cb9ac0ae22c92b3862f7d6294e36fa70",
-      "public_blob_sha": "050aa256cb9ac0ae22c92b3862f7d6294e36fa70",
+      "source_blob_sha": "e4c6f4507d295b916b0d99d6dfa3e2ffdfa3b27d",
+      "public_blob_sha": "e4c6f4507d295b916b0d99d6dfa3e2ffdfa3b27d",
       "status": "exact"
     },
     {
@@ -1928,15 +1928,15 @@
     {
       "path": "futbol-nova/tests/test_shared_foundation.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_shared_foundation.gd",
-      "source_blob_sha": "8460001cc87d9aa713c3bfab28ca758f24af3770",
-      "public_blob_sha": "8460001cc87d9aa713c3bfab28ca758f24af3770",
+      "source_blob_sha": "1875ea2441e16728cf786e7b2adf1388e4c4a68c",
+      "public_blob_sha": "1875ea2441e16728cf786e7b2adf1388e4c4a68c",
       "status": "exact"
     },
     {
       "path": "futbol-nova/tests/test_tas_competition_engine.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_tas_competition_engine.gd",
-      "source_blob_sha": "8ff2bc2f8cef4faf46fb4f913670731dbd625b2b",
-      "public_blob_sha": "8ff2bc2f8cef4faf46fb4f913670731dbd625b2b",
+      "source_blob_sha": "b3cacc7ed06ebd65e710db1db93667d05047b3ca",
+      "public_blob_sha": "b3cacc7ed06ebd65e710db1db93667d05047b3ca",
       "status": "exact"
     },
     {
