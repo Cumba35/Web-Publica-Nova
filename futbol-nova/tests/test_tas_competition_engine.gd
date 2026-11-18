@@ -85,7 +85,7 @@ func _initialize() -> void:
 func _finish_group_phase(edition: Dictionary) -> Dictionary:
 	var updated := edition.duplicate(true)
 	for group_id in ["A", "B", "C"]:
-		var stage_id := "first_phase_group_" + group_id
+		var stage_id: String = "first_phase_group_" + str(group_id)
 		var teams: Array = updated.groups[group_id]
 		for fixture in updated.fixtures_by_stage[stage_id].duplicate(true):
 			var home_rank := teams.find(str(fixture.home_team_id))

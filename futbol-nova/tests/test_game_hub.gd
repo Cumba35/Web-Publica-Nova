@@ -89,7 +89,9 @@ func _run_tests() -> void:
 	hub._show_league_browser()
 	assert(hub.current_subpage == "league_browser", "Leagues and Cups must open the playable competition browser")
 	assert(hub.content_box.get_child_count() >= 2, "Competition browser must show competitions and download catalog access")
-	var competition_ids: Array = FootballData.registry.competitions_by_id.keys()
+	var football_data: Node = root.get_node_or_null("FootballData")
+	assert(football_data != null, "FootballData autoload must be available in the game test")
+	var competition_ids: Array = football_data.registry.competitions_by_id.keys()
 	if not competition_ids.is_empty():
 		hub._show_competition_detail(str(competition_ids[0]))
 		assert(hub.current_subpage == "competition:" + str(competition_ids[0]), "Competition detail must open its league table and calendar")

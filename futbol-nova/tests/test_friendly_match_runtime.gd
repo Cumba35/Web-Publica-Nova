@@ -55,8 +55,8 @@ func _run_acceptance_test() -> void:
 				failures.append("La preparación no muestra al menos dos clubes elegibles.")
 			if setup._start_button.disabled:
 				failures.append("El botón Iniciar amistoso está bloqueado pese a existir dos clubes válidos.")
-			var selected_home_id := setup._selected_team_id(setup._home_teams)
-			var selected_away_id := setup._selected_team_id(setup._away_teams)
+			var selected_home_id: String = str(setup._selected_team_id(setup._home_teams))
+			var selected_away_id: String = str(setup._selected_team_id(setup._away_teams))
 			var expected_home_name := str(FootballData.registry.teams_by_id.get(selected_home_id, {}).get("name", selected_home_id))
 			var expected_away_name := str(FootballData.registry.teams_by_id.get(selected_away_id, {}).get("name", selected_away_id))
 			if selected_home_id.is_empty() or selected_away_id.is_empty() or selected_home_id == selected_away_id:

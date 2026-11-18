@@ -5,7 +5,7 @@
   "source": {
     "repository": "Cumba35/Nova-Workspace",
     "branch": "main",
-    "commit": "ab67e24f90862fc4e589c1611f2d8abe9e72ac82",
+    "commit": "2ef53661c69bedf29b65c7afe20dfa5912c49b49",
     "path": "proyectos/juegos/futbol-nova/"
   },
   "destination": {
@@ -1830,15 +1830,15 @@
     {
       "path": "futbol-nova/tests/test_friendly_match_runtime.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_friendly_match_runtime.gd",
-      "source_blob_sha": "e4c6f4507d295b916b0d99d6dfa3e2ffdfa3b27d",
-      "public_blob_sha": "e4c6f4507d295b916b0d99d6dfa3e2ffdfa3b27d",
+      "source_blob_sha": "7ec8786ec965b5991ccd26ffaed52a0191e798cc",
+      "public_blob_sha": "7ec8786ec965b5991ccd26ffaed52a0191e798cc",
       "status": "exact"
     },
     {
       "path": "futbol-nova/tests/test_game_hub.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_game_hub.gd",
-      "source_blob_sha": "d7c24bd92b02c1bb6b3f0865f51bef596b925268",
-      "public_blob_sha": "d7c24bd92b02c1bb6b3f0865f51bef596b925268",
+      "source_blob_sha": "db76890bf4b0e2d6e6c5e88738ae62291a315870",
+      "public_blob_sha": "db76890bf4b0e2d6e6c5e88738ae62291a315870",
       "status": "exact"
     },
     {
@@ -1935,8 +1935,8 @@
     {
       "path": "futbol-nova/tests/test_tas_competition_engine.gd",
       "source_path": "proyectos/juegos/futbol-nova/tests/test_tas_competition_engine.gd",
-      "source_blob_sha": "b3cacc7ed06ebd65e710db1db93667d05047b3ca",
-      "public_blob_sha": "b3cacc7ed06ebd65e710db1db93667d05047b3ca",
+      "source_blob_sha": "734abe6e207688174b6a10e2d52862cb6054cfaa",
+      "public_blob_sha": "734abe6e207688174b6a10e2d52862cb6054cfaa",
       "status": "exact"
     },
     {
