@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "storage": {
+    "engine": "Godot JSON",
+    "path": "user://football_database.json",
+    "backup": "user://football_database.json.bak",
+    "write_strategy": "temporary_file_then_atomic_rename",
+    "offline_first": true
+  },
+  "tables": {
+    "catalog": {
+      "players": "Dictionary keyed by stable player ID",
+      "teams": "Dictionary keyed by stable club ID",
+      "competitions": "Dictionary keyed by stable competition ID"
+    },
+    "master_catalog": {
+      "associations": "FIFA association directory",
+      "clubs": "All imported and reference-only club records",
+      "competitions": "Season-specific competition records",
+      "seasons": "Season records",
+      "sources": "Provenance and rights metadata",
+      "national_teams": "Verified installed national team records",
+      "national_players": "Players included in verified national team packages",
+      "league_directory": "100 selected domestic leagues for research priority; not a claim of verified or playable coverage",
+      "countries": "211 FIFA country and territory records, each linked to its member association; country codes are aliases where mapped",
+      "club_memberships": "Season-specific club registration records with source-backed status, competition, division, group and provenance",
+      "reference_roster_packages": "Reference-only roster snapshots with names and shirt numbers; rights-restricted packages are never playable or merged into canonical player identities"
+    },
+    "match_results": "Dictionary keyed by unique match ID; finalized results only",
+    "competition_states": "Dictionary keyed by competition stage ID; fixtures and standings snapshots",
+    "season_states": "Dictionary keyed by season ID",
+    "career_records": "Dictionary keyed by career slot ID",
+    "audit_log": "Bounded append-only event history; newest 2000 entries retained"
+  },
+  "guarantees": {
+    "schema_versioned": true,
+    "migration_supported_from": [
+      "0.9.0"
+    ],
+    "unknown_future_versions_rejected": true,
+    "backup_recovery": true,
+    "atomic_commit": true,
+    "duplicate_match_result_rejected": true,
+    "catalog_duplicate_ids_rejected": true,
+    "club_roster_foreign_keys_validated": true,
+    "competition_club_foreign_keys_validated": true,
+    "national_team_player_foreign_keys_validated": true,
+    "career_and_season_state_persisted": true
+  },
+  "provenance": {
+    "factual_player_club_affiliation_requires_source": true,
+    "fictional_records_must_be_flagged": true,
+    "unlicensed_reference_clubs_are_not_playable": true,
+    "missing_national_squads_are_not_generated_from_nationality": true
+  }
+}

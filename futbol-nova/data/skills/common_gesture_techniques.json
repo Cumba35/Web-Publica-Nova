@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.1.0",
+  "generated_date": "2026-11-13",
+  "description": "Técnicas comunes de regate asignadas a cinco combinaciones direccionales que estaban reservadas. Son acciones solicitadas por gesto; el éxito depende de atributos, espacio, contacto con el balón y respuesta defensiva.",
+  "input_contract": {
+    "button": "skill",
+    "gesture_type": "ordered_direction_sequence",
+    "directions": [
+      "up",
+      "down",
+      "left",
+      "right"
+    ],
+    "sequence_order_matters": true,
+    "minimum_direction_change_degrees": 55,
+    "direction_hold_ms": {
+      "minimum": 70,
+      "maximum": 420
+    },
+    "total_gesture_window_ms": 850,
+    "cancel_on_touch_interruption": true,
+    "cancel_on_loss_of_possession": true,
+    "execute_only_after_full_sequence": true,
+    "prevent_single_direction_fallback": true
+  },
+  "techniques": [
+    {
+      "id": "FN-TECH-COM-001",
+      "name": "Croqueta",
+      "gesture": [
+        "up",
+        "right"
+      ],
+      "category": "intermedia",
+      "description": "Pasar el balón rápidamente de un pie al otro para desplazarse en diagonal y esquivar una entrada frontal.",
+      "action": "transfer_ball_between_feet_and_exit_diagonal",
+      "attributes": {
+        "primary": "ball_control",
+        "secondary": "agility",
+        "tertiary": "balance",
+        "weights": [
+          0.5,
+          0.3,
+          0.2
+        ]
+      },
+      "conditions": [
+        "control cercano del balón",
+        "espacio lateral suficiente",
+        "jugador no bloqueado por una animación"
+      ],
+      "counterplay": [
+        "anticipation",
+        "tackling",
+        "positioning"
+      ],
+      "failure_outcome": "toque_demasiado_largo_o_balón_disputado",
+      "cooldown_seconds": 1.4,
+      "minimum_attributes": {
+        "drib": 62,
+        "ctrl": 60,
+        "agi": 58,
+        "bal": 52
+      }
+    },
+    {
+      "id": "FN-TECH-COM-002",
+      "name": "Finta de cuerpo",
+      "gesture": [
+        "up",
+        "left"
+      ],
+      "category": "intermedia",
+      "description": "Engañar al defensor con hombros y cadera y salir hacia el lado contrario de su desplazamiento.",
+      "action": "body_feint_then_opposite_exit",
+      "attributes": {
+        "primary": "agility",
+        "secondary": "dribbling",
+        "tertiary": "balance",
+        "weights": [
+          0.4,
+          0.4,
+          0.2
+        ]
+      },
+      "conditions": [
+        "balón bajo control",
+        "defensor dentro de distancia de reacción",
+        "espacio para la salida"
+      ],
+      "counterplay": [
+        "anticipation",
+        "discipline",
+        "positioning"
+      ],
+      "failure_outcome": "el_defensor_no_compra_el_amago_y_puede_interceptar",
+      "cooldown_seconds": 1.5,
+      "minimum_attributes": {
+        "drib": 40,
+        "agi": 48,
+        "bal": 42
+      }
+    },
+    {
+      "id": "FN-TECH-COM-003",
+      "name": "Arrastre atrás y salida",
+      "gesture": [
+        "down",
+        "right"
+      ],
+      "category": "intermedia",
+      "description": "Frenar el avance, arrastrar el balón hacia atrás con la planta y salir diagonalmente a la derecha.",
+      "action": "sole_drag_back_then_diagonal_exit",
+      "attributes": {
+        "primary": "ball_control",
+        "secondary": "balance",
+        "tertiary": "acceleration",
+        "weights": [
+          0.5,
+          0.3,
+          0.2
+        ]
+      },
+      "conditions": [
+        "balón controlado cerca del pie",
+        "espacio detrás para arrastrar",
+        "salida derecha no ocupada"
+      ],
+      "counterplay": [
+        "anticipation",
+        "tackling",
+        "agility"
+      ],
+      "failure_outcome": "el_balón_queda_expuesto_o_la_salida_es_bloqueada",
+      "cooldown_seconds": 1.7,
+      "minimum_attributes": {
+        "drib": 38,
+        "ctrl": 45,
+        "bal": 42
+      }
+    },
+    {
+      "id": "FN-TECH-COM-004",
+      "name": "Giro de protección",
+      "gesture": [
+        "down",
+        "left"
+      ],
+      "category": "intermedia",
+      "description": "Usar el cuerpo para proteger el balón, girar alejándose del contacto y salir hacia la izquierda.",
+      "action": "shield_ball_turn_and_left_exit",
+      "attributes": {
+        "primary": "strength",
+        "secondary": "balance",
+        "tertiary": "ball_control",
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ]
+      },
+      "conditions": [
+        "posesión o control disputable",
+        "rival próximo por un costado o por detrás",
+        "espacio de salida"
+      ],
+      "counterplay": [
+        "strength",
+        "tackling",
+        "anticipation"
+      ],
+      "failure_outcome": "choque_legal_con_balón_dividido_o_perdida_de_control",
+      "cooldown_seconds": 1.8,
+      "minimum_attributes": {
+        "drib": 45,
+        "ctrl": 42,
+        "bal": 55,
+        "str": 52
+      }
+    },
+    {
+      "id": "FN-TECH-COM-005",
+      "name": "Amago de disparo",
+      "gesture": [
+        "right",
+        "up"
+      ],
+      "category": "intermedia",
+      "description": "Preparar el cuerpo como si fuera a disparar, detener el golpeo y conducir hacia delante para superar el bloqueo.",
+      "action": "shot_fake_then_forward_touch",
+      "attributes": {
+        "primary": "dribbling",
+        "secondary": "composure",
+        "tertiary": "ball_control",
+        "weights": [
+          0.4,
+          0.3,
+          0.3
+        ]
+      },
+      "conditions": [
+        "balón controlado",
+        "defensor o bloqueador en línea de tiro",
+        "espacio frontal para continuar"
+      ],
+      "counterplay": [
+        "discipline",
+        "anticipation",
+        "positioning"
+      ],
+      "failure_outcome": "el_defensor_mantiene_la_posición_o_roba_el_balón",
+      "cooldown_seconds": 1.6,
+      "minimum_attributes": {
+        "drib": 43,
+        "ctrl": 45,
+        "comp": 40
+      }
+    }
+  ],
+  "implementation_status": {
+    "data_defined": true,
+    "gesture_recognition_integrated": false,
+    "animations_integrated": false,
+    "match_runtime_tested": false,
+    "note": "Attribute minimums are defined in data. The match controller must enforce minimum_attributes before executing gestures; this has not yet been applied or tested in Godot.",
+    "requirements_defined": true,
+    "requirement_runtime_enforced": false
+  },
+  "attribute_scale": {
+    "min": 1,
+    "max": 99,
+    "primary_gate": "drib",
+    "supporting_gates": "All listed minimums must be met; other attributes still affect execution quality.",
+    "rule": "Minimums permit an attempt, not guaranteed success. Fatigue, balance, posture, space, weak foot and defender response affect outcome."
+  },
+  "technique_requirements": {
+    "attribute_key_reference": {
+      "drib": "Dribbling",
+      "ctrl": "Ball control",
+      "agi": "Agility",
+      "bal": "Balance",
+      "str": "Strength",
+      "comp": "Composure"
+    },
+    "evaluation": "minimum_threshold_all_attributes",
+    "notes": [
+      "Thresholds reflect real-world technical difficulty and coordination; they are Fútbol Nova design values, not scientific measurements or official ratings.",
+      "Scale 1–99.",
+      "The gesture may be recognized even when the player is below the minimum; the move is then cancelled with a discreet insufficient-attribute hint.",
+      "No overall or nationality gate. Eligibility depends on individual attributes.",
+      "Meeting minimums allows an attempt, not guaranteed completion or beating the defender."
+    ],
+    "thresholds": {
+      "Auto pase": {
+        "drib": 25,
+        "ctrl": 30
+      },
+      "Sombrerito": {
+        "drib": 58,
+        "ctrl": 55,
+        "agi": 48
+      },
+      "Hueca/caño": {
+        "drib": 52,
+        "ctrl": 50,
+        "agi": 45
+      },
+      "Elástica": {
+        "drib": 78,
+        "ctrl": 72,
+        "agi": 68,
+        "bal": 60
+      },
+      "Bicicleta": {
+        "drib": 48,
+        "ctrl": 45,
+        "agi": 50
+      },
+      "Marsellesa": {
+        "drib": 68,
+        "ctrl": 65,
+        "bal": 58,
+        "agi": 62
+      },
+      "Elástica aérea": {
+        "drib": 86,
+        "ctrl": 80,
+        "agi": 78,
+        "bal": 70
+      },
+      "Ruleta con caño": {
+        "drib": 74,
+        "ctrl": 70,
+        "bal": 65,
+        "agi": 68
+      },
+      "Croqueta": {
+        "drib": 62,
+        "ctrl": 60,
+        "agi": 58,
+        "bal": 52
+      },
+      "Finta de cuerpo": {
+        "drib": 40,
+        "agi": 48,
+        "bal": 42
+      },
+      "Arrastre atrás y salida": {
+        "drib": 38,
+        "ctrl": 45,
+        "bal": 42
+      },
+      "Giro de protección": {
+        "drib": 45,
+        "ctrl": 42,
+        "bal": 55,
+        "str": 52
+      },
+      "Amago de disparo": {
+        "drib": 43,
+        "ctrl": 45,
+        "comp": 40
+      }
+    }
+  },
+  "built_in_gesture_techniques": [
+    {
+      "id": "FN-TECH-BASIC-001",
+      "name": "Auto pase",
+      "gesture": [
+        "tap_or_hold"
+      ],
+      "category": "básica",
+      "action": "push_ball_forward_and_chase",
+      "minimum_attributes": {
+        "drib": 25,
+        "ctrl": 30
+      }
+    },
+    {
+      "id": "FN-TECH-BASIC-002",
+      "name": "Sombrerito",
+      "gesture": [
+        "up"
+      ],
+      "category": "básica",
+      "action": "lift_ball_over_opponent",
+      "minimum_attributes": {
+        "drib": 58,
+        "ctrl": 55,
+        "agi": 48
+      }
+    },
+    {
+      "id": "FN-TECH-BASIC-003",
+      "name": "Hueca/caño",
+      "gesture": [
+        "down"
+      ],
+      "category": "básica",
+      "action": "nutmeg_or_drag_through_legs",
+      "minimum_attributes": {
+        "drib": 52,
+        "ctrl": 50,
+        "agi": 45
+      }
+    },
+    {
+      "id": "FN-TECH-BASIC-004",
+      "name": "Elástica",
+      "gesture": [
+        "left"
+      ],
+      "category": "avanzada",
+      "action": "elastico_feint",
+      "minimum_attributes": {
+        "drib": 78,
+        "ctrl": 72,
+        "agi": 68,
+        "bal": 60
+      }
+    },
+    {
+      "id": "FN-TECH-BASIC-005",
+      "name": "Bicicleta",
+      "gesture": [
+        "right"
+      ],
+      "category": "básica",
+      "action": "stepover_then_exit",
+      "minimum_attributes": {
+        "drib": 48,
+        "ctrl": 45,
+        "agi": 50
+      }
+    },
+    {
+      "id": "FN-TECH-COMBO-001",
+      "name": "Marsellesa",
+      "gesture": [
+        "right",
+        "down"
+      ],
+      "category": "intermedia",
+      "action": "marseille_turn",
+      "minimum_attributes": {
+        "drib": 68,
+        "ctrl": 65,
+        "bal": 58,
+        "agi": 62
+      }
+    },
+    {
+      "id": "FN-TECH-COMBO-002",
+      "name": "Elástica aérea",
+      "gesture": [
+        "left",
+        "up"
+      ],
+      "category": "avanzada",
+      "action": "air_elastico",
+      "minimum_attributes": {
+        "drib": 86,
+        "ctrl": 80,
+        "agi": 78,
+        "bal": 70
+      }
+    },
+    {
+      "id": "FN-TECH-COMBO-003",
+      "name": "Ruleta con caño",
+      "gesture": [
+        "left",
+        "down"
+      ],
+      "category": "avanzada",
+      "action": "roulette_with_nutmeg",
+      "minimum_attributes": {
+        "drib": 74,
+        "ctrl": 70,
+        "bal": 65,
+        "agi": 68
+      }
+    }
+  ]
+}

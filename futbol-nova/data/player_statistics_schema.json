@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "global_all_players",
+  "source_of_truth": "scripts/legend/legend_career_service.gd::_empty_statistics and record_match",
+  "policy": {
+    "unplayed_values": 0,
+    "undefined_rates": null,
+    "never_infer_match_events_from_attributes": true,
+    "match_id_required": true,
+    "duplicate_match_ids_rejected": true,
+    "season_and_career_totals": true
+  },
+  "categories": [
+    {
+      "id": "participation",
+      "name": "Participación",
+      "fields": [
+        "appearances",
+        "starts",
+        "substitute_appearances",
+        "minutes"
+      ]
+    },
+    {
+      "id": "results",
+      "name": "Resultados colectivos",
+      "fields": [
+        "wins",
+        "draws",
+        "losses"
+      ]
+    },
+    {
+      "id": "attacking",
+      "name": "Ataque",
+      "fields": [
+        "goals",
+        "assists",
+        "shots",
+        "shots_on_target",
+        "penalties_scored",
+        "penalties_missed"
+      ]
+    },
+    {
+      "id": "creation",
+      "name": "Creación y pase",
+      "fields": [
+        "passes",
+        "passes_completed",
+        "pass_accuracy",
+        "key_passes",
+        "chances_created"
+      ]
+    },
+    {
+      "id": "dribbling",
+      "name": "Regate",
+      "fields": [
+        "dribbles",
+        "dribbles_completed",
+        "dribble_success_rate"
+      ]
+    },
+    {
+      "id": "defending",
+      "name": "Defensa",
+      "fields": [
+        "tackles",
+        "interceptions",
+        "recoveries",
+        "fouls",
+        "fouls_won"
+      ]
+    },
+    {
+      "id": "discipline",
+      "name": "Disciplina",
+      "fields": [
+        "yellow_cards",
+        "red_cards"
+      ]
+    },
+    {
+      "id": "goalkeeping",
+      "name": "Portería",
+      "fields": [
+        "saves",
+        "clean_sheets"
+      ]
+    },
+    {
+      "id": "recognition",
+      "name": "Rendimiento y premios",
+      "fields": [
+        "player_of_match",
+        "average_rating",
+        "rated_appearances",
+        "rating_total"
+      ]
+    },
+    {
+      "id": "derived",
+      "name": "Indicadores calculados",
+      "fields": [
+        "goals_per_appearance",
+        "assists_per_appearance"
+      ]
+    }
+  ],
+  "fields": {
+    "appearances": {
+      "label": "Partidos jugados",
+      "unit": "matches"
+    },
+    "starts": {
+      "label": "Titularidades",
+      "unit": "matches"
+    },
+    "substitute_appearances": {
+      "label": "Apariciones como suplente",
+      "unit": "matches"
+    },
+    "minutes": {
+      "label": "Minutos jugados",
+      "unit": "minutes"
+    },
+    "wins": {
+      "label": "Victorias",
+      "unit": "matches"
+    },
+    "draws": {
+      "label": "Empates",
+      "unit": "matches"
+    },
+    "losses": {
+      "label": "Derrotas",
+      "unit": "matches"
+    },
+    "goals": {
+      "label": "Goles",
+      "unit": "goals"
+    },
+    "assists": {
+      "label": "Asistencias",
+      "unit": "assists"
+    },
+    "shots": {
+      "label": "Tiros",
+      "unit": "shots"
+    },
+    "shots_on_target": {
+      "label": "Tiros a puerta",
+      "unit": "shots"
+    },
+    "penalties_scored": {
+      "label": "Penaltis anotados",
+      "unit": "goals"
+    },
+    "penalties_missed": {
+      "label": "Penaltis fallados",
+      "unit": "penalties"
+    },
+    "passes": {
+      "label": "Pases intentados",
+      "unit": "passes"
+    },
+    "passes_completed": {
+      "label": "Pases completados",
+      "unit": "passes"
+    },
+    "pass_accuracy": {
+      "label": "Precisión de pase",
+      "unit": "percent",
+      "formula": "passes_completed / passes * 100"
+    },
+    "key_passes": {
+      "label": "Pases clave",
+      "unit": "passes"
+    },
+    "chances_created": {
+      "label": "Ocasiones creadas",
+      "unit": "chances"
+    },
+    "dribbles": {
+      "label": "Regates intentados",
+      "unit": "dribbles"
+    },
+    "dribbles_completed": {
+      "label": "Regates completados",
+      "unit": "dribbles"
+    },
+    "dribble_success_rate": {
+      "label": "Éxito en regates",
+      "unit": "percent",
+      "formula": "dribbles_completed / dribbles * 100"
+    },
+    "tackles": {
+      "label": "Entradas",
+      "unit": "actions"
+    },
+    "interceptions": {
+      "label": "Intercepciones",
+      "unit": "actions"
+    },
+    "recoveries": {
+      "label": "Recuperaciones",
+      "unit": "actions"
+    },
+    "fouls": {
+      "label": "Faltas cometidas",
+      "unit": "fouls"
+    },
+    "fouls_won": {
+      "label": "Faltas recibidas",
+      "unit": "fouls"
+    },
+    "yellow_cards": {
+      "label": "Tarjetas amarillas",
+      "unit": "cards"
+    },
+    "red_cards": {
+      "label": "Tarjetas rojas",
+      "unit": "cards"
+    },
+    "saves": {
+      "label": "Paradas",
+      "unit": "saves"
+    },
+    "clean_sheets": {
+      "label": "Porterías imbatidas",
+      "unit": "matches"
+    },
+    "player_of_match": {
+      "label": "Jugador del partido",
+      "unit": "awards"
+    },
+    "average_rating": {
+      "label": "Valoración media",
+      "unit": "rating_0_10"
+    },
+    "goals_per_appearance": {
+      "label": "Goles por partido",
+      "unit": "goals_per_match",
+      "formula": "goals / appearances"
+    },
+    "assists_per_appearance": {
+      "label": "Asistencias por partido",
+      "unit": "assists_per_match",
+      "formula": "assists / appearances"
+    },
+    "rated_appearances": {
+      "label": "Partidos con valoración",
+      "unit": "matches"
+    },
+    "rating_total": {
+      "label": "Suma de valoraciones",
+      "unit": "rating_points"
+    }
+  },
+  "aggregation": {
+    "levels": [
+      "match",
+      "competition",
+      "season",
+      "career",
+      "club",
+      "national_team"
+    ],
+    "rule": "Sumar eventos aditivos; recalcular porcentajes y promedios desde numeradores/denominadores; no sumar promedios."
+  },
+  "position_notes": {
+    "goalkeepers": "Mostrar estadísticas de portería como principales; mantener el resto disponible.",
+    "outfield": "Mostrar participación, ataque, creación, regate, defensa y disciplina; las estadísticas de portero pueden permanecer en cero."
+  },
+  "data_integrity": [
+    "No crear goles, asistencias, partidos, minutos, tarjetas ni valoraciones usando GRL o atributos.",
+    "Solo actualizar estadísticas desde eventos/actas de partido guardados.",
+    "Si el denominador es cero, mostrar null/— y no 0%."
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.0.0",
+  "id": "north_central_america_champions_league_nova",
+  "name": "Liga de Campeones de Norteamérica y Centroamérica",
+  "region": "north_and_central_america",
+  "competition_type": "international_club",
+  "status": "regional_engine_prototype_added_external_calendar_review_pending",
+  "season_id_required": true,
+  "participants": {
+    "total_clubs": 40,
+    "eligible_clubs": "Solo clubes registrados de Primera División de las asociaciones incluidas en esta región.",
+    "eligible_associations": [
+      "Canadá",
+      "Estados Unidos",
+      "México",
+      "Belice",
+      "Costa Rica",
+      "El Salvador",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua",
+      "Panamá"
+    ],
+    "qualification_basis": "Cuatro clubes de Primera División por cada una de las diez asociaciones elegibles: 40 participantes en total.",
+    "currently_assigned_slots": 40,
+    "unallocated_slots": 0,
+    "assigned_slots_by_association": {
+      "Canadá": 4,
+      "Estados Unidos": 4,
+      "México": 4,
+      "Belice": 4,
+      "Costa Rica": 4,
+      "El Salvador": 4,
+      "Guatemala": 4,
+      "Honduras": 4,
+      "Nicaragua": 4,
+      "Panamá": 4
+    },
+    "slot_allocation_status": "fully_assigned",
+    "slot_allocation_rule": "Cada una de las diez asociaciones aporta exactamente cuatro clubes. La suma debe ser 40. En el sorteo se coloca un club de cada asociación en cada uno de los cuatro grupos.",
+    "no_duplicate_clubs": true,
+    "no_caribbean_associations": true
+  },
+  "format": {
+    "type": "four_groups_single_round_robin_then_knockout",
+    "league_phase": {
+      "groups": 4,
+      "teams_per_group": 10,
+      "total_teams": 40,
+      "match_system": "single_round_robin",
+      "home_away": false,
+      "matches_per_team": 9,
+      "matches_per_group": 45,
+      "total_matches": 180,
+      "direct_qualification": "Los tres primeros de cada grupo avanzan directamente a octavos de final.",
+      "group_draw_rule": "Cada asociación aporta cuatro clubes y el sorteo coloca exactamente uno de sus clubes en cada uno de los cuatro grupos. Así, cada grupo tendrá un representante de cada una de las diez asociaciones."
+    },
+    "playoff": {
+      "name": "Repesca intergrupal",
+      "teams": "Los equipos que terminen en cuarto y quinto lugar de cada grupo.",
+      "legs": 2,
+      "pairings": [
+        [
+          "A4",
+          "B5"
+        ],
+        [
+          "B4",
+          "A5"
+        ],
+        [
+          "C4",
+          "D5"
+        ],
+        [
+          "D4",
+          "C5"
+        ]
+      ],
+      "winners_qualify": 4,
+      "aggregate_tie_break": "Pendiente de reglas generales; no se presume gol de visitante."
+    },
+    "round_of_16": {
+      "participants": 16,
+      "composition": "12 clasificados directos más los 4 ganadores de la repesca."
+    },
+    "knockout_phase": {
+      "legs": 2,
+      "rounds": [
+        "round_of_16",
+        "quarterfinals",
+        "semifinals"
+      ],
+      "third_place": {
+        "match_system": "single_match",
+        "participants": "Los dos equipos eliminados en semifinales.",
+        "venue": "neutral_venue",
+        "match_timing": "Antes de la final.",
+        "tie_resolution": "Prórroga y penaltis si persiste el empate."
+      },
+      "final": {
+        "legs": 1,
+        "match_system": "single_match",
+        "venue": "neutral_venue",
+        "venue_selection": "La sede neutral debe definirse y registrarse antes del inicio.",
+        "venue_must_be_confirmed_before_competition_start": true
+      },
+      "note": "Octavos, cuartos y semifinales a doble partido. Partido por el tercer puesto y final a partido único en la misma sede neutral."
+    }
+  },
+  "qualification_rules": {
+    "league_phase_points": {
+      "win": 3,
+      "draw": 1,
+      "loss": 0
+    },
+    "group_standings_tiebreakers": "Pendiente de fijar explícitamente; no implementar criterios no confirmados."
+  },
+  "calendar": {
+    "season_id": "2026-2027",
+    "status": "regional_dates_aligned_2026_2027_external_domestic_audit_pending",
+    "timezone": "venue_local_time",
+    "competition_start": "2026-10-10",
+    "competition_end": "2027-06-21",
+    "format_style": "Mismas ventanas espaciadas y calendario de eliminatorias de la Liga de Campeones del Caribe; nueve jornadas por grupo de diez equipos.",
+    "group_stage": {
+      "matchdays": [
+        {
+          "number": 1,
+          "date": "2026-10-10",
+          "window_end": "2026-10-13"
+        },
+        {
+          "number": 2,
+          "date": "2026-10-24",
+          "window_end": "2026-10-27"
+        },
+        {
+          "number": 3,
+          "date": "2026-11-07",
+          "window_end": "2026-11-10",
+          "blocked_dates": [
+            "2026-11-09",
+            "2026-11-10"
+          ],
+          "note": "La jornada se juega dentro de la ventana 7-10 de noviembre, pero el generador excluye 9 y 10 de noviembre por la ventana internacional masculina FIFA 9-17 noviembre 2026. Los partidos se reparten en 7 y 8 de noviembre. Sigue pendiente comprobar las ligas nacionales."
+        },
+        {
+          "number": 4,
+          "date": "2026-11-21",
+          "window_end": "2026-11-24"
+        },
+        {
+          "number": 5,
+          "date": "2026-12-05",
+          "window_end": "2026-12-08"
+        },
+        {
+          "number": 6,
+          "date": "2026-12-19",
+          "window_end": "2026-12-22"
+        },
+        {
+          "number": 7,
+          "date": "2027-01-16",
+          "window_end": "2027-01-19"
+        },
+        {
+          "number": 8,
+          "date": "2027-01-30",
+          "window_end": "2027-02-02"
+        },
+        {
+          "number": 9,
+          "date": "2027-02-13",
+          "window_end": "2027-02-16"
+        }
+      ],
+      "matches_per_matchday": 20,
+      "matches_per_group_per_matchday": 5,
+      "total_matchdays": 9,
+      "total_matches": 180,
+      "note": "Cada grupo de diez equipos disputa una vuelta: nueve partidos por club y 45 por grupo. Las jornadas usan las primeras nueve ventanas de la temporada 2026-2027 de la LCC. La fecha indicada inicia la ventana; los partidos se distribuyen dentro de ella. Son fechas de planificación, no resultados ni fixtures individuales confirmados."
+    },
+    "playoff": {
+      "first_leg": "2027-04-03",
+      "second_leg": "2027-04-17"
+    },
+    "round_of_16": {
+      "first_leg": "2027-04-23",
+      "second_leg": "2027-04-30"
+    },
+    "quarterfinals": {
+      "first_leg": "2027-05-07",
+      "second_leg": "2027-05-14"
+    },
+    "semifinals": {
+      "first_leg": "2027-05-21",
+      "second_leg": "2027-05-28"
+    },
+    "buffer_window": {
+      "from": "2027-05-29",
+      "to": "2027-06-16",
+      "purpose": "Recuperación de partidos aplazados, preparación logística y organización de los encuentros finales; respetar ventana internacional FIFA 7-15 junio 2027."
+    },
+    "third_place": {
+      "date": "2027-06-17",
+      "legs": 1,
+      "venue": "same_neutral_venue_as_final"
+    },
+    "final": {
+      "date": "2027-06-21",
+      "legs": 1,
+      "venue": "pending_confirmation"
+    },
+    "notes": [
+      "Se reutilizan las mismas nueve primeras ventanas de grupos de la LCC; al tener diez equipos por grupo, cada liga necesita nueve jornadas y no once.",
+      "Las ventanas son planificación. Deben asignarse fechas a cada fixture individual y validarse contra calendarios de selecciones y ligas nacionales. No se deben inventar resultados.",
+      "La sede neutral de la final debe confirmarse y registrarse antes del inicio de la competición.",
+      "Decisión común para las tres ligas regionales: temporada del 10 de octubre de 2026 al 21 de junio de 2027.",
+      "Calendario común de eliminatorias: repesca 3 y 17 abril; octavos 23 y 30 abril; cuartos 7 y 14 mayo; semifinales 21 y 28 mayo; tercer puesto 17 junio; final 21 junio de 2027.",
+      "Las fechas de tercer puesto y final quedan después de la ventana internacional masculina FIFA 7-15 junio de 2027. Las fechas siguen siendo planificación y requieren auditoría frente a calendarios nacionales y disponibilidad de sedes."
+    ],
+    "external_calendar_audit": {
+      "status": "regional_dates_aligned_fifa_window_conflicts_avoided_domestic_audit_pending",
+      "checked_at": "2026-11-16",
+      "source": "FIFA Men's International Match Calendar 2025-2030",
+      "source_url": "https://inside.fifa.com/en/organisation/fifa-council/media-releases/fifa-council-approves-international-match-calendars",
+      "confirmed_windows": [
+        {
+          "from": "2026-11-09",
+          "to": "2026-11-17",
+          "type": "mens_international_match_window"
+        },
+        {
+          "from": "2027-03-22",
+          "to": "2027-03-30",
+          "type": "mens_international_match_window"
+        },
+        {
+          "from": "2027-06-07",
+          "to": "2027-06-15",
+          "type": "mens_international_match_window"
+        }
+      ],
+      "conflicts": [],
+      "group_matchday_3_adjustment": "No se asignan partidos el 9 ni el 10 de noviembre de 2026; la jornada queda en 7-8 de noviembre.",
+      "domestic_league_conflicts": "not_fully_audited",
+      "limitations": "No se consideran validadas las fechas frente a las diez ligas nacionales de cada región. El registro actual no contiene aún las diez asociaciones de cada torneo con su calendario oficial 2026-2027 completo.",
+      "resolved_decisions": [
+        {
+          "stage": "playoff",
+          "dates": [
+            "2027-04-03",
+            "2027-04-17"
+          ],
+          "status": "moved_outside_march_fifa_window"
+        },
+        {
+          "stage": "round_of_16",
+          "dates": [
+            "2027-04-23",
+            "2027-04-30"
+          ],
+          "status": "after_playoff_completion"
+        },
+        {
+          "stage": "quarterfinals",
+          "dates": [
+            "2027-05-07",
+            "2027-05-14"
+          ],
+          "status": "sequential"
+        },
+        {
+          "stage": "semifinals",
+          "dates": [
+            "2027-05-21",
+            "2027-05-28"
+          ],
+          "status": "sequential"
+        },
+        {
+          "stage": "third_place",
+          "date": "2027-06-17",
+          "status": "after_june_fifa_window"
+        },
+        {
+          "stage": "final",
+          "date": "2027-06-21",
+          "status": "after_june_fifa_window"
+        }
+      ]
+    }
+  },
+  "tas_qualification": {
+    "competition_id": "american_super_champions_tas",
+    "qualifying_clubs": 3,
+    "places": [
+      {
+        "position": 1,
+        "achievement": "champion"
+      },
+      {
+        "position": 2,
+        "achievement": "runner_up"
+      },
+      {
+        "position": 3,
+        "achievement": "third_place"
+      }
+    ],
+    "third_place_source": "Ganador del partido por el tercer puesto entre los dos perdedores de semifinales."
+  },
+  "implementation": {
+    "engine": "scripts/simulation/american_regional_champions_engine.gd",
+    "service": "integrated_with_football_data_service",
+    "automated_tests": "test_added_to_android_ci_pending_execution",
+    "runtime_validation": "pending_godot_4_ci",
+    "pending": [
+      "Incorporar y verificar cuatro clubes de Primera División por cada una de las diez asociaciones de esta región en el registro jugable.",
+      "Integrar el motor regional con FootballDataService, FootballDatabase y el guardado de temporada.",
+      "Completar resultados, tablas, repesca, octavos, cuartos, semifinales, tercer puesto y final en el servicio de competición.",
+      "Definir criterios oficiales de desempate de grupos y resolución de empates agregados; no aplicar gol de visitante por defecto.",
+      "Reprogramar octavos y, si es necesario, las fases posteriores para que comiencen después de la vuelta de repesca del 17 de abril; completar la auditoría contra calendarios nacionales oficiales.",
+      "Ejecutar y corregir la prueba automatizada en Godot 4.4.1 y verificar el workflow de GitHub Actions."
+    ],
+    "engine_status": "prototype_created_group_draw_and_fixture_date_assignment",
+    "draw_ceremony": "integrated_with_game_hub"
+  },
+  "founding_year": 2020,
+  "founding_status": "user_confirmed"
+}

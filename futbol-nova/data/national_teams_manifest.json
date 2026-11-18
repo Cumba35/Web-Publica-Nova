@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "product": "Fútbol Nova",
+  "module": {
+    "id": "futbol_nova_national_teams",
+    "name": "Selecciones nacionales del mundo",
+    "description": "Paquete opcional con selecciones nacionales de las asociaciones FIFA y, cuando corresponda, territorios aprobados por separado.",
+    "download_required": true,
+    "offline_after_install": true,
+    "selection_modes": [
+      "all_available_national_teams",
+      "confederation",
+      "single_national_team"
+    ],
+    "recommended_by_default": true
+  },
+  "scope": {
+    "target_associations": 211,
+    "confederations": [
+      "AFC",
+      "CAF",
+      "CONCACAF",
+      "CONMEBOL",
+      "OFC",
+      "UEFA"
+    ],
+    "include_youth_teams": "Solo cuando se publiquen como contenido separado y verificado",
+    "include_womens_teams": "Preparado para paquetes separados; no asumir plantillas ni derechos",
+    "association_directory_count": 211,
+    "association_directory_source": "https://inside.fifa.com/associations",
+    "association_directory_status": "211_names_and_six_confederations_verified_national_rosters_pending",
+    "confederation_mapping_counts": {
+      "AFC": 46,
+      "CAF": 54,
+      "CONCACAF": 35,
+      "CONMEBOL": 10,
+      "OFC": 11,
+      "UEFA": 55
+    }
+  },
+  "package_model": {
+    "package_id_pattern": "national_team.{ASSOCIATION_CODE}.{SEASON}",
+    "required_metadata": [
+      "package_id",
+      "association_code",
+      "confederation",
+      "season",
+      "version",
+      "content_status",
+      "source_manifest",
+      "checksum_sha256",
+      "content_path",
+      "content_type",
+      "content_format",
+      "download_url",
+      "download_size_bytes"
+    ],
+    "require_verified_rosters": true,
+    "require_rights_and_provenance": true,
+    "offline_play": true,
+    "content_type": "national_teams",
+    "payload_contract": "data/national_teams_package_schema_v1.json"
+  },
+  "recommendation": {
+    "show_with_league_download_recommendation": true,
+    "explain_benefits": [
+      "Partidos y torneos internacionales",
+      "Modo carrera con selecciones nacionales",
+      "Mayor variedad de rivales y calendario internacional"
+    ],
+    "never_block_base_game": true
+  },
+  "availability": {
+    "status": "association_directory_created_club_roster_phase_must_complete_before_national_roster_build",
+    "published_packages": 0,
+    "note": "The 211-association directory and six confederation assignments are verified. National team rosters have not been built. Club roster completeness, official call-ups, eligibility checks and reuse rights remain required before any national squad package is published."
+  },
+  "packages": [],
+  "package_catalog_policy": "Only package records with content_status=published, downloadable=true, HTTPS download_url and SHA-256 may be offered for installation.",
+  "association_directory": "data/national_association_directory.json",
+  "roster_build_sequence": {
+    "order": [
+      "complete_club_rosters_for_selected_100_leagues",
+      "resolve_global_player_identities_and_season_registrations",
+      "verify_player_nationality_and_fifa_eligibility",
+      "import_official_federation_callups",
+      "build_national_team_rosters_by_callup_window",
+      "run_duplicate_and_eligibility_validation"
+    ],
+    "source_pool": "Reuse the canonical player entities and club registrations already imported into the global player database; do not create separate duplicate player identities for national teams.",
+    "selection_rule": "A player is included in a national team squad only when an official federation call-up or equivalent authoritative competition roster explicitly lists the player for that association and window/season.",
+    "eligibility_rule": "Nationality alone is insufficient. Check FIFA eligibility, association switch/approval where applicable, and source-backed eligibility before assigning national-team association.",
+    "fallback_rule": "If a club player has no verified national-team call-up, keep the player in the global player pool and do not auto-select them for a national team.",
+    "identity_rule": "Use one stable global player_id shared by club registration and national_team_callup records.",
+    "status": "policy_defined_roster_creation_blocked_until_club_roster_phase_completed"
+  }
+}

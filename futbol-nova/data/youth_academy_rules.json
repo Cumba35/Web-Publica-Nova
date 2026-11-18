@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "automatic_academy_through_division": 1,
+  "divisions_without_initial_academy": [2, 3, 4, 5, 6],
+  "creation_requirements_shared_from_division": 2,
+  "minimum_operating_months_covered": 6,
+  "minimum_reserve_months": 2,
+  "requirements": [
+    "association_license",
+    "facilities_or_contract",
+    "qualified_staff",
+    "safeguarding_approved",
+    "youth_development_plan",
+    "startup_funds",
+    "operating_runway"
+  ],
+  "no_academy_means_no_automatic_youth_generation": true
+}

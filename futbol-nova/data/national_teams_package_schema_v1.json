@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fútbol Nova national teams package",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "package_type",
+    "players",
+    "national_teams"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "package_type": {
+      "const": "national_teams"
+    },
+    "players": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "display_name",
+          "nationality_id",
+          "primary_position",
+          "attributes"
+        ]
+      }
+    },
+    "national_teams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "association_code",
+          "confederation",
+          "player_ids"
+        ],
+        "properties": {
+          "player_ids": {
+            "type": "array",
+            "minItems": 11,
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
