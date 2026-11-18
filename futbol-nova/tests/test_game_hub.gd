@@ -201,7 +201,7 @@ func _run_tests() -> void:
 	assert(project_file.get_as_text().contains("FootballDatabase="), "Persistent football database must be registered as an autoload")
 	var football_database: Node = root.get_node_or_null("FootballDatabase")
 	assert(football_database != null and bool(football_database.get("is_open")), "Persistent football database must open during startup")
-	FootballData.draw_ceremony_requested.emit("Sorteo de integración", [{"team_id": "test_club", "team_name": "Club de prueba", "opponent_team_id": "opponent_club", "group": "A", "round": "semifinals"}])
+	football_data.draw_ceremony_requested.emit("Sorteo de integración", [{"team_id": "test_club", "team_name": "Club de prueba", "opponent_team_id": "opponent_club", "group": "A", "round": "semifinals"}])
 	await process_frame
 	assert(hub.active_draw_ceremony != null and hub.active_draw_ceremony.visible, "A draw event from the competition service must open the skippable ceremony")
 	assert(hub.active_draw_ceremony.skip_button.text == "SALTAR SORTEO", "The integrated ceremony must expose its skip button")
