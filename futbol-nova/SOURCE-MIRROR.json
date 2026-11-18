@@ -5,7 +5,7 @@
   "source": {
     "repository": "Cumba35/Nova-Workspace",
     "branch": "main",
-    "commit": "46d6a740c0bb12d0bb36cfac019143fbf5ed2615",
+    "commit": "92289a4fa251450fecf6ba86a7d6d8219cb16e21",
     "path": "proyectos/juegos/futbol-nova/"
   },
   "destination": {
@@ -353,8 +353,8 @@
     {
       "path": "futbol-nova/data/international_club_competitions.json",
       "source_path": "proyectos/juegos/futbol-nova/data/international_club_competitions.json",
-      "source_blob_sha": "e8dd7c81cb976e19151b57ecf383c978625a69e9",
-      "public_blob_sha": "e8dd7c81cb976e19151b57ecf383c978625a69e9",
+      "source_blob_sha": "c63426cdc8ebb75703e4ff385598f7e39a52b053",
+      "public_blob_sha": "c63426cdc8ebb75703e4ff385598f7e39a52b053",
       "status": "exact"
     },
     {
