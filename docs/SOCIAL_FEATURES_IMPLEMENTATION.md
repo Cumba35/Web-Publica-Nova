@@ -48,7 +48,7 @@ No se duplicaron las tablas existentes de Nova Chat, reseñas de Nova Apps ni pe
 
 ## Seguridad aplicada
 
-- RLS habilitado en las nueve tablas sociales.
+- RLS habilitado en las diez tablas sociales.
 - Se revocaron los privilegios de `PUBLIC` y `anon`; las tablas sociales no son accesibles a visitantes sin sesión.
 - Los usuarios autenticados solo pueden crear/editar su propio perfil, publicaciones y comentarios.
 - Las relaciones de seguimiento solo son visibles para sus participantes.
