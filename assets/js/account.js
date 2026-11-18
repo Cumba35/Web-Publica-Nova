@@ -2,7 +2,7 @@ import { supabase } from "./supabase-client.js";
 
 const style = document.createElement("style");
 style.textContent = `
-.nova-account{position:fixed;top:14px;right:14px;z-index:1100;display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.nova-account{position:relative;z-index:11;display:flex;align-items:center;gap:8px;flex:0 0 auto;margin-left:auto}
 .nova-account-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--cyan,#45d5df);background:var(--panel2,#14243a);color:var(--text,#edf4ff);display:grid;place-items:center;font-size:1.15rem;cursor:pointer}
 .nova-account-btn img{width:100%;height:100%;object-fit:cover;border-radius:50%}
 .nova-account-panel{position:fixed;z-index:1000;right:14px;top:66px;width:min(390px,calc(100vw - 28px));max-height:calc(100vh - 96px);overflow:auto;padding:18px;border:1px solid var(--line,#263b56);border-radius:18px;background:#101d30;color:#edf4ff;box-shadow:0 18px 60px #0009}
