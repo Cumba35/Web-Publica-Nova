@@ -93,7 +93,7 @@ En producción se comprobó:
 - `anon` no tiene privilegio de lectura.
 - `authenticated` tiene solo las operaciones previstas; `nova_social_reports` permite únicamente INSERT al cliente.
 - El asesor de salud no reportó problemas.
-- El asesor de seguridad de Supabase no reportó hallazgos en la última revisión. No se modificó la configuración global de Auth.
+- El asesor de seguridad de producción mantiene una advertencia preexistente: la protección de contraseñas filtradas de Supabase Auth está desactivada. No hay otros hallazgos de seguridad del asesor para este módulo. No se cambió la configuración global de Auth; el propietario debe activar esa protección desde la configuración de Auth en Supabase.
 - El asesor de rendimiento no mostró claves foráneas sociales sin índice; los avisos de índices no usados son informativos y se esperan en un módulo recién creado sin tráfico.
 
 La validación de RLS no sustituye una prueba interactiva con dos cuentas reales ni la revisión visual en Chrome Android. Las notificaciones internas se consultan al cargar o al pulsar actualizar; aún no se habilitó Realtime ni push.
