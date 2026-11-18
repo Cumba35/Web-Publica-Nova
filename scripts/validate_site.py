@@ -215,6 +215,20 @@ if social_js.is_file():
         if token not in social_js_text:
             errors.append(f"assets/js/social-feed.js: missing {label} integration.")
 
+# Confirm production migration files and the global menu entry stay in sync.
+migration_files = (
+    "20261118210209_nova_social_foundation.sql",
+    "20261118210210_nova_social_fk_indexes.sql",
+    "20261118210224_nova_social_profile_block_visibility.sql",
+    "20261118210441_nova_social_visibility_and_reports.sql",
+)
+for filename in migration_files:
+    if not (ROOT / "supabase" / "migrations" / filename).is_file():
+        errors.append(f"Missing production social migration: {filename}")
+account_controller = ROOT / "assets" / "js" / "account.js"
+if account_controller.is_file() and '["Nova Social","/Web-Publica-Nova/nova-social/"]' not in account_controller.read_text(encoding="utf-8"):
+    errors.append("assets/js/account.js: Nova Social is missing from the global page menu.")
+
 if errors:
     print("NOVA public site validation FAILED")
     for error in errors:
